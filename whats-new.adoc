@@ -1,0 +1,563 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery, netapp console, console' 
+summary: NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。 
+---
+= NetAppコンソールの最近の変更
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、link:release-notes-index.html["リリースノート全文"]個々のサービスごとに。
+
+
+
+== 管理機能
+
+このセクションでは、 NetAppコンソール管理機能に関連する新機能 (組織、識別とアクセス、コンソール エージェント、クラウド プロバイダーの資格情報など) について説明します。
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== アラート
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP alertsはONTAPアラートになりました
+
+BlueXP alertsの名前がONTAPアラートに変更されました。
+
+NetAppコンソールの左側のナビゲーション バーから [*ストレージ*] > [*アラート*] を選択してアクセスできます。
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2024年10月7日
+
+
+
+==== BlueXP alerts一覧ページ
+
+容量やパフォーマンスが低いONTAPクラスタを迅速に識別し、可用性の範囲を測定し、セキュリティ リスクを特定できます。容量、パフォーマンス、保護、可用性、セキュリティ、構成に関連するアラートを表示できます。
+
+
+
+==== アラートの詳細
+
+アラートの詳細を掘り下げて推奨事項を見つけることができます。
+
+
+
+==== ONTAP System Managerにリンクされたクラスタの詳細を表示する
+
+BlueXP alertsを使用すると、 ONTAPストレージ環境に関連付けられたアラートを表示し、 ONTAP System Manager にリンクされている詳細をドリルダウンできます。
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["BlueXP alertsについて学ぶ"] 。
+
+
+
+== Amazon FSx for ONTAP
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Amazon S3 ストレージ
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Azure BLOB ストレージ
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-blob-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Azure NetApp Files
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-azure-netapp-files/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== バックアップとリカバリ
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-backup-recovery/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== データ分類
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-data-classification/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Cloud Volumes ONTAP
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== コピーと同期
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== デジタルアドバイザー
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2025年8月6日
+
+
+
+==== サポート対象のスイッチ
+
+サポート対象となるBrocade Fibre Channel SAN スイッチに関する情報を表示できるようになりました。これには、スイッチ モデル、シリアル番号、サポート ステータスに関する詳細が含まれます。link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["サポート対象のスイッチを表示する方法を学ぶ"] 。
+
+
+
+==== RSS AutoSupportデータのしきい値
+
+AutoSupportウィジェットの最近の送信停止 (RSS) 制限が、システムが RSS としてフラグ付けされるまでの 48 時間 (2 日間) から 216 時間 (9 日間) に延長されました。これは、週ごとのAutoSupportデータのみを送信するStorageGRIDなどのプラットフォームに対応するために行われます。
+
+
+
+==== Digital Advisor API カタログの非推奨 API セクション
+
+Digital Advisor API カタログに、新しい非推奨の API セクションが追加されました。廃止が予定されている API と、廃止のタイムラインおよび代替 API がリストされます。
+
+
+
+==== 容量予測 V2 およびサポート終了 API モジュールの廃止
+
+容量予測 V2 およびサポート終了 API モジュールは廃止される予定です。廃止された API にアクセスしたり、廃止予定のタイムラインや代替 API について知るには、*API サービス -> 参照 -> 廃止された API* に移動します。
+
+
+
+=== 09 2025年7月
+
+
+
+==== Upgrade Advisor
+
+* ONTAPアップグレード計画を簡素化し、潜在的な障害や警告に対処するために、Upgrade Advisor プランにマルチフォーマット ダウンロード オプションが追加されました。アップグレード アドバイザー プランを Excel、PDF、JSON 形式でダウンロードできるようになりました。
+* アップグレード アドバイザー プランの Excel 形式では、次の機能強化が行われました。
++
+** クラスターで実行された事前チェックを表示し、結果に「合格」、「不合格」、「スキップ」などのインジケーターでフラグを付けることができます。これにより、クラスタがONTAPアップグレードを完了するのに最適な状態になります。
+** クラスタに適用可能な推奨される最新のファームウェア アップデートと、 ONTAPターゲット バージョンに付属のバージョンを表示できます。
+** SAN クラスターの相互運用性チェックを提供する新しいタブが追加されました。選択したターゲットONTAPバージョンでサポートされているホスト OS バージョンを表示します。
+
+
+
+
+
+
+== ライセンスとサブスクリプション
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2025年3月10日
+
+
+
+==== サブスクリプションを削除する機能
+
+サブスクリプションを解除した場合は、デジタル ウォレットからサブスクリプションを削除できるようになりました。
+
+
+
+==== マーケットプレイスサブスクリプションの使用済み容量を表示する
+
+PAYGO サブスクリプションを表示するときに、サブスクリプションの消費容量を表示できるようになりました。
+
+
+
+=== 2025年2月10日
+
+BlueXP digital walletは使いやすさを考慮して再設計され、追加のサブスクリプションとライセンスの管理機能を提供するようになりました。
+
+
+
+==== 新しい概要ダッシュボード
+
+デジタル ウォレットのホームページには、 NetAppライセンスと Marketplace サブスクリプションの更新されたダッシュボードがあり、特定のサービス、ライセンスの種類、必要なアクションをドリルダウンできます。
+
+
+
+==== 資格情報へのサブスクリプションの構成
+
+BlueXP digital walletでは、プロバイダー資格情報へのサブスクリプションを設定できるようになりました。通常、これはマーケットプレイスのサブスクリプションまたは年間契約に初めて加入するときに行います。以前は、サブスクリプションの資格情報の変更は、「資格情報」ページでのみ実行できました。
+
+
+
+==== サブスクリプションを組織に関連付ける
+
+サブスクリプションが関連付けられている組織をデジタル ウォレットから直接更新できるようになりました。
+
+
+
+==== Cloud Volume ONTAPライセンスの管理
+
+Cloud Volumes ONTAPライセンスは、ホームページまたは *直接ライセンス* タブから管理できるようになりました。サブスクリプション情報を表示するには、「*マーケットプレイス サブスクリプション*」タブを使用します。
+
+
+
+=== 2024年3月5日
+
+
+
+==== BlueXP disaster recovery
+
+BlueXP digital walletでは、BlueXP disaster recoveryのライセンスを管理できるようになりました。ライセンスを追加したり、ライセンスを更新したり、ライセンス容量の詳細を表示したりできます。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["BlueXPデータサービスのライセンスを管理する方法を学びます"]
+
+
+
+=== 30 2023年7月
+
+
+
+==== 使用状況レポートの機能強化
+
+Cloud Volumes ONTAP使用状況レポートにいくつかの改善が加えられました。
+
+* 列名に TiB 単位が含まれるようになりました。
+* シリアル番号用の新しい _node(s)_ フィールドが追加されました。
+* ストレージ VM 使用状況レポートに新しい _ワークロード タイプ_ 列が追加されました。
+* ストレージ VM およびボリュームの使用状況レポートに作業環境名が含まれるようになりました。
+* ボリューム タイプ _file_ のラベルが _Primary (読み取り/書き込み)_ に変更されました。
+* ボリューム タイプ「_secondary_」のラベルが「_Secondary (DP)_」に変更されました。
+
+
+使用状況レポートの詳細については、以下を参照してください。 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["使用状況レポートをダウンロードする"] 。
+
+
+
+== ディザスタ リカバリ
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Eシリーズシステム
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-e-series/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== ライフサイクルプランニング
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP economic efficiencyはライフサイクルプランニングに
+
+BlueXP economic efficiencyはライフサイクル プランニングに名前が変更されました。
+
+NetAppコンソールの左側のナビゲーション バーから、[*ストレージ*] > [*ライフサイクル プランニング*] を選択してアクセスできます。
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2024年5月15日
+
+
+
+==== 無効になっている機能
+
+BlueXP economic efficiency機能の一部は一時的に無効になっています:
+
+* テクノロジーの刷新
+* 容量を追加
+
+
+
+
+=== 2024年3月14日
+
+
+
+==== テクノロジー更新オプション
+
+既存の資産があり、テクノロジーを更新する必要があるかどうかを判断したい場合は、 BlueXP の経済効率テクノロジー更新オプションを使用できます。現在のワークロードの簡単な評価を確認して推奨事項を入手するか、過去 90 日以内にAutoSupportログをNetAppに送信した場合は、サービスでワークロード シミュレーションを提供して、新しいハードウェアでのワークロードのパフォーマンスを確認できるようになりました。
+
+ワークロードを追加し、シミュレーションから既存のワークロードを除外することもできます。
+
+以前は、資産を評価して、テクノロジーの更新が推奨されるかどうかを特定することしかできませんでした。
+
+この機能は、左側のナビゲーションの [Tech refresh] オプションの一部になりました。
+
+詳細はこちら https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["テクノロジーの更新を評価する"]。
+
+
+
+== エッジキャッシュ
+
+エッジ キャッシング サービスは 2024 年 8 月 7 日に削除されました。
+
+
+
+== Google Cloud NetApp Volumes
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Google Cloud Storage
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== Keystone
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+2ef72cc8a56fc5999e258b450b9fca24
+
+
+
+=== 2025年9月22日
+
+
+
+==== アラート監視の追加
+
+BlueXPのKeystoneダッシュボードには、サブスクリプション全体のアラートとモニターを管理するための *監視* タブが追加されました。この新しいタブでは次のことが可能になります。
+
+* 容量使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を含むアクティブなアラートを表示して解決します。
+* 容量使用状況とサブスクリプション有効期限イベントを追跡するためのアラート モニターを作成します。
+
+
+詳細については、link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["アラートとモニターの表示と管理"] 。
+
+
+
+==== 合理化されたパフォーマンス サービス レベルの表示
+
+パフォーマンス サービス レベル情報は、別のタブから展開可能なビューに移動され、[*サブスクリプション*] タブ内で表示できます。各サブスクリプションの有効期限を表示するには、「*有効期限*」列の横にある下矢印をクリックします。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示する"] 。
+
+
+
+=== 2025年8月28日
+
+
+
+==== 新しい列による論理使用状況の追跡の強化
+
+FabricPoolボリュームのKeystone消費量追跡を強化するために、新しい列「合計フットプリント」が追加されました。
+
+* * BlueXPのKeystoneダッシュボード *: *Assets* タブ内の *Volumes in clusters* タブに *Total footnotes* 列が表示されます。
+* *Digital Advisor*: * ボリュームとオブジェクト * タブ内の * ボリュームの詳細 * タブに * 合計フットプリント * 列が表示されます。
+
+
+この列には、パフォーマンス層とコールド層の両方のデータを含む、 FabricPool階層化を使用したボリュームの合計論理フットプリントが表示されるため、 Keystone の消費量を正確に計算できます。
+
+
+
+== Kubernetes
+
+Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 7 日に削除されました。
+
+
+
+== 移行レポート
+
+移行レポート サービスは 2024 年 8 月 7 日に削除されました。
+
+
+
+== オンプレミスのONTAPクラスター
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== 運用の回復力
+
+運用回復力機能は 2025 年 8 月 22 日に削除されました。
+
+
+
+== ランサムウェア耐性
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== 修正策
+
+修復サービスは 2024 年 4 月 22 日に削除されました。
+
+
+
+== レプリケーション
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== ソフトウェアアップデート
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== StorageGRID
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== クラウド階層化
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== ボリュームキャッシュ
+
+<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+
+== ワークロードファクトリー
+
+
+
+=== 2025年6月29日
+
+
+
+==== データベースの権限の更新
+
+データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。 `cloudwatch:GetMetricData` 。
+
+https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["権限参照の変更ログ"]
+
+
+
+==== BlueXP workload factory通知サービスのサポート
+
+BlueXP workload factory通知サービスを使用すると、ワークロードファクトリーはBlueXP alertsサービスまたは Amazon SNS トピックに通知を送信できるようになります。 BlueXP alertsに送信された通知は、BlueXP alertsパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー (ユーザーや他のアプリケーションなど) は、トピックに設定されたエンドポイント (電子メールや SMS メッセージなど) で通知を受信します。
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory通知を構成する"]
+
+
+
+=== 2025年5月4日
+
+
+
+==== CloudShell のオートコンプリート サポート
+
+BlueXP workload factoryCloudShell を使用する場合、コマンドの入力を開始し、Tab キーを押して使用可能なオプションを表示できます。複数の可能性がある場合は、CLI に提案のリストが表示されます。この機能により、エラーが最小限に抑えられ、コマンドの実行速度が速まり、生産性が向上します。
+
+
+
+==== 権限に関する用語の更新
+
+ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
+
+
+
+=== 2025年3月30日
+
+
+
+==== CloudShell はONTAP CLI コマンドに対して AI 生成のエラー応答を報告します
+
+CloudShell を使用すると、 ONTAP CLI コマンドを発行してエラーが発生するたびに、障害の説明、障害の原因、詳細な解決策を含む AI 生成のエラー応答を取得できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShellを使用する"]
+
+
+
+==== iam:SimulatePermissionPolicy 権限の更新
+
+これで、 `iam:SimulatePrincipalPolicy`追加の AWS アカウント認証情報を追加したり、GenAI ワークロードなどの新しいワークロード機能を追加したりするときに、ワークロードファクトリーコンソールから権限を取得できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["権限参照の変更ログ"]
+
+
+
+=== 2025年2月2日
+
+
+
+==== CloudShell がBlueXP workload factoryコンソールで利用可能
+
+CloudShell は、BlueXP workload factoryコンソールのどこからでも利用できます。  CloudShell を使用すると、 BlueXPアカウントで指定した AWS およびONTAP認証情報を使用して、シェルのような環境で AWS CLI コマンドまたはONTAP CLI コマンドを実行できます。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShellを使用する"]
+
+
+
+==== データベースの権限の更新
+
+データベースの _read_ モードで次の権限が利用できるようになりました。 `iam:SimulatePrincipalPolicy` 。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["権限参照の変更ログ"]

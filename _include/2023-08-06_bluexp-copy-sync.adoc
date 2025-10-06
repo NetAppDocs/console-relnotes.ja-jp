@@ -1,0 +1,31 @@
+= データ ブローカーを作成するときに既存の Azure セキュリティ グループを使用する
+:allow-uri-read: 
+
+
+
+
+=== データ ブローカーを作成するときに既存の Azure セキュリティ グループを使用する
+
+ユーザーは、データ ブローカーを作成するときに、既存の Azure セキュリティ グループを使用するオプションを利用できるようになりました。
+
+データ ブローカーの作成時に使用するサービス アカウントには、次の権限が必要です。
+
+* 「Microsoft.Network/ネットワークセキュリティグループ/セキュリティルール/読み取り」
+* 「Microsoft.Network/networkSecurityGroups/読み取り」
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["Azure でデータ ブローカーを作成する方法の詳細について説明します。"]
+
+
+
+=== Google ストレージに同期するときにデータを暗号化する
+
+ユーザーは、Google ストレージ バケットをターゲットとして同期関係を作成するときに、顧客管理の暗号化キーを指定できるようになりました。キーを手動で入力するか、単一のリージョン内のキーのリストから選択することができます。
+
+データ ブローカーの作成時に使用するサービス アカウントには、次の権限が必要です。
+
+* cloudkms.cryptoKeys.リスト
+* cloudkms.keyRings.リスト
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["Google Cloud Storage バケットの要件の詳細をご覧ください。"]

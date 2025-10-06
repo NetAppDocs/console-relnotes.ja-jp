@@ -1,0 +1,37 @@
+= BlueXP backup and recoveryの機能強化 (クラウド ネイティブ)
+:allow-uri-read: 
+
+
+
+
+=== BlueXP backup and recoveryの機能強化 (クラウド ネイティブ)
+
+* Microsoft SQL Server データベース
++
+** Amazon FSx for NetApp ONTAP上にある Microsoft SQL Server データベースのバックアップ、リストア、リカバリをサポートします。
+** すべての操作は REST API を通じてのみサポートされます。
+
+
+* SAP HANAシステム
++
+** システムリフレッシュ中、ボリュームの自動マウントとアンマウントはスクリプトではなくワークフローを使用して実行されます。
+** UI を使用してプラグイン ホストの追加、削除、編集、削除、保守、アップグレードをサポートします。
+
+
+
+
+
+
+=== BlueXP backup and recoveryの機能強化 (ハイブリッド)
+
+* データロックとランサムウェア保護をサポート
+* StorageGridからアーカイブ層へのバックアップの移動をサポート
+* オンプレミスのONTAPシステムから Amazon Web Services、Microsoft Azure、Google Cloud Platform、 StorageGRIDへの MongoDB、MySQL、PostgreSQL アプリケーション データのバックアップをサポートします。必要に応じてデータを復元できます。
+
+
+
+
+=== 仮想マシン向けBlueXP backup and recoveryの機能強化
+
+* コネクタプロキシ展開モデルのサポート
+

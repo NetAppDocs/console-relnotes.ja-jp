@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: NetAppコンソールの管理とストレージ機能、およびNetAppデータ サービスのリリース ノートの完全セットを表示します。 
+---
+= リリースノートのインデックス
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールの機能とNetAppデータ サービスのリリース ノートの完全セットを表示します。
+
+
+
+== 管理
+
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["セットアップと管理"^]
+* https://docs.netapp.com/us-en/console-alerts/whats-new.html["アラート"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["オートメーションハブ"^]
+* https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["デジタルアドバイザー"^]
+* https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["経済効率"^]
+* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["ライセンスとサブスクリプション"^]
+* https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["ソフトウェアアップデート"^]
+
+
+
+
+== ストレージ
+
+* https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx for ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-s3-storage/whats-new.html["Amazon S3 ストレージ"^]
+* https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Azure BLOB ストレージ"^]
+* https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetAppコンソールでのCloud Volumes ONTAP管理"^]
+* https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["Eシリーズシステム"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Google Cloud Storage"^]
+* https://docs.netapp.com/us-en/storage-management-ontap-onprem/whats-new.html["オンプレミスのONTAPクラスター"^]
+* https://docs.netapp.com/us-en/storage-management-storagegrid/whats-new.html["StorageGRID"^]
+
+
+
+
+== サービスとしてのストレージ
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
+
+
+
+
+== データサービス
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["バックアップとリカバリ"^]
+* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["データ分類"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["コピーと同期"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["ディザスタ リカバリ"^]
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["ランサムウェア耐性"^]
+* https://docs.netapp.com/us-en/data-services-replication/whats-new.html["レプリケーション"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/whats-new.html["クラウド階層化"^]
+* https://docs.netapp.com/us-en/console-volume-caching/release-notes/cache-whats-new.html["ボリュームキャッシュ"^]
+* https://docs.netapp.com/us-en/workload-relnotes/whats-new.html["ワークロードファクトリー"^]
+

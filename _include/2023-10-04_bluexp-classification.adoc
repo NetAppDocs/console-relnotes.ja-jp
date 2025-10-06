@@ -1,0 +1,11 @@
+= RHEL バージョン 9 でのBlueXP classificationのオンプレミス インストールのサポート
+:allow-uri-read: 
+
+
+
+
+=== RHEL バージョン 9 でのBlueXP classificationのオンプレミス インストールのサポート
+
+Red Hat Enterprise Linux バージョン 8 および 9 は、 BlueXP classificationのインストールに必要な Docker エンジンをサポートしていません。コンテナ インフラストラクチャとして Podman バージョン 4 以上を使用して、RHEL 9.0、9.1、9.2 へのBlueXP classificationのインストールをサポートするようになりました。ご使用の環境で最新バージョンの RHEL を使用する必要がある場合は、Podman を使用するときにBlueXP classification(バージョン 1.26 以上) をインストールできるようになりました。
+
+現時点では、RHEL 9.x を使用する場合、ダーク サイトのインストールまたは分散スキャン環境 (マスター スキャナー ノードとリモート スキャナー ノードを使用) はサポートされていません。

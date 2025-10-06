@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+* BlueXPから AWS でコネクタを作成するときに、キーペア フィールド内を検索して、コネクタ インスタンスで使用するキーペアをより簡単に見つけることができるようになりました。
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["BlueXPから AWS でコネクタを作成するときにネットワーク ページに表示されるキー ペア フィールドの検索オプションのスクリーンショット。"]
+
+* このアップデートにはバグ修正も含まれています。
+
