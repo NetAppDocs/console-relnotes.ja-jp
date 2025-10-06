@@ -293,7 +293,6 @@
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block>個々のサービスごとに。</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理機能</block>
   <block id="eda012cb030b90a4fd456d7fac051308" category="paragraph">このセクションでは、 NetAppコンソール管理機能に関連する新機能 (組織、識別とアクセス、コンソール エージェント、クラウド プロバイダーの資格情報など) について説明します。</block>
-  <block id="2301c6ac77340860cc332b53114acee4" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="e2d159efa7a8b8226e5914e1a2875270" category="section-title">BlueXP alertsはONTAPアラートになりました</block>
   <block id="5928017639f3567a373281effc14e646" category="paragraph">BlueXP alertsの名前がONTAPアラートに変更されました。</block>
@@ -380,8 +379,6 @@
   <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">詳細はこちら<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block>。</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">エッジキャッシュ</block>
   <block id="7659a4df75917e662ad56e3eeb883afe" category="paragraph">エッジ キャッシング サービスは 2024 年 8 月 7 日に削除されました。</block>
-  <block id="8550fddd746d7726347622638caabf0e" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="c38ff7255b06912e6bfba337f607b067" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="section-title">アラート監視の追加</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXPのKeystoneダッシュボードには、サブスクリプション全体のアラートとモニターを管理するための *監視* タブが追加されました。この新しいタブでは次のことが可能になります。</block>
@@ -402,14 +399,12 @@
   <block id="4ac75c7e9ef3301446bb1108a0761fd8" category="paragraph">Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 7 日に削除されました。</block>
   <block id="ac7b3cf10ea08c788a374e0291742517" category="section-title">移行レポート</block>
   <block id="080f313851ea933f8837533bd9d2015d" category="paragraph">移行レポート サービスは 2024 年 8 月 7 日に削除されました。</block>
-  <block id="ba1556d34583c474fab50f0a69230b0a" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">運用の回復力</block>
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">運用回復力機能は 2025 年 8 月 22 日に削除されました。</block>
   <block id="e53b07ba66e79a2d740d3ecd4db054db" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">修正策</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">修復サービスは 2024 年 4 月 22 日に削除されました。</block>
   <block id="415a9b0499c8358f57046142d870bf77" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="fe7ce63686ee4c7c86055fb800fb1d0b" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="b5a69118f32e3db146c29d98f8baf80d" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="ec5be73f5b6f32ab0f879db6114d6b44" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="dbffe2253db6b5aaefd3b4582fd8f6a7" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
@@ -447,4 +442,162 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近の変更</block>
+  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025年10月6日</block>
+  <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">ナビゲーションメニューとページ</block>
+  <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp は、ほとんどのメニュー オプションを左側のナビゲーション ペインに移動し、メニューを再編成して、 NetAppコンソールでのナビゲーションを容易にしました。</block>
+  <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">Canvasはシステムページに置き換えられました</block>
+  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">NetApp は、Canvas の名前を *Systems* ページに変更しました。*ストレージ &gt; 管理* メニューから *システム* ページに移動します。</block>
+  <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">システムページのスクリーンショット。</block>
+  <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">拡張ストレージメニュー</block>
+  <block id="52f2049d6a6b3b78ceb9820e5ce16a9d" category="paragraph">*ストレージ* メニューには、 ONTAPシステムのアラートを表示するための *アラート* や、未使用または十分に活用されていないリソースを識別するための *ライフサイクル プランニング* (旧 *経済効率*) も含まれています。</block>
+  <block id="b75b41949ffca5829d6a1887ecf0ebd4" category="paragraph">NetApp はKeystone を*ストレージ* メニューに移動しました。ここで、 NetApp Keystone のサブスクリプションを管理し、使用状況を表示できます。</block>
+  <block id="0bc00d5c9372c38aa1f6078843c22005" category="inline-image-macro">ストレージ メニューのスクリーンショット。</block>
+  <block id="748eeb353f241e217120dfabd2fa058d" category="paragraph"><block ref="748eeb353f241e217120dfabd2fa058d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e279d1eb32921bbbc940faea63f4db6" category="section-title">管理メニュー</block>
+  <block id="08386d27df9de73a030b8e5da1f8112b" category="paragraph">一元化された *管理* メニューを使用して、 NetAppコンソール、サポート ケース、ライセンス、サブスクリプション (以前はデジタル ウォレットと呼ばれていました) を管理します。</block>
+  <block id="c952530b2009e9e6caa227e55b2c5e17" category="inline-image-macro">管理メニューのスクリーンショット。</block>
+  <block id="728ef7c59bd4ee6cc2dc652bfa8b7724" category="paragraph"><block ref="728ef7c59bd4ee6cc2dc652bfa8b7724" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e50100ff2f51950e126a3dbaa4b4ef09" category="section-title">健康メニュー</block>
+  <block id="ad7e4f5f6f60985f3399015db62758db" category="paragraph">効率的な *Health* メニューには、 ONTAPソフトウェアの更新を管理できる *Software updates*、環境への影響を監視できる *Sustainability*、ストレージ環境を最適化するためのプロアクティブな推奨事項を入手できる * Digital Advisor* が含まれます。</block>
+  <block id="57c608afd91ed07846d392ab3573d362" category="inline-image-macro">健康メニューのスクリーンショット。</block>
+  <block id="378c09e0c5c36dad3c574eb6116e190d" category="paragraph"><block ref="378c09e0c5c36dad3c574eb6116e190d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0faa8df8101b114b9791a097a9ee9c24" category="section-title">ガバナンスメニュー</block>
+  <block id="f6edeb6fe9d83e893f282e018535255e" category="paragraph">*ガバナンス* メニューには、データ分類とコンプライアンスを管理できる *データ分類* と、自動化ワークフローを作成して管理できる *自動化ハブ* が含まれています。</block>
+  <block id="d84377f0ff9f4c9d765690e219a05b9e" category="inline-image-macro">ガバナンス メニューのスクリーンショット。</block>
+  <block id="ee631e6affe0c80b3b6fcb825e738791" category="paragraph"><block ref="ee631e6affe0c80b3b6fcb825e738791" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f5bafc8e64005ab8e0ab21be6dd862ea" category="section-title">要素、データサービス、機能のより直感的な命名</block>
+  <block id="d17c4f20c3bce4ab77d1716163da4ea8" category="paragraph">NetApp は、目的を明確にするために、いくつかの要素、データ サービス、および機能の名前を変更しました。主な変更点は次のとおりです。</block>
+  <block id="7a07575f34b771108115df89d720fe52" category="cell">*以前の名前*</block>
+  <block id="44f7d4416512ddf1752dda33cbe7f320" category="cell">* NetAppコンソール名*</block>
+  <block id="fe4a785cf549e843e958f443c4baf0fe" category="cell">コネクタ</block>
+  <block id="e31b45fe41b7087523da6d9cd8dffb81" category="paragraph">コンソールエージェント。</block>
+  <block id="19e700ebc01a62f4b2c6e556e26b940b" category="paragraph">*管理 &gt; エージェント* メニューからエージェントを表示、追加、管理します。</block>
+  <block id="f3ce4049040b68c57f0cafd280f3373b" category="cell">タイムラインページ</block>
+  <block id="50c786c9efcadf10b6b80a91b4bb98cf" category="paragraph">監査ページ</block>
+  <block id="cad5a8979fad73eaeb6c7d23e28457ba" category="paragraph">*管理 &gt; 監査* メニューから監査コンソールのアクティビティを表示します。</block>
+  <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="cell">労働環境</block>
+  <block id="d685640410801eb03bb5dcb58186458f" category="paragraph">システム</block>
+  <block id="e0c587dd9b957ebcce9c74f98e436000" category="paragraph">*ストレージ &gt; 管理* メニューからシステムを表示、追加、管理します。</block>
+  <block id="735f4e13421d56ac8c83fdc3365fad9c" category="cell">BlueXPランサムウェア対策</block>
+  <block id="5f7dcc012fb17e5ef25c0e9b228b1a8e" category="paragraph">NetAppランサムウェア耐性。</block>
+  <block id="daef547b38d58d888634bb4fe08a23e0" category="paragraph">ランサムウェア耐性は、データを保護し、ランサムウェア攻撃から迅速に回復するのに役立ちます。</block>
+  <block id="b66bedd32eaff49a6390c88238f395f5" category="cell">BlueXPの経済効率</block>
+  <block id="32e6b958eebb891547bf5b4b37d42a7f" category="paragraph">ライフサイクル計画。</block>
+  <block id="e91bdd645f7798803bc207638d6d3c27" category="paragraph">ライフサイクル プランニングは、未使用および十分に活用されていないリソースを特定することで、ストレージ コストを最適化するのに役立ちます。</block>
+  <block id="c9bd396dd578097c35b3241940da1230" category="paragraph">*ストレージ &gt; ライフサイクル プランニング* メニューからライフサイクル プランニングにアクセスします。</block>
+  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="cell">BlueXP digital wallet</block>
+  <block id="ed953e52298021637dc37dfec02d9323" category="paragraph">*管理 &gt; ライセンスとサブスクリプション* メニューからライセンスとサブスクリプションにアクセスします。</block>
+  <block id="033ce09819d553e6a77430de2f0cc899" category="section-title">コンソールエージェント</block>
+  <block id="d2d1eb94e91e72bdca67bd206b054558" category="inline-image-macro">エージェントアイコン</block>
+  <block id="7773425689d5ab5b9a1be7e31c52c4a7" category="paragraph">*管理 &gt; エージェント* メニューからコンソール エージェントにアクセスして管理します。NetApp は、*Systems* ページ (以前の Canvas) のコンソール エージェントの選択方法を変更しました。NetAppはコネクタメニュー名をアイコンに置き換えました<block ref="93f7aa9936b9725d0b2b0bfbfa2fc281" category="inline-image-macro-rx" type="image"></block>、システムを表示するコンソール エージェントを選択できます。</block>
+  <block id="43155746ba0b5973d604a490f600c989" category="inline-image-macro">コンソール エージェントを選択するためのアイコンが表示されたスクリーンショット。</block>
+  <block id="d3a37486dd13699585fc59edd97919c4" category="paragraph"><block ref="d3a37486dd13699585fc59edd97919c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb03cbb803285b4d26cf9d785c0ae5e9" category="paragraph">*管理 &gt; エージェント* メニューからエージェントを管理することもできます。</block>
+  <block id="cfde44a1d64ad07d145912a2754ce1b8" category="section-title">コンソールエージェント 4.0.0</block>
+  <block id="cf7d8a05b87bc06aab139657051d5069" category="paragraph">このコンソール エージェントのリリースには、セキュリティの改善、バグ修正、および次の新機能が含まれています。</block>
+  <block id="e95d0df05962f4456b8b569c54b396c6" category="paragraph">4.0.0 リリースは、標準モードと制限モードで利用できます。</block>
+  <block id="5412276bd0dd11677309c5862e9a5a84" category="section-title">必要なネットワークエンドポイントの統合と削減</block>
+  <block id="d0994d4e248da3f28077f3de0aa07b31" category="paragraph">NetApp は、コンソールとコンソール エージェントに必要なネットワーク エンドポイントを削減し、セキュリティを強化して導入を簡素化しました。重要なのは、バージョン 4.0.0 より前のすべてのデプロイメントが引き続き完全にサポートされていることです。以前のエンドポイントは既存のエージェントで引き続き使用できますが、 NetApp、エージェントのアップグレードが成功したことを確認した後、ファイアウォール ルールを現在のエンドポイントに更新することを強くお勧めします。</block>
+  <block id="4691a33bfa50c006ca907ff0f1c2ff22" category="inline-link-macro">エンドポイントリストを更新する方法を学ぶ</block>
+  <block id="cca12c7916c4a96b099460567ed56f7b" category="list-text"><block ref="8aad0fd6d4c3bc8fa0ee8715b00de090" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8880ac717c8ca7c5aacda1dbf0aa76b4" category="inline-link-macro">必要なエンドポイントの詳細について説明します。</block>
+  <block id="a65e1c365f170de138a296cb93571b83" category="list-text"><block ref="a65e1c365f170de138a296cb93571b83" category="inline-link-macro-rx"></block></block>
+  <block id="dcd681e02807cfe12b61283485a64b57" category="section-title">コンソールエージェントの VCenter 展開のサポート</block>
+  <block id="9b0a2c601e03439be1fe2b9ef880e127" category="inline-link-macro">VMware 環境にコンソール エージェントを展開する方法を学習します。</block>
+  <block id="cffe1fd68203e313454b85ae5856ae08" category="paragraph">OVA ファイルを使用して、VMware 環境にコンソール エージェントを展開できます。OVA ファイルには、コンソール エージェント ソフトウェアとNetAppコンソールに接続するための設定が含まれた、事前構成された VM イメージが含まれています。ファイルのダウンロードまたは URL の展開は、 NetAppコンソールから直接行うことができます。<block ref="33dab07da8bdaaae6d651edc484f67e5" category="inline-link-macro-rx"></block></block>
+  <block id="8bff9036a0e031e7dda95305069dfec1" category="paragraph">VMware 用コンソール エージェント OVA は、迅速な展開のために事前構成された VM イメージを提供します。</block>
+  <block id="6b82c37590e99efd0ada7e5129dd156b" category="section-title">失敗したエージェントの展開に関する検証レポート</block>
+  <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">NetAppコンソールからコンソール エージェントを展開するときに、エージェント構成を検証するオプションが追加されました。コンソールがエージェントの展開に失敗した場合、トラブルシューティングに役立つダウンロード可能なレポートが提供されます。</block>
+  <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">コンソールエージェントのトラブルシューティングの改善</block>
+  <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">コンソール エージェントのトラブルシューティング方法を学習します。</block>
+  <block id="79ab7cf55c7d04c02a94981a9a1b7b29" category="paragraph">コンソール エージェントでは、問題をよりよく理解するのに役立つエラー メッセージが改善されました。<block ref="32afeb8eb0f9a2e606975b6efca2856e" category="inline-link-macro-rx"></block></block>
+  <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">NetAppコンソール管理には、次の新機能が含まれています。</block>
+  <block id="bbd516543defb57b86168970a68bacbc" category="section-title">ホームページダッシュボード</block>
+  <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">ホーム ページの詳細をご覧ください。</block>
+  <block id="0b4ba78ffe7e5b816acd3f4779bf2e31" category="paragraph">NetAppコンソールのホーム ページ ダッシュボードでは、ヘルス、容量、ライセンス ステータス、データ サービスのメトリックを使用して、ストレージ インフラストラクチャのリアルタイムの可視性が提供されます。<block ref="a392b25af35cf84f37ebb9f5e7e08c09" category="inline-link-macro-rx"></block></block>
+  <block id="47105d63797f271c2b78d5946c933492" category="section-title">NetAppアシスタント</block>
+  <block id="a8861fedd62c54a1b00e477632a5b154" category="inline-link-macro">NetAppアシスタントについて学習します。</block>
+  <block id="2c6715c3785597c583154106efeea2e1" category="paragraph">組織管理者ロールを持つ新規ユーザーは、 NetAppアシスタントを使用して、エージェントの追加、 NetAppサポート アカウントのリンク、ストレージ システムの追加など、コンソールを構成できます。<block ref="cf52c6bc60547e258cd0df64f6aa886e" category="inline-link-macro-rx"></block></block>
+  <block id="a8cf5dcf71de928606099ae1c8d8f013" category="section-title">サービスアカウント認証</block>
+  <block id="7aa924231e684379b7afcb9eeb9ad17c" category="inline-link-macro">サービス アカウントを追加する方法について説明します。</block>
+  <block id="b129ee41c5f872c46bf7e4db36dc2b80" category="paragraph">NetAppコンソールは、システム生成のクライアント ID とシークレット、または顧客管理の JWT を使用したサービス アカウント認証をサポートしているため、組織はセキュリティ要件と統合ワークフローに最適なアプローチを選択できます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、従来のクライアント ID や秘密方式よりも強力なセキュリティが提供されます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、顧客の環境で秘密鍵が安全に保持され、資格情報の盗難リスクが軽減され、自動化スタックとクライアント アプリケーションのセキュリティが向上します。<block ref="7e8dcf3bb388bc5e251dcf07db89a3cb" category="inline-link-macro-rx"></block></block>
+  <block id="11ebae3aeeebe33c4ece3bbbe3f90b11" category="section-title">セッション タイムアウト</block>
+  <block id="356b82733b779c0c497e4fc62a110dd6" category="paragraph">システムは、24 時間後またはユーザーが Web ブラウザを閉じるとユーザーをログアウトします。</block>
+  <block id="c7e6ddd86fe4d39f3918f17751cc4ad3" category="section-title">組織間のパートナーシップのサポート</block>
+  <block id="a9ab376a5bad52d7ee221e700506cc9e" category="inline-link-macro">パートナーシップの管理方法を学ぶ</block>
+  <block id="2411f4620b5f32a3acd14ea2fad0ed3e" category="paragraph">NetAppコンソールでパートナーシップを作成すると、パートナーは組織の境界を越えてNetAppリソースを安全に管理できるため、コラボレーションが容易になり、セキュリティが強化されます。<block ref="b8d27297b19f2fe0bb424605051fc774" category="inline-link-macro-rx"></block> 。</block>
+  <block id="92f0509fbe9c844ac680a8239b748a5a" category="section-title">スーパー管理者とスーパー閲覧者の役割</block>
+  <block id="78dc241469129405c4f4b99066b0c5c3" category="inline-link-macro">アクセス ロールの詳細について説明します。</block>
+  <block id="70a83abfefc3ecf863e8c3f17d519877" category="paragraph">*スーパー管理者* と *スーパー閲覧者* の役割を追加しました。*スーパー管理者* は、コンソールの機能、ストレージ、およびデータ サービスへの完全な管理アクセス権を付与します。*スーパー ビューアー* は、監査人および関係者に読み取り専用の可視性を提供します。これらの役割は、幅広いアクセス権が一般的である上級メンバーの小規模チームに役立ちます。セキュリティと監査可能性を向上させるために、組織では *スーパー管理者* アクセスを控えめに使用し、可能な場合はきめ細かな役割を割り当てることが推奨されます。<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="112ab4deb7f2f69c7af42547046b472f" category="section-title">ランサムウェア耐性に関する追加の役割</block>
+  <block id="79c16752c4b3871128ff6761df92be41" category="paragraph">*ランサムウェア耐性ユーザー行動管理者* ロールと *ランサムウェア耐性ユーザー行動閲覧者* ロールが追加されました。これらのロールにより、ユーザーはそれぞれユーザーの行動と分析データを構成および表示できます。<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="9c1c5b1b2bca352ed0ccb3521d870e14" category="section-title">サポートチャットを削除しました</block>
+  <block id="6a6050b7d9c0524d1d41dffdc70d6613" category="paragraph">NetApp は、NetAppコンソールからサポート チャット機能を削除しました。*管理 &gt; サポート* ページを使用して、サポート ケースを作成および管理します。</block>
+  <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">2025年8月11日</block>
+  <block id="b21ef378da4454971a6488eacb2b5c87" category="section-title">コネクタ 3.9.55</block>
+  <block id="7c5236578de836eb6dde25bc3e995d02" category="paragraph">BlueXPコネクタのこのリリースには、セキュリティの改善とバグ修正が含まれています。</block>
+  <block id="95d98fc23d5487afb84beeeea8decb64" category="paragraph">3.9.55 リリースは、標準モードと制限モードで利用できます。</block>
+  <block id="6c88af8a9c03b6578eb8087b3113c649" category="section-title">日本語サポート</block>
+  <block id="a73649d115bb7a94bbfab3b7d4f15ddf" category="paragraph">BlueXP UI が日本語で利用できるようになりました。ブラウザの言語が日本語の場合、 BlueXP は日本語で表示されます。日本語のドキュメントにアクセスするには、ドキュメント Web サイトの言語メニューを使用します。</block>
+  <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">運用回復力機能</block>
+  <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">運用回復力機能はBlueXPから削除されました。問題が発生した場合は、 NetAppサポートにお問い合わせください。</block>
+  <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXPアイデンティティおよびアクセス管理 (IAM)</block>
+  <block id="65bb19480004be81c6ef8d7f7ef40e2f" category="paragraph">BlueXPの ID およびアクセス管理では、次の機能が提供されるようになりました。</block>
+  <block id="db971a19c27a52f19f1811c52c55dc2d" category="section-title">運用サポートのための新しいアクセスロール</block>
+  <block id="9a69bf13bbd4a86f23945e6b153f3913" category="paragraph">BlueXP は、運用サポートアナリストの役割をサポートするようになりました。このロールは、ストレージアラートを監視し、 BlueXP監査タイムラインを表示し、 NetAppサポートケースを入力および追跡する権限をユーザーに付与します。</block>
+  <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">アクセス ロールの使用について詳しく学習します。</block>
+  <block id="fa37736e47ccc44e2228f573f9d2a303" category="paragraph"><block ref="fa37736e47ccc44e2228f573f9d2a303" category="inline-link-macro-rx"></block></block>
+  <block id="328e39c031d3f6a77403904d6dda2377" category="section-title">2025年7月31日</block>
+  <block id="8ec07d17b9626eed73b7d8c3ecb0e32f" category="section-title">プライベートモードリリース（3.9.54）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetAppサポート サイト</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">新しいプライベートモードリリースがダウンロード可能になりました。<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="e57098a6bb00611fdfd163e39e3448e8" category="paragraph">3.9.54 リリースには、次のBlueXPコンポーネントとサービスの更新が含まれています。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">コンポーネントまたはサービス</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">このリリースに含まれるバージョン</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">前回のプライベートモードリリース以降の変更点</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">コネクタ</block>
+  <block id="9cc4b579fbb9d233102b44ff5119e060" category="cell">3.9.54、3.9.53</block>
+  <block id="4e7c2b7c3f7b00a4db742817336d985b" category="inline-link">BlueXPページの新着情報</block>
+  <block id="fb973b0a3719c8d26b960aed72e4fe3f" category="cell">に行く<block ref="f2bb5a2291ad18ff55b18a4b4553234a" category="inline-link-rx"></block>バージョン 3.9.54 および 3.9.53 に含まれる変更を参照してください。</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">バックアップとリカバリ</block>
+  <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">2025年7月28日</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP backup and recoveryページの新機能</block>
+  <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">に行く<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block>2025 年 7 月のリリースに含まれる変更点を参照してください。</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分類</block>
+  <block id="9285fd96738351d44da30f801dea109b" category="cell">2025年7月14日（バージョン1.45）</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP classificationページの新機能</block>
+  <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">に行く<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block>。</block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">プライベート モードの詳細（アップグレード方法を含む）については、以下を参照してください。</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">プライベートモードについて学ぶ</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">プライベートモードでBlueXPを始める方法を学ぶ</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">プライベートモード使用時にコネクタをアップグレードする方法を学びます</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="42940073696c6deef8332d7bdf67ab44" category="paragraph">変更内容の詳細については、<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> 。== 2023年7月10日</block>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">BlueXPから新しいバケットを追加し、既存のバケットを管理する機能</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">新しい Google Cloud Storage バケットを追加する方法をご覧ください</block>
+  <block id="00079c5af8b652f708d4b2d3c217dce6" category="paragraph">BlueXP Canvas では、Google Cloud Storage バケットをかなり長い間表示できます。BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="493cc79f245c411ab616a87cbaf9a9f5" category="inline-link-rx"></block> 。</block>
+  <block id="2ef72cc8a56fc5999e258b450b9fca24" category="paragraph">変更内容の詳細については、<block ref="06d876b9fcdfcba8772d93beac1ca38b" category="inline-link-macro-rx"></block> 。</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">変更内容の詳細については、<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block> 。</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="section-title">BlueXPアクセスロールが必要</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">アクセス ロールについて学習します。</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">オンプレミスのONTAPクラスターを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ストレージ管理者、またはシステム ヘルス スペシャリストのいずれかのアクセス ロールが必要になります。 <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024年11月26日</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">プライベートモードを備えたASA r2 システムのサポート</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 システムを検出できるようになりました。このサポートは、 BlueXPの 3.9.46 プライベート モード リリース以降で利用できます。</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA r2システムの詳細</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXPの展開モードについて学ぶ</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="section-title">BlueXP software updatesはソフトウェアアップデートになりました</block>
+  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">BlueXP software updatesの名前がソフトウェア アップデートに変更されました。</block>
+  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">NetAppコンソールの左側のナビゲーション バーから、[*Health*] &gt; [*Software updates*] を選択してアクセスできます。</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">BlueXPアクセス ロールについて学習します。</block>
+  <block id="0ba1431a5e1efd67eb75f1a5872b7907" category="paragraph">ソフトウェア アップデートをインストールするには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、*ストレージ閲覧者*、または *ストレージ正常性スペシャリスト*。ストレージ閲覧者ロールを持つユーザーには、ソフトウェア更新に関連するさまざまな権限がありますが、ソフトウェア更新をインストールすることはできません。<block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025年4月2日</block>
+  <block id="f50a226c5a51111405309ae78236d95d" category="section-title">軽減されたリスク</block>
+  <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">BlueXP software updatesの概要セクションで、オペレーティング システム アップデートによって軽減できるリスクの合計数を表示できるようになりました。これにより、ユーザーはインストール ベースにおけるセキュリティと安定性の向上を評価できます。</block>
 </blocks>

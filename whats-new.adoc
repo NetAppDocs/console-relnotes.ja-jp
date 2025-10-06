@@ -22,7 +22,289 @@ NetAppコンソールの一部である機能とデータ サービスに対す�
 
 このセクションでは、 NetAppコンソール管理機能に関連する新機能 (組織、識別とアクセス、コンソール エージェント、クラウド プロバイダーの資格情報など) について説明します。
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+
+
+==== ナビゲーションメニューとページ
+
+NetApp は、ほとんどのメニュー オプションを左側のナビゲーション ペインに移動し、メニューを再編成して、 NetAppコンソールでのナビゲーションを容易にしました。
+
+
+
+===== Canvasはシステムページに置き換えられました
+
+NetApp は、Canvas の名前を *Systems* ページに変更しました。*ストレージ > 管理* メニューから *システム* ページに移動します。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage-mgmt.png["システムページのスクリーンショット。"]
+
+
+
+===== 拡張ストレージメニュー
+
+*ストレージ* メニューには、 ONTAPシステムのアラートを表示するための *アラート* や、未使用または十分に活用されていないリソースを識別するための *ライフサイクル プランニング* (旧 *経済効率*) も含まれています。
+
+NetApp はKeystone を*ストレージ* メニューに移動しました。ここで、 NetApp Keystone のサブスクリプションを管理し、使用状況を表示できます。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/screenshot-storage-menu.png["ストレージ メニューのスクリーンショット。"]
+
+
+
+===== 管理メニュー
+
+一元化された *管理* メニューを使用して、 NetAppコンソール、サポート ケース、ライセンス、サブスクリプション (以前はデジタル ウォレットと呼ばれていました) を管理します。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-menu.png["管理メニューのスクリーンショット。"]
+
+
+
+===== 健康メニュー
+
+効率的な *Health* メニューには、 ONTAPソフトウェアの更新を管理できる *Software updates*、環境への影響を監視できる *Sustainability*、ストレージ環境を最適化するためのプロアクティブな推奨事項を入手できる * Digital Advisor* が含まれます。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-health-menu.png["健康メニューのスクリーンショット。"]
+
+
+
+===== ガバナンスメニュー
+
+*ガバナンス* メニューには、データ分類とコンプライアンスを管理できる *データ分類* と、自動化ワークフローを作成して管理できる *自動化ハブ* が含まれています。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-governance-menu.png["ガバナンス メニューのスクリーンショット。"]
+
+
+
+==== 要素、データサービス、機能のより直感的な命名
+
+NetApp は、目的を明確にするために、いくつかの要素、データ サービス、および機能の名前を変更しました。主な変更点は次のとおりです。
+
+[cols="10,24"]
+|===
+| *以前の名前* | * NetAppコンソール名* 
+
+
+| コネクタ  a| 
+コンソールエージェント。
+
+*管理 > エージェント* メニューからエージェントを表示、追加、管理します。
+
+
+
+| タイムラインページ  a| 
+監査ページ
+
+*管理 > 監査* メニューから監査コンソールのアクティビティを表示します。
+
+
+
+| 労働環境  a| 
+システム
+
+*ストレージ > 管理* メニューからシステムを表示、追加、管理します。
+
+
+
+| BlueXPランサムウェア対策  a| 
+NetAppランサムウェア耐性。
+
+ランサムウェア耐性は、データを保護し、ランサムウェア攻撃から迅速に回復するのに役立ちます。
+
+
+
+| BlueXPの経済効率  a| 
+ライフサイクル計画。
+
+ライフサイクル プランニングは、未使用および十分に活用されていないリソースを特定することで、ストレージ コストを最適化するのに役立ちます。
+
+*ストレージ > ライフサイクル プランニング* メニューからライフサイクル プランニングにアクセスします。
+
+
+
+| BlueXP digital wallet  a| 
+ライセンスとサブスクリプション
+
+*管理 > ライセンスとサブスクリプション* メニューからライセンスとサブスクリプションにアクセスします。
+
+|===
+
+
+==== コンソールエージェント
+
+*管理 > エージェント* メニューからコンソール エージェントにアクセスして管理します。NetApp は、*Systems* ページ (以前の Canvas) のコンソール エージェントの選択方法を変更しました。NetAppはコネクタメニュー名をアイコンに置き換えましたimage:icon-agent.png["エージェントアイコン"]、システムを表示するコンソール エージェントを選択できます。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-agent-icon-menu.png["コンソール エージェントを選択するためのアイコンが表示されたスクリーンショット。"]
+
+*管理 > エージェント* メニューからエージェントを管理することもできます。
+
+
+
+=== コンソールエージェント 4.0.0
+
+このコンソール エージェントのリリースには、セキュリティの改善、バグ修正、および次の新機能が含まれています。
+
+4.0.0 リリースは、標準モードと制限モードで利用できます。
+
+
+
+==== 必要なネットワークエンドポイントの統合と削減
+
+NetApp は、コンソールとコンソール エージェントに必要なネットワーク エンドポイントを削減し、セキュリティを強化して導入を簡素化しました。重要なのは、バージョン 4.0.0 より前のすべてのデプロイメントが引き続き完全にサポートされていることです。以前のエンドポイントは既存のエージェントで引き続き使用できますが、 NetApp、エージェントのアップグレードが成功したことを確認した後、ファイアウォール ルールを現在のエンドポイントに更新することを強くお勧めします。
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console-previous.html#update-endpoint-list["エンドポイントリストを更新する方法を学ぶ"] 。
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console.html["必要なエンドポイントの詳細について説明します。"]
+
+
+
+
+==== コンソールエージェントの VCenter 展開のサポート
+
+OVA ファイルを使用して、VMware 環境にコンソール エージェントを展開できます。OVA ファイルには、コンソール エージェント ソフトウェアとNetAppコンソールに接続するための設定が含まれた、事前構成された VM イメージが含まれています。ファイルのダウンロードまたは URL の展開は、 NetAppコンソールから直接行うことができます。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["VMware 環境にコンソール エージェントを展開する方法を学習します。"]
+
+VMware 用コンソール エージェント OVA は、迅速な展開のために事前構成された VM イメージを提供します。
+
+
+
+==== 失敗したエージェントの展開に関する検証レポート
+
+NetAppコンソールからコンソール エージェントを展開するときに、エージェント構成を検証するオプションが追加されました。コンソールがエージェントの展開に失敗した場合、トラブルシューティングに役立つダウンロード可能なレポートが提供されます。
+
+
+
+==== コンソールエージェントのトラブルシューティングの改善
+
+コンソール エージェントでは、問題をよりよく理解するのに役立つエラー メッセージが改善されました。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-connector.html["コンソール エージェントのトラブルシューティング方法を学習します。"]
+
+
+
+=== NetAppコンソール
+
+NetAppコンソール管理には、次の新機能が含まれています。
+
+
+
+==== ホームページダッシュボード
+
+NetAppコンソールのホーム ページ ダッシュボードでは、ヘルス、容量、ライセンス ステータス、データ サービスのメトリックを使用して、ストレージ インフラストラクチャのリアルタイムの可視性が提供されます。link:https://docs.netapp.com/us-en/console-setup-admin/task-dashboard.html["ホーム ページの詳細をご覧ください。"]
+
+
+
+==== NetAppアシスタント
+
+組織管理者ロールを持つ新規ユーザーは、 NetAppアシスタントを使用して、エージェントの追加、 NetAppサポート アカウントのリンク、ストレージ システムの追加など、コンソールを構成できます。link:https://docs.netapp.com/us-en/console-setup-admin/task-console-assistant.html["NetAppアシスタントについて学習します。"]
+
+
+
+==== サービスアカウント認証
+
+NetAppコンソールは、システム生成のクライアント ID とシークレット、または顧客管理の JWT を使用したサービス アカウント認証をサポートしているため、組織はセキュリティ要件と統合ワークフローに最適なアプローチを選択できます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、従来のクライアント ID や秘密方式よりも強力なセキュリティが提供されます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、顧客の環境で秘密鍵が安全に保持され、資格情報の盗難リスクが軽減され、自動化スタックとクライアント アプリケーションのセキュリティが向上します。link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["サービス アカウントを追加する方法について説明します。"]
+
+
+
+==== セッション タイムアウト
+
+システムは、24 時間後またはユーザーが Web ブラウザを閉じるとユーザーをログアウトします。
+
+
+
+==== 組織間のパートナーシップのサポート
+
+NetAppコンソールでパートナーシップを作成すると、パートナーは組織の境界を越えてNetAppリソースを安全に管理できるため、コラボレーションが容易になり、セキュリティが強化されます。link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["パートナーシップの管理方法を学ぶ"] 。
+
+
+
+==== スーパー管理者とスーパー閲覧者の役割
+
+*スーパー管理者* と *スーパー閲覧者* の役割を追加しました。*スーパー管理者* は、コンソールの機能、ストレージ、およびデータ サービスへの完全な管理アクセス権を付与します。*スーパー ビューアー* は、監査人および関係者に読み取り専用の可視性を提供します。これらの役割は、幅広いアクセス権が一般的である上級メンバーの小規模チームに役立ちます。セキュリティと監査可能性を向上させるために、組織では *スーパー管理者* アクセスを控えめに使用し、可能な場合はきめ細かな役割を割り当てることが推奨されます。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセス ロールの詳細について説明します。"]
+
+
+
+==== ランサムウェア耐性に関する追加の役割
+
+*ランサムウェア耐性ユーザー行動管理者* ロールと *ランサムウェア耐性ユーザー行動閲覧者* ロールが追加されました。これらのロールにより、ユーザーはそれぞれユーザーの行動と分析データを構成および表示できます。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセス ロールの詳細について説明します。"]
+
+
+
+==== サポートチャットを削除しました
+
+NetApp は、NetAppコンソールからサポート チャット機能を削除しました。*管理 > サポート* ページを使用して、サポート ケースを作成および管理します。
+
+
+
+=== 2025年8月11日
+
+
+
+==== コネクタ 3.9.55
+
+BlueXPコネクタのこのリリースには、セキュリティの改善とバグ修正が含まれています。
+
+3.9.55 リリースは、標準モードと制限モードで利用できます。
+
+
+
+==== 日本語サポート
+
+BlueXP UI が日本語で利用できるようになりました。ブラウザの言語が日本語の場合、 BlueXP は日本語で表示されます。日本語のドキュメントにアクセスするには、ドキュメント Web サイトの言語メニューを使用します。
+
+
+
+==== 運用回復力機能
+
+運用回復力機能はBlueXPから削除されました。問題が発生した場合は、 NetAppサポートにお問い合わせください。
+
+
+
+==== BlueXPアイデンティティおよびアクセス管理 (IAM)
+
+BlueXPの ID およびアクセス管理では、次の機能が提供されるようになりました。
+
+
+
+==== 運用サポートのための新しいアクセスロール
+
+BlueXP は、運用サポートアナリストの役割をサポートするようになりました。このロールは、ストレージアラートを監視し、 BlueXP監査タイムラインを表示し、 NetAppサポートケースを入力および追跡する権限をユーザーに付与します。
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["アクセス ロールの使用について詳しく学習します。"]
+
+
+
+=== 2025年7月31日
+
+
+
+==== プライベートモードリリース（3.9.54）
+
+新しいプライベートモードリリースがダウンロード可能になりました。 https://mysupport.netapp.com/site/downloads["NetAppサポート サイト"^]
+
+3.9.54 リリースには、次のBlueXPコンポーネントとサービスの更新が含まれています。
+
+[cols="3*"]
+|===
+| コンポーネントまたはサービス | このリリースに含まれるバージョン | 前回のプライベートモードリリース以降の変更点 
+
+
+| コネクタ | 3.9.54、3.9.53 | に行く https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXPページの新着情報"^]バージョン 3.9.54 および 3.9.53 に含まれる変更を参照してください。 
+
+
+| バックアップとリカバリ | 2025年7月28日 | に行く https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP backup and recoveryページの新機能"^]2025 年 7 月のリリースに含まれる変更点を参照してください。 
+
+
+| 分類 | 2025年7月14日（バージョン1.45） | に行く https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP classificationページの新機能"^]。 
+|===
+プライベート モードの詳細（アップグレード方法を含む）については、以下を参照してください。
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["プライベートモードについて学ぶ"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["プライベートモードでBlueXPを始める方法を学ぶ"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["プライベートモード使用時にコネクタをアップグレードする方法を学びます"]
+
 
 
 
@@ -354,13 +636,50 @@ BlueXP economic efficiency機能の一部は一時的に無効になっていま
 
 == Google Cloud NetApp Volumes
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+e9a4d0eabbdfce5c177732ed63963a62
+
+
+
+==== 71d0ee5d411b8f72f571401cdab213ac
+
+775e62d1bed90f08196ce9665fe3b625
+
+* bfcabace496e3d26dcf080c810ecd405
+* 062a6e04f65117f2c5ad969cc8e0116c
+* e093c974eb3629147ecf532045c7e226
+
 
 
 
 == Google Cloud Storage
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。== 2023年7月10日
+
+
+
+==== BlueXPから新しいバケットを追加し、既存のバケットを管理する機能
+
+BlueXP Canvas では、Google Cloud Storage バケットをかなり長い間表示できます。BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["新しい Google Cloud Storage バケットを追加する方法をご覧ください"] 。
 
 
 
@@ -376,7 +695,7 @@ BlueXP economic efficiency機能の一部は一時的に無効になっていま
 
 NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-2ef72cc8a56fc5999e258b450b9fca24
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"^] 。
 
 
 
@@ -432,7 +751,41 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 == オンプレミスのONTAPクラスター
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2025年5月12日
+
+
+
+==== BlueXPアクセスロールが必要
+
+オンプレミスのONTAPクラスターを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ストレージ管理者、またはシステム ヘルス スペシャリストのいずれかのアクセス ロールが必要になります。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["アクセス ロールについて学習します。"^]
+
+
+
+=== 2024年11月26日
+
+
+
+==== プライベートモードを備えたASA r2 システムのサポート
+
+BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 システムを検出できるようになりました。このサポートは、 BlueXPの 3.9.46 プライベート モード リリース以降で利用できます。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2システムの詳細"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXPの展開モードについて学ぶ"^]
+
 
 
 
@@ -462,7 +815,45 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 == ソフトウェアアップデート
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP software updatesはソフトウェアアップデートになりました
+
+BlueXP software updatesの名前がソフトウェア アップデートに変更されました。
+
+NetAppコンソールの左側のナビゲーション バーから、[*Health*] > [*Software updates*] を選択してアクセスできます。
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2025年5月12日
+
+
+
+==== BlueXPアクセスロールが必要
+
+ソフトウェア アップデートをインストールするには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、*ストレージ閲覧者*、または *ストレージ正常性スペシャリスト*。ストレージ閲覧者ロールを持つユーザーには、ソフトウェア更新に関連するさまざまな権限がありますが、ソフトウェア更新をインストールすることはできません。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]
+
+
+
+=== 2025年4月2日
+
+
+
+==== 軽減されたリスク
+
+BlueXP software updatesの概要セクションで、オペレーティング システム アップデートによって軽減できるリスクの合計数を表示できるようになりました。これにより、ユーザーはインストール ベースにおけるセキュリティと安定性の向上を評価できます。
 
 
 
