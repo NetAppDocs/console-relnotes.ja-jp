@@ -25,7 +25,7 @@ NetAppコンソールの機能とNetAppデータ サービスのリリース ノ
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["オートメーションハブ"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["デジタルアドバイザー"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["経済効率"^]
-* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["ライセンスとサブスクリプション"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["ライセンスとサブスクリプション"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["ソフトウェアアップデート"^]
 
 
@@ -58,7 +58,7 @@ NetAppコンソールの機能とNetAppデータ サービスのリリース ノ
 == データサービス
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["バックアップとリカバリ"^]
-* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["データ分類"^]
+* https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["データ分類"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["コピーと同期"^]
 * https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["ディザスタ リカバリ"^]
 * https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["ランサムウェア耐性"^]

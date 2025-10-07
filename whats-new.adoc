@@ -358,13 +358,68 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["BlueXP alerts�
 
 == Amazon FSx for ONTAP
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリース ノート。"^]
+
+
+
+=== 2025年8月3日
+
+
+
+==== レプリケーション関係タブの機能強化
+
+レプリケーション関係テーブルにいくつかの新しい列が追加され、*レプリケーション関係*タブでレプリケーション関係に関する詳細情報が表示されるようになりました。テーブルには次の列が含まれるようになりました。
+
+* SnapMirrorポリシー
+* ソースファイルシステム
+* ターゲットファイルシステム
+* 関係の状態
+* 最終転送時間
+
+
+
+
+=== 2025年7月14日
+
+
+
+==== 2 つの FSx for ONTAPファイルシステム間でのデータ複製のサポート
+
+BlueXPコンソールのキャンバスから、2 つの FSx for ONTAPファイル システム間でのデータ レプリケーションが利用できるようになりました。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["データを複製する"]
 
 
 
 == Amazon S3 ストレージ
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。== 2023年3月5日
+
+
+
+==== BlueXPから新しいバケットを追加する機能
+
+かなり以前から、 BlueXP Canvas で Amazon S3 バケットを表示する機能は提供されてきました。BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["新しいAmazon S3バケットを追加する方法を見る"] 。
 
 
 
@@ -448,15 +503,15 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-==== NetAppバックアップおよびリカバリはNetAppバックアップおよびリカバリになりました
+==== BlueXP backup and recoveryはNetAppバックアップおよびリカバリになりました
 
-NetApp Backup and Recovery はNetApp Backup and Recovery に名前が変更されました。
+BlueXP backup and recoveryは、 NetAppバックアップおよびリカバリに名前が変更されました。
 
 
 
 ==== BlueXPはNetAppコンソールになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、安全性とコンプライアンスが確保された簡素化された管理を実現します。
 
 変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリース ノート。"]
 
@@ -1836,13 +1891,113 @@ BlueXP software updatesの概要セクションで、オペレーティング �
 
 == StorageGRID
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2025年5月12日
+
+
+
+==== 必要なBlueXPアクセスロール
+
+BlueXPでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXPアクセス ロールについて学習します。"^]
+
+
+
+=== 2024年8月7日
+
+
+
+==== 新しい詳細ビュー
+
+StorageGRID 11.8 以降では、使い慣れた Grid Manager インターフェイスを使用して、 BlueXPからStorageGRIDシステムを管理できます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["詳細ビューを使用してStorageGRIDを管理する方法を学びます"] 。
+
+
+
+==== StorageGRID管理インターフェース証明書の確認と承認が可能
+
+BlueXPからStorageGRIDシステムを検出するときに、 StorageGRID管理インターフェイス証明書を確認して承認できるようになりました。検出されたグリッド上の最新のStorageGRID管理インターフェイス証明書を確認して承認することもできます。
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["システム検出中にサーバー証明書を確認して承認する方法を学習します。"]
+
+
+
+=== 2022年9月18日
+
+
+
+==== StorageGRIDのサポート
+
+BlueXPから直接StorageGRIDシステムを検出できるようになりました。StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータを完全に把握できます。
 
 
 
 == クラウド階層化
 
-<stdin> 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP tieringはNetApp Cloud Tiering に変更されました
+
+BlueXP tieringはNetApp Cloud Tiering に名前が変更されました。
+
+
+
+==== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+=== 2023年8月9日
+
+
+
+==== バケット名にカスタムプレフィックスを使用する
+
+以前は、バケット名を定義するときに、デフォルトの「fabric-pool」プレフィックス (例: _fabric-pool-bucket1_) を使用する必要がありました。バケットに名前を付けるときにカスタムプレフィックスを使用できるようになりました。この機能は、データを Amazon S3 に階層化する場合にのみ使用できます。 https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["詳細情報"] 。
+
+
+
+==== すべてのBlueXPコネクタでクラスターを検索
+
+複数のコネクタを使用して環境内のすべてのストレージ システムを管理している場合、階層化を実装する一部のクラスターが異なるコネクタに存在する可能性があります。どのコネクタが特定のクラスターを管理しているかわからない場合は、クラウド階層化を使用してすべてのコネクタを検索できます。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["詳細情報"] 。
+
+
+
+=== 2023年7月4日
+
+
+
+==== 非アクティブなデータを転送するための帯域幅を調整する
+
+Cloud Tiering をアクティブ化すると、 ONTAP は無制限のネットワーク帯域幅を使用して、クラスター内のボリュームからオブジェクト ストレージに非アクティブなデータを転送できます。階層化トラフィックが通常のユーザー ワークロードに影響を与えていることに気付いた場合は、転送中に使用できる帯域幅の量を調整できます。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["詳細情報"] 。
+
+
+
+==== 通知センターに表示される階層化イベント
+
+階層化イベント「ストレージ効率を高めるためにクラスター <name> からオブジェクト ストレージに追加のデータを階層化します」は、クラスターが階層化しているコールド データが 20% 未満の場合 (階層化しているデータがまったくないクラスターを含む) に通知として表示されるようになりました。
+
+この通知は、システムの効率を高め、ストレージ コストを節約するための「推奨事項」です。リンクを提供します https://bluexp.netapp.com/cloud-tiering-service-tco["クラウド階層化の総所有コストと節約額の計算ツール"^]コスト削減の計算に役立ちます。
 
 
 

@@ -216,8 +216,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
-  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関するお知らせ</block>
-  <block id="abaec7963eb8222ed14431be024401a4" category="paragraph"><block ref="abaec7963eb8222ed14431be024401a4" category="inline-link-rx"></block></block>
   <block id="b29a85c15005651c48574fb5545ac642" category="summary">NetAppコンソールの管理とストレージ機能、およびNetAppデータ サービスのリリース ノートの完全セットを表示します。</block>
   <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">リリースノートのインデックス</block>
   <block id="dbcccb2147a9d40ab6fc69fe3c89deb4" category="paragraph">NetAppコンソールの機能とNetAppデータ サービスのリリース ノートの完全セットを表示します。</block>
@@ -233,7 +231,6 @@
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="inline-link">経済効率</block>
   <block id="b727cbb596aac54508c1419e8e2a577d" category="list-text"><block ref="b727cbb596aac54508c1419e8e2a577d" category="inline-link-rx"></block></block>
   <block id="0e83ec1135d78041291977ef91f42a52" category="inline-link">ライセンスとサブスクリプション</block>
-  <block id="46eb0ca8fc6ca304030e265c5e244b62" category="list-text"><block ref="46eb0ca8fc6ca304030e265c5e244b62" category="inline-link-rx"></block></block>
   <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">ソフトウェアアップデート</block>
   <block id="d6e02c1660722659bb2e7d72c644568f" category="list-text"><block ref="d6e02c1660722659bb2e7d72c644568f" category="inline-link-rx"></block></block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">ストレージ</block>
@@ -266,7 +263,6 @@
   <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link">バックアップとリカバリ</block>
   <block id="7a07c5a1c722a3ac42eb82b2ec878373" category="list-text"><block ref="7a07c5a1c722a3ac42eb82b2ec878373" category="inline-link-rx"></block></block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link">データ分類</block>
-  <block id="ba1a666817c95438c9395ea7cd7a5a86" category="list-text"><block ref="ba1a666817c95438c9395ea7cd7a5a86" category="inline-link-rx"></block></block>
   <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">コピーと同期</block>
   <block id="04ea90fa4ce52ced6ae4f5b48b533a78" category="list-text"><block ref="04ea90fa4ce52ced6ae4f5b48b533a78" category="inline-link-rx"></block></block>
   <block id="e413eba49b15917b0c9dbf2620f3e66e" category="inline-link">ディザスタ リカバリ</block>
@@ -281,12 +277,6 @@
   <block id="7e03f9bb7153d5b3040df4bfd7a48686" category="list-text"><block ref="7e03f9bb7153d5b3040df4bfd7a48686" category="inline-link-rx"></block></block>
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">ワークロードファクトリー</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">ページタイトルはここに記入してください</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">このテンプレートは、記事、トピックなど、どのような名前でも使用できます。index.adoc ファイルには記事ページの正しいキーワードが含まれていないため、これをテンプレートとして使用すると、後で公開時に問題が発生する可能性があります。</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">サイドバーにリンクされていない場合でもファイルは公開されるため、最初に公開する前にこのファイルを削除してください。いくつかの記事を作成したら、代わりにそれらをスターターとして使用できます。</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">記事がコンテンツ サブフォルダーにある場合は、上記の表記に 2 つの調整を加える必要があります。</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="408e61facc1c13aa7e65b38dc1640383" category="summary">NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。</block>
   <block id="d993253a036cc611c31d10230987c4bf" category="doc">NetAppコンソールの最近の変更</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">リリースノート全文</block>
@@ -310,8 +300,6 @@
   <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">BlueXP alertsを使用すると、 ONTAPストレージ環境に関連付けられたアラートを表示し、 ONTAP System Manager にリンクされている詳細をドリルダウンできます。</block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">BlueXP alertsについて学ぶ</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block> 。</block>
-  <block id="b1f6aa5cd3cf83ad821c79fe598931fd" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="bed0d14e17dcfaaeaea51dce2d7189fc" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">コピーと同期</block>
   <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
@@ -396,8 +384,6 @@
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">運用回復力機能は 2025 年 8 月 22 日に削除されました。</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">修正策</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">修復サービスは 2024 年 4 月 22 日に削除されました。</block>
-  <block id="b5a69118f32e3db146c29d98f8baf80d" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
-  <block id="ec5be73f5b6f32ab0f879db6114d6b44" category="paragraph">&lt;stdin&gt; 内の未解決のディレクティブ - include::https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">データベースの権限の更新</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。<block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
@@ -602,8 +588,6 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">ボリュームテンプレートはサポートされなくなりました</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">テンプレートからボリュームを作成することはできなくなりました。このアクションは、利用できなくなったBlueXP修復サービスに関連付けられていました。</block>
   <block id="b3f4950f8261377915f43d28700ec58c" category="paragraph">このNetApp Backup and Recovery リリースには、次の更新が含まれています。</block>
-  <block id="fc93653f0e9d2392483e6d5d49522050" category="section-title">NetAppバックアップおよびリカバリはNetAppバックアップおよびリカバリになりました</block>
-  <block id="380fa8333654730810eec55ed85c680c" category="paragraph">NetApp Backup and Recovery はNetApp Backup and Recovery に名前が変更されました。</block>
   <block id="387c71fcb2fb7fdf9038db9d12137530" category="inline-link-macro">NetAppコンソールのリリース ノート。</block>
   <block id="3a1e37eecca95e81d9e509646022ffda" category="paragraph">変更内容の詳細については、<block ref="019a5c722618673de9fa5ca0cf2abddb" category="inline-link-macro-rx"></block></block>
   <block id="86df852f08da7feceb910d31327e83d7" category="section-title">プライベートプレビューとしての Hyper-V ワークロード サポート</block>
@@ -1024,4 +1008,52 @@
   <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory 通知サービスには、ストレージの Well-Architected の問題に関する通知が含まれています。</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory の通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetAppコンソールに関するお知らせ</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="a867f49218cc7725086e47bc5d9d2be6" category="list-text"><block ref="a867f49218cc7725086e47bc5d9d2be6" category="inline-link-rx"></block></block>
+  <block id="b31bd4d213bc7c73048e2663f45d0ad0" category="list-text"><block ref="b31bd4d213bc7c73048e2663f45d0ad0" category="inline-link-rx"></block></block>
+  <block id="50299f698a54426aba27448f16803e14" category="paragraph">変更内容の詳細については、<block ref="e3255f3ec57d44ee455071e58df2778b" category="inline-link-macro-rx"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="section-title">レプリケーション関係タブの機能強化</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">レプリケーション関係テーブルにいくつかの新しい列が追加され、*レプリケーション関係*タブでレプリケーション関係に関する詳細情報が表示されるようになりました。テーブルには次の列が含まれるようになりました。</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirrorポリシー</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">ソースファイルシステム</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">ターゲットファイルシステム</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">関係の状態</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">最終転送時間</block>
+  <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">2 つの FSx for ONTAPファイルシステム間でのデータ複製のサポート</block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">BlueXPコンソールのキャンバスから、2 つの FSx for ONTAPファイル システム間でのデータ レプリケーションが利用できるようになりました。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">データを複製する</block>
+  <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
+  <block id="a1250c4ad86e23ad680ae47343ed64ad" category="paragraph">変更内容の詳細については、<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> 。== 2023年3月5日</block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXPから新しいバケットを追加する機能</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">新しいAmazon S3バケットを追加する方法を見る</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">かなり以前から、 BlueXP Canvas で Amazon S3 バケットを表示する機能は提供されてきました。BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> 。</block>
+  <block id="83b5525699223779088aa2e2c9ca5b1a" category="section-title">BlueXP backup and recoveryはNetAppバックアップおよびリカバリになりました</block>
+  <block id="6a119fc880b70d0e27bca4b7243a7a55" category="paragraph">BlueXP backup and recoveryは、 NetAppバックアップおよびリカバリに名前が変更されました。</block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">必要なBlueXPアクセスロール</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">BlueXPでStorageGRID を表示、検出、または管理するには、次のアクセス ロールのいずれかが必要です: *組織管理者*、*フォルダーまたはプロジェクト管理者*、*ストレージ管理者*、または *ストレージ ヘルス スペシャリスト*。<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024年8月7日</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="section-title">新しい詳細ビュー</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">StorageGRID 11.8 以降では、使い慣れた Grid Manager インターフェイスを使用して、 BlueXPからStorageGRIDシステムを管理できます。</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">詳細ビューを使用してStorageGRIDを管理する方法を学びます</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block> 。</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">StorageGRID管理インターフェース証明書の確認と承認が可能</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">BlueXPからStorageGRIDシステムを検出するときに、 StorageGRID管理インターフェイス証明書を確認して承認できるようになりました。検出されたグリッド上の最新のStorageGRID管理インターフェイス証明書を確認して承認することもできます。</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">システム検出中にサーバー証明書を確認して承認する方法を学習します。</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRIDのサポート</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">BlueXPから直接StorageGRIDシステムを検出できるようになりました。StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータを完全に把握できます。</block>
+  <block id="82fbcd5d3aebaf503250e86ca86f08c0" category="section-title">BlueXP tieringはNetApp Cloud Tiering に変更されました</block>
+  <block id="407a90a9a0a27ef435e56fa89edb4d13" category="paragraph">BlueXP tieringはNetApp Cloud Tiering に名前が変更されました。</block>
+  <block id="ba3d080bd22adb4c0f40fdd9d87f54f9" category="section-title">2023年8月9日</block>
+  <block id="101e8e97885c05702335faecd0fb3f50" category="section-title">バケット名にカスタムプレフィックスを使用する</block>
+  <block id="eabccaf5903f0333d3eed3476908d4d8" category="paragraph">複数のコネクタを使用して環境内のすべてのストレージ システムを管理している場合、階層化を実装する一部のクラスターが異なるコネクタに存在する可能性があります。どのコネクタが特定のクラスターを管理しているかわからない場合は、クラウド階層化を使用してすべてのコネクタを検索できます。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> 。</block>
+  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">2023年7月4日</block>
+  <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">非アクティブなデータを転送するための帯域幅を調整する</block>
+  <block id="dc1b912cd0c37ddd4298efd6e3a72009" category="paragraph">Cloud Tiering をアクティブ化すると、 ONTAP は無制限のネットワーク帯域幅を使用して、クラスター内のボリュームからオブジェクト ストレージに非アクティブなデータを転送できます。階層化トラフィックが通常のユーザー ワークロードに影響を与えていることに気付いた場合は、転送中に使用できる帯域幅の量を調整できます。<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block> 。</block>
+  <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">通知センターに表示される階層化イベント</block>
+  <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">階層化イベント「ストレージ効率を高めるためにクラスター &lt;name&gt; からオブジェクト ストレージに追加のデータを階層化します」は、クラスターが階層化しているコールド データが 20% 未満の場合 (階層化しているデータがまったくないクラスターを含む) に通知として表示されるようになりました。</block>
+  <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">クラウド階層化の総所有コストと節約額の計算ツール</block>
+  <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">この通知は、システムの効率を高め、ストレージ コストを節約するための「推奨事項」です。リンクを提供します<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block>コスト削減の計算に役立ちます。</block>
 </blocks>
