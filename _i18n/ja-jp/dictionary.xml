@@ -568,7 +568,6 @@
   <block id="58770c745f8af8b420df40e44a144c15" category="section-title">2023年6月5日</block>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">BlueXPから新しいストレージアカウントを追加する機能</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。<block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> 。</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。</block>
   <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
@@ -1106,4 +1105,5 @@
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UIの配置の改善</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">検出が成功した後に vCenter のサイズ設定の詳細をキャプチャするためのログの改善</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">プライマリ、セカンダリ、オブジェクト ストレージから VM バックアップを検索して復元します</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
 </blocks>
