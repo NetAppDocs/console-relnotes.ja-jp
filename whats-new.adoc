@@ -180,7 +180,7 @@ NetAppコンソールからコンソール エージェントを展開すると�
 
 ==== コンソールエージェントのトラブルシューティングの改善
 
-コンソール エージェントでは、問題をよりよく理解するのに役立つエラー メッセージが改善されました。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-connector.html["コンソール エージェントのトラブルシューティング方法を学習します。"]
+コンソール エージェントでは、問題をよりよく理解するのに役立つエラー メッセージが改善されました。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["コンソール エージェントのトラブルシューティング方法を学習します。"]
 
 
 
@@ -294,10 +294,10 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 | コネクタ | 3.9.54、3.9.53 | に行く https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXPページの新着情報"^]バージョン 3.9.54 および 3.9.53 に含まれる変更を参照してください。 
 
 
-| バックアップとリカバリ | 2025年7月28日 | に行く https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP backup and recoveryページの新機能"^]2025 年 7 月のリリースに含まれる変更点を参照してください。 
+| バックアップとリカバリ | 2025年7月28日 | に行く https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["BlueXP backup and recoveryページの新機能"^]2025 年 7 月のリリースに含まれる変更点を参照してください。 
 
 
-| 分類 | 2025年7月14日（バージョン1.45） | に行く https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP classificationページの新機能"^]。 
+| 分類 | 2025年7月14日（バージョン1.45） | に行く https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["BlueXP classificationページの新機能"^]。 
 |===
 プライベート モードの詳細（アップグレード方法を含む）については、以下を参照してください。
 
@@ -1732,17 +1732,48 @@ BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 
 
 ==== BlueXP ransomware protectionはNetAppランサムウェア耐性に変わりました
 
-BlueXPランサムウェア レプリケーションの名前がNetApp Ransomware Resilience に変更されました。
+BlueXP ransomware protectionサービスの名前がNetApp Ransomware Resilienceに変更されました。
 
 
 
 ==== BlueXPはNetAppコンソールになりました
 
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。
-
 NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+==== データ侵害検出
+
+Ransomware Resilience には、数ステップでアクティブ化できる新しい検出メカニズムが含まれており、データ侵害の早期指標として異常なユーザー読み取りを検出します。ランサムウェア耐性は、過去のデータから予想される通常の動作のプロファイルである履歴ベースラインを作成することにより、ユーザーの読み取りイベントを収集および分析します。新しいユーザーのアクティビティがこの確立された標準から大幅に逸脱すると (予期しない読み取りの急増と疑わしい読み取りパターンの組み合わせなど)、アラートが生成されます。Ransomware Resilience には、疑わしい読み取りパターンを検出する AI モデルが含まれています。
+
+ストレージ層での ARP による暗号化検出とは異なり、ユーザー動作の異常の検出は、Ransomware Resilience SaaS サービスで FPolicy イベントを収集することによって行われます。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.htm["不審なユーザーアクティビティの検出を有効にする"]そしてlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["異常なユーザー行動を表示する"]。
+
+
+
+===== 追加の不審なユーザーアクティビティの検出
+
+データ侵害の検出に加えて、Ransomware Resilience は、観察された疑わしいユーザー アクティビティに基づいて次の種類のアラートも検出します。
+
+* **データ破壊 - 潜在的な攻撃** - ファイルの削除数が過去の標準を超えると、潜在的な攻撃の重大度を示すアラートが作成されます。
+* **疑わしいユーザー行動 - 潜在的な攻撃** - ランサムウェア攻撃に類似したシーケンスでの読み取り、名前変更、削除操作が観察された場合、潜在的な攻撃の重大度を持つアラートが作成されます。
+* **疑わしいユーザー行動 - 警告** - ファイルアクティビティ（読み取り、削除、名前変更など）の合計数が過去の標準を超えると、警告の重大度を持つアラートが作成されます。
+
+
+
+
+===== データ侵害検出のための新しいユーザーロール
+
+疑わしいユーザー アクティビティのアラートを管理するために、Ransomware Resilience では、ユーザーのファイル アクティビティなどの機密データへのきめ細かなアクセスを提供する 2 つの新しいロールが導入されました。詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["NetApp Ransomware Resilienceロールベースアクセス"] 。
+
+
+
+=== 2025年8月12日
+
+このリリースには、全般的な機能強化と改善が含まれています。
 
 
 
@@ -1754,7 +1785,7 @@ NetAppコンソールは、オンプレミスとクラウド環境全体にわ�
 
 このリリースには、BlueXP ransomware protectionにおける SAN ワークロードのサポートが含まれています。NFS および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。
 
-詳細については、 link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXP ransomware protectionの前提条件"] 。
+詳細については、 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-prerequisites.html["BlueXP ransomware protectionの前提条件"] 。
 
 
 
@@ -1762,7 +1793,7 @@ NetAppコンソールは、オンプレミスとクラウド環境全体にわ�
 
 このリリースでは、 SnapCenterやBlueXP backup and recoveryなどの他のNetAppツールからのスナップショットおよびバックアップ ポリシーを使用したワークロードの構成プロセスが改善されています。以前のリリースでは、 BlueXP ransomware protectionは他のツールからのポリシーを検出し、検出ポリシーの変更のみが可能でした。このリリースでは、スナップショットおよびバックアップ ポリシーをBlueXP ransomware protectionポリシーに置き換えたり、他のツールのポリシーを引き続き使用したりできるようになりました。
 
-詳細については、link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ワークロードを保護する"] 。
+詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["ワークロードを保護する"] 。
 
 
 
@@ -1774,7 +1805,7 @@ BlueXP ransomware protectionが攻撃の可能性を検出すると、 BlueXP通
 
 BlueXP ransomware protectionでセキュリティおよびイベント管理 (SIEM) システムを構成した場合、サービスはアラートの詳細を SIEM システムに送信します。
 
-詳細については、link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["検出されたランサムウェアアラートを処理する"] 。
+詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["検出されたランサムウェアアラートを処理する"] 。
 
 
 
@@ -1796,7 +1827,7 @@ BlueXP ransomware protectionでセキュリティおよびイベント管理 (SI
 
 NFS ワークロードに加えて、CIFS (SMB) ワークロードでも準備ドリルを実行できるようになりました。
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
 
 
 
@@ -1806,7 +1837,7 @@ BlueXP ransomware protectionサービス内でBlueXP classificationを使用す�
 
 BlueXP ransomware protection内から、ファイル共有ワークロードにBlueXP classificationを展開できます。*プライバシー露出*列で、*露出の特定*オプションを選択します。分類サービスを有効にしている場合、このアクションによって露出が識別されます。それ以外の場合、このリリースでは、ダイアログ ボックスにBlueXP classificationを展開するオプションが表示されます。*デプロイ* を選択すると、 BlueXP classificationサービスのランディング ページに移動し、そのサービスをデプロイできます。W
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["クラウドでBlueXP classificationを展開"^] BlueXP ransomware protection内でサービスを利用するには、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["BlueXP classificationで個人を特定できる情報をスキャン"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["クラウドでBlueXP classificationを展開"^] BlueXP ransomware protection内でサービスを利用するには、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["BlueXP classificationで個人を特定できる情報をスキャン"] 。
 
 
 
@@ -1822,7 +1853,7 @@ BlueXP ransomware protection内から、ファイル共有ワークロードにB
 
 初期検出中にサポートされていない作業環境を表示でき、結果をダウンロードすることもできます。設定ページの *ワークロード検出* オプションから検出結果を表示することもできます。
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["BlueXP ransomware protectionでワークロードを発見"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html["BlueXP ransomware protectionでワークロードを発見"] 。
 
 
 
@@ -1847,9 +1878,9 @@ TIP: FSx for ONTAPで実行されているワークロードのバックアッ�
 * アラート インシデントには、新しい FSx for ONTAP作業環境が表示されます。
 
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP ransomware protectionと動作環境について学ぶ"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["BlueXP ransomware protectionと動作環境について学ぶ"] 。
 
-サポートされているオプションの詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP ransomware protectionの制限"] 。
+サポートされているオプションの詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["BlueXP ransomware protectionの制限"] 。
 
 
 
@@ -1857,7 +1888,7 @@ TIP: FSx for ONTAPで実行されているワークロードのバックアッ�
 
 BlueXP ransomware protectionを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ランサムウェア保護管理者、またはランサムウェア保護閲覧者のいずれかのアクセス ロールが必要です。
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
+https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
 
 
 
@@ -1869,7 +1900,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 このリリースでは、ランサムウェア攻撃の準備訓練レポートを確認できるようになりました。準備ドリルを使用すると、新しく作成されたサンプル ワークロードに対するランサムウェア攻撃をシミュレートできます。次に、シミュレートされた攻撃を調査し、サンプルのワークロードを回復します。この機能は、アラート通知、対応、および回復プロセスをテストすることで、実際のランサムウェア攻撃が発生した場合に備えて準備ができていることを確認するのに役立ちます。
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
 
 
 
@@ -1881,7 +1912,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 * ランサムウェア保護ビューア
 
 
-権限の詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["BlueXP ransomware protection機能へのロールベースのアクセス"] 。
+権限の詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["BlueXP ransomware protection機能へのロールベースのアクセス"] 。
 
 
 
@@ -1889,7 +1920,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 このリリースには、支払いプロセスに対するいくつかの改善が含まれています。
 
-詳細については、 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["ライセンスと支払いオプションを設定する"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html["ライセンスと支払いオプションを設定する"] 。
 
 
 
