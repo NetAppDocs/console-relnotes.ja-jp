@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, agent, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery, netapp console, console' 
-summary: NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。 
+summary: NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。 
 ---
-= NetAppコンソールの最近の変更
+= NetApp Consoleの最近の変更
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: NetAppコンソールの一部である機能とデータ サービス�
 
 
 [role="lead"]
-NetAppコンソールの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、link:release-notes-index.html["リリースノート全文"]個々のサービスごとに。
+NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、link:release-notes-index.html["リリースノート全文"]個々のサービスごとに。
 
 
 
 == 管理機能
 
-このセクションでは、 NetAppコンソール管理機能に関連する新機能 (組織、識別とアクセス、コンソール エージェント、クラウド プロバイダーの資格情報など) について説明します。
+このセクションでは、 NetApp Console管理機能に関連する新機能 (組織、識別とアクセス、コンソール エージェント、クラウド プロバイダーの資格情報など) について説明します。
 
 
 
@@ -28,15 +28,15 @@ NetAppコンソールの一部である機能とデータ サービスに対す�
 
 
 
-=== BlueXPはNetAppコンソールになりました
+=== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、安全性とコンプライアンスが確保された簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度に安全でコンプライアンスに準拠した簡素化された管理を実現します。
 
 
 
 ==== ナビゲーションメニューとページ
 
-NetApp は、ほとんどのメニュー オプションを左側のナビゲーション ペインに移動し、メニューを再編成して、 NetAppコンソールでのナビゲーションを容易にしました。
+NetApp は、ほとんどのメニュー オプションを左側のナビゲーション ペインに移動し、メニューを再編成して、 NetApp Consoleでのナビゲーションを容易にしました。
 
 
 
@@ -60,7 +60,7 @@ image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage
 
 ===== 管理メニュー
 
-一元化された *管理* メニューを使用して、 NetAppコンソール、サポート ケース、ライセンス、サブスクリプション (以前はデジタル ウォレットと呼ばれていました) を管理します。
+一元化された *管理* メニューを使用して、 NetApp Console、サポート ケース、ライセンス、サブスクリプション (以前はデジタル ウォレットと呼ばれていました) を管理します。
 
 image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-menu.png["管理メニューのスクリーンショット。"]
 
@@ -68,7 +68,7 @@ image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-m
 
 ===== 健康メニュー
 
-効率的な *Health* メニューには、 ONTAPソフトウェアの更新を管理できる *Software updates*、環境への影響を監視できる *Sustainability*、ストレージ環境を最適化するためのプロアクティブな推奨事項を入手できる * Digital Advisor* が含まれます。
+効率的な *Health* メニューには、 ONTAPソフトウェアの更新を管理できる *Software updates*、環境への影響を監視できる *Sustainability*、ストレージ環境を最適化するためのプロアクティブな推奨事項を得られる * Digital Advisor* が含まれます。
 
 image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-health-menu.png["健康メニューのスクリーンショット。"]
 
@@ -88,7 +88,7 @@ NetApp は、目的を明確にするために、いくつかの要素、デー�
 
 [cols="10,24"]
 |===
-| *以前の名前* | * NetAppコンソール名* 
+| *以前の名前* | * NetApp Console名* 
 
 
 | コネクタ  a| 
@@ -113,7 +113,7 @@ NetApp は、目的を明確にするために、いくつかの要素、デー�
 
 
 | BlueXPランサムウェア対策  a| 
-NetAppランサムウェア耐性。
+NetApp Ransomware Resilience。
 
 ランサムウェア耐性は、データを保護し、ランサムウェア攻撃から迅速に回復するのに役立ちます。
 
@@ -129,9 +129,9 @@ NetAppランサムウェア耐性。
 
 
 | BlueXP digital wallet  a| 
-ライセンスとサブスクリプション
+Licenses and subscriptions
 
-*管理 > ライセンスとサブスクリプション* メニューからライセンスとサブスクリプションにアクセスします。
+*管理 >Licenses and subscriptions* メニューからライセンスとサブスクリプションにアクセスします。
 
 |===
 
@@ -156,7 +156,7 @@ image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-agent-i
 
 ==== 必要なネットワークエンドポイントの統合と削減
 
-NetApp は、コンソールとコンソール エージェントに必要なネットワーク エンドポイントを削減し、セキュリティを強化して導入を簡素化しました。重要なのは、バージョン 4.0.0 より前のすべてのデプロイメントが引き続き完全にサポートされていることです。以前のエンドポイントは既存のエージェントで引き続き使用できますが、 NetApp、エージェントのアップグレードが成功したことを確認した後、ファイアウォール ルールを現在のエンドポイントに更新することを強くお勧めします。
+NetApp は、コンソールとコンソール エージェントに必要なネットワーク エンドポイントを削減し、セキュリティを強化して導入を簡素化しました。重要なのは、バージョン 4.0.0 より前のすべてのデプロイメントが引き続き完全にサポートされることです。以前のエンドポイントは既存のエージェントで引き続き使用できますが、 NetApp、エージェントのアップグレードが成功したことを確認した後、ファイアウォール ルールを現在のエンドポイントに更新することを強くお勧めします。
 
 * link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console-previous.html#update-endpoint-list["エンドポイントリストを更新する方法を学ぶ"] 。
 * link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console.html["必要なエンドポイントの詳細について説明します。"]
@@ -166,7 +166,7 @@ NetApp は、コンソールとコンソール エージェントに必要なネ
 
 ==== コンソールエージェントの VCenter 展開のサポート
 
-OVA ファイルを使用して、VMware 環境にコンソール エージェントを展開できます。OVA ファイルには、コンソール エージェント ソフトウェアとNetAppコンソールに接続するための設定が含まれた、事前構成された VM イメージが含まれています。ファイルのダウンロードまたは URL の展開は、 NetAppコンソールから直接行うことができます。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["VMware 環境にコンソール エージェントを展開する方法を学習します。"]
+OVA ファイルを使用して、VMware 環境にコンソール エージェントを展開できます。OVA ファイルには、コンソール エージェント ソフトウェアとNetApp Consoleに接続するための設定が含まれた、事前構成された VM イメージが含まれています。ファイルのダウンロードまたは URL の展開は、 NetApp Consoleから直接行えます。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["VMware 環境にコンソール エージェントを展開する方法を学習します。"]
 
 VMware 用コンソール エージェント OVA は、迅速な展開のために事前構成された VM イメージを提供します。
 
@@ -174,7 +174,7 @@ VMware 用コンソール エージェント OVA は、迅速な展開のため�
 
 ==== 失敗したエージェントの展開に関する検証レポート
 
-NetAppコンソールからコンソール エージェントを展開するときに、エージェント構成を検証するオプションが追加されました。コンソールがエージェントの展開に失敗した場合、トラブルシューティングに役立つダウンロード可能なレポートが提供されます。
+NetApp Consoleからコンソール エージェントを展開するときに、エージェント構成を検証するオプションが追加されました。コンソールがエージェントの展開に失敗した場合、トラブルシューティングに役立つダウンロード可能なレポートが提供されます。
 
 
 
@@ -184,9 +184,9 @@ NetAppコンソールからコンソール エージェントを展開すると�
 
 
 
-=== NetAppコンソール
+=== NetApp Console
 
-NetAppコンソール管理には、次の新機能が含まれています。
+NetApp Console管理には、次の新機能が含まれています。
 
 
 
@@ -204,7 +204,7 @@ NetAppコンソールのホーム ページ ダッシュボードでは、ヘル
 
 ==== サービスアカウント認証
 
-NetAppコンソールは、システム生成のクライアント ID とシークレット、または顧客管理の JWT を使用したサービス アカウント認証をサポートしているため、組織はセキュリティ要件と統合ワークフローに最適なアプローチを選択できます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、従来のクライアント ID や秘密方式よりも強力なセキュリティが提供されます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、顧客の環境で秘密鍵が安全に保持され、資格情報の盗難リスクが軽減され、自動化スタックとクライアント アプリケーションのセキュリティが向上します。link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["サービス アカウントを追加する方法について説明します。"]
+NetApp Consoleは、システム生成のクライアント ID とシークレット、または顧客管理の JWT を使用したサービス アカウント認証をサポートしているため、組織はセキュリティ要件と統合ワークフローに最適なアプローチを選択できます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、従来のクライアント ID や秘密方式よりも強力なセキュリティが提供されます。秘密鍵 JWT クライアント認証では非対称暗号化が使用され、顧客の環境で秘密鍵が安全に保たれ、資格情報の盗難リスクが軽減され、自動化スタックとクライアント アプリケーションのセキュリティが向上します。link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["サービス アカウントを追加する方法について説明します。"]
 
 
 
@@ -216,7 +216,7 @@ NetAppコンソールは、システム生成のクライアント ID とシー�
 
 ==== 組織間のパートナーシップのサポート
 
-NetAppコンソールでパートナーシップを作成すると、パートナーは組織の境界を越えてNetAppリソースを安全に管理できるため、コラボレーションが容易になり、セキュリティが強化されます。link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["パートナーシップの管理方法を学ぶ"] 。
+NetApp Consoleでパートナーシップを作成すると、パートナーは組織の境界を越えてNetAppリソースを安全に管理できるため、コラボレーションが容易になり、セキュリティが強化されます。link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["パートナーシップの管理方法を学ぶ"] 。
 
 
 
@@ -234,7 +234,7 @@ NetAppコンソールでパートナーシップを作成すると、パート�
 
 ==== サポートチャットを削除しました
 
-NetApp は、NetAppコンソールからサポート チャット機能を削除しました。*管理 > サポート* ページを使用して、サポート ケースを作成および管理します。
+NetApp は、NetApp Consoleからサポート チャット機能を削除しました。*管理 > サポート* ページを使用して、サポート ケースを作成および管理します。
 
 
 
@@ -320,15 +320,15 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 
 BlueXP alertsの名前がONTAPアラートに変更されました。
 
-NetAppコンソールの左側のナビゲーション バーから [*ストレージ*] > [*アラート*] を選択してアクセスできます。
+NetApp Consoleの左側のナビゲーション バーから [*ストレージ*] > [*アラート*] を選択してアクセスできます。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -364,11 +364,11 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["BlueXP alerts�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリース ノート。"^]
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリース ノート。"^]
 
 
 
@@ -409,11 +409,11 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-envi
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。== 2023年3月5日
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。== 2023年3月5日
 
 
 
@@ -431,13 +431,13 @@ NetAppコンソールは、強化され再構築されたBlueXP基盤上に構�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
 BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。
 
-NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
+NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -459,13 +459,13 @@ NetAppコンソールは、オンプレミスとクラウド環境全体にわ�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
 BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。
 
-NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
+NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -493,7 +493,7 @@ Microsoft.Network/virtualNetworks/サブネット/読み取り
 
 現在BlueXPからAzure NetApp Filesを管理している場合は、以前に作成した Microsoft Entra アプリケーションに関連付けられているカスタム ロールにこのアクセス許可を追加する必要があります。
 
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Microsoft Entra アプリケーションを設定し、カスタム ロールの権限を表示する方法を学びます"] 。
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Microsoft Entra アプリケーションを設定し、カスタム ロールの権限を表示する方法を説明します。"] 。
 
 
 
@@ -513,27 +513,27 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 === 2025年10月6日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
-==== BlueXP backup and recoveryはNetAppバックアップおよびリカバリになりました
+==== BlueXP backup and recoveryはNetApp Backup and Recoveryになりました
 
-BlueXP backup and recoveryは、 NetAppバックアップおよびリカバリに名前が変更されました。
+BlueXP backup and recoveryは、 NetApp Backup and Recoveryに名前が変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、安全性とコンプライアンスが確保された簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度に安全でコンプライアンスに準拠した簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリース ノート。"]
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリース ノート。"]
 
 
 
 ==== プライベートプレビューとしての Hyper-V ワークロード サポート
 
-NetApp Backup and Recovery のこのリリースでは、Hyper-V ワークロードの検出と管理のサポートが導入されています。
+NetApp Backup and Recoveryのこのリリースでは、Hyper-V ワークロードの検出と管理のサポートが導入されています。
 
 * スタンドアロン インスタンスとフェールオーバー クラスター インスタンス (FCI) 上の VM のバックアップと復元
 * SMB3共有に保存されたVMを保護する
@@ -547,9 +547,9 @@ Hyper-Vワークロードの保護の詳細については、以下を参照し�
 
 
 
-==== プライベートプレビューとしての KVM ワークロードサポート
+==== プライベートプレビューとしての KVM ワークロード サポート
 
-NetApp Backup and Recovery のこのリリースでは、KVM ワークロードの検出と管理のサポートが導入されています。
+NetApp Backup and Recoveryのこのリリースでは、KVM ワークロードの検出と管理のサポートが導入されています。
 
 * NFS共有に保存されたqcow2 VMイメージのバックアップと復元
 * ストレージプールのバックアップ
@@ -563,9 +563,9 @@ KVMワークロードの保護の詳細については、以下を参照して�
 
 
 
-==== Kubernetes プレビューの改善
+==== Kubernetes プレビューの機能強化
 
-Kubernetes ワークロードのプレビュー リリースでは、次の機能強化が導入されています。
+Kubernetes ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。
 
 * 3-2-1 ファンアウトバックアップアーキテクチャのサポート
 * バックアップターゲットとしてのONTAP S3 のサポート
@@ -586,9 +586,27 @@ Kubernetesワークロードの保護の詳細については、以下を参照�
 
 
 
+==== VMware プレビューの機能強化
+
+VMware ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。
+
+* オブジェクトストレージからの復元のサポート
+* NetApp ConsoleダッシュボードにVMwareワークロードのステータス情報が表示されるようになりました
+* デモ モードのサポート: VMware vCenter Server 環境を追加せずに VMware ワークロードの機能を試すことができます。
+* ロールベースアクセス制御（RBAC）のサポート
+* ジョブイベントの電子メールアラートと通知のサポート
+* NVMeベースのストレージへのバックアップと復元のサポート
+* 保護グループを編集する
+* 保護ポリシーを編集する
+
+
+VMwareワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"] 。
+
+
+
 ==== Oracle Database ワークロード サポートのプライベート プレビュー
 
-NetApp Backup and Recovery のこのリリースでは、Oracle Database ワークロードの検出と管理のサポートが導入されています。
+NetApp Backup and Recoveryのこのリリースでは、Oracle Database ワークロードの検出と管理のサポートが導入されています。
 
 * スタンドアロンのOracleデータベースを発見
 * データのみ、またはデータとログのバックアップの保護ポリシーを作成する
@@ -606,7 +624,7 @@ Oracle Databaseワークロードの保護の詳細については、以下を�
 
 === 2025年8月25日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
@@ -635,13 +653,13 @@ link:br-use-vmware-protect-overview.html["NetApp Backup and RecoveryによるVMw
 
 === 2025年8月12日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
 ==== Microsoft SQL Server ワークロードが一般提供 (GA) でサポートされるようになりました
 
-Microsoft SQL Server ワークロード サポートが、 NetApp Backup and Recovery で一般提供 (GA) されました。ONTAP、 Cloud Volumes ONTAP、 Amazon FSx for NetApp ONTAPストレージ上で MSSQL 環境を使用している組織は、この新しいバックアップおよびリカバリ サービスを利用してデータを保護できるようになりました。
+Microsoft SQL Server ワークロード サポートが、 NetApp Backup and Recoveryで一般提供 (GA) されました。ONTAP、 Cloud Volumes ONTAP、 Amazon FSx for NetApp ONTAPストレージ上で MSSQL 環境を使用している組織は、この新しいバックアップおよびリカバリ サービスを利用してデータを保護できるようになりました。
 
 このリリースには、以前のプレビュー バージョンからの Microsoft SQL Server ワークロード サポートに対する次の機能強化が含まれています。
 
@@ -653,13 +671,13 @@ Microsoft SQL Server ワークロード サポートが、 NetApp Backup and Rec
 image:../media/screen-br-sql-protection-details.png["Microsoft SQL Server ワークロードの保護の詳細ページ"]
 
 * *マルチバケットのサポート*: 異なるクラウド プロバイダーにまたがる作業環境ごとに最大 6 つのバケットを使用して、作業環境内のボリュームを保護できるようになりました。
-* *SQL Server ワークロードのライセンスと無料トライアルの更新*: 既存のNetApp Backup and Recovery ライセンス モデルを使用して、SQL Server ワークロードを保護できるようになりました。SQL Server ワークロードには個別のライセンス要件はありません。
+* *SQL Server ワークロードのライセンスと無料トライアルの更新*: 既存のNetApp Backup and Recoveryライセンス モデルを使用して、SQL Server ワークロードを保護できるようになりました。SQL Server ワークロードには個別のライセンス要件はありません。
 +
-詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-licensing.html["NetAppバックアップおよびリカバリのライセンスを設定する"] 。
+詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-licensing.html["NetApp Backup and Recoveryのライセンスを設定する"] 。
 
 * *カスタム スナップショット名*: Microsoft SQL Server ワークロードのバックアップを管理するポリシーで、独自のスナップショット名を使用できるようになりました。ポリシー ページの *詳細設定* セクションにこの情報を入力します。
 +
-image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["NetAppバックアップおよびリカバリ ポリシーのSnapMirrorおよびスナップショット形式の設定のスクリーンショット"]
+image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["NetApp Backup and RecoveryポリシーのSnapMirrorおよびスナップショット形式の設定のスクリーンショット"]
 
 +
 参照 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["ポリシーを使用してワークロードを保護する"]。
@@ -667,13 +685,13 @@ image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["NetAppバッ
 * *セカンダリ ボリュームのプレフィックスとサフィックス*: ポリシー ページの *詳細設定* セクションで、カスタムのプレフィックスとサフィックスを入力できます。
 * *ID とアクセス*: ユーザーの機能へのアクセスを制御できるようになりました。
 +
-参照 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-login.html["NetAppバックアップおよびリカバリにログイン"]そして https://docs.netapp.com/us-en/data-services-backup-recovery/reference-roles.html["NetAppバックアップおよびリカバリ機能へのアクセス"]。
+参照 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-login.html["NetApp Backup and Recoveryにログイン"]そして https://docs.netapp.com/us-en/data-services-backup-recovery/reference-roles.html["NetApp Backup and Recovery機能へのアクセス"]。
 
 * *オブジェクト ストレージから代替ホストへの復元*: プライマリ ストレージがダウンしている場合でも、オブジェクト ストレージから代替ホストに復元できるようになりました。
 * *ログ バックアップ データ*: データベース保護の詳細ページにログ バックアップが表示されるようになりました。バックアップが完全バックアップかログ バックアップかを示す「バックアップ タイプ」列が表示されます。
 * *強化されたダッシュボード*: ダッシュボードにストレージとクローンの節約が表示されるようになりました。
 +
-image:../media/screen-br-dashboard3.png["NetAppバックアップおよびリカバリダッシュボード"]
+image:../media/screen-br-dashboard3.png["NetApp Backup and Recoveryダッシュボード"]
 
 
 
@@ -681,8 +699,8 @@ image:../media/screen-br-dashboard3.png["NetAppバックアップおよびリカ
 
 ==== ONTAPボリュームワークロードの強化
 
-* * ONTAPボリュームの複数フォルダの復元*: これまでは、参照と復元機能から一度に 1 つのフォルダまたは複数のファイルを復元できました。NetApp Backup and Recovery では、参照と復元機能を使用して一度に複数のフォルダを選択できるようになりました。
-* *削除されたボリュームのバックアップの表示と管理*: NetAppバックアップおよびリカバリ ダッシュボードに、 ONTAPから削除されたボリュームを表示および管理するオプションが追加されました。これにより、 ONTAPに存在しなくなったボリュームのバックアップを表示および削除できるようになります。
+* * ONTAPボリュームの複数フォルダの復元*: これまでは、参照と復元機能から一度に 1 つのフォルダまたは複数のファイルを復元できました。NetApp Backup and Recoveryでは、参照と復元機能を使用して一度に複数のフォルダを選択できるようになりました。
+* *削除されたボリュームのバックアップの表示と管理*: NetApp Backup and Recoveryダッシュボードに、 ONTAPから削除されたボリュームを表示および管理するオプションが追加されました。これにより、 ONTAPに存在しなくなったボリュームのバックアップを表示および削除できるようになります。
 * *バックアップの強制削除*: 極端なケースでは、 NetApp Backup and Recovery がバックアップにアクセスできないようにする必要がある場合もあります。これは、たとえば、サービスがバックアップ バケットにアクセスできなくなった場合や、バックアップが DataLock で保護されているが不要になった場合に発生する可能性があります。以前は、これらを自分で削除することはできず、 NetAppサポートに連絡する必要がありました。このリリースでは、バックアップを強制的に削除するオプションを使用できます (ボリュームおよび作業環境レベル)。
 
 
@@ -695,13 +713,13 @@ CAUTION: このオプションは慎重に使用し、極端なクリーンア�
 
 === 2025年7月28日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
 ==== Kubernetes ワークロードのサポート (プレビュー)
 
-NetApp Backup and Recovery のこのリリースでは、Kubernetes ワークロードの検出と管理のサポートが導入されています。
+NetApp Backup and Recoveryのこのリリースでは、Kubernetes ワークロードの検出と管理のサポートが導入されています。
 
 * kubeconfig ファイルを共有せずに、 NetApp ONTAPを搭載した Red Hat OpenShift とオープンソースの Kubernetes クラスターを発見します。
 * 統合されたコントロール プレーンを使用して、複数の Kubernetes クラスターにわたるアプリケーションを検出、管理、保護します。
@@ -718,7 +736,7 @@ Kubernetesワークロードの保護の詳細については、以下を参照�
 
 === 2025年7月14日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
@@ -726,9 +744,9 @@ Kubernetesワークロードの保護の詳細については、以下を参照�
 
 2025 年 4 月には、はるかに高速で効率的な、強化されたONTAPボリューム ダッシュボードのプレビューをリリースしました。
 
-このダッシュボードは、多数のワークロードを抱えるエンタープライズ顧客を支援するために設計されました。20,000 ボリュームを持つお客様の場合でも、新しいダッシュボードは 10 秒未満で読み込まれます。
+このダッシュボードは、多数のワークロードを抱えるエンタープライズ顧客を支援するために設計されました。  20,000 ボリュームを持つお客様の場合でも、新しいダッシュボードは 10 秒未満で読み込まれます。
 
-プレビューが成功し、プレビューのお客様から素晴らしいフィードバックをいただいたため、これをすべてのお客様向けのデフォルトのエクスペリエンスにすることにいたしました。驚くほど高速なダッシュボードに備えてください。
+プレビューが成功し、プレビューのお客様から素晴らしいフィードバックをいただいたため、これをすべてのお客様のデフォルトのエクスペリエンスにすることにいたしました。驚くほど高速なダッシュボードに備えてください。
 
 詳細については、 link:br-use-dashboard.html["ダッシュボードで保護の状態を確認する"] 。
 
@@ -736,20 +754,20 @@ Kubernetesワークロードの保護の詳細については、以下を参照�
 
 ==== パブリック テクノロジー プレビューとしての Microsoft SQL Server ワークロード サポート
 
-NetApp Backup and Recovery のこのリリースでは、 NetApp Backup and Recovery でお馴染みの 3-2-1 保護戦略を使用して Microsoft SQL Server ワークロードを管理できる更新されたユーザー インターフェイスが提供されます。この新しいバージョンでは、これらのワークロードをプライマリ ストレージにバックアップし、セカンダリ ストレージに複製し、クラウド オブジェクト ストレージにバックアップできます。
+NetApp Backup and Recoveryのこのリリースでは、NetApp Backup and Recoveryでお馴染みの 3-2-1 保護戦略を使用して Microsoft SQL Server ワークロードを管理できる更新されたユーザー インターフェイスが提供されます。この新しいバージョンでは、これらのワークロードをプライマリ ストレージにバックアップし、セカンダリ ストレージに複製し、クラウド オブジェクト ストレージにバックアップできます。
 
 プレビューにサインアップするには、こちらに記入してください https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["プレビュー登録フォーム"^]。
 
 
 NOTE: Microsoft SQL Server ワークロードの保護に関するこのドキュメントは、テクノロジープレビューとして提供されています。このプレビュー提供において、 NetApp は一般提供開始前に提供内容、内容、およびスケジュールを変更する権利を留保します。
 
-このバージョンのNetApp Backup and Recovery には、次の更新が含まれています。
+このバージョンのNetApp Backup and Recoveryには、次の更新が含まれています。
 
-* *3-2-1 バックアップ機能*: このバージョンではSnapCenter機能が統合されており、 NetApp Backup and Recovery ユーザー インターフェイスから 3-2-1 データ保護戦略を使用してSnapCenterリソースを管理および保護できます。
-* * SnapCenterからのインポート*: SnapCenter のバックアップ データとポリシーをNetApp Backup and Recovery にインポートできます。
+* *3-2-1 バックアップ機能*: このバージョンではSnapCenter機能が統合されており、 NetApp Backup and Recoveryユーザー インターフェイスから 3-2-1 データ保護戦略を使用してSnapCenterリソースを管理および保護できます。
+* * SnapCenterからのインポート*: SnapCenter のバックアップ データとポリシーをNetApp Backup and Recoveryにインポートできます。
 * *再設計されたユーザー インターフェイス* により、バックアップおよびリカバリ タスクをより直感的に管理できるようになります。
 * *バックアップ ターゲット*: Amazon Web Services (AWS)、Microsoft Azure Blob Storage、 StorageGRID、 ONTAP S3 環境にバケットを追加して、Microsoft SQL Server ワークロードのバックアップ ターゲットとして使用できます。
-* *ワークロード サポート*: このバージョンでは、Microsoft SQL Server データベースと可用性グループのバックアップ、復元、検証、複製が可能になります。(他のワークロードのサポートは、将来のリリースで追加される予定です。)
+* *ワークロード サポート*: このバージョンでは、Microsoft SQL Server データベースと可用性グループのバックアップ、復元、検証、および複製が可能になります。  (他のワークロードのサポートは将来のリリースで追加される予定です。)
 * *柔軟な復元オプション*: このバージョンでは、破損や偶発的なデータ損失が発生した場合に、データベースを元の場所と別の場所の両方に復元できます。
 * *即時の実稼働コピー*: 開発、テスト、分析用のスペース効率の高い実稼働コピーを、数時間または数日ではなく数分で生成します。
 * このバージョンには、詳細なレポートを作成する機能が含まれています。
@@ -761,13 +779,13 @@ Microsoft SQL Server ワークロードの保護の詳細については、以�
 
 === 2025年6月9日
 
-このNetApp Backup and Recovery リリースには、次の更新が含まれています。
+このNetApp Backup and Recoveryリリースには、次の更新が含まれています。
 
 
 
 ==== インデックスカタログのサポートの更新
 
-2025 年 2 月に、データの復元における検索と復元方法で使用する更新されたインデックス作成機能 (インデックス カタログ v2) を導入しました。以前のリリースでは、オンプレミス環境でのデータ インデックス作成のパフォーマンスが大幅に向上しました。このリリースでは、インデックス カタログが Amazon Web Services、Microsoft Azure、Google Cloud Platform (GCP) 環境で利用できるようになりました。
+2025 年 2 月に、データの復元における検索と復元方法で使用する更新されたインデックス作成機能 (インデックス カタログ v2) を導入しました。前回のリリースでは、オンプレミス環境でのデータ インデックス作成のパフォーマンスが大幅に向上しました。このリリースでは、インデックス カタログが Amazon Web Services、Microsoft Azure、Google Cloud Platform (GCP) 環境で利用できるようになりました。
 
 新規のお客様の場合、すべての新しい環境では Indexed Catalog v2 がデフォルトで有効になっています。既存のお客様の場合は、環境のインデックスを再作成して、Indexed Catalog v2 を活用することができます。
 
@@ -782,7 +800,7 @@ Microsoft SQL Server ワークロードの保護の詳細については、以�
 
 ==== Azure プライベート リンク エンドポイントとサービス エンドポイント
 
-通常、 NetApp Backup and Recovery は、保護タスクを処理するためにクラウド プロバイダーとのプライベート エンドポイントを確立します。このリリースでは、 NetApp Backup and Recovery によるプライベート エンドポイントの自動作成を有効または無効にできるオプション設定が導入されました。プライベート エンドポイントの作成プロセスをより細かく制御したい場合、これは役立つ可能性があります。
+通常、 NetApp Backup and Recovery は、保護タスクを処理するためにクラウド プロバイダーとのプライベート エンドポイントを確立します。このリリースでは、NetApp Backup and Recoveryによるプライベート エンドポイントの自動作成を有効または無効にできるオプション設定が導入されました。プライベート エンドポイントの作成プロセスをより細かく制御したい場合、これは役立つ可能性があります。
 
 保護を有効にするとき、または復元プロセスを開始するときに、このオプションを有効または無効にすることができます。
 
@@ -798,7 +816,7 @@ Microsoft SQL Server ワークロードの保護の詳細については、以�
 
 ==== StorageGRID用の独自のバケットを用意する
 
-作業環境のオブジェクト ストレージにバックアップ ファイルを作成すると、デフォルトでは、 NetApp Backup and Recovery によって、設定したオブジェクト ストレージ アカウントにバックアップ ファイル用のコンテナ (バケットまたはストレージ アカウント) が作成されます。以前は、これをオーバーライドして、Amazon S3、Azure Blob Storage、Google Cloud Storage に独自のコンテナを指定できました。このリリースでは、独自のStorageGRIDオブジェクト ストレージ コンテナーを導入できるようになりました。
+作業環境のオブジェクト ストレージにバックアップ ファイルを作成すると、デフォルトでは、 NetApp Backup and Recoveryによって、設定したオブジェクト ストレージ アカウントにバックアップ ファイル用のコンテナ (バケットまたはストレージ アカウント) が作成されます。以前は、これをオーバーライドして、Amazon S3、Azure Blob Storage、Google Cloud Storage に独自のコンテナを指定できました。このリリースでは、独自のStorageGRIDオブジェクト ストレージ コンテナーを導入できるようになりました。
 
 見る https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-journey.html["独自のオブジェクトストレージコンテナを作成する"]。
 
@@ -814,15 +832,15 @@ Microsoft SQL Server ワークロードの保護の詳細については、以�
 
 ==== バージョン1.47
 
-.BlueXP classificationはNetAppデータ分類になりました
+.BlueXP classificationはNetApp Data Classificationになりました
 BlueXP classificationがNetApp Data Classification に変更されました。名前の変更に加えて、ユーザー インターフェイスも強化されました。
 
-.BlueXPはNetAppコンソールになりました
+.BlueXPはNetApp Consoleになりました
 BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。
 
-NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
+NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 .強化された調査エクスペリエンス
 新しい検索可能なフィルター、値ごとの結果数、主要な調査結果をまとめたリアルタイムの分析情報、カスタマイズ可能な列とスライド式の詳細ペインを備えた更新された結果テーブルを使用して、データをより速く見つけて理解できます。
@@ -843,7 +861,7 @@ NetAppコンソールは、オンプレミスとクラウド環境全体にわ�
 詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["データを調査する"] 。
 
 .Google Cloud NetApp Volumesのサポート
-Data Classification は、 Google Cloud NetApp Volumesでのスキャンをサポートするようになりました。NetAppコンソールからGoogle Cloud NetApp Volumesを簡単に追加して、シームレスなデータ スキャンと分類を実現します。
+Data Classification は、 Google Cloud NetApp Volumesでのスキャンをサポートするようになりました。  NetApp ConsoleからGoogle Cloud NetApp Volumesを簡単に追加して、シームレスなデータ スキャンと分類を実現します。
 
 
 
@@ -858,7 +876,7 @@ Data Classification は、 Google Cloud NetApp Volumesでのスキャンをサ�
 .監査ページでのスキャンイベントの分析情報が強化されました
 監査ページでは、 BlueXP classificationのスキャン イベントに関する強化された分析がサポートされるようになりました。監査ページには、システムのスキャンが開始された日時、システムのステータス、および問題が表示されるようになりました。共有とシステムのステータスはマッピング スキャンでのみ使用できます。
 
-監査ページの詳細については、以下を参照してください。link:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["NetAppコンソールの操作を監視する"^] 。
+監査ページの詳細については、以下を参照してください。link:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["NetApp Consoleの操作を監視する"^] 。
 
 .RHEL 9.6 のサポート
 このリリースでは、ダーク サイトの展開を含むBlueXP classificationの手動オンプレミス インストール用に Red Hat Enterprise Linux v9.6 のサポートが追加されました。
@@ -881,7 +899,7 @@ Data Classification は、 Google Cloud NetApp Volumesでのスキャンをサ�
 詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-file-shares.html["ファイル共有をスキャンする"] 。
 
 .拡張ファイル所有者情報
-調査タブでキャプチャされたファイルのファイル所有者に関する詳細情報を表示できるようになりました。[調査] タブでファイルのメタデータを表示するときは、ファイルの所有者を見つけて [**詳細を表示**] を選択し、ユーザー名、メール アドレス、SAM アカウント名を表示します。このユーザーが所有する他のアイテムも表示できます。この機能は、Active Directory が稼働している作業環境でのみ使用できます。
+調査タブでキャプチャされたファイルのファイル所有者に関する詳細情報を表示できるようになりました。 [調査] タブでファイルのメタデータを表示するときは、ファイルの所有者を見つけて [**詳細を表示**] を選択し、ユーザー名、メール アドレス、SAM アカウント名を表示します。このユーザーが所有する他のアイテムも表示できます。この機能は、Active Directory が稼働している作業環境でのみ使用できます。
 
 詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["組織内に保存されているデータを調査する"] 。
 
@@ -944,7 +962,7 @@ Data Classification は、 Google Cloud NetApp Volumesでのスキャンをサ�
 BlueXP分類のパフォーマンス、メモリ消費、セキュリティを改善するための機能強化が行われました。
 
 .バグ修正
-Redis がアップグレードされ、 BlueXP classificationの信頼性が向上しました。BlueXP classificationでは、スキャン中のファイル数レポートの精度を向上させるために Elasticsearch を使用するようになりました。
+Redis がアップグレードされ、 BlueXP classificationの信頼性が向上しました。  BlueXP classificationでは、スキャン中のファイル数レポートの精度を向上させるために Elasticsearch を使用するようになりました。
 
 
 
@@ -1002,7 +1020,7 @@ StorageGRIDスキャンが失敗し、調査ページのフィルター オプ�
 BlueXP classificationは、作業環境の一括操作をサポートします。作業環境において、マッピング スキャンを有効にするか、マップと分類スキャンを有効にするか、スキャンを無効にするか、ボリューム全体にカスタム構成を作成するかを選択できます。個々のボリュームを選択した場合は、一括選択が上書きされます。一括操作を実行するには、[**構成**] ページに移動して選択を行います。
 
 .調査レポートをローカルにダウンロードする
-BlueXP classificationでは、データ調査レポートをローカルにダウンロードしてブラウザーで表示する機能がサポートされています。ローカル オプションを選択した場合、データ調査は CSV 形式でのみ利用でき、最初の 10,000 行のデータのみが表示されます。
+BlueXP classificationでは、データ調査レポートをローカルにダウンロードしてブラウザーで表示する機能がサポートされています。ローカル オプションを選択した場合、データ調査は CSV 形式でのみ利用可能になり、最初の 10,000 行のデータのみが表示されます。
 
 詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#create-the-data-investigation-report["BlueXP classificationを使用して組織内に保存されているデータを調査します"] 。
 
@@ -1039,7 +1057,7 @@ BlueXP classificationは、ボリューム上の初期マッピングおよび�
 .マッピングのみのスキャンを優先する
 マッピングのみのスキャンを実行する場合、最も重要なスキャンを優先できます。この機能は、作業環境が多数あり、優先度の高いスキャンが最初に完了するようにしたい場合に役立ちます。
 
-デフォルトでは、スキャンは開始された順序に基づいてキューに入れられます。スキャンを優先順位付けする機能を使用すると、スキャンをキューの先頭に移動できます。複数のスキャンを優先できます。優先順位は先入れ先出しの順序で指定されます。つまり、最初に優先順位を指定したスキャンがキューの先頭に移動し、2 番目に優先順位を指定したスキャンはキューの 2 番目になり、以下同様に続きます。
+デフォルトでは、スキャンは開始された順序に基づいてキューに入れられます。スキャンを優先順位付けする機能を使用すると、スキャンをキューの先頭に移動できます。複数のスキャンを優先できます。優先順位は先入先出順で指定されます。つまり、最初に優先順位を指定したスキャンがキューの先頭に移動し、2 番目に優先順位を指定したスキャンはキューの 2 番目になり、以下同様に続きます。
 
 優先権は 1 回限り付与されます。マッピング データの自動再スキャンはデフォルトの順序で実行されます。
 
@@ -1111,17 +1129,17 @@ BlueXP classificationは、失敗したすべてのスキャンを一括して�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"^] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"^] 。
 
 
 
 ==== AWS でのCloud Volumes ONTAP の導入を簡素化
 
-シングルノード構成と高可用性 (HA) 構成の両方で、クイック デプロイメント メソッドを使用して、AWS にCloud Volumes ONTAP をデプロイメントできるようになりました。この合理化されたプロセスにより、高度な方法に比べて手順数が削減され、1 ページにデフォルト値が自動的に設定され、ナビゲーションが最小限に抑えられ、展開がより迅速かつ容易になります。
+シングルノード構成と高可用性 (HA) 構成の両方で、クイック デプロイメント メソッドを使用して、AWS にCloud Volumes ONTAP をデプロイメントできるようになりました。この合理化されたプロセスにより、高度な方法に比べて手順数が削減され、1 ページにデフォルト値が自動的に設定され、ナビゲーションが最小限に抑えられるため、展開がより迅速かつ容易になります。
 
  https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-quick-deploy-aws.html["クイックデプロイメントを使用してAWSにCloud Volumes ONTAPをデプロイする"^] 。
 
@@ -1163,17 +1181,17 @@ link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["Cloud Volumes 
 
 
 
-==== BlueXP copy and syncはNetAppコピー＆同期になりました
+==== BlueXP copy and syncはNetApp Copy and Syncになりました
 
-BlueXP copy and syncは、 NetAppコピーおよび同期に名前が変更されました。
+BlueXP copy and syncは、 NetApp Copy and Syncに名前が変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1195,7 +1213,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 ==== バグ修正
 
-いくつかのバグを修正するために、 NetApp Copy and Sync とデータ ブローカーを更新しました。新しいデータ ブローカーのバージョンは 1.0.56 です。
+いくつかのバグを修正するために、 NetApp Copy and Syncとデータ ブローカーを更新しました。新しいデータ ブローカーのバージョンは 1.0.56 です。
 
 
 
@@ -1207,11 +1225,11 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1243,7 +1261,7 @@ Digital Advisor API カタログに、新しい非推奨の API セクション�
 
 
 
-=== 09 2025年7月
+=== 2025年7月9日
 
 
 
@@ -1261,7 +1279,7 @@ Digital Advisor API カタログに、新しい非推奨の API セクション�
 
 
 
-== ライセンスとサブスクリプション
+== Licenses and subscriptions
 
 
 
@@ -1269,11 +1287,11 @@ Digital Advisor API カタログに、新しい非推奨の API セクション�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1335,7 +1353,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-li
 
 
 
-=== 30 2023年7月
+=== 2023年7月30日
 
 
 
@@ -1363,23 +1381,23 @@ Cloud Volumes ONTAP使用状況レポートにいくつかの改善が加えら�
 
 
 
-==== BlueXP disaster recoveryはNetApp災害復旧になりました
+==== BlueXP disaster recoveryはNetApp Disaster Recoveryになりました
 
-BlueXP disaster recoveryはNetAppディザスタリカバリに名前が変更されました。
+BlueXP disaster recoveryはNetApp Disaster Recoveryに名前が変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
 ==== その他のアップデート
 
-* Amazon FSx for NetApp ONTAPを使用した Amazon Elastic VMware Service (EVS) のサポートはパブリックプレビュー段階です。このリリースにより、一般公開されました。詳細については、link:../reference/evs-deploy-guide-introduction.html["Amazon Elastic VMware Service とAmazon FSx for NetApp ONTAPを使用したNetApp災害復旧の紹介"] 。
+* Amazon FSx for NetApp ONTAPを使用した Amazon Elastic VMware Service (EVS) のサポートはパブリックプレビュー段階です。このリリースにより、一般公開されました。詳細については、link:../reference/evs-deploy-guide-introduction.html["Amazon Elastic VMware Service とAmazon FSx for NetApp ONTAPを使用したNetApp Disaster Recoveryの紹介"] 。
 * オンプレミス展開での検出時間の短縮を含む、ストレージ検出の改善
 * ロールベースのアクセス制御（RBAC）や強化されたユーザー権限を含む、アイデンティティおよびアクセス管理（IAM）のサポート
 * Azure VMware ソリューションとCloud Volumes ONTAPのプライベート プレビュー サポート。このサポートにより、 Cloud Volumes ONTAPストレージを使用して、オンプレミスから Azure VMware ソリューションへのディザスター リカバリー保護を構成できるようになりました。
@@ -1393,7 +1411,7 @@ NetAppコンソールは、強化され再構築されたBlueXP基盤上に構�
 
 
 
-==== NetAppディザスタリカバリのアップデート
+==== NetApp Disaster Recoveryのアップデート
 
 このリリースには次の更新が含まれています。
 
@@ -1404,7 +1422,7 @@ NetAppコンソールは、強化され再構築されたBlueXP基盤上に構�
 * レプリケーション プラン作成の一環としてボリュームを作成するときに、宛先ボリュームがソース ボリュームと同じになることを妨げる制限を削除しました。
 * Azure Marketplace のNetApp Intelligent Services への従量課金制 (PAYGO) サブスクリプションのサポートが追加され、無料試用版ダイアログに Azure Marketplace へのリンクが追加されました。
 +
-詳細については、 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["NetAppディザスタリカバリライセンス"]そして https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["NetApp Disaster Recoveryのライセンスを設定する"]。
+詳細については、 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["NetApp Disaster Recoveryライセンス"]そして https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["NetApp Disaster Recoveryのライセンスを設定する"]。
 
 
 
@@ -1416,19 +1434,19 @@ NetAppコンソールは、強化され再構築されたBlueXP基盤上に構�
 
 
 
-==== NetAppディザスタリカバリにおけるユーザーロール
+==== NetApp Disaster Recoveryにおけるユーザーロール
 
-NetApp Disaster Recovery では、各ユーザーの特定の機能やアクションへのアクセスを制御するためにロールを採用するようになりました。
+NetApp Disaster Recoveryでは、各ユーザーの特定の機能やアクションへのアクセスを制御するためにロールを採用するようになりました。
 
-このサービスは、 NetApp Disaster Recovery に固有の次のロールを使用します。
+このサービスは、NetApp Disaster Recoveryに固有の次のロールを使用します。
 
-* *ディザスタ リカバリ管理者*: NetAppディザスタ リカバリであらゆるアクションを実行します。
-* *災害復旧フェイルオーバー管理者*: NetApp災害復旧でフェイルオーバーと移行アクションを実行します。
+* *ディザスタ リカバリ管理者*: NetApp Disaster Recoveryであらゆるアクションを実行します。
+* *災害復旧フェイルオーバー管理者*: NetApp Disaster Recoveryでフェイルオーバーと移行アクションを実行します。
 * *災害復旧アプリケーション管理者*: レプリケーション プランを作成および変更し、テスト フェイルオーバーを開始します。
-* *ディザスタ リカバリ ビューア*: NetAppディザスタ リカバリの情報を表示できますが、アクションを実行することはできません。
+* *ディザスタ リカバリ ビューアー*: NetApp Disaster Recoveryの情報を表示できますが、アクションを実行することはできません。
 
 
-NetApp Disaster Recovery サービスをクリックして初めて構成する場合は、*SnapCenterAdmin* 権限または *Organization Admin* ロールが必要です。
+NetApp Disaster Recoveryサービスをクリックして初めて構成する場合は、*SnapCenterAdmin* 権限または *Organization Admin* ロールが必要です。
 
 詳細については、  https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["NetApp Disaster Recoveryにおけるユーザーの役割と権限"] 。
 
@@ -1449,12 +1467,12 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 * 次回のスケジュールされた検出または手動検出時の古いデータの管理:
 +
-** vCenter で VM が削除されると、 NetApp Disaster Recovery によってその VM がレプリケーション プランから自動的に削除されるようになりました。
-** vCenter でデータストアまたはネットワークが削除されると、 NetApp Disaster Recovery によってレプリケーション プランとリソース グループからそれが削除されるようになりました。
-** vCenter でクラスタ、ホスト、またはデータセンターが削除されると、 NetApp Disaster Recovery によってレプリケーション プランとリソース グループからそれが削除されるようになりました。
+** vCenter で VM が削除されると、 NetApp Disaster Recoveryによってその VM がレプリケーション プランから自動的に削除されるようになりました。
+** vCenter でデータストアまたはネットワークが削除されると、 NetApp Disaster Recoveryによってレプリケーション プランとリソース グループからそれが削除されるようになりました。
+** vCenter でクラスタ、ホスト、またはデータセンターが削除されると、 NetApp Disaster Recoveryによってレプリケーション プランとリソース グループからそれが削除されるようになりました。
 
 
-* ブラウザのシークレット モードで Swagger ドキュメントにアクセスできるようになりました。NetApp Disaster Recovery 内の [設定] オプション > [API ドキュメント] からアクセスするか、ブラウザのシークレット モードで次の URL から直接アクセスできます。 https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Swaggerドキュメント"^] 。
+* ブラウザのシークレット モードで Swagger ドキュメントにアクセスできるようになりました。  NetApp Disaster Recovery内の [設定] オプション > [API ドキュメント] からアクセスするか、ブラウザのシークレット モードで次の URL から直接アクセスできます。 https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Swaggerドキュメント"^] 。
 * 状況によっては、フェイルバック操作後に、操作の完了後に iGroup が残されることがあります。このアップデートでは、古くなった iGroup が削除されます。
 * レプリケーション プランで NFS FQDN が使用されていた場合、 NetApp Disaster Recovery はそれを IP アドレスに解決するようになりました。この更新は、災害復旧サイトで FQDN を解決できない場合に役立ちます。
 * UIの配置の改善
@@ -1471,11 +1489,11 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1511,15 +1529,15 @@ BlueXPから E シリーズ システムを直接検出できるようになり�
 
 BlueXP economic efficiencyはライフサイクル プランニングに名前が変更されました。
 
-NetAppコンソールの左側のナビゲーション バーから、[*ストレージ*] > [*ライフサイクル プランニング*] を選択してアクセスできます。
+NetApp Consoleの左側のナビゲーション バーから、[*ストレージ*] > [*ライフサイクル プランニング*] を選択してアクセスできます。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1569,11 +1587,11 @@ BlueXP economic efficiency機能の一部は一時的に無効になっていま
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。== 2025年7月21日
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。== 2025年7月21日
 
 
 
@@ -1596,11 +1614,11 @@ BlueXPからGoogle Cloud NetApp Volumes を直接管理できるようになり�
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。== 2023年7月10日
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。== 2023年7月10日
 
 
 
@@ -1618,11 +1636,11 @@ BlueXP Canvas では、Google Cloud Storage バケットをかなり長い間表
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"^] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"^] 。
 
 
 
@@ -1684,11 +1702,11 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1730,17 +1748,17 @@ BlueXP をプライベート モードで使用するときに、 NetApp ASA r2 
 
 
 
-==== BlueXP ransomware protectionはNetAppランサムウェア耐性に変わりました
+==== BlueXP ransomware protectionはNetApp Ransomware Resilienceました
 
 BlueXP ransomware protectionサービスの名前がNetApp Ransomware Resilienceに変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
+NetApp Consoleは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -1749,6 +1767,9 @@ NetAppコンソールは、オンプレミスとクラウド環境全体にわ�
 Ransomware Resilience には、数ステップでアクティブ化できる新しい検出メカニズムが含まれており、データ侵害の早期指標として異常なユーザー読み取りを検出します。ランサムウェア耐性は、過去のデータから予想される通常の動作のプロファイルである履歴ベースラインを作成することにより、ユーザーの読み取りイベントを収集および分析します。新しいユーザーのアクティビティがこの確立された標準から大幅に逸脱すると (予期しない読み取りの急増と疑わしい読み取りパターンの組み合わせなど)、アラートが生成されます。Ransomware Resilience には、疑わしい読み取りパターンを検出する AI モデルが含まれています。
 
 ストレージ層での ARP による暗号化検出とは異なり、ユーザー動作の異常の検出は、Ransomware Resilience SaaS サービスで FPolicy イベントを収集することによって行われます。
+
+
+IMPORTANT: 新しいlink:#new-user-roles-for-data-breach-detection["ランサムウェア耐性ユーザー行動管理者およびランサムウェア耐性ユーザー行動閲覧者"]疑わしいユーザー行動の検出設定にアクセスするロール。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["不審なユーザーアクティビティの検出を有効にする"]そしてlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["異常なユーザー行動を表示する"]。
 
@@ -1767,7 +1788,11 @@ Ransomware Resilience には、数ステップでアクティブ化できる新�
 
 ===== データ侵害検出のための新しいユーザーロール
 
-疑わしいユーザー アクティビティのアラートを管理するために、Ransomware Resilience では、ユーザーのファイル アクティビティなどの機密データへのきめ細かなアクセスを提供する 2 つの新しいロールが導入されました。詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["NetApp Ransomware Resilienceロールベースアクセス"] 。
+疑わしいユーザー アクティビティのアラートを管理するために、Ransomware Resilience では、コンソール組織管理者が疑わしいユーザー アクティビティの検出へのアクセスを許可するための 2 つの新しいロール (Ransomware Resilience ユーザー ビヘイビア管理者と Ransomware Resilience ユーザー ビヘイビア閲覧者) を導入しました。
+
+疑わしいユーザーの行動設定を構成するには、ユーザー行動管理者である必要があります。ランサムウェア耐性管理者ロールは、疑わしいユーザーの行動設定の構成ではサポートされていません。
+
+詳細については、以下を参照してください。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Ransomware Resilienceロールベースアクセス"^] 。
 
 
 
@@ -1783,7 +1808,7 @@ Ransomware Resilience には、数ステップでアクティブ化できる新�
 
 ==== SANワークロードのサポート
 
-このリリースには、BlueXP ransomware protectionにおける SAN ワークロードのサポートが含まれています。NFS および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。
+このリリースには、BlueXP ransomware protectionにおける SAN ワークロードのサポートが含まれています。  NFS および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。
 
 詳細については、 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-prerequisites.html["BlueXP ransomware protectionの前提条件"] 。
 
@@ -1809,121 +1834,6 @@ BlueXP ransomware protectionでセキュリティおよびイベント管理 (SI
 
 
 
-=== 2025年6月9日
-
-
-
-==== ランディングページの更新
-
-このリリースには、BlueXP ransomware protectionのランディング ページの更新が含まれており、無料トライアルの開始と検出が容易になります。
-
-
-
-==== 準備訓練の最新情報
-
-以前は、新しいサンプル ワークロードに対する攻撃をシミュレートすることで、ランサムウェア対策訓練を実行できました。この機能を使用すると、シミュレートされた攻撃を調査し、ワークロードを回復できます。この機能を使用して、アラート通知、応答、および回復をテストします。必要に応じてこれらのドリルを実行し、スケジュールを設定します。
-
-このリリースでは、 BlueXP ransomware protectionダッシュボードの新しいボタンを使用して、テスト ワークロードでランサムウェア準備ドリルを実行できるようになりました。これにより、制御された環境内でランサムウェア攻撃のシミュレート、その影響の調査、ワークロードの効率的な回復が容易になります。
-
-NFS ワークロードに加えて、CIFS (SMB) ワークロードでも準備ドリルを実行できるようになりました。
-
-詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
-
-
-
-==== BlueXP classificationの更新を有効にする
-
-BlueXP ransomware protectionサービス内でBlueXP classificationを使用する前に、 BlueXP classificationを有効にしてデータをスキャンする必要があります。データを分類すると、セキュリティ リスクを増大させる可能性のある個人を特定できる情報 (PII) を見つけるのに役立ちます。
-
-BlueXP ransomware protection内から、ファイル共有ワークロードにBlueXP classificationを展開できます。*プライバシー露出*列で、*露出の特定*オプションを選択します。分類サービスを有効にしている場合、このアクションによって露出が識別されます。それ以外の場合、このリリースでは、ダイアログ ボックスにBlueXP classificationを展開するオプションが表示されます。*デプロイ* を選択すると、 BlueXP classificationサービスのランディング ページに移動し、そのサービスをデプロイできます。W
-
-詳細については、 https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["クラウドでBlueXP classificationを展開"^] BlueXP ransomware protection内でサービスを利用するには、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["BlueXP classificationで個人を特定できる情報をスキャン"] 。
-
-
-
-=== 2025年5月13日
-
-
-
-==== BlueXP ransomware protectionにおけるサポートされていない作業環境の報告
-
-検出ワークフロー中に、サポートされているワークロードまたはサポートされていないワークロードにマウスを移動すると、 BlueXP ransomware protectionによって詳細が報告されます。これにより、一部のワークロードがBlueXP ransomware protectionサービスによって検出されない理由を理解するのに役立ちます。
-
-サービスが作業環境をサポートしない理由は多数あります。たとえば、作業環境のONTAPバージョンが必要なバージョンよりも低い可能性があります。サポートされていない作業環境にマウスを移動すると、ツールヒントに理由が表示されます。
-
-初期検出中にサポートされていない作業環境を表示でき、結果をダウンロードすることもできます。設定ページの *ワークロード検出* オプションから検出結果を表示することもできます。
-
-詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html["BlueXP ransomware protectionでワークロードを発見"] 。
-
-
-
-=== 2025年4月29日
-
-
-
-==== Amazon FSx for NetApp ONTAPのサポート
-
-このリリースでは、Amazon FSx for NetApp ONTAPがサポートされます。この機能は、BlueXP ransomware protectionを使用して FSx for ONTAPワークロードを保護するのに役立ちます。
-
-FSx for ONTAP は、クラウドでNetApp ONTAPストレージのパワーを提供する、完全に管理されたサービスです。ネイティブ AWS サービスの俊敏性と拡張性を備え、オンプレミスで使用するのと同じ機能、パフォーマンス、管理機能を提供します。
-
-BlueXP ransomware protectionワークフローに次の変更が加えられました。
-
-* 検出には、FSx for ONTAP 9.15 作業環境のワークロードが含まれます。
-* [保護] タブには、FSx for ONTAP環境のワークロードが表示されます。この環境では、FSx for ONTAPバックアップ サービスを使用してバックアップ操作を実行する必要があります。BlueXP ransomware protectionスナップショットを使用してこれらのワークロードを復元できます。
-+
-
-TIP: FSx for ONTAPで実行されているワークロードのバックアップ ポリシーは、 BlueXPでは設定できません。Amazon FSx for NetApp ONTAPで設定されている既存のバックアップポリシーは変更されません。
-
-* アラート インシデントには、新しい FSx for ONTAP作業環境が表示されます。
-
-
-詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["BlueXP ransomware protectionと動作環境について学ぶ"] 。
-
-サポートされているオプションの詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["BlueXP ransomware protectionの制限"] 。
-
-
-
-==== BlueXPアクセスロールが必要
-
-BlueXP ransomware protectionを表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ランサムウェア保護管理者、またはランサムウェア保護閲覧者のいずれかのアクセス ロールが必要です。
-
-https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
-
-
-
-=== 2025年4月14日
-
-
-
-==== 即応訓練報告書
-
-このリリースでは、ランサムウェア攻撃の準備訓練レポートを確認できるようになりました。準備ドリルを使用すると、新しく作成されたサンプル ワークロードに対するランサムウェア攻撃をシミュレートできます。次に、シミュレートされた攻撃を調査し、サンプルのワークロードを回復します。この機能は、アラート通知、対応、および回復プロセスをテストすることで、実際のランサムウェア攻撃が発生した場合に備えて準備ができていることを確認するのに役立ちます。
-
-詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["ランサムウェア攻撃への備えの訓練を実施する"] 。
-
-
-
-==== 新しいロールベースのアクセス制御のロールと権限
-
-以前は、ユーザーの責任に基づいて役割と権限を割り当てることができました。これにより、 BlueXP ransomware protectionへのユーザー アクセスを管理するのに役立ちました。このリリースでは、権限が更新されたBlueXP ransomware protectionに固有の 2 つの新しいロールが追加されました。新しい役割は次のとおりです。
-
-* ランサムウェア保護管理者
-* ランサムウェア保護ビューア
-
-
-権限の詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["BlueXP ransomware protection機能へのロールベースのアクセス"] 。
-
-
-
-==== 支払いの改善
-
-このリリースには、支払いプロセスに対するいくつかの改善が含まれています。
-
-詳細については、 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html["ライセンスと支払いオプションを設定する"] 。
-
-
-
 == 修正策
 
 修復サービスは 2024 年 4 月 22 日に削除されました。
@@ -1938,17 +1848,17 @@ https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles
 
 
 
-==== BlueXP replicationはNetAppレプリケーションになりました
+==== BlueXP replicationはNetApp Replicationになりました
 
-BlueXP replicationがNetAppレプリケーションに変更されました。
+BlueXP replicationがNetApp Replicationに変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -2004,15 +1914,15 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["デ
 
 BlueXP software updatesの名前がソフトウェア アップデートに変更されました。
 
-NetAppコンソールの左側のナビゲーション バーから、[*Health*] > [*Software updates*] を選択してアクセスできます。
+NetApp Consoleの左側のナビゲーション バーから、[*Health*] > [*Software updates*] を選択してアクセスできます。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -2044,11 +1954,11 @@ BlueXP software updatesの概要セクションで、オペレーティング �
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -2088,7 +1998,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 ==== StorageGRIDのサポート
 
-BlueXPから直接StorageGRIDシステムを検出できるようになりました。StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータを完全に把握できます。
+BlueXPから直接StorageGRIDシステムを検出できるようになりました。StorageGRID を検出すると、ハイブリッド マルチクラウド全体のデータの完全なビューが提供されます。
 
 
 
@@ -2102,15 +2012,15 @@ BlueXPから直接StorageGRIDシステムを検出できるようになりまし
 
 ==== BlueXP tieringはNetApp Cloud Tiering に変更されました
 
-BlueXP tieringはNetApp Cloud Tiering に名前が変更されました。
+BlueXP tieringはNetApp Cloud Tieringに名前が変更されました。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -2160,15 +2070,15 @@ Cloud Tiering をアクティブ化すると、 ONTAP は無制限のネット�
 
 BlueXP volume cachingの名前がボリューム キャッシュに変更されました。
 
-NetAppコンソールの左側のナビゲーション バーから *Mobility* > *Volume caching* を選択してアクセスできます。
+NetApp Consoleの左側のナビゲーション バーから *Mobility* > *Volume caching* を選択してアクセスできます。
 
 
 
-==== BlueXPはNetAppコンソールになりました
+==== BlueXPはNetApp Consoleになりました
 
-NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
-変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"] 。
 
 
 
@@ -2178,7 +2088,7 @@ NetAppコンソールは、強化され再構築されたBlueXP基盤上に構�
 
 ==== BlueXP volume caching
 
-ONTAP 9 ソフトウェアの機能であるBlueXP volume cachingは、ファイル配布を簡素化し、リソースをユーザーやコンピューティング リソースの場所に近づけることで WAN の遅延を短縮し、WAN 帯域幅のコストを削減するリモート キャッシング機能です。ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。BlueXP volume cachingを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
+ONTAP 9 ソフトウェアの機能であるBlueXP volume cachingは、ファイル配布を簡素化し、リソースをユーザーやコンピューティング リソースの場所に近づけることで WAN の遅延を短縮し、WAN 帯域幅のコストを削減するリモート キャッシング機能です。ボリューム キャッシュは、リモートの場所に永続的な書き込み可能なボリュームを提供します。 BlueXP volume cachingを使用すると、データへのアクセスを高速化したり、頻繁にアクセスされるボリュームのトラフィックを軽減したりできます。キャッシュ ボリュームは、特にクライアントが同じデータに繰り返しアクセスする必要がある場合など、読み取り集中型のワークロードに最適です。
 
 BlueXP volume cachingを使用すると、作業環境としてAmazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP、オンプレミスなど、クラウド向けのキャッシング機能を利用できます。
 
@@ -2194,15 +2104,15 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
-==== BlueXP workload factoryがNetAppワークロードファクトリーに
+==== BlueXP workload factoryがNetApp Workload Factoryに
 
-BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetAppワークロード ファクトリーに変更されました。
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。その結果、 BlueXP workload factoryの名前がNetApp Workload Factoryに変更されました。
 
 
 
 ==== MCP との Ask Me 統合
 
-Workload Factory の AI アシスタントである Ask Me は、Model Context Protocol (MCP) と統合されています。MCP を使用することで、Ask Me は外部環境と安全にインターフェイスし、API ツールにクエリを実行して、特定のストレージ環境に合わせた応答を提供します。
+Workload Factory の AI アシスタントである Ask Me は、Model Context Protocol (MCP) と統合されています。  MCP を使用することで、Ask Me は外部環境と安全にインターフェイスし、API ツールにクエリを実行して、特定のストレージ環境に合わせた応答を提供します。
 
 
 
@@ -2212,42 +2122,18 @@ Workload Factory の AI アシスタントである Ask Me は、Model Context P
 
 ==== ストレージの新しい通知
 
-NetApp Workload Factory 通知サービスには、ストレージの Well-Architected の問題に関する通知が含まれています。
+NetApp Workload Factory通知サービスには、ストレージの Well-Architected の問題に関する通知が含まれています。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory の通知"]
-
-
-
-=== 2025年6月29日
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factoryの通知"]
 
 
 
-==== データベースの権限の更新
-
-データベースの _読み取り専用_ モードで次の権限が利用できるようになりました。 `cloudwatch:GetMetricData` 。
-
-https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["権限参照の変更ログ"]
+=== 2025年9月9日
 
 
 
-==== BlueXP workload factory通知サービスのサポート
+==== ストレージの新しい通知
 
-BlueXP workload factory通知サービスを使用すると、ワークロードファクトリーはBlueXP alertsサービスまたは Amazon SNS トピックに通知を送信できるようになります。 BlueXP alertsに送信された通知は、BlueXP alertsパネルに表示されます。ワークロードファクトリーが Amazon SNS トピックに通知を発行すると、トピックのサブスクライバー (ユーザーや他のアプリケーションなど) は、トピックに設定されたエンドポイント (電子メールや SMS メッセージなど) で通知を受信します。
+BlueXP workload factory通知サービスには、ストレージの自動容量管理に関する通知が含まれています。
 
-https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory通知を構成する"]
-
-
-
-=== 2025年5月4日
-
-
-
-==== CloudShell のオートコンプリート サポート
-
-BlueXP workload factoryCloudShell を使用する場合、コマンドの入力を開始し、Tab キーを押して使用可能なオプションを表示できます。複数の可能性がある場合は、CLI に提案のリストが表示されます。この機能により、エラーが最小限に抑えられ、コマンドの実行速度が速まり、生産性が向上します。
-
-
-
-==== 権限に関する用語の更新
-
-ワークロード ファクトリのユーザー インターフェースとドキュメントでは、読み取り権限を示すために「読み取り専用」を使用し、自動化権限を示すために「読み取り/書き込み」を使用するようになりました。
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factoryの通知"]

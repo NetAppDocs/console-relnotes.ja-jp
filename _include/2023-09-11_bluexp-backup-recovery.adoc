@@ -8,7 +8,7 @@
 
 このリリースには、UI 内でカスタム スナップショット ポリシー、レプリケーション ポリシー、およびONTAPデータのオブジェクト ストレージへのバックアップ ポリシーを作成する機能が含まれています。
 
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ポリシーについて詳しく見る"] 。
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ポリシーの詳細"] 。
 
 
 

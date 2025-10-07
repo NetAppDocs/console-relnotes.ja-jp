@@ -8,7 +8,7 @@
 
 以前は、スナップショット、レプリケーション、またはバックアップを開始する前にカスタム ポリシーを作成する必要がありました。  BlueXP backup and recoveryUI を使用して、バックアップのアクティブ化プロセス中にポリシーを作成できるようになりました。
 
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ポリシーについて詳しく見る"] 。
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ポリシーの詳細"] 。
 
 
 
