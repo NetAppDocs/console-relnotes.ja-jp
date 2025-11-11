@@ -430,7 +430,6 @@
   <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Cloud Volumes ONTAPでサポートされているクライアント プロトコル: NVMe-TCP</block>
   <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">詳細については、<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block> 。</block>
   <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">オンプレミスのONTAPシステムと FSx for ONTAPファイルシステム間のレプリケーションのサポート</block>
-  <block id="6b3e3878a5fe9ddfda803127234f4a18" category="paragraph">データ レプリケーションは、 NetApp Console内の FSx for ONTAPから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間で実行できます。</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">廃止されたサービス</block>
@@ -444,4 +443,5 @@
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Eシリーズ :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
+  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Consoleシステム ページから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間のデータ レプリケーションを利用できます。</block>
 </blocks>
