@@ -1,0 +1,115 @@
+= BlueXP backup and recoveryはNetApp Backup and Recoveryになりました
+:allow-uri-read: 
+
+
+
+
+=== BlueXP backup and recoveryはNetApp Backup and Recoveryになりました
+
+BlueXP backup and recoveryは、 NetApp Backup and Recoveryに名前が変更されました。
+
+
+
+=== BlueXPはNetApp Consoleになりました
+
+NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度に安全でコンプライアンスに準拠した簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Consoleのリリース ノート。"]
+
+
+
+=== プライベートプレビューとしての Hyper-V ワークロード サポート
+
+NetApp Backup and Recoveryのこのリリースでは、Hyper-V ワークロードの検出と管理のサポートが導入されています。
+
+* スタンドアロン インスタンスとフェールオーバー クラスター インスタンス (FCI) 上の VM のバックアップと復元
+* SMB3共有に保存されたVMを保護する
+* 仮想マシンレベルでの一括保護
+* VMとクラッシュ整合性バックアップ
+* プライマリ、セカンダリ、オブジェクト ストレージから VM を復元する
+* VMバックアップの検索と復元
+
+
+Hyper-Vワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-V ワークロードの保護の概要"] 。
+
+
+
+=== プライベートプレビューとしての KVM ワークロード サポート
+
+NetApp Backup and Recoveryのこのリリースでは、KVM ワークロードの検出と管理のサポートが導入されています。
+
+* NFS共有に保存されたqcow2 VMイメージのバックアップと復元
+* ストレージプールのバックアップ
+* 保護グループを使用した VM およびストレージ プールの一括保護
+* VM整合性とクラッシュ整合性のVMバックアップ
+* プライマリ、セカンダリ、オブジェクト ストレージから VM バックアップを検索して復元します
+* KVM ベースの VM と VM データをバックアップおよび復元するためのガイド付きプロセス
+
+
+KVMワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["KVM ワークロードの保護の概要"] 。
+
+
+
+=== Kubernetes プレビューの機能強化
+
+Kubernetes ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。
+
+* 3-2-1 ファンアウトバックアップアーキテクチャのサポート
+* バックアップターゲットとしてのONTAP S3 のサポート
+* 管理を容易にする新しいKubernetesダッシュボード
+* 拡張されたロールベースのアクセス制御 (RBAC) 構成には、次のロールのサポートが含まれます。
++
+** バックアップとリカバリのスーパー管理者
+** バックアップとリカバリのバックアップ管理者
+** バックアップとリカバリの復元管理者
+** バックアップとリカバリビューア
+
+
+* SUSE Rancher Kubernetesディストリビューションのサポート
+* マルチバケットのサポート: 異なるクラウドプロバイダー間でシステムごとに複数のバケットを使用して、システム内のボリュームを保護できるようになりました。
+
+
+Kubernetesワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"] 。
+
+
+
+=== VMware プレビューの機能強化
+
+VMware ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。
+
+* オブジェクトストレージからの復元のサポート
+* NetApp ConsoleダッシュボードにVMwareワークロードのステータス情報が表示されるようになりました
+* ロールベースアクセス制御（RBAC）のサポート
+* ジョブイベントの電子メールアラートと通知のサポート
+* NVMeベースのストレージへのバックアップと復元のサポート
+* 保護グループを編集する
+* 保護ポリシーを編集する
+
+
+VMwareワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"] 。
+
+
+
+=== Oracle Database ワークロード サポートのプライベート プレビュー
+
+NetApp Backup and Recoveryのこのリリースでは、Oracle Database ワークロードの検出と管理のサポートが導入されています。
+
+* スタンドアロンのOracleデータベースを発見
+* データのみ、またはデータとログのバックアップの保護ポリシーを作成する
+* 3-2-1バックアップスキームでOracleデータベースを保護する
+* バックアップ保持を構成する
+* ARCHIVELOGバックアップのマウントとアンマウント
+* 仮想化データベース
+* データベースのバックアップの検索と復元
+* Oracleダッシュボードのサポート
+
+
+Oracle Databaseワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Oracle ワークロードの保護の概要"] 。
+
+
+
+=== ONTAPボリュームワークロードの強化
+
+このリリースのONTAPボリューム ワークロードでは、次の拡張機能が導入されています。
+
+ONTAP 9.17.1 以降では、DataLock が Google Cloud Platform でサポートされるようになりました。これは、Amazon AWS、Microsoft Azure、 NetApp StorageGRIDによる既存の DataLock サポートを補完するものです。
