@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="30fee46958559c602b944cc387c72292" category="paragraph">お客様は、欧州 (チューリッヒ)、欧州 (スペイン)、アジアパシフィック (ハイデラバード) の 3 つの新しい AWS リージョンでAmazon FSx for NetApp ONTAPファイルシステムを作成できるようになりました。</block>
-  <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">Amazon FSx for NetApp ONTAPが新たに 3 つのリージョンで利用可能になりました</block>
-  <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">参照<block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block>詳細についてはこちらをご覧ください。</block>
-  <block id="7741410e87d6144c42e8ca73837c3707" category="doc">Google Cloud のフラッシュ キャッシュと高速書き込みのサポート</block>
-  <block id="4325a8ea9cec7ffa18f3ee74d15997fe" category="paragraph">コネクタの 3.9.32 リリースでは、次の変更が導入されました。</block>
-  <block id="4f90c73c3d52d1bd4329e9961707db5c" category="paragraph">Google Cloud for Cloud Volumes ONTAP 9.13.1 以降では、Flash Cache と高速書き込み速度を個別に有効にできます。サポートされているすべてのインスタンス タイプで、高速書き込み速度を利用できます。Flash Cache は次のインスタンス タイプでサポートされています。</block>
-  <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="list-text">n2-標準-16</block>
-  <block id="8f66358785ed8f4d9a356630a4ee515c" category="list-text">n2-標準-32</block>
-  <block id="33031b274bf5d81fbfbd69c1f2ea39a2" category="list-text">n2-標準-48</block>
-  <block id="7c347fcea29ffaea485ee6128a9d7a06" category="list-text">n2-標準-64</block>
-  <block id="0891ba6a1f7a37c01cb3698c692751bc" category="paragraph">これらの機能は、単一ノードと高可用性ペアの両方の展開で個別に、または一緒に使用できます。</block>
-  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link-macro">Google Cloud でCloud Volumes ONTAPを起動する</block>
-  <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
   <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用状況レポートの機能強化</block>
-  <block id="ec123c8f161f9dfe4383b8db1d8883c4" category="paragraph">使用状況レポート内に表示される情報にさまざまな改善が加えられました。使用状況レポートの機能強化は次のとおりです。</block>
   <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">列名に TiB 単位が含まれるようになりました。</block>
-  <block id="fc7fa4a44c2c9442201bf8725e6237b7" category="list-text">シリアル番号用の新しい「ノード」フィールドが追加されました。</block>
-  <block id="68d761e353cd9d529997fa49bfe51f92" category="list-text">ストレージ VM 使用状況レポートに新しい「ワークロード タイプ」列が追加されました。</block>
-  <block id="26f51c309f5237522421f24bf4df04e0" category="list-text">ストレージ VM およびボリュームの使用状況レポートに作業環境名が含まれるようになりました。</block>
-  <block id="fa3abcbc43662c93139af3f3f6421a6f" category="list-text">ボリューム タイプ「ファイル」のラベルが「プライマリ (読み取り/書き込み)」になりました。</block>
-  <block id="b259e22e76e27ad956b503941804b4c6" category="list-text">ボリューム タイプ「セカンダリ」のラベルが「セカンダリ (DP)」に変更されました。</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">使用状況レポートをダウンロードする</block>
-  <block id="a8c4bf4701c4d99d778be1176c8c8616" category="paragraph">使用状況レポートの詳細については、以下を参照してください。<block ref="b9c4007084372a89d5df93919658aa73" category="inline-link-macro-rx"></block> 。</block>
   <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP使用状況レポートにいくつかの改善が加えられました。</block>
   <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">シリアル番号用の新しい _node(s)_ フィールドが追加されました。</block>
   <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">ストレージ VM 使用状況レポートに新しい _ワークロード タイプ_ 列が追加されました。</block>
@@ -31,173 +11,9 @@
   <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">ボリューム タイプ _file_ のラベルが _Primary (読み取り/書き込み)_ に変更されました。</block>
   <block id="af30dca925032347d49fd49d710f0164" category="list-text">ボリューム タイプ「_secondary_」のラベルが「_Secondary (DP)_」に変更されました。</block>
   <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">使用状況レポートの詳細については、以下を参照してください。<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block> 。</block>
-  <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroupボリュームを作成する</block>
-  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">コネクタを使用してクラスターを管理している場合は、 BlueXP API を使用してFlexGroupボリュームを作成できるようになりました。</block>
-  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">FlexGroupボリュームの作成方法を学ぶ</block>
-  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
-  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroupボリュームとは何かを学ぶ</block>
-  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
-  <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">BlueXP監査サービス API を使用して監査ログをエクスポートできるようになりました。</block>
-  <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">監査サービスは、 BlueXPサービスによって実行された操作に関する情報を記録します。これには、ワークスペース、使用されたコネクタ、その他のテレメトリ データが含まれます。このデータを使用すると、どのようなアクションが実行されたか、誰が実行したか、いつ発生したかを判断できます。</block>
-  <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">監査サービス API の使用について詳しくは、こちらをご覧ください。</block>
-  <block id="23822bdcf5039c31a637229d8ca51ffa" category="paragraph"><block ref="23822bdcf5039c31a637229d8ca51ffa" category="inline-link-rx"></block></block>
-  <block id="d00604985bd7a191952bde8a0cec39fd" category="paragraph">このリンクは、タイムライン ページのBlueXPユーザー インターフェイスからもアクセスできることに注意してください。</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">このコネクタのリリースには、 Cloud Volumes ONTAP の機能強化とオンプレミスのONTAPクラスターの機能強化も含まれています。</block>
-  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Cloud Volumes ONTAPの機能強化について学ぶ</block>
-  <block id="23c565330e0f5d82619b18108f5a32ca" category="list-text"><block ref="23c565330e0f5d82619b18108f5a32ca" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAPオンプレミスクラスタの機能強化について学ぶ</block>
-  <block id="405527e38d3c42926031f86b50d381d4" category="list-text"><block ref="405527e38d3c42926031f86b50d381d4" category="inline-link-rx"></block></block>
-  <block id="e752fa0925615f823987d88e457d59fd" category="doc">S3 構成のONTAPシステム上のバケットにボリュームをバックアップするためのサポートが追加されました</block>
-  <block id="94798620994cb827b675957027c80437" category="list-text">重要なセキュリティ強化により、パブリック クラウド環境内のバックアップおよびリカバリ リソースを管理するために、コネクタでは追加のエンドポイントへの送信インターネット アクセスが必要になりました。このエンドポイントがファイアウォールの「許可」リストに追加されていない場合は、UI に「サービスを利用できません」または「サービス ステータスを判別できませんでした」というエラーが表示されます。</block>
-  <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
-  <block id="9aa936e4dd7e0d3efaa0a77d15dc632b" category="list-text">Cloud Volumes ONTAPとBlueXP backup and recoveryをバンドルできる「CVO Professional」パッケージを使用する場合は、バックアップとリカバリの PAYGO サブスクリプションが必要になりました。これは過去には必要ありませんでした。対象となるCloud Volumes ONTAPシステムのバックアップおよびリカバリ サブスクリプションには料金は発生しませんが、新しいボリュームでバックアップを構成する場合は必要です。</block>
-  <block id="2f90f6337bfaddfb7cef01155147c18e" category="paragraph">これで、Simple Storage Service (S3) 用に設定されたONTAPシステムを使用して、ボリュームをオブジェクト ストレージにバックアップできるようになりました。これは、オンプレミスのONTAPシステムとCloud Volumes ONTAPシステムの両方でサポートされています。この構成は、クラウド展開およびインターネット アクセスのないオンプレミスの場所 (「プライベート」モード展開) でサポートされます。</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細情報</block>
-  <block id="d93a426929555b449107b332f0c5df78" category="paragraph"><block ref="2d1eb9b9d1143acaa6fbfc289c32041b" category="inline-link-rx"></block> 。</block>
-  <block id="70fbb23fd6cfcbe729580a8c7071730a" category="section-title">保護されたボリュームの既存のスナップショットをバックアップファイルに含めることができるようになりました</block>
-  <block id="7c312a822a10d6845bb9cf257a3b41f5" category="paragraph">これまでは、最新の Snapshot コピーから開始するのではなく、読み取り/書き込みボリュームの既存の Snapshot コピーをオブジェクト ストレージへの初期バックアップ ファイルに含めることができました。読み取り専用ボリューム (データ保護ボリューム) からの既存のスナップショット コピーは、バックアップ ファイルに含まれていません。これで、「DP」ボリュームのバックアップ ファイルに古いスナップショット コピーを含めることを選択できるようになりました。</block>
-  <block id="a52e9db6c55aaea07e1f222122cf9475" category="paragraph">バックアップ ウィザードでは、バックアップ手順の最後にプロンプトが表示され、そこでこれらの「既存のスナップショット」を選択できます。</block>
-  <block id="6136d2619abda8ba9c4b9f6c76f6d430" category="section-title">BlueXP backup and recoveryは、将来追加されるボリュームの自動バックアップをサポートしなくなりました。</block>
-  <block id="3b17b8ee7680ecdabf14e962be98ba50" category="paragraph">以前は、バックアップ ウィザードでボックスをオンにして、選択したバックアップ ポリシーをクラスターに追加されるすべての将来のボリュームに適用できました。この機能は、ユーザーからのフィードバックとこの機能の使用頻度の低さに基づいて削除されました。クラスターに追加された新しいボリュームのバックアップを手動で有効にする必要があります。</block>
-  <block id="0420a611a93fd8e2b4b4669f2533284c" category="section-title">ジョブ監視ページが新しい機能で更新されました</block>
-  <block id="99e43b54749f1014f6aeb5b8c1c56742" category="paragraph">ジョブ監視ページでは、3-2-1 バックアップ戦略に関連する詳細情報が提供されるようになりました。このサービスは、バックアップ戦略に関連する追加のアラート通知も提供します。</block>
-  <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">「バックアップ ライフサイクル」タイプ フィルターの名前が「保持」に変更されました。このフィルターを使用して、バックアップのライフサイクルを追跡し、すべてのバックアップ コピーの有効期限を識別します。  「保持」ジョブ タイプは、BlueXP backup and recoveryによって保護されているボリューム上で開始されたすべてのスナップショット削除ジョブをキャプチャします。</block>
-  <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">更新されたジョブモニターの詳細</block>
-  <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block> 。</block>
-  <block id="b1026ebb435e887031ec24334255046b" category="paragraph">BlueXP disaster recoveryプレビューは、ディザスタ リカバリ ワークフローを自動化するクラウド ベースのディザスタ リカバリ サービスです。最初に、 BlueXP disaster recoveryプレビューを使用すると、 Amazon FSx for ONTAPを使用して、 NetAppストレージを実行しているオンプレミスの NFS ベースの VMware ワークロードを AWS 上の VMware Cloud (VMC) に保護できます。</block>
-  <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">このプレビュー オファリングでは、 NetApp は一般提供開始前にオファリングの詳細、内容、およびタイムラインを変更する権利を留保します。</block>
-  <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link">BlueXP disaster recoveryの詳細はこちら</block>
-  <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block> 。</block>
-  <block id="8f34806925352860a20b553ca661087f" category="paragraph">このリリースには次の更新が含まれています。</block>
-  <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link">複製するアプリケーションを選択し、リソース グループを割り当てます</block>
-  <block id="3c588cce706af28ae858573fe547adee" category="list-text">*ブート順序のリソース グループの更新*: 災害復旧またはレプリケーション プランを作成するときに、仮想マシンを機能リソース グループに追加できます。リソース グループを使用すると、依存関係にある仮想マシンのセットを、要件を満たす論理グループにまとめることができます。たとえば、グループには回復時に実行できるブート順序を含めることができます。このリリースでは、各リソース グループに 1 つ以上の仮想マシンを含めることができます。仮想マシンは、プランに含めた順序に基づいて電源がオンになります。参照<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>。</block>
-  <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link">アプリケーションを別のサイトに複製する</block>
-  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">*レプリケーション検証*: 災害復旧またはレプリケーション プランを作成し、ウィザードで繰り返しを識別し、災害復旧サイトへのレプリケーションを開始すると、 BlueXP disaster recoveryは30 分ごとに、レプリケーションが計画どおりに実際に実行されているかどうかを確認します。ジョブ モニター ページで進行状況を監視できます。。 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block> 。</block>
-  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link">レプリケーションプランを作成する</block>
-  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">*レプリケーション プランには、復旧ポイント目標 (RPO) の転送スケジュールが表示されます*: 災害復旧またはレプリケーション プランを作成するときに、VM を選択します。このリリースでは、データストアまたは VM に関連付けられている各ボリュームに関連付けられているSnapMirror を表示できるようになりました。  SnapMirrorスケジュールに関連付けられている RPO 転送スケジュールも表示できます。 RPO は、災害後の復旧にバックアップ スケジュールが十分かどうかを判断するのに役立ちます。参照<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
-  <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link">災害復旧ジョブを監視する</block>
-  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">*ジョブ モニターの更新*: ジョブ モニター ページに更新オプションが追加され、操作の最新ステータスを取得できるようになりました。。 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block> 。</block>
-  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">解決済みの問題</block>
-  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">このページ</block>
-  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">このリリースでは、<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block> 。更新されたソフトウェアパッケージは、以下から入手可能です。<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block> 。</block>
-  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="doc">データ ブローカーを作成するときに既存の Azure セキュリティ グループを使用する</block>
-  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">ユーザーは、データ ブローカーを作成するときに、既存の Azure セキュリティ グループを使用するオプションを利用できるようになりました。</block>
-  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">データ ブローカーの作成時に使用するサービス アカウントには、次の権限が必要です。</block>
-  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">「Microsoft.Network/ネットワークセキュリティグループ/セキュリティルール/読み取り」</block>
-  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">「Microsoft.Network/networkSecurityGroups/読み取り」</block>
-  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">Azure でデータ ブローカーを作成する方法の詳細について説明します。</block>
-  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
-  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">Google ストレージに同期するときにデータを暗号化する</block>
-  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">ユーザーは、Google ストレージ バケットをターゲットとして同期関係を作成するときに、顧客管理の暗号化キーを指定できるようになりました。キーを手動で入力するか、単一のリージョン内のキーのリストから選択することができます。</block>
-  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.リスト</block>
-  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keyRings.リスト</block>
-  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">Google Cloud Storage バケットの要件の詳細をご覧ください。</block>
-  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
-  <block id="b839d32c555694a5245fa2fa33d17d88" category="doc">階層化されたデータが保存されるバケット名にカスタムプレフィックスを使用する</block>
   <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">以前は、バケット名を定義するときに、デフォルトの「fabric-pool」プレフィックス (例: _fabric-pool-bucket1_) を使用する必要がありました。バケットに名前を付けるときにカスタムプレフィックスを使用できるようになりました。この機能は、データを Amazon S3 に階層化する場合にのみ使用できます。<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block> 。</block>
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">すべてのBlueXPコネクタでクラスターを検索</block>
-  <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">複数のコネクタを使用して環境内のすべてのストレージ システムを管理している場合、階層化を実装する一部のクラスターが異なるコネクタに存在する可能性があります。どのコネクタが特定のクラスターを管理しているかわからない場合は、 BlueXP tieringを使用してすべてのコネクタを検索できます。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> 。</block>
-  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="doc">正規表現でファイルを除外する</block>
-  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">ユーザーは正規表現を使用してファイルを除外できるようになりました。</block>
-  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">*ファイル拡張子を除外*機能の詳細をご覧ください。</block>
-  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
-  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">Azure データブローカーの作成時に S3 キーを追加する</block>
-  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">ユーザーは、Azure データ ブローカーを作成するときに、AWS S3 アクセス キーと秘密キーを追加できるようになりました。</block>
-  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
-  <block id="a0c145fadd8b464775a61d2f1a2e0474" category="paragraph">更新されたBlueXP移行レポート サービスは、レポート データの更新を提供します。レポートには割り当てられた容量が含まれるようになりました。</block>
-  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="doc">小規模および中規模の展開は一時的に利用できません</block>
-  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS でBlueXP classificationのインスタンスをデプロイする場合、*デプロイ &gt; 構成* を選択して小規模または中規模のインスタンスを選択するオプションは現時点では使用できません。  *[デプロイ] &gt; [デプロイ]* を選択すると、大きなインスタンス サイズを使用してインスタンスをデプロイできます。</block>
-  <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">調査結果ページから最大10万件のアイテムにタグを適用します</block>
-  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">方法を見る</block>
-  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">これまでは、調査結果ページで一度に 1 ページにしかタグを適用できませんでした (20 項目)。調査結果ページですべての項目を選択し、一度に最大 100,000 項目まですべての項目にタグを適用できるようになりました。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block> 。</block>
-  <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">最小ファイルサイズが 1 MB の重複ファイルを識別します</block>
-  <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP classificationは、ファイルが 50 MB 以上の場合にのみ重複ファイルを識別します。 1 MB から始まる重複ファイルを識別できるようになりました。調査ページのフィルター「ファイル サイズ」と「重複」を使用すると、環境内で重複している特定のサイズのファイルを確認できます。</block>
-  <block id="e749c9d187d1531bb81af1a3c9eb73be" category="doc">Azure での Lsv3 シリーズ VM のサポート</block>
-  <block id="3e34162a2379c48e3eaf3f3857b029c0" category="paragraph">コネクタの 3.9.33 リリースでは、次の変更が導入されました。</block>
-  <block id="cc2bfd53f6bcbc23893aaa8fab8b1eb2" category="paragraph">9.13.1 リリース以降、L48s_v3 および L64s_v3 インスタンス タイプが、単一および複数の可用性ゾーンでの共有管理対象ディスクを使用した単一ノードおよび高可用性ペアの展開で、Azure のCloud Volumes ONTAPでサポートされるようになりました。これらのインスタンス タイプは Flash Cache をサポートします。</block>
-  <block id="c2af1dd6b400531e930c62dad5095f7d" category="inline-link-macro">Azure でCloud Volumes ONTAPがサポートする構成を表示する</block>
-  <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">Azure のCloud Volumes ONTAPのストレージ制限を表示する</block>
-  <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block> <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
-  <block id="d8465669650730f887acd3754f3dea9f" category="list-text">BlueXPから AWS でコネクタを作成するときに、キーペア フィールド内を検索して、コネクタ インスタンスで使用するキーペアをより簡単に見つけることができるようになりました。</block>
-  <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXPから AWS でコネクタを作成するときにネットワーク ページに表示されるキー ペア フィールドの検索オプションのスクリーンショット。</block>
-  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">このアップデートにはバグ修正も含まれています。</block>
-  <block id="101143ec501ddd03e76bf93ad136c2de" category="doc">ONTAPデータの新しいポリシー管理</block>
-  <block id="d3744875712ea1e210c10ab00d139b5b" category="paragraph">このリリースには、UI 内でカスタム スナップショット ポリシー、レプリケーション ポリシー、およびONTAPデータのオブジェクト ストレージへのバックアップ ポリシーを作成する機能が含まれています。</block>
-  <block id="99a56480b438dfe7afa3558f8c8e61d0" category="inline-link">ポリシーの詳細</block>
-  <block id="53a26cd89d8676b12d682e92f9b49a79" category="paragraph"><block ref="99a3bdb35a901d86516bb48e573064a3" category="inline-link-rx"></block> 。</block>
-  <block id="90bd868a90cdf44166755a0fdec24b6e" category="section-title">ONTAP S3 オブジェクト ストレージのボリュームからファイルとフォルダーを復元するためのサポート</block>
-  <block id="efec702225db296adcaac3abb0665451" category="paragraph">以前は、ボリュームがONTAP S3 オブジェクト ストレージにバックアップされている場合、「参照と復元」機能を使用してファイルとフォルダーを復元することはできませんでした。このリリースではその制限が解除されます。</block>
-  <block id="38da59f967f6f913365cf5cefb459344" category="inline-link">データの復元について詳しくはこちら</block>
-  <block id="7b3040066d7e59383891bdcb2977076f" category="paragraph"><block ref="bfc7bc1f2f7fff3212c093c1fc6b6317" category="inline-link-rx"></block> 。</block>
-  <block id="f63476943179d5dd83527cd0b9c7ade4" category="section-title">最初に標準ストレージに書き込むのではなく、バックアップデータをすぐにアーカイブする機能</block>
-  <block id="cc702ed839181d5a4eb3655eba656f65" category="paragraph">データを標準のクラウド ストレージに書き込む代わりに、バックアップ ファイルをすぐにアーカイブ ストレージに送信できるようになりました。これは、クラウド バックアップのデータにアクセスする必要がほとんどないユーザーや、バックアップをテープ環境に置き換えるユーザーにとって特に役立ちます。</block>
-  <block id="52cc7bb26d5185a2c3b92b71a3d6e319" category="section-title">SnapLockボリュームのバックアップと復元の追加サポート</block>
-  <block id="4cb4cd292be9258bfc850d1aa644d9f6" category="paragraph">バックアップとリカバリでは、SnapLock ComplianceまたはSnapLock Enterprise保護モードのいずれかを使用して構成されたFlexVolボリュームとFlexGroupボリュームの両方をバックアップできるようになりました。このサポートを受けるには、クラスタでONTAP 9.14 以降を実行している必要があります。 SnapLock Enterpriseモードを使用したFlexVolボリュームのバックアップは、 ONTAPバージョン 9.11.1 以降でサポートされています。以前のONTAPリリースでは、 SnapLock保護ボリュームのバックアップはサポートされていません。</block>
-  <block id="115e674b1dc0942f53bc91e279bbd7eb" category="inline-link">ONTAPデータの保護について詳しくはこちら</block>
-  <block id="5ea7c922bf64f9c4520ccdf833e34e39" category="paragraph"><block ref="287ce1c3ffcd9fd04ac3fb9608fef690" category="inline-link-rx"></block> 。</block>
-  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-link-macro">Upgrade Advisor</block>
-  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">デフォルトのウォッチリストのアップグレードアドバイザーページにアクセスするには、<block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block>リンク。</block>
-  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">アップグレードプランを生成して表示する方法を学ぶ</block>
-  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">アップグレード プランは、冗長なアップグレード手順を削除し、バックアウト プランを簡素化するように最適化されています。クラスター内のすべてのノードに共通する手順は統合されており、アップグレード プラン内の一般情報セクションで利用できます。<block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block> 。</block>
-  <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">BlueXP disaster recoveryのこのプレビュー リリースには、次の更新が含まれています。</block>
-  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">*ダッシュボードの更新*: ダッシュボードのオプションをクリックできるようになり、情報をすばやく簡単に確認できるようになりました。また、ダッシュボードにはフェイルオーバーと移行のステータスが表示されるようになりました。</block>
-  <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">ダッシュボードで災害復旧計画の健全性を確認する</block>
-  <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">参照<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block>。</block>
-  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">*レプリケーション プランの更新*:</block>
-  <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">*RPO*: レプリケーション プランのデータストア セクションで、復旧ポイント目標 (RPO) と保持数を入力できるようになりました。これは、設定された時間よりも古くない、存在する必要があるデータの量を示します。たとえば、これを 5 分に設定すると、災害が発生した場合にシステムが最大 5 分間のデータを失っても、ビジネスクリティカルなニーズには影響しません。</block>
-  <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">参照<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
-  <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">*ネットワークの機能強化*: レプリケーション プランの仮想マシン セクションでソースとターゲットの場所の間でネットワークをマッピングする場合、 BlueXP disaster recoveryでは DHCP または静的 IP の 2 つのオプションが提供されるようになりました。以前は、DHCP のみがサポートされていました。静的 IP の場合は、サブネット、ゲートウェイ、および DNS サーバーを構成します。さらに、仮想マシンの資格情報を入力できるようになりました。</block>
-  <block id="fe329f91281efd1c71c4145c82444ecd" category="list-text">*スケジュールの編集*: レプリケーション プランのスケジュールを更新できるようになりました。</block>
-  <block id="ecd36d02576c4fe28ab61b5c14fa69c4" category="inline-link">リソースを管理する</block>
-  <block id="4cfb152ee6cdcd5bb952055f0451eb1e" category="paragraph">参照<block ref="62052e6a6f987a8752e8d90cacdd602d" category="inline-link-rx"></block>。</block>
-  <block id="58adec32627fd44ceeefdcc62aeec6fc" category="list-text">* SnapMirror の自動化*: このリリースでレプリケーション プランを作成するときに、次のいずれかの構成でソース ボリュームとターゲット ボリューム間のSnapMirror関係を定義できます。</block>
-  <block id="92b7daac1d86d399dc5b1e009d09f0f5" category="list-text">1～1</block>
-  <block id="352d4f9f99cbd649fab2edc17c761e66" category="list-text">ファンアウトアーキテクチャにおける1対多</block>
-  <block id="7d2e89736c1e0a679ed3c86b8b5e6141" category="list-text">一貫性グループとしての多対1</block>
-  <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">多対多</block>
-  <block id="74246010013353726bd9ff99866fa7d4" category="doc">RHEL バージョン 9 でのBlueXP classificationのオンプレミス インストールのサポート</block>
-  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux バージョン 8 および 9 は、 BlueXP classificationのインストールに必要な Docker エンジンをサポートしていません。コンテナ インフラストラクチャとして Podman バージョン 4 以上を使用して、RHEL 9.0、9.1、9.2 へのBlueXP classificationのインストールをサポートするようになりました。ご使用の環境で最新バージョンの RHEL を使用する必要がある場合は、Podman を使用するときにBlueXP classification(バージョン 1.26 以上) をインストールできるようになりました。</block>
-  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">現時点では、RHEL 9.x を使用する場合、ダーク サイトのインストールまたは分散スキャン環境 (マスター スキャナー ノードとリモート スキャナー ノードを使用) はサポートされていません。</block>
-  <block id="44d133359b344c4542acdebe6209e101" category="doc">Cloud Volumes ONTAP 9.14.0</block>
-  <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">コネクタの 3.9.34 リリースでは、次の変更が導入されました。</block>
-  <block id="c5fa627d231c9a8813c9a2421d86136f" category="paragraph">BlueXP は、AWS、Azure、Google Cloud でCloud Volumes ONTAP 9.14.0 一般提供リリースを展開および管理できるようになりました。</block>
-  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link-macro">Cloud Volumes ONTAPのこのリリースに含まれる新機能について学びましょう</block>
-  <block id="c2282365523aa8fbb305c5432e90d5d7" category="paragraph"><block ref="6f9b2ccd962907ef2c43f6fa9517a053" category="inline-link-macro-rx"></block> 。</block>
-  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">このリリースには、マイナーな改善とバグ修正が含まれています。</block>
-  <block id="197747cde80c31576877de78be696240" category="doc">BlueXP backup and recoveryの機能強化 (クラウド ネイティブ)</block>
-  <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Microsoft SQL Server データベース</block>
-  <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">Amazon FSx for NetApp ONTAP上にある Microsoft SQL Server データベースのバックアップ、リストア、リカバリをサポートします。</block>
-  <block id="d4da4ec044327991fbcd43ca1778c38f" category="list-text">すべての操作は REST API を通じてのみサポートされます。</block>
-  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANAシステム</block>
-  <block id="3b05cd173ffd47ef0b4346901ab9e0d3" category="list-text">システムリフレッシュ中、ボリュームの自動マウントとアンマウントはスクリプトではなくワークフローを使用して実行されます。</block>
-  <block id="29db6fe351e2079efe0622a1b5bd15f4" category="list-text">UI を使用してプラグイン ホストの追加、削除、編集、削除、保守、アップグレードをサポートします。</block>
-  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">BlueXP backup and recoveryの機能強化 (ハイブリッド)</block>
-  <block id="b4445605950c5dae15c10f509d6f0f79" category="list-text">データロックとランサムウェア保護をサポート</block>
-  <block id="188502bd01986373f9c31291dc835e82" category="list-text">StorageGridからアーカイブ層へのバックアップの移動をサポート</block>
-  <block id="541019d49feaf31b8000318aac636f92" category="list-text">オンプレミスのONTAPシステムから Amazon Web Services、Microsoft Azure、Google Cloud Platform、 StorageGRIDへの MongoDB、MySQL、PostgreSQL アプリケーション データのバックアップをサポートします。必要に応じてデータを復元できます。</block>
-  <block id="11a3809c55f7c25dbda24854a827db05" category="section-title">仮想マシン向けBlueXP backup and recoveryの機能強化</block>
-  <block id="60a7ad592c196ecee9eebdab38d4ed7e" category="list-text">コネクタプロキシ展開モデルのサポート</block>
-  <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">BlueXP disaster recoveryのこのプレビュー リリースには、次の更新が含まれています。</block>
-  <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">BlueXP disaster recoveryを使用すると、パブリッククラウドに加えて、オンプレミスの NFS ベースの VMware 環境を別のオンプレミスの NFS ベースの VMware 環境への災害から保護できます。  BlueXP disaster recoveryは、災害復旧計画の完了を調整します。</block>
-  <block id="f1d5b892646c28fdb747b890f0787976" category="doc">バックアップのアクティブ化中に 3-2-1 バックアップ ポリシーを作成する</block>
-  <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">以前は、スナップショット、レプリケーション、またはバックアップを開始する前にカスタム ポリシーを作成する必要がありました。  BlueXP backup and recoveryUI を使用して、バックアップのアクティブ化プロセス中にポリシーを作成できるようになりました。</block>
-  <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">ONTAPボリュームのオンデマンドクイックリストアのサポート</block>
-  <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">BlueXP backup and recoveryでは、クラウド ストレージからCloud Volumes ONTAPシステムへのボリュームの「クイック リストア」を実行できるようになりました。クイック リストアは、ボリュームへのアクセスをできるだけ早く提供する必要がある災害復旧の状況に最適です。クイック リストアでは、バックアップ ファイル全体を復元するのではなく、バックアップ ファイルからボリュームにメタデータを復元します。</block>
-  <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">Cloud Volumes ONTAP宛先システムでは、 ONTAPバージョン 9.13.0 以上が実行されている必要があります。<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block> 。</block>
-  <block id="a508551aa743c3098667d5ae32149739" category="paragraph">BlueXP backup and recoveryジョブ モニターには、クイック復元ジョブの進行状況に関する情報も表示されます。</block>
-  <block id="2bc953fcced4addf338156cc4681b683" category="doc">Azure の HA マルチアベイラビリティゾーン展開でサポートされる新しいリージョン</block>
-  <block id="13ff77e69df5acabc2f0da9e5ebc94b8" category="paragraph">Azure の次のリージョンでは、 Cloud Volumes ONTAP 9.14.0 以降の高可用性の複数の可用性ゾーンの展開がサポートされるようになりました。</block>
-  <block id="cee3f0213dd8b7eb15d7b31824e01754" category="list-text">オーストラリア東部</block>
-  <block id="f74e1c0c8ee8410fa5bfe03676347257" category="list-text">東アジア</block>
-  <block id="bea1bd3d23555c539dab5f3f5426184c" category="list-text">フランス中部</block>
-  <block id="d0fe0e3b6520479f718b98f0d471b7d0" category="list-text">北ヨーロッパ</block>
-  <block id="055ffb1451e38deb0c8ac651e32d77ec" category="list-text">カタール中央</block>
-  <block id="7def8b46a24f875959130a855cd80918" category="list-text">スウェーデン中央</block>
-  <block id="8fb2033d01e3efa2825282a13f86c14e" category="list-text">西ヨーロッパ</block>
-  <block id="c349d3a26cf4231660785a0c5b4cb007" category="list-text">米国西部2</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
-  <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">複数のアベイラビリティゾーンをサポートするすべてのリージョンのリストについては、<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block> 。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
@@ -226,8 +42,6 @@
   <block id="66eba6e27d94f9b0c691b0483249667f" category="list-text"><block ref="66eba6e27d94f9b0c691b0483249667f" category="inline-link-rx"></block></block>
   <block id="df583ae7ba964fd4806b55904da81813" category="inline-link">アラート</block>
   <block id="fd341debd2a7a8947c7eceb0303387db" category="list-text"><block ref="fd341debd2a7a8947c7eceb0303387db" category="inline-link-rx"></block></block>
-  <block id="83ef6035e494fa89c7cde91bba5f1672" category="inline-link">オートメーションハブ</block>
-  <block id="d0bbc8386467107f2822b68ce8f4fd53" category="list-text"><block ref="d0bbc8386467107f2822b68ce8f4fd53" category="inline-link-rx"></block></block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="inline-link">デジタルアドバイザー</block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="inline-link">経済効率</block>
@@ -378,4 +192,12 @@
   <block id="d14b43405cc49caff7e93e0a31952c5a" category="paragraph">変更内容の詳細については、<block ref="68413170a628412306b51347743a5acc" category="inline-link-macro-rx"></block></block>
   <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="e264fed64c86a30dfb5ff8b811d8fe4e" category="paragraph">この通知は、システムの効率を高め、ストレージ コストを節約するための「推奨事項」です。リンクを提供します<block ref="42e4a442d762b5369e021e8b363199d3" category="inline-link-rx"></block>コスト削減の計算に役立ちます。</block>
+  <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">オートメーションカタログ</block>
+  <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">コンソールのセットアップと管理</block>
+  <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">ボリュームキャッシュ</block>
+  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">データ分類</block>
+  <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">Eシリーズ</block>
+  <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP向け Amazon FSX</block>
+  <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">オンプレミスのONTAPクラスタ</block>
+  <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
 </blocks>

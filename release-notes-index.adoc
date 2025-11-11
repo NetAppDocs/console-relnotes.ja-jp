@@ -22,7 +22,7 @@ NetApp Consoleの機能とNetAppデータ サービスのリリース ノート�
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["セットアップと管理"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["アラート"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["オートメーションハブ"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["オートメーションカタログ"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["デジタルアドバイザー"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["経済効率"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
