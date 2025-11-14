@@ -72,6 +72,18 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 
 
 
+=== Licenses and subscriptions
+
+
+
+==== 請求設定を管理する
+
+NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。
+
+詳細については、 を参照してください。link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["請求設定に関するドキュメント"]
+
+
+
 === コンソールのセットアップと管理
 
 
@@ -143,6 +155,12 @@ ONTAPでカスケード関係を設​​定し、そのレプリケーション
 バックアップを作成する前に実行するカスタム スクリプトをフェイルオーバー ワークフローに挿入できるようになりました。バックアップ前のスクリプトを使用すると、スナップショットが複製される前に VM の状態を制御し、VM を移行用に準備することができます。たとえば、フェイルオーバー後に別のスクリプトを使用して再マウントされる NFS マウントをアンマウントするスクリプトを挿入できます。
 
 詳細については、 xref:drplan-create.html#map-resources-virtual-machines-section[NetApp Disaster Recoveryでレプリケーションプランを作成する]。
+
+
+
+=== ランサムウェア耐性
+
+このリリースには、全般的な機能強化と改善が含まれています。
 
 
 
