@@ -8,4 +8,4 @@
 
 NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。
 
-詳細については、 を参照してください。link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["請求設定に関するドキュメント"]
+詳細については、link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["請求設定に関するドキュメント"^] 。
