@@ -400,7 +400,6 @@
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">エージェントステータスインジケーターの名前を変更しました</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">コンソール エージェントのステータス インジケーターの名前を *アクティブ* と *非アクティブ* から *接続済み* と *切断済み* に変更し、目的をより明確にしました。</block>
   <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">Redhat Enterprise Linux (RHEL) 9.6 および Podman 5.4.0 のサポート</block>
-  <block id="d90d113f70d4f4d024f99f4015bbbb96" category="paragraph">コンソール エージェントは、RHEL 9.6 および Podman 5.4.0 をサポートするようになりました。さらに、RHEL 9 以降を使用する場合、 NetApp はpodman-compose 1.5.0 をサポートします。</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">このリリースには以下が含まれます。</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">NetApp Console通知用の新しいメールアドレス</block>
@@ -453,4 +452,6 @@
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">高度なONTAP操作のためのリンクの使用について学習します</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP System Manager インターフェイスを AWS Lambda リンクと組み合わせて使用​​すると、高度なONTAP操作を実行できます。これにより、System Manager でコンソール エージェントを使用する代わりに、コンソールから直接 FSx for ONTAPファイル システムを管理できるようになります。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
+  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">オペレーティング システムの要件を表示</block>
+  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">コンソール エージェントを手動でインストールする場合、エージェントは Podman 5.4.0 を搭載した RHEL 9.6 をサポートするようになりました。さらに、RHEL 9 以降を使用する場合、 NetApp はpodman-compose 1.5.0 をサポートします。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
 </blocks>
