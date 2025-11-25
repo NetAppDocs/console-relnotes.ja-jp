@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP向け Amazon FSX</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">オンプレミスのONTAPクラスタ</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">プレビューでの VMware ワークロードの保護のサポート</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">このリリースでは、VMware ワークロードを保護するためのプレビュー サポートが追加されました。オンプレミスのONTAPシステムから VMware VM とデータストアを Amazon Web Services およびStorageGRIDにバックアップします。</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">VMware ワークロードの保護に関するドキュメントは、テクノロジー プレビューとして提供されます。このプレビュー オファリングでは、 NetApp は一般提供開始前にオファリングの詳細、内容、およびタイムラインを変更する権利を留保します。</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">NetApp Backup and RecoveryによるVMwareワークロードの保護について詳しくは、こちらをご覧ください。</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>。</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">AWS、Azure、GCP向けの高パフォーマンスインデックスが一般提供開始</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">2025 年 2 月に、AWS、Azure、GCP 向けの高パフォーマンス インデックス (Indexed Catalog v2) のプレビューを発表しました。この機能は現在、一般公開 (GA) されています。2025 年 6 月には、すべての新規顧客にこれをデフォルトで提供しました。このリリースでは、すべての顧客がサポートを利用できるようになります。高パフォーマンスのインデックス作成により、オブジェクト ストレージに保護されているワークロードのバックアップおよび復元操作のパフォーマンスが向上します。</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">デフォルトで有効:</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">新規のお客様の場合、高パフォーマンスのインデックス作成がデフォルトで有効になっています。</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">既存のお客様の場合は、UI の [復元] セクションに移動して再インデックスを有効にすることができます。</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">新しい列による論理使用状況の追跡の強化</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">FabricPoolボリュームのKeystone消費量追跡を強化するために、新しい列「合計フットプリント」が追加されました。</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXPのKeystoneダッシュボード *: *Assets* タブ内の *Volumes in clusters* タブに *Total footnotes* 列が表示されます。</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">*Digital Advisor*: * ボリュームとオブジェクト * タブ内の * ボリュームの詳細 * タブに * 合計フットプリント * 列が表示されます。</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">この列には、パフォーマンス層とコールド層の両方のデータを含む、 FabricPool階層化を使用したボリュームの合計論理フットプリントが表示されるため、 Keystone の消費量を正確に計算できます。</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">アラート監視の追加</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXPのKeystoneダッシュボードには、サブスクリプション全体のアラートとモニターを管理するための *監視* タブが追加されました。この新しいタブでは次のことが可能になります。</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">容量使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を含むアクティブなアラートを表示して解決します。</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">レプリケーション :leveloffset: +1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Eシリーズ :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Consoleシステム ページから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間のデータ レプリケーションを利用できます。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">請求設定を管理する</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">オペレーティング システムの要件を表示</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">コンソール エージェントを手動でインストールする場合、エージェントは Podman 5.4.0 を搭載した RHEL 9.6 をサポートするようになりました。さらに、RHEL 9 以降を使用する場合、 NetApp はpodman-compose 1.5.0 をサポートします。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">詳細については、 <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>。</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">カバレッジギャップサブスクリプションの追跡ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*モニタリング &gt; アラート モニター* の *カバレッジの完了* 通知ボックスで、各サブスクリプションのサブスクリプション番号の横に追跡 ID が表示されるようになりました。</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
 </blocks>
