@@ -451,4 +451,13 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">制限事項</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">必ず確認してください<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>そして<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block>Google Cloud 向け。</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">バージョン1.49</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">この Data Classification リリースには、バグ修正と次の更新が含まれています。</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">ヘルスモニタリングダッシュボードで指標とパフォーマンスを監視する</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">データ分類では、ヘルス モニタリング ダッシュボードが提供されるようになり、リソースのリアルタイム モニタリングと、メモリ使用量、ディスク使用量、ディスク使用率などの分析情報が提供されます。ヘルス モニタリング ダッシュボードから得られる分析情報を活用することで、展開のインフラストラクチャを確認し、ストレージとパフォーマンスを最適化するための分析情報を得ることができます。</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">データ分類の健全性を監視する</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">詳細については、 <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>。</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">読み込みパフォーマンスの向上</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">データ分類のすべてのページの読み込みパフォーマンスが向上し、より効率的なユーザー エクスペリエンスが実現しました。</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
 </blocks>
