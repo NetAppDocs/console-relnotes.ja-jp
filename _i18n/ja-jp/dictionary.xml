@@ -460,4 +460,9 @@
   <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">読み込みパフォーマンスの向上</block>
   <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">データ分類のすべてのページの読み込みパフォーマンスが向上し、より効率的なユーザー エクスペリエンスが実現しました。</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
+  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware ワークロードのプレビュー機能強化</block>
+  <block id="24936fb650df7af8295e75a3667becef" category="list-text">バックアップとスナップショットを別の場所に復元できるようになりました。これは、異なる VMware vCenter 展開、VMware ESXi ホスト、または VMware データストア上の VM のバージョンを管理する場合に便利です。</block>
+  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">特定の VMware 仮想ディスク (VMDK イメージ) をプライマリまたはセカンダリの場所から復元できるようになり、VM データの復元をより細かく制御できるようになりました。</block>
+  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">NetApp Backup and Recoveryを使用したVMwareワークロードの復元の詳細</block>
+  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
 </blocks>
