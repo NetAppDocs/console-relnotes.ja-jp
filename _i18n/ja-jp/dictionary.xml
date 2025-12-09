@@ -477,13 +477,13 @@
   <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">デフォルトでは、ディザスタ リカバリはフェイルオーバー時に VM インベントリ階層 (フォルダー構造) を保持します。回復対象に必要なフォルダーがない場合、Disaster Recovery によってフォルダーが作成されます。</block>
   <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">新しい親 VM フォルダを指定するか、[**元のフォルダ階層を保持**] オプションのチェックを外すことで、この設定を上書きできるようになりました。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーションプランを作成する</block>
-  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">詳細については、 <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>。</block>
   <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">合理化されたコンソールエージェントの更新</block>
   <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">災害復旧では、作業環境で複数のコンソール エージェントを使用するための合理化されたプロセスがサポートされるようになりました。コンソール エージェントを切り替えるには、vCenter 構成を編集し、資格情報を再検出し、新しいコンソール エージェントを使用するようにレプリケーション プランを更新する必要があります。</block>
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">スイッチコンソールエージェント</block>
-  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">詳細については、 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience では、ユーザー行動アラートのステータスを編集できるようになりました。アラートを手動で解除したり解決したりできます。</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">ランサムウェア耐性のアラートを管理する</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">詳細については、 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
+  <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">詳細については、 <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>。</block>
+  <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">詳細については、 <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>。</block>
 </blocks>
