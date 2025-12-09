@@ -465,4 +465,6 @@
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">特定の VMware 仮想ディスク (VMDK イメージ) をプライマリまたはセカンダリの場所から復元できるようになり、VM データの復元をより細かく制御できるようになりました。</block>
   <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">NetApp Backup and Recoveryを使用したVMwareワークロードの復元の詳細</block>
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">累積バースト容量ラベルの名前を変更しました</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">ラベル *Accrued burst capacity* の名前が *Accrued burst* に変更されます。</block>
 </blocks>
