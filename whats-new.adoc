@@ -1232,29 +1232,3 @@ NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され
 NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
 
 変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Consoleのリリースノート"^] 。
-
-
-
-== 2025年9月22日
-
-
-
-=== Keystone
-
-
-
-==== アラート監視の追加
-
-BlueXPのKeystoneダッシュボードには、サブスクリプション全体のアラートとモニターを管理するための *監視* タブが追加されました。この新しいタブでは次のことが可能になります。
-
-* 容量使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を含むアクティブなアラートを表示して解決します。
-* 容量使用状況とサブスクリプション有効期限イベントを追跡するためのアラート モニターを作成します。
-
-
-詳細については、 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]。
-
-
-
-==== 合理化されたパフォーマンス サービス レベルの表示
-
-パフォーマンス サービス レベル情報は、別のタブから展開可能なビューに移動され、[*サブスクリプション*] タブ内で表示できます。各サブスクリプションの有効期限を表示するには、「*有効期限*」列の横にある下矢印をクリックします。詳細については、 link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示する"]。
