@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">オンプレミスのONTAPクラスタ</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">資産タブの QoS ポリシーオーバーライド列</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">*アセット* タブ内の *クラスター内のボリューム* タブに、バックアップ ボリュームとミラー ボリュームに対して QoS ルールがバイパスされるかどうかを示す *QoS ポリシー オーバーライド* 列が追加され、*true* (ルールは無視)、*false* (ルールは適用)、または *N/A* (ミラー ボリュームの場合) が表示されます。</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Keystone v3 サブスクリプションの場合、QoS ポリシーは v3 オファリングには適用されないため、この列には *N/A* が表示されます。</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">概要ページでのアラートの可視性が向上</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">NetApp ConsoleのKeystoneダッシュボード</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">*概要* ページに、*重大度別の未解決アラート* と *最も古い未解決Keystoneアラート* という 2 つの新しいアラート セクションが含まれるようになりました。詳細については、 <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>。</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure のCloud Volumes ONTAP は、サポートされている最新バージョンに限定されるようになりました</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">NetApp Consoleを介した Azure でのCloud Volumes ONTAP の展開とアップグレードは、サポートされている最新バージョンに制限されるようになりました。これにより、Microsoft がサポートする最新世代のハードウェアとの互換性が確保され、最新の機能とセキュリティ強化が提供されます。コンソールは、サポートされているバージョンにアップグレードするように要求します。</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">詳細については、以下を参照してください。</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Consoleシステム ページから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間のデータ レプリケーションを利用できます。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">請求設定を管理する</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">この変更は標準モードのみ、およびONTAPバージョン 9.6 以降に適用されます。</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">詳細については、 <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>。</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">詳細については、 <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>。</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">オンプレミス環境での複数のコンソール エージェントのサポート</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">オンプレミスでDisaster Recovery を使用している場合は、vCenter インスタンスごとにコンソール エージェントを展開して、回復力を向上させることができます。</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">たとえば、2 つのサイト (サイト A とサイト B) がある場合、サイト A には、vCenter 1、 ONTAPデプロイメント 1、およびONTAPデプロイメント 2 に接続されたコンソール エージェント A を配置できます。サイト B には、vCenter 2 とONTAPデプロイメント 3 および 4 に接続されたコンソール エージェント B を配置できます。</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">コンソールエージェントを作成する</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">災害復旧のコンソールエージェントの詳細については、以下を参照してください。 <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>。</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">データストアベースの保護を使用したレプリケーション プランのフェイルオーバー後に VM を追加する</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">フェイルオーバーがトリガーされると、データストアベースの保護を使用するすべてのレプリケーション プランには、データストアに追加された VM が含まれます (検出された場合)。フェイルオーバーが完了する前に、追加された VM のマッピングの詳細を提供する必要があります。</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">フェイルオーバーアプリケーション</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">詳細については、 <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>。</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">新しいメール通知</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">災害復旧では、次のイベントに関する電子メール通知が提供されるようになりました。</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">容量使用制限に近づいています</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">レポート生成が完了しました</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">仕事の失敗</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">ライセンスの有効期限または違反</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swaggerの改善</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">これで、Disaster Recovery 内から Swagger ドキュメントにアクセスできるようになりました。災害復旧で、**設定** を選択し、次に **API ドキュメント** を選択して Swagger にリンクするか、ブラウザのシークレット/プライベート モードで次の URL にアクセスします。 <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>。</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">改善されたユーザーインターフェース</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">災害復旧では、警告とエラー解決が改善されました。このリリースでは、キャンセルされたジョブがユーザー インターフェイスに表示されないエラーが修正されました。キャンセルされたジョブが表示されるようになりました。同じ宛先ネットワークが複数の異なるソース ネットワークにマップされている場合にも、新しい警告が表示されます。</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">レプリケーション プランに VM フォルダ構造の保持がデフォルトとして追加されました</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">レプリケーションを作成すると、新しいデフォルトでは VM フォルダー構造が保持されます。リカバリ対象に元のフォルダ階層がない場合、Disaster Recovery によってそれが作成されます。このオプションを選択解除すると、元のフォルダー階層を無視できます。</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">詳細については、 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026年1月12日</block>
 </blocks>
