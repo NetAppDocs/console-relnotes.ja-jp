@@ -323,4 +323,7 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">組織が読み取り専用モードの場合に役割を昇格させる方法を学習します。</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
+  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">Cloud Volumes ONTAPの追加の Google Cloud 権限</block>
+  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">Google Cloud でCloud Volumes ONTAP管理をサポートするには、コンソール エージェントに追加の権限が必要になりました。コンソールエージェントが使用するサービスアカウントに次の権限が追加されました: compute.forwardingRules.update</block>
+  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
 </blocks>
