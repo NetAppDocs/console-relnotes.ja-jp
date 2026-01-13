@@ -310,4 +310,17 @@
   <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">詳細については、 <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>。</block>
   <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">アラートをレビュー中としてマークする</block>
   <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">Ransomware Resilience では、アラートを「レビュー中」としてマークできるようになりました。「レビュー中」ラベルを使用すると、アクティブなランサムウェアの脅威をトリアージおよび管理する際に、チーム全体の明確性が向上します。</block>
+  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">コンソールエージェント 4.3.0</block>
+  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
+  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">コンソールエージェントのネットワーク接続を検証する機能</block>
+  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">接続されたコンソール エージェントのネットワーク接続をNetApp Consoleから直接検証できるようになりました。この機能は、接続の検証とコンソール エージェントの問題のトラブルシューティングに役立ちます。</block>
+  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
+  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Consoleが制限モードの場合のフェデレーションのサポート</block>
+  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">制限モードになっているNetApp Console組織に対してフェデレーションを有効にできるようになりました。これにより、ユーザーは制限モードのセキュリティ上の利点を維持しながら、企業の資格情報を使用してコンソールにログインできるようになります。</block>
+  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">読み取り専用モード</block>
+  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">NetApp Console組織を読み取り専用モードに設定できます。読み取り専用モードでは、ユーザーはリソースと設定を表示できますが、変更することはできません。組織管理者またはスーパー管理者は、組織に対して読み取り専用モードを有効にすることができます。読み取り専用モードが有効になっている場合、管理者ロールを持つユーザーは、必要に応じて変更を加えるために手動で権限を昇格する必要があります。</block>
+  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">コンソール組織で読み取り専用モードを有効にする方法を学習します。</block>
+  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
+  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">組織が読み取り専用モードの場合に役割を昇格させる方法を学習します。</block>
+  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
 </blocks>
