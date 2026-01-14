@@ -137,7 +137,6 @@
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">スキャンの進行状況の明確化を強化</block>
   <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">スキャン構成には、スキャン完了に関する改善された分析情報が含まれるようになりました。以前は、スキャンの進行中にのみ進行状況バーが表示されていました。スキャンが正常に完了したことを確認できるように、完了後も進行状況バーが表示されるようになりました。マップおよびスキャンされたファイルの数を表示することもできます。</block>
   <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">リポジトリのNetApp Data Classificationスキャン設定を変更する</block>
-  <block id="dc9fb8f25cdf758c060f4782f41b0b0f" category="paragraph">スキャン設定の詳細については、 <block ref="19cf1405cd38e956788f418f2be34a68" category="inline-link-macro-rx"></block>。</block>
   <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">カスケードフェイルオーバーのサポート</block>
   <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">ONTAPでカスケード関係を設​​定し、そのレプリケーション関係の任意のレッグを使用して災害復旧を行うことができます。</block>
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">登録中に VMware ハードウェア サポートをダウングレードする</block>
@@ -323,7 +322,19 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">組織が読み取り専用モードの場合に役割を昇格させる方法を学習します。</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
-  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">Cloud Volumes ONTAPの追加の Google Cloud 権限</block>
-  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">Google Cloud でCloud Volumes ONTAP管理をサポートするには、コンソール エージェントに追加の権限が必要になりました。コンソールエージェントが使用するサービスアカウントに次の権限が追加されました: compute.forwardingRules.update</block>
-  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
+  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">スキャン設定の詳細については、 <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>。</block>
+  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">バージョン1.50</block>
+  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">カスタム分類の改善</block>
+  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">データ分類では、データのカスタム カテゴリの作成がサポートされるようになりました。ファイルをアップロードして、データ分類がデータにカテゴリ マーカーを適用するために使用する AI モデルを微調整できます。すべてのカスタム分類のインターフェースが改善されました。</block>
+  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">カスタム分類を作成する</block>
+  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">詳細については、 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
+  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">カスタムの古いデータ定義</block>
+  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">データ分類では、組織のニーズに合わせて古いデータの定義をカスタマイズできるようになりました。以前は、古いデータは 3 年前に最後に変更されたデータとして定義されていました。現在では、最後にアクセスされた日時、または最後に変更された日時に基づいて古いデータを識別できます。期間は 6 か月前から 10 年前までの範囲です。</block>
+  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">古いデータ定義をカスタマイズする</block>
+  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">詳細については、 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
+  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">パフォーマンスの向上</block>
+  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">データ分類、データ マッピング レポート、および調査ページのフィルターのすべてのページの読み込み時間が短縮されました。</block>
+  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調査報告書の所要時間の見積もり</block>
+  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">調査レポートをダウンロードすると、データ分類ではダウンロードが完了するまでの予想時間が表示されるようになりました。</block>
+  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
 </blocks>
