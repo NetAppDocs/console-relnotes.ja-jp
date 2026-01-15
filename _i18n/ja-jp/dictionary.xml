@@ -117,13 +117,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:</block>
-  <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure のCloud Volumes ONTAP は、サポートされている最新バージョンに限定されるようになりました</block>
-  <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">NetApp Consoleを介した Azure でのCloud Volumes ONTAP の展開とアップグレードは、サポートされている最新バージョンに制限されるようになりました。これにより、Microsoft がサポートする最新世代のハードウェアとの互換性が確保され、最新の機能とセキュリティ強化が提供されます。コンソールは、サポートされているバージョンにアップグレードするように要求します。</block>
-  <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">詳細については、以下を参照してください。</block>
-  <block id="c7c36710c319ba2646765acbeed52820" category="inline-link">Cloud Volumes ONTAPデプロイメントでサポートされているONTAPバージョン</block>
-  <block id="8a79801dc6892f83b39904d935baeea6" category="list-text">展開:<block ref="defc681ae2012fb7f8f998224eac55e5" category="inline-link-rx"></block></block>
-  <block id="b2f564ccc8dab8d25ce5727e3ac0f553" category="inline-link">Azure でサポートされているアップグレード パス</block>
-  <block id="cd28d8af5b4308747357925ae313e125" category="list-text">アップグレード:<block ref="9fd9abde9fac7cd4edc5e352cd251056" category="inline-link-rx"></block></block>
   <block id="9c1b6a208384484254769349d91e3af9" category="doc">コンソールエージェント 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善、バグ修正、および次の機能が含まれています。</block>
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">4.1.0 リリースは、標準モードと制限モードで利用できます。</block>
@@ -160,7 +153,6 @@
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">廃止されたサービス</block>
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">NetApp Consoleシステム ページから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間のデータ レプリケーションを利用できます。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">請求設定を管理する</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。</block>
@@ -300,7 +292,6 @@
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">請求設定と超過料金</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">スナップショットをONTAPに複製する</block>
-  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。レプリケーション ポリシーを使用する保護グループを使用すると、ワークロードごとに同じ宛先または異なる宛先にレプリケートできます。</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">ランサムウェア耐性でワークロードを保護する</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">詳細については、 <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>。</block>
   <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">ランサムウェア耐性からワークロードを除外する</block>
@@ -337,4 +328,5 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調査報告書の所要時間の見積もり</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">調査レポートをダウンロードすると、データ分類ではダウンロードが完了するまでの予想時間が表示されるようになりました。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
+  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。</block>
 </blocks>
