@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">調査レポートをダウンロードすると、データ分類ではダウンロードが完了するまでの予想時間が表示されるようになりました。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Consoleでのフェデレーション グループに対するロールベースのアクセス</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Consoleは、フェデレーション グループ (Active Directory グループなど) へのロールの割り当てをサポートしており、管理者は組織の ID プロバイダー (IdP) のグループ メンバーシップに基づいてユーザーのオンボーディングとオフボーディングを自動化できます。この機能により、管理オーバーヘッドが削減され、グループ メンバーシップの変更に応じてコンソール アクセスが即座に更新されるため、安全で一貫したアクセスが確保されます。</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">組織にフェデレーション グループへのアクセスを提供する方法を学習します。</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
