@@ -108,6 +108,18 @@ KVMワークロードの保護の詳細については、以下を参照して�
 
 
 
+=== ランサムウェア耐性
+
+
+
+==== サポートされていないボリューム
+
+ランサムウェア耐性レポートでは、**概要** レポートでサポートされているボリュームとサポートされていないボリュームに関する情報が取得されるようになりました。この情報を使用して、システム内のボリュームがランサムウェア保護の対象外となる理由を診断します。
+
+詳細については、 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["ランサムウェア耐性レポートをダウンロード"^]。
+
+
+
 === Keystone
 
 NetApp ConsoleのKeystoneダッシュボードの更新:
@@ -252,7 +264,7 @@ link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["
 
 ==== スナップショットをONTAPに複製する
 
-Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。
+Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーション ポリシーを使用する保護グループを使用すると、ワークロードごとに同じ宛先または異なる宛先にレプリケートできます。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。
 
 詳細については、 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["ランサムウェア耐性でワークロードを保護する"^]。
 
