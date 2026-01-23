@@ -303,8 +303,6 @@
   <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">コンソールエージェント 4.3.0</block>
   <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">コンソールエージェントのネットワーク接続を検証する機能</block>
-  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">接続されたコンソール エージェントのネットワーク接続をNetApp Consoleから直接検証できるようになりました。この機能は、接続の検証とコンソール エージェントの問題のトラブルシューティングに役立ちます。</block>
-  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
   <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Consoleが制限モードの場合のフェデレーションのサポート</block>
   <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">制限モードになっているNetApp Console組織に対してフェデレーションを有効にできるようになりました。これにより、ユーザーは制限モードのセキュリティ上の利点を維持しながら、企業の資格情報を使用してコンソールにログインできるようになります。</block>
   <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">読み取り専用モード</block>
@@ -364,4 +362,7 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">Hyper-V VMのバックアップとスナップショットを別の場所に復元できるようになりました。この機能を使用して、異なるHyper-Vホスト上のVMバージョンを管理できます。</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery では、System Center Virtual Machine Manager（SCVMM）によってプロビジョニングされ、CIFS 共有でホストされている Hyper-V 仮想マシンがサポートされるようになりました。</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">KVM ワークロード プレビューでは、Apache CloudStack によって管理される KVM ホストと仮想マシンが保護されるようになりました。</block>
+  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">接続された Console エージェントのネットワーク接続をNetApp Console から直接検証できるようになりました。この機能は、Console エージェントの接続性を検証し、問題のトラブルシューティングに役立ちます。これは、Console エージェントのメンテナンスコンソールのコマンドラインインターフェース（CLI）からネットワーク診断を実行できる既存の機能に加えて提供されます。</block>
+  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">NetApp Consoleから構成を実行する方法を学習します。</block>
+  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
 </blocks>
