@@ -373,4 +373,11 @@
   <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新しい使用タイプ列</block>
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*サブスクリプション*タブには、プロビジョニングされた使用量、物理的な使用量、論理的な使用量のいずれに基づいてサブスクリプションが課金されるかを表示する*使用状況タイプ*列が含まれています。詳細については、<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026年2月2日</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">包括的なセキュリティ監視のための新しいセキュリティレポート</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisorに、ストレージ環境全体のONTAPセキュリティリスクの統合ビューを提供するセキュリティレポートが追加されました。このレポートにより、クラスタ、SVM、ボリューム全体の設定ミス、コンプライアンスギャップ、セキュリティ問題をより迅速に検出でき、安全なストレージインフラストラクチャの維持に役立ちます。</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">混合パッチレベルに対する Enhanced Upgrade Advisor のサポート強化</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">アップグレードアドバイザーは、同じONTAPメジャーリリース内で異なるパッチレベルを実行しているノードがあるクラスタのアップグレードレポートを生成するようになりました。この機能強化により、クラスタがメジャーバージョン間で混在していない限り、お客様はアップグレードをシームレスに進めることができ、アップグレード計画の柔軟性が向上します。</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">限定サポート終了ONTAP バージョンの延長サポート</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisorは、9か月の猶予期間付きで限定サポートが終了したONTAPバージョンのアップグレードプランの生成をサポートするようになりました。この機能は、移行期間中に明確なガイダンスを提供することで、顧客がタイムリーな対応を取り、アップグレードの中断を回避するのに役立ちます。</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026年2月4日</block>
 </blocks>
