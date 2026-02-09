@@ -363,4 +363,32 @@
   <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">ファイルをコピーまたは移動する場合、以前の制限である 50 MB から増加し、最大 250 MB のファイルを移動できるようになりました。</block>
   <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">低解像度画面の表示の改善</block>
   <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification では、低解像度の画面での表示パフォーマンスが向上し、ユーザー エクスペリエンスが向上しました。</block>
+  <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes ワークロードの機能強化</block>
+  <block id="de8616724d177017abdd720d7365feff" category="paragraph">この Kubernetes ワークロードのリリースでは、次の拡張機能が導入されています：</block>
+  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*CR ワークフローのサポート*：NetApp Backup and Recovery の Web UI だけでなく、CR を使用して一般的な保護タスクを実行できるようになりました。</block>
+  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*クラスタの移行*：Trident Protectで保護されている既存のKubernetesクラスタをBackup and Recoveryに追加できるようになりました。</block>
+  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*アラートフレームワークのサポート*：特定の Kubernetes ワークロードイベントに関する E メールと UI アラートを受信できるようになりました。</block>
+  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*復元タブの統合*：復元メニューから Kubernetes ワークロードの復元アクションにアクセスできるようになりました。</block>
+  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*3-2-1ファンアウトバックアップアーキテクチャのサポート*：Kubernetesワークロードを保護する際に、保護ポリシーで3-2-1ファンアウトアーキテクチャを使用できるようになりました。</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes ワークロードの保護の概要</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Databaseワークロードの機能強化</block>
+  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">このリリースの Oracle Database ワークロードでは、次の拡張機能が導入されています：</block>
+  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*非ルートユーザーのサポート*：非ルートユーザーがバックアップ、復元、クローン操作を実行できるようになり、セキュリティとコンプライアンスが向上しました。</block>
+  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*クローンのサポート*：ASM ライブラリ v2 を使用するプライマリおよびセカンダリ NAS、SAN、および ASM 環境全体でクローン機能がサポートされるようになり、調整された保護ワークフローが可能になります。</block>
+  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*クローン分割のサポート*：書き込み可能なスナップショット（クローン）を親ボリュームから分割して、ストレージを解放し、独立した操作を行うことができるようになりました。</block>
+  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*オブジェクトストアのバックアップとリストア*：オブジェクトベースのS3互換ストレージターゲットに対して、ネイティブのバックアップおよびリストア機能がサポートされるようになりました。</block>
+  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*クローン ライフサイクル管理（CLM）*：クローン更新操作はプライマリ ストレージでサポートされます。</block>
+  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*代替ホストへのクローン作成*：プライマリストレージとセカンダリストレージの両方から、データベースを別のホスト（テストまたは分析用）にクローン作成できるようになりました。</block>
+  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*ONTAP整合性グループのサポート*：ONTAP整合性グループがサポートされるようになり、複数のボリュームにわたってアプリケーションの整合性のあるスナップショットが保証されます。</block>
+  <block id="07bac542633034a121251f74bf3c7880" category="list-text">Backup and Recovery で、 Oracle Database ワークロードの次の保護ポリシーアーキテクチャがサポートされるようになりました：</block>
+  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">3-2-1ファンアウト</block>
+  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">ディスクツーディスク</block>
+  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">ディスクからオブジェクトストレージへ</block>
+  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">カスケード</block>
+  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">ローカルスナップショット</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Databaseワークロードの保護の概要</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="cc5d8c9d6668803b438b03567e08b611" category="section-title">その他の機能強化</block>
+  <block id="6ec61dc6a9b7787975d159ba164424f9" category="paragraph">Hyper-Vワークロード、KVMワークロード、VMwareワークロードがNetApp Backup and Recoveryで一般提供（GA）されるようになりました。</block>
 </blocks>
