@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager に必要な権限</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026年2月9日</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">Amazon FSxN for ONTAP から直接 NetApp Console キャンバスでデータ分類を有効化</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">NetApp Console キャンバスから直接 ONTAP システム用の Amazon FSxN を有効にできるようになり、FSxN システムの Data Classification をより迅速に起動できるようになりました。</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Amazon FSxN for ONTAPボリュームをスキャン</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Amazon FSxN for ONTAPでData Classificationを使用する方法の詳細については、<block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">調査ディレクトリのエクスポート制限の増加</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">調査ダッシュボードからディレクトリに関する調査レポートをエクスポートするときに、10,000 行を含めることができるようになりました。以前の 5,000 行の制限からのこの増加は、データ ガバナンスとコンプライアンスのより大規模な調査をサポートします。</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">データを調査する</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">詳細については、<block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">コピーと移動の制限の引き上げ</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">ファイルをコピーまたは移動する場合、以前の制限である 50 MB から増加し、最大 250 MB のファイルを移動できるようになりました。</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">低解像度画面の表示の改善</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification では、低解像度の画面での表示パフォーマンスが向上し、ユーザー エクスペリエンスが向上しました。</block>
 </blocks>
