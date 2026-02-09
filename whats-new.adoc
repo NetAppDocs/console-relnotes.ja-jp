@@ -52,6 +52,34 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 
 
+== 2026年2月9日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Google Cloud Infrastructure Manager のサポート
+
+Cloud Volumes ONTAP 9.16.1以降では、Google Cloudでの新しい導入において、 https://docs.cloud.google.com/deployment-manager/docs/deprecations["クラウドデプロイメントマネージャー"^]（DM）の代わりに https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM）をサポートするようになりました。Googleは、より高度なInfrastructure Managerのために、近い将来インフラストラクチャサービスとしてのDeployment Managerを廃止する予定です。
+
+Infrastructure Manager を使用して Cloud Volumes ONTAP を自動的に導入するか、変換ツールを実行して Deployment Manager の既存の導入を Infrastructure Manager に切り替えます。変換は 1 回限りのプロセスであり、その後、システムは自動的に Infrastructure Manager の使用を開始します。移行ツールの実行手順については https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Google Cloud Infrastructure Manager 用に既存の Cloud Volumes ONTAP デプロイメントを設定"^]を参照してください。
+
+Infrastructure Manager を使用する Cloud Volumes ONTAP システムでは、Google Cloud Storage バケットを使用してデータとレコードを保存し、最初のデプロイメントのゾーンにデプロイメント レコードを保存します。これらのデプロイメント レコードは、後続のデプロイメントで再利用されます。これらのバケットには追加費用が発生する可能性がありますが、バケットやそのコンテンツを編集または削除しないでください：
+
+* `gs://netapp-cvo-infrastructure-manager-<project id>/dm-to-im-convert`：Cloud Volumes ONTAP Terraform ファイルを保管するため
+* `<gcp project number>-<region>-blueprint-config`：Google Cloud Terraform アーティファクトを保存するためのもの
+
+
+.関連リンク
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Google CloudでCloud Volumes ONTAPを使い始める"^]
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 リリースノート"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager に必要な権限"^]
+
+
+
+
 == 2026年2月4日
 
 
@@ -606,141 +634,3 @@ NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
 ==== AWS Lambda リンクを使用する場合に利用できる System Manager
 
 ONTAP System Manager インターフェイスを AWS Lambda リンクと組み合わせて使用​​すると、高度なONTAP操作を実行できます。これにより、System Manager でコンソール エージェントを使用する代わりに、コンソールから直接 FSx for ONTAPファイル システムを管理できるようになります。 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["高度なONTAP操作のためのリンクの使用について学習します"^]
-
-
-
-== 2025年11月11日
-
-
-
-=== ONTAP向け Amazon FSX
-
-
-
-==== オンプレミスのONTAPシステムと FSx for ONTAPファイルシステム間のレプリケーションのサポート
-
-NetApp Consoleシステム ページから、オンプレミスのONTAPシステムと FSx for ONTAPファイル システム間のデータ レプリケーションを利用できます。
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["データを複製する"]
-
-
-
-== 2025年11月10日
-
-
-
-=== Licenses and subscriptions
-
-
-
-==== 請求設定を管理する
-
-NetApp Console内で直接 *課金設定* を設定および管理できるようになりました。この機能強化により、管理者は、直接のNetAppライセンス、クラウド マーケットプレイスのサブスクリプション、およびKeystone契約全体で容量の使用状況、更新、およびコストの請求方法を定義および表示できるようになります。
-
-詳細については、link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["請求設定に関するドキュメント"^] 。
-
-
-
-=== コンソールのセットアップと管理
-
-
-
-==== コンソールエージェント 4.1.0
-
-コンソール エージェントのこのリリースには、セキュリティの改善、バグ修正、および次の機能が含まれています。
-
-4.1.0 リリースは、標準モードと制限モードで利用できます。
-
-.エージェントステータスインジケーターの名前を変更しました
-コンソール エージェントのステータス インジケーターの名前を *アクティブ* と *非アクティブ* から *接続済み* と *切断済み* に変更し、目的をより明確にしました。
-
-.Red Hat Enterprise Linux (RHEL) 9.6 および Podman 5.4.0 のサポート
-コンソール エージェントを手動でインストールする場合、エージェントは Podman 5.4.0 を搭載した RHEL 9.6 をサポートするようになりました。さらに、RHEL 9 以降を使用する場合、 NetApp はpodman-compose 1.5.0 をサポートします。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem.html["オペレーティング システムの要件を表示"]。
-
-
-
-==== NetApp Console管理
-
-このリリースには以下が含まれます。
-
-.NetApp Console通知用の新しいメールアドレス
-NetApp Console通知を送信する電子メール アドレスが *service@console.bluexp.netapp.com* から *service@console.netapp.com* に変更されました。NetApp、NetApp Consoleの電子メール通知を引き続き受信できるように、電子メール ルールを更新して *service@console.netapp.com* を許可することを推奨しています。
-
-
-
-=== データ分類
-
-
-
-==== バージョン1.48
-
-この Data Classification リリースには、バグ修正、セキュリティの改善、パフォーマンスの強化が含まれています。
-
-.スキャンの進行状況の明確化を強化
-スキャン構成には、スキャン完了に関する改善された分析情報が含まれるようになりました。以前は、スキャンの進行中にのみ進行状況バーが表示されていました。スキャンが正常に完了したことを確認できるように、完了後も進行状況バーが表示されるようになりました。マップおよびスキャンされたファイルの数を表示することもできます。
-
-スキャン設定の詳細については、 link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#view-the-scan-status-for-your-repositories["リポジトリのNetApp Data Classificationスキャン設定を変更する"^]。
-
-
-
-=== ディザスタ リカバリ
-
-
-
-==== カスケードフェイルオーバーのサポート
-
-ONTAPでカスケード関係を設​​定し、そのレプリケーション関係の任意のレッグを使用して災害復旧を行うことができます。
-
-
-
-==== 登録中に VMware ハードウェア サポートをダウングレードする
-
-ディザスタ リカバリでは、登録中に VMware ハードウェアを vSphere の以前のバージョンにダウングレードできるようになりました。これは、ソース ESX ホストが災害復旧サイトよりも新しいバージョンを実行している場合に役立ちます。
-
-詳細については、 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["NetApp Disaster Recoveryでレプリケーションプランを作成する"]。
-
-
-
-==== 正常なシャットダウン
-
-災害復旧では、VM の電源をオフにするのではなく、VM を正常にシャットダウンするようになりました。特定の VM の電源を切るのに 10 分以上かかる場合、Disaster Recovery によってその VM の電源がオフになります。
-
-
-
-==== バックアップ前のスクリプトのサポート
-
-バックアップを作成する前に実行するカスタム スクリプトをフェイルオーバー ワークフローに挿入できるようになりました。バックアップ前のスクリプトを使用すると、スナップショットが複製される前に VM の状態を制御し、VM を移行用に準備することができます。たとえば、フェイルオーバー後に別のスクリプトを使用して再マウントされる NFS マウントをアンマウントするスクリプトを挿入できます。
-
-詳細については、 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["NetApp Disaster Recoveryでレプリケーションプランを作成する"]。
-
-
-
-=== ランサムウェア耐性
-
-このリリースには、全般的な機能強化と改善が含まれています。
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== 強化されたNVMe-TCPサポート
-
-以前は、NVMe-TCP 経由でCloud Volumes ONTAPインスタンスをデプロイする場合、デプロイ前に NVMe ライセンスを手動で取得して適用する必要がありました。このアップデートにより、 Cloud Volumes ONTAP は導入時に必要な NVMe ライセンスを自動的にインストールするようになり、セットアップ プロセスが簡素化されます。
-
-ライセンスが不足している既存の NVMe-TCP デプロイメントの場合、 Cloud Volumes ONTAP はライセンスを自動的に適用します。ライセンスを有効にするには、システムを再起動する必要があります。
-
-詳細については、 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-client-protocols.html#nvme-tcp["Cloud Volumes ONTAPでサポートされているクライアント プロトコル: NVMe-TCP"^] 。
-
-
-
-=== Keystone
-
-NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
-
-
-
-==== 補償通知ボックスを入力してください
-
-*監視*ページの*アラート モニター*タブには、カバレッジ ギャップが存在する場合に表示される*カバレッジの完了*通知ボックスが含まれています。このボックスには、容量または有効期限モニターが不足しているサブスクリプションと、サブスクリプションのないモニターがリストされます。ギャップに対処するには、既存のモニターにサブスクリプションを追加したり、新しいモニターを作成したり、使用されていないモニターを削除したりします。詳細については、 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["アラートモニターのカバレッジギャップを管理する"]。
