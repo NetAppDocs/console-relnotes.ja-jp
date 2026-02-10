@@ -400,4 +400,8 @@
   <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">バックアップとリカバリのワークロード（OracleとMicrosoft SQL Server）をプロジェクトに関連付けることができます。プロジェクトに割り当てた後、プロジェクトのバックアップとリカバリのロールを割り当てられたユーザーはワークロードを操作できるようになります。その他のワークロードは、現時点ではロールベースのアクセスではサポートされていません。</block>
   <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Backup and Recovery ワークロードのロールベースアクセスの設定について詳しくは、こちらをご覧ください。</block>
   <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
+  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">Cloud Volumes ONTAP と FSx for ONTAP 間でのデータレプリケーションのサポート</block>
+  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">Cloud Volumes ONTAP システムと Amazon FSx for NetApp ONTAP ファイル システム間のデータ レプリケーションが、NetApp Console から利用できるようになりました。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">データを複製する</block>
+  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
 </blocks>
