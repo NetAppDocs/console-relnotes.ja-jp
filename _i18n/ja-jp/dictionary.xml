@@ -404,4 +404,12 @@
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
   <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">バージョン1.51</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">一般提供（GA）でサポートされる VMware ワークロード</block>
+  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Azure での Ebdsv5 および E104ids_v5 VM のサポート</block>
+  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">Cloud Volumes ONTAP 9.18.1以降では、シングルノードおよび高可用性（HA）環境の導入とアップグレードにEbdsv5およびE104ids_v5 VMを導入できます。</block>
+  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 仮想マシンの Eb ファミリ内の Ebdsv5 VM は、リモート ストレージのパフォーマンスを向上させるために最適化されています。これらの VM は、リレーショナル データベース、インメモリ分析、その他の要求の厳しいビジネス クリティカル アプリケーションなど、メモリを大量に消費し、I/O 負荷の高いエンタープライズ ワークロードに使用できます。</block>
+  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5は、スケジュールされたメンテナンス期間をより適切に処理できる分離されたVMインスタンスです。E80ids_v4と比較すると、ディスク スループットとIOPSが大幅に向上し、全体的なネットワーク パフォーマンスも向上します。</block>
+  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
+  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure ドキュメント：Edsv5 サイズ シリーズ</block>
+  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
+  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026年2月12日</block>
 </blocks>
