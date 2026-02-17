@@ -301,7 +301,6 @@
   <block id="4b39db76689788868bda30b97106ca4a" category="section-title">KVM ワークロードのプレビュー機能強化</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM ワークロードの保護の概要</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVMワークロードの保護の詳細については、以下を参照してください。<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> 。</block>
-  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">Ransomware Resilience では、セカンダリONTAPサイトへのスナップショットのレプリケーションの追加がサポートされるようになりました。レプリケーション ポリシーを使用する保護グループを使用すると、ワークロードごとに同じ宛先または異なる宛先にレプリケートできます。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">サポートされていないボリューム</block>
   <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">ランサムウェア耐性レポートでは、**概要** レポートでサポートされているボリュームとサポートされていないボリュームに関する情報が取得されるようになりました。この情報を使用して、システム内のボリュームがランサムウェア保護の対象外となる理由を診断します。</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">ランサムウェア耐性レポートをダウンロード</block>
@@ -422,4 +421,26 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Azure VNet 暗号化のネットワーク</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026年2月17日</block>
+  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">ランサムウェア耐性は、スナップショットのレプリケーションをセカンダリONTAPサイトに追加できるようになりました。レプリケーションポリシーを使用する保護グループを使用すると、ワークロードごとに同じ宛先または異なる宛先にレプリケートできます。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。</block>
+  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files サポート</block>
+  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilienceは、Azure NetApp Filesシステムをサポートするようになり、Azure NetApp Filesでランサムウェアの脅威を効率的に検出して対応できるようになりました。ワークロードを検出すると、Ransomware ResilienceはAzure NetApp Filesを表示し、保護ダッシュボードに表示します。Azure NetApp FilesのRansomware Resilienceサポートには、スナップショットのみを使用した検出および保護戦略が含まれます。Azure NetApp Filesのサポートは現在プレビュー段階です。</block>
+  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
+  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">ユーザー行動アラートからユーザーを除外する</block>
+  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">NetApp Ransomware Resilienceにより、ユーザー行動アラートから特定のユーザーを除外できるようになりました。信頼できるユーザーを除外すると、誤検知や不要なアラートを防ぐことができます。</block>
+  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">アラートからユーザーを除外する</block>
+  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">詳細については、<block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">ユーザー行動アクティビティの保護グループサポート</block>
+  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">Ransomware Resilience保護グループは、疑わしいユーザーの行動を検出するための検出ポリシーをサポートするようになりました。保護グループにランサムウェア保護戦略を適用すると、ワークロード全体にポリシーが適用され、サイバーセキュリティ体制の管理が効率化されます。</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">保護グループを作成する</block>
+  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">詳細については、<block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">ストレージVM移行のサポート</block>
+  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。</block>
+  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">レプリケーション関係を作成する</block>
+  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">ストレージVMとその複製ボリュームをカットオーバーする</block>
+  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">この機能を使用するには、<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
+  <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console エージェント 4.4.1</block>
+  <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">NetApp ConsoleからNetApp Data Infrastructure Insightsにアクセス</block>
+  <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">NetApp Console内からNetApp Data Infrastructure Insightsの無料トライアルにアクセスできます。*ガバナンス* &gt; *Data Infrastructure Insights*に移動して、データ環境に関する洞察と分析を調べるためにサインアップしてください。</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026年2月16日</block>
 </blocks>
