@@ -121,10 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">廃止されたサービス</block>
-  <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">AWS Lambda リンクを使用する場合に利用できる System Manager</block>
-  <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">高度なONTAP操作のためのリンクの使用について学習します</block>
-  <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP System Manager インターフェイスを AWS Lambda リンクと組み合わせて使用​​すると、高度なONTAP操作を実行できます。これにより、System Manager でコンソール エージェントを使用する代わりに、コンソールから直接 FSx for ONTAPファイル システムを管理できるようになります。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
-  <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">カバレッジギャップサブスクリプションの追跡ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*モニタリング &gt; アラート モニター* の *カバレッジの完了* 通知ボックスで、各サブスクリプションのサブスクリプション番号の横に追跡 ID が表示されるようになりました。</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
@@ -412,4 +408,18 @@
   <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure ドキュメント：Edsv5 サイズ シリーズ</block>
   <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
   <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026年2月12日</block>
+  <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">次世代の Google Cloud VM に対する Cloud Volumes ONTAP のサポート</block>
+  <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">9.18.1では、NetAppは新しいCloud Volumes ONTAPデプロイメントをN2 VMから次世代のGoogle Cloud C3シリーズVMに移行し、より高速でスケーラブルなエクスペリエンスを実現します。Google CloudでCloud Volumes ONTAP 9.18.1以降をデプロイする際に、C3シリーズVMを活用できるようになりました。C3シリーズマシンは、Google Virtual NIC（gVNIC）とHyperdisk Balancedディスクを使用することで、パフォーマンスが向上し、容量制限が高まり、集中的なワークロードでも動的なパフォーマンスを確保します。</block>
+  <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">今のところ、Cloud Volumes ONTAP は単一ノード展開でのみ C3 シリーズをサポートしています。</block>
+  <block id="506a0b7b76d0386b3d56de15882686c0" category="paragraph">Cloud Volumes ONTAPシステムが9.18.1以降を実行している場合、簡単なシングルノード展開に使用する事前設定済みパッケージは自動的にC3 VMを使用し、ワークロードのニーズに基づいてIOPSおよびスループットパラメータをカスタマイズできるようになります。同様に、アグリゲートを作成する際に、Hyperdisk Balancedディスクを追加して、Google Cloudでのパフォーマンスとスケーラビリティを向上させることができます。さらに、デフォルトのFlash Cacheサポート用にC3シリーズマシンのLSSDバリアントを選択することもできます。</block>
+  <block id="4e97495efaaec030c995f03b84344009" category="paragraph">C3 は Hyperdisk Balanced ディスクのみをサポートしているため、アグリゲートにボリュームを追加するときに C3 VM のディスクタイプを変更することはできません。同様に、N2 VM タイプのシステムを C3 VM に複製する場合、ディスクタイプはデフォルトで Hyperdisk Balanced に設定されます。</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google CloudでサポートされているCloud Volumes ONTAPの構成</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google ドキュメント：C3 マシンシリーズ</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="1a7265e4a0716c5c59fbf92d4b2b8f8b" category="section-title">AzureのCloud Volumes ONTAPのVNetセキュリティ</block>
+  <block id="a128f7270c0bfb9c5f5d16ec39f0d354" category="paragraph">Cloud Volumes ONTAP 9.18.1以降のAzure単一および複数の可用性ゾーンでの導入では、転送中のデータを保護するための多層セキュリティ戦略の一部として、Azure Virtual Network（VNet）暗号化をサポートしています。Cloud Volumes ONTAPは、AzureのネイティブなDatagram Transport Layer Security（DTLS）プロトコルを活用して、ONTAPノード、管理インターフェイス、およびその他のAzureサービス間の通信を保護し、傍受や不正アクセスを防止します。このネットワークレベルの暗号化は、ONTAPの組み込みストレージおよび保存データ保護機能を補完し、データのエンドツーエンドのセキュリティを提供します。</block>
+  <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Azure VNet 暗号化のネットワーク</block>
+  <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
+  <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026年2月17日</block>
 </blocks>
