@@ -438,7 +438,6 @@
   <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory は、ストレージ VM の移行をサポートするようになりました。この機能により、オンプレミス ONTAP システムまたは第一世代の FSx for ONTAP ファイルシステムから第二世代の FSx for ONTAP ファイルシステムへ、ONTAP ストレージシステムのデータと構成を移行できます。ストレージ VM のデータと構成設定を複製して、ダウンタイムとユーザーおよびアプリケーションの中断を最小限に抑えながら新しいファイルシステムに移動できます。</block>
   <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">レプリケーション関係を作成する</block>
   <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">ストレージVMとその複製ボリュームをカットオーバーする</block>
-  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">この機能を使用するには、<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
   <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console エージェント 4.4.1</block>
   <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">NetApp ConsoleからNetApp Data Infrastructure Insightsにアクセス</block>
   <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">NetApp Console内からNetApp Data Infrastructure Insightsの無料トライアルにアクセスできます。*ガバナンス* &gt; *Data Infrastructure Insights*に移動して、データ環境に関する洞察と分析を調べるためにサインアップしてください。</block>
@@ -449,4 +448,5 @@
   <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">アクションアイコン</block>
   <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">URLをブックマークする</block>
   <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">Disaster Recovery API Swagger ドキュメントに通常のブラウザからアクセスできるようになり、シークレット モードは不要になりました。API ドキュメントにアクセスするには、Disaster Recovery ダッシュボードにアクセスし、右上のコンテキスト メニュー <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block> を選択してから **API Documentation** を選択して Swagger ドキュメントを開きます。また、<block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>こともできます。</block>
+  <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">この機能を使用するには、<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block>ユースケースとして*Migration*を選択します。移行プロセスを完了するには、<block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block>データとStorage VM構成設定をターゲットのFSx for ONTAPファイルシステムに永続的に移行する必要があります。</block>
 </blocks>
