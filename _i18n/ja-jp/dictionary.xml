@@ -302,7 +302,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM ワークロードの保護の概要</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVMワークロードの保護の詳細については、以下を参照してください。<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> 。</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">サポートされていないボリューム</block>
-  <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">ランサムウェア耐性レポートでは、**概要** レポートでサポートされているボリュームとサポートされていないボリュームに関する情報が取得されるようになりました。この情報を使用して、システム内のボリュームがランサムウェア保護の対象外となる理由を診断します。</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">ランサムウェア耐性レポートをダウンロード</block>
   <block id="877e42a9811fb7c41b1fccef32ca2477" category="paragraph">詳細については、 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>。</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">VMware ワークロード サポートが、NetApp Backup and Recovery で一般提供（GA）されました。</block>
@@ -456,4 +455,5 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">すべての地域のリストについては、<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>を参照してください。</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026年2月19日</block>
+  <block id="d64f95921199e6f185b7d45fa5313dc7" category="paragraph">Ransomware Resilienceレポートでは、**概要**レポートでサポートされているボリュームとサポートされていないボリュームに関する情報が取得されるようになりました。この情報を使用して、システム内のボリュームがランサムウェア保護の対象外となる理由を診断します。</block>
 </blocks>
