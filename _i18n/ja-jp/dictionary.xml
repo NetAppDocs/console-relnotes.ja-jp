@@ -456,4 +456,7 @@
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">すべての地域のリストについては、<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>を参照してください。</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026年2月19日</block>
   <block id="d64f95921199e6f185b7d45fa5313dc7" category="paragraph">Ransomware Resilienceレポートでは、**概要**レポートでサポートされているボリュームとサポートされていないボリュームに関する情報が取得されるようになりました。この情報を使用して、システム内のボリュームがランサムウェア保護の対象外となる理由を診断します。</block>
+  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insightsアドオン消費量表示</block>
+  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">Data Infrastructure Insights消費量を表示</block>
+  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights（DII）アドオンの消費量が*現在の消費量*および*消費傾向*タブに表示されるようになりました。詳細については、<block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
