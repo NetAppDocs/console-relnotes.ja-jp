@@ -121,9 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">廃止されたサービス</block>
-  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">カバレッジギャップサブスクリプションの追跡ID</block>
-  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*モニタリング &gt; アラート モニター* の *カバレッジの完了* 通知ボックスで、各サブスクリプションのサブスクリプション番号の横に追跡 ID が表示されるようになりました。</block>
-  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
   <block id="f5263927d94a42a805785f1aed06a069" category="doc">Google Cloud Platform の認証情報の変更</block>
   <block id="790bec3007566d403b50931f866ace35" category="paragraph">お客様がより多くのGoogle Cloud NetApp Volumesシステムをセットアップして承認するにつれて、認証情報の管理方法が変わりました。</block>
   <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes システムの認証情報は、Cloud Key Management サービスなどの Google クラウド バックエンドに保存されるようになり、新しいシステムを作成するときにサービス アカウントの偽装認証情報が使用されます。</block>
@@ -459,4 +456,9 @@
   <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insightsアドオン消費量表示</block>
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">Data Infrastructure Insights消費量を表示</block>
   <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights（DII）アドオンの消費量が*現在の消費量*および*消費傾向*タブに表示されるようになりました。詳細については、<block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般提供（GA）でサポートされる KVM ワークロード</block>
+  <block id="e58f3c7a76cad4e6c2c7f515b3171f76" category="section-title">Kubernetes が一般提供（GA）でサポートされました</block>
+  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">KubernetesワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されました。このKubernetesワークロードのリリースでは、次の拡張機能も導入されています：</block>
+  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*レポートのサポート*：NetApp Backup and Recoveryで保護されているKubernetesクラスタとアプリケーションの保護アクティビティレポートを生成できるようになりました。</block>
+  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026年2月23日</block>
 </blocks>
