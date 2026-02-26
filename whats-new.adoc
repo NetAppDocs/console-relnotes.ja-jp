@@ -52,6 +52,61 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 
 
+== 2026年2月26日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== プライベートモード導入における Google Infrastructure Manager のサポート
+
+Cloud Volumes ONTAP 9.16.1以降では、Google Cloudでの新しいプライベートモードの導入時に https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM）が https://docs.cloud.google.com/deployment-manager/docs/deprecations["クラウドデプロイメントマネージャー"^]（DM）の代わりにサポートされるようになりました。Googleは、より高度なInfrastructure Managerへの移行のため、近い将来インフラサービスとしてDeployment Managerを廃止します。
+
+2026年2月25日より、Cloud Volumes ONTAPは新規および既存のプライベート モードの展開に Infrastructure Manager を使用します。次の表は、基本的なワークフローを説明しています：
+
+[cols="1,4,1,1,1,1"]
+|===
+| シナリオ | アクション | エージェント用の新しいAPI | エージェントの新しい権限 | Cloud Volumes ONTAP向けの新しいGoogle Cloud API | ドキュメントリソース 
+
+
+| 既存のエージェントとプライベートモードでの既存の導入 | NetApp Support Siteからインストーラをダウンロードし、ホストにエージェントを手動でインストールして、Infrastructure Manager APIを使用できるようにすることで、NetApp Consoleエージェントを最新バージョンにアップグレードします。その後、既存のCloud Volumes ONTAPシステムをInfrastructure Managerを使用するように変換します。  a| 
+* クラウドインフラストラクチャマネージャAPI
+* Cloud Quotas API
+* Cloud Build API
+
+ a| 
+Console リリースにリストされているすべての権限：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025年12月8日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026年2月9日"^]
+* cloudbuild.workerpools.get
+* cloudbuild.workerpools.get
+
+ a| 
+* \https://cloudbuild.googleapis.com/v1
+* \https://www.googleapis.com/upload/storage/v1
+* \https://config.googleapis.com/v1
+
+| https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Google Cloud Infrastructure Manager 用に既存の Cloud Volumes ONTAP デプロイメントを設定"^] 
+
+
+| 新しいエージェントと新しい導入 | 新しいエージェントを作成し、新しいCloud Volumes ONTAPシステムをプライベートモードで導入します。 |  |  |   a| 
+* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["Google Cloud から Console エージェントを作成する"^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-private-mode.html["プライベートモード導入のクイックスタート"^]
+
+
+|===
+プライベートモードの展開では、Cloud Volumes ONTAP が Infrastructure Manager の使用を開始するために、いくつかの構成変更が必要です。 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-networking-gcp.html#infrastructure-manager-configuration-for-private-mode-deployments["プライベートモード展開のInfrastructure Manager構成"^]を参照してください。
+
+.関連リンク
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 リリースノート"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager に必要な権限"^]
+
+
+
+
 == 2026年2月23日
 
 
@@ -238,7 +293,7 @@ Data Infrastructure Insights（DII）アドオンの消費量が*現在の消費
 
 
 
-=== Azure での Ebdsv5 および E104ids_v5 VM のサポート
+==== Azure での Ebdsv5 および E104ids_v5 VM のサポート
 
 Cloud Volumes ONTAP 9.18.1以降では、シングルノードおよび高可用性（HA）環境の導入とアップグレードにEbdsv5およびE104ids_v5 VMを導入できます。
 
@@ -372,12 +427,55 @@ Data Classification では、低解像度の画面での表示パフォーマン
 
 Cloud Volumes ONTAP 9.16.1以降では、Google Cloudでの新しい導入において、 https://docs.cloud.google.com/deployment-manager/docs/deprecations["クラウドデプロイメントマネージャー"^]（DM）の代わりに https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^]（IM）をサポートするようになりました。Googleは、より高度なInfrastructure Managerのために、近い将来インフラストラクチャサービスとしてのDeployment Managerを廃止する予定です。
 
-Infrastructure Manager を使用して Cloud Volumes ONTAP を自動的に導入するか、変換ツールを実行して Deployment Manager の既存の導入を Infrastructure Manager に切り替えます。変換は 1 回限りのプロセスであり、その後、システムは自動的に Infrastructure Manager の使用を開始します。移行ツールの実行手順については https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Google Cloud Infrastructure Manager 用に既存の Cloud Volumes ONTAP デプロイメントを設定"^]を参照してください。
+2026年2月9日より、Cloud Volumes ONTAPは新規および既存のデプロイメントにInfrastructure Managerを使用します。次の表では、いくつかのワークフローについて説明します：
+
+[cols="1,4,1,1,1,1"]
+|===
+| シナリオ | アクション | エージェント用の新しいAPI | エージェントの新しい権限 | Cloud Volumes ONTAP向けの新しいGoogle Cloud API | ドキュメントリソース 
+
+
+| 既存のエージェントと既存のCloud Volumes ONTAP導入環境 | 既存のエージェントに新しいAPIと権限を追加し、既存のCloud Volumes ONTAPシステムを変換します。  a| 
+* クラウドインフラストラクチャマネージャAPI
+* Cloud Quotas API
+
+ a| 
+Console リリースにリストされているすべての権限：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025年12月8日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026年2月9日"^]
+
+| \https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1  a| 
+https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Google Cloud Infrastructure Manager 用に既存の Cloud Volumes ONTAP デプロイメントを設定"^]
+
+
+
+| 既存のエージェントと新しいCloud Volumes ONTAP導入 | 既存のエージェントに新しいAPIと権限を追加し、新しいCloud Volumes ONTAPシステムを導入します。  a| 
+* クラウドインフラストラクチャマネージャAPI
+* Cloud Quotas API
+
+ a| 
+Console リリースにリストされているすべての権限：
+
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025年12月8日"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026年2月9日"^]
+
+| 新規導入のすべての手順  a| 
+https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Google CloudでCloud Volumes ONTAPを使い始める"^]
+
+
+
+| 新しいエージェントと新しい導入 | 新しいエージェントを作成し、新しいCloud Volumes ONTAPシステムを導入します。 |  |  |   a| 
+* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["Google Cloud から Console エージェントを作成する"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Google CloudでCloud Volumes ONTAPを使い始める"^]
+
+
+|===
+さあ、Cloud Volumes ONTAP を展開して Infrastructure Manager を自動的に使用するか、変換ツールを実行して Deployment Manager の既存のデプロイメントを Infrastructure Manager に切り替えます。変換は 1 回限りのプロセスであり、その後、システムは Infrastructure Manager の使用を開始します。 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Google Cloud Infrastructure Manager 用に既存の Cloud Volumes ONTAP デプロイメントを設定"^]変換ツールの実行手順については、こちらを参照してください。
 
 Infrastructure Manager を使用する Cloud Volumes ONTAP システムでは、Google Cloud Storage バケットを使用してデータとレコードを保存し、最初のデプロイメントのゾーンにデプロイメント レコードを保存します。これらのデプロイメント レコードは、後続のデプロイメントで再利用されます。これらのバケットには追加費用が発生する可能性がありますが、バケットやそのコンテンツを編集または削除しないでください：
 
-* `gs://netapp-cvo-infrastructure-manager-<project id>/dm-to-im-convert`：Cloud Volumes ONTAP Terraform ファイルを保管するため
-* `<gcp project number>-<region>-blueprint-config`：Google Cloud Terraform アーティファクトを保存するためのもの
+* `gs://netapp-cvo-infrastructure-manager-<project id>`：新しいCloud Volumes ONTAPデプロイメントに使用されるONTAPバージョンとSVM Terraformテンプレート用。この中の `dm-to-im-convert`バケットには、Cloud Volumes ONTAP Terraformファイルが含まれています。
+* `<gcp project number>-<region>-blueprint-config`：Google Cloud Terraform アーティファクトを保存します。
 
 
 .関連リンク
