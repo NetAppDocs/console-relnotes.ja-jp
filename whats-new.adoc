@@ -56,6 +56,41 @@ Kubernetes クラスターの検出と管理のサポートは、2024 年 8 月 
 
 
 
+=== コンソールのセットアップと管理
+
+
+
+==== プライベートモードリリース（4.4.0）
+
+新しいプライベートモードリリースが https://mysupport.netapp.com/site/downloads["NetAppサポート サイト"^]からダウンロード可能になりました
+
+
+
+===== BlueXPプライベートモードは、現在NetApp Consoleプライベートモードです
+
+NetApp Console 4.4.0は、プライベートモードにおけるNetApp Consoleの最初のリリースです。
+
+強化され再構築されたBlueXP基盤上に構築されたNetApp Consoleは、エンタープライズグレードでオンプレミスおよびクラウド環境全体のNetAppストレージとNetApp Data Servicesを一元管理し、リアルタイムのインサイト、より迅速なワークフロー、高度にセキュアでコンプライアンスに準拠したシンプルな管理を実現します。
+
+新しいNetApp Consoleの詳細については、 https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2025-10-06.html["NetApp Consoleページの新機能"^]を参照してください。
+
+4.4.0リリースには、以下のNetApp Consoleコンポーネントとサービスのアップデートが含まれています。
+
+[cols="3*"]
+|===
+| コンポーネントまたはサービス | このリリースに含まれるバージョン | 前回のプライベートモードリリース以降の変更点 
+
+
+| コンソールエージェント | 4.4.0 |  https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-02-09.html["NetApp Console ページの新機能"^]に移動し、バージョン 4.4.0 に含まれる変更を参照してください。 
+
+
+| バックアップとリカバリ | 5.0.2（2026年2月9日） |  https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["NetApp Backup and Recoveryページの新機能"^]に移動します。 
+
+
+| 分類 | 1.5.1（2026年2月9日） |  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classificationページの新機能"^]に移動します。 
+|===
+
+
 === Cloud Volumes ONTAP
 
 
@@ -163,7 +198,7 @@ Kubernetesワークロードの保護の詳細については、 https://docs.ne
 
 ==== Console エージェント 4.4.1
 
-4.4.0 リリースでは、標準モードと制限モードの両方がサポートされています。
+4.4.1 リリースでは、標準モードと制限モードの両方がサポートされています。
 
 Console エージェントのこのリリースには、セキュリティの改善とバグ修正が含まれています。
 
