@@ -30,6 +30,20 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+== 2026年3月1日
+
+
+
+=== ONTAP向け Amazon FSX
+
+
+
+==== NetApp ConsoleエージェントステータスがFSx for ONTAPファイルシステムでサポートされました
+
+NetApp ConsoleにWorkloads内のFSx for ONTAPファイルシステムのConsoleエージェントステータスが表示されるようになりました。このステータスは、エージェントが実行中であり、FSx for ONTAPファイルシステムと通信できるかどうかを示します。この情報は、接続の問題のトラブルシューティングに役立ちます。
+
+
+
 == 2026年2月26日
 
 
