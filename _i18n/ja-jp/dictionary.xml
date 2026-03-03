@@ -509,7 +509,6 @@
   <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console ページの新機能</block>
   <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell"><block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block>に移動し、バージョン 4.4.0 に含まれる変更を参照してください。</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">バックアップとリカバリ</block>
-  <block id="380c830a3c13f16e4d36530d1de2be47" category="cell">5.0.2（2026年2月9日）</block>
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recoveryページの新機能</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell"><block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>に移動します。</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分類</block>
@@ -520,4 +519,5 @@
   <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">NetApp ConsoleエージェントステータスがFSx for ONTAPファイルシステムでサポートされました</block>
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp ConsoleにWorkloads内のFSx for ONTAPファイルシステムのConsoleエージェントステータスが表示されるようになりました。このステータスは、エージェントが実行中であり、FSx for ONTAPファイルシステムと通信できるかどうかを示します。この情報は、接続の問題のトラブルシューティングに役立ちます。</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026年3月1日</block>
+  <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3（2026年3月2日）</block>
 </blocks>
