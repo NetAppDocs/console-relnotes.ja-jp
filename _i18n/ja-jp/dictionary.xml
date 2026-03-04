@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp ConsoleにWorkloads内のFSx for ONTAPファイルシステムのConsoleエージェントステータスが表示されるようになりました。このステータスは、エージェントが実行中であり、FSx for ONTAPファイルシステムと通信できるかどうかを示します。この情報は、接続の問題のトラブルシューティングに役立ちます。</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026年3月1日</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3（2026年3月2日）</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">クラスター内のボリュームタブの新しい列</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Keystoneサブスクリプションに関連付けられた資産を表示する</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Keystone サブスクリプション全体で資産を表示</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*アセット*の*クラスター内のボリューム*タブに、*ホット データ*、*コールド ティア (%)*、*ホット ティア (%)*の 3 つの新しい列が追加されました。詳細については、<block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block>および<block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">消費傾向における請求済み、未請求、および暫定的なバースト使用量</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">累積バーストを表示</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*消費傾向*タブの累積バースト課金グラフに、請求済み、未請求、暫定的なバースト使用量が表示されるようになりました。詳細については、<block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">監視ビューの機能強化</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* ビューには次の更新が含まれています：</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*アラート タブ*：*アラート* 列の名前が *アラートの種類と条件* に変更されました。*ステータス* 列の横にある省略記号アイコンを使用して、アラートを編集したり、メモを追加したり、アラートの詳細を表示したりできるようになりました。</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors タブ*：*Condition* 列の名前が *Monitor type &amp; condition* に変更されました。</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystoneサブスクリプションのアラートの表示と管理</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystoneサブスクリプションのアラートモニターの表示と作成</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">詳細については、<block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block>および<block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026年3月2日</block>
 </blocks>
