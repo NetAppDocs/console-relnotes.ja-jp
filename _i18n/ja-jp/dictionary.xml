@@ -113,62 +113,18 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">ONTAP向け Amazon FSX</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">オンプレミスのONTAPクラスタ</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware ワークロードのプレビュー リリースでは、次の拡張機能が導入されています。</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善、バグ修正、および次の機能が含まれています。</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">このリリースには以下が含まれます。</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
-  <block id="6a6493990827c82055e808631b52c236" category="doc">バージョン1.49</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">この Data Classification リリースには、バグ修正と次の更新が含まれています。</block>
-  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">ヘルスモニタリングダッシュボードで指標とパフォーマンスを監視する</block>
-  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">データ分類では、ヘルス モニタリング ダッシュボードが提供されるようになり、リソースのリアルタイム モニタリングと、メモリ使用量、ディスク使用量、ディスク使用率などの分析情報が提供されます。ヘルス モニタリング ダッシュボードから得られる分析情報を活用することで、展開のインフラストラクチャを確認し、ストレージとパフォーマンスを最適化するための分析情報を得ることができます。</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">データ分類の健全性を監視する</block>
-  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">詳細については、 <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>。</block>
-  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">読み込みパフォーマンスの向上</block>
-  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">データ分類のすべてのページの読み込みパフォーマンスが向上し、より効率的なユーザー エクスペリエンスが実現しました。</block>
-  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
-  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware ワークロードのプレビュー機能強化</block>
-  <block id="24936fb650df7af8295e75a3667becef" category="list-text">バックアップとスナップショットを別の場所に復元できるようになりました。これは、異なる VMware vCenter 展開、VMware ESXi ホスト、または VMware データストア上の VM のバージョンを管理する場合に便利です。</block>
-  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">特定の VMware 仮想ディスク (VMDK イメージ) をプライマリまたはセカンダリの場所から復元できるようになり、VM データの復元をより細かく制御できるようになりました。</block>
-  <block id="236430e108e8394ac19913076b10fb55" category="doc">累積バースト容量ラベルの名前を変更しました</block>
-  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">ラベル *Accrued burst capacity* の名前が *Accrued burst* に変更されます。</block>
-  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">拡張機能のブロックはワークロードレベルで有効になります</block>
-  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">拡張機能のブロックを有効にすると、ストレージ VM レベルではなくワークロード レベルで有効になります。</block>
-  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">ユーザー行動アラートステータスの編集</block>
-  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">複数のコンソールエージェントのサポート</block>
-  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience では、複数のコンソール エージェントを使用して同じシステムを管理することがサポートされるようになりました。</block>
-  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">コンソールエージェントを作成する</block>
-  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">コンソールエージェントの詳細については、以下を参照してください。<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> 。</block>
-  <block id="b706122b5735a672dec906da7d14b15c" category="doc">フォルダ階層の保持</block>
-  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">デフォルトでは、ディザスタ リカバリはフェイルオーバー時に VM インベントリ階層 (フォルダー構造) を保持します。回復対象に必要なフォルダーがない場合、Disaster Recovery によってフォルダーが作成されます。</block>
-  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">新しい親 VM フォルダを指定するか、[**元のフォルダ階層を保持**] オプションのチェックを外すことで、この設定を上書きできるようになりました。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーションプランを作成する</block>
-  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">合理化されたコンソールエージェントの更新</block>
-  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">災害復旧では、作業環境で複数のコンソール エージェントを使用するための合理化されたプロセスがサポートされるようになりました。コンソール エージェントを切り替えるには、vCenter 構成を編集し、資格情報を再検出し、新しいコンソール エージェントを使用するようにレプリケーション プランを更新する必要があります。</block>
-  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">スイッチコンソールエージェント</block>
-  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
-  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience では、ユーザー行動アラートのステータスを編集できるようになりました。アラートを手動で解除したり解決したりできます。</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">ランサムウェア耐性のアラートを管理する</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">詳細については、 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
-  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">NetApp Backup and Recoveryを使用したVMware VMの復元の詳細</block>
-  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>。</block>
-  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">NetApp Backup and Recoveryを使用したVMware仮想ディスクの復元の詳細</block>
-  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>。</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAPの推奨課金オプション</block>
-  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">Azure の Premium SSD v2 ディスクのパフォーマンスを向上させる機能</block>
-  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">IOPS およびスループット パラメーターを変更することで、Azure の Premium SSD v2 マネージド ディスクのパフォーマンスを向上できるようになりました。この機能を使用すると、ワークロード要件に基づいてシステムのストレージ パフォーマンスを最適化できます。</block>
-  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">Azure のCloud Volumes ONTAPの Premium SSD v2 ディスク パフォーマンスを管理する</block>
-  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>。</block>
-  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Essentialsライセンスの超過料金の簡素化</block>
-  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">Cloud Volumes ONTAPマーケットプレイスの年間契約/プライベート オファーの場合、Essentials ライセンスの超過計算が Bring Your Own License (BYOL) パッケージと一致するようになりました。以前は、超過分は、Essentials パッケージそのものに対して、時間単位のマーケットプレイス料金で請求されていました。現在、マーケットプレイスの年間契約に複数の Essentials パッケージが含まれている場合、 NetApp Consoleは、サブスクリプション内のより高額な Essentials パッケージの利用可能な容量に対して、Essentials パッケージの超過料金を請求します。これにより、Essentials パッケージの超過計算が簡素化され、BYOL ライセンスからサブスクリプション ベースのモデルへのスムーズな移行が保証されます。</block>
-  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Essentialsライセンスの超過料金の請求方法</block>
-  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
-  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">Azure Edsv6 サイズ シリーズのサポート</block>
-  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">Cloud Volumes ONTAP 9.17.1 以降では、新しいCloud Volumes ONTAPインスタンス用に、 NetApp Consoleを通じて Azure Edsv6 シリーズ VM をデプロイできます。Cloud Volumes ONTAP 9.17.1 以降では、新しいデプロイメントでは第 2 世代 VM のみがサポートされます。これらの第 2 世代マシンは、Unified Extensible Firmware Interface (UEFI)、Azure Boost システム、NVMe などの最新テクノロジと互換性があります。これらは、データベース サーバーや分析エンジンなど、高速なローカル ストレージを必要とするメモリを大量に消費するシステムやアプリケーションに最適です。</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure でサポートされるCloud Volumes ONTAPの構成</block>
-  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">コンソールエージェント 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager のサポート</block>
@@ -201,8 +157,6 @@
   <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">オンプレミスのONTAPクラスタが 20 個を超える場合、システム ページのボリューム タブはデフォルトでグリッド ビューになります。</block>
   <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">NetApp Consoleで管理されているオンプレミスのONTAPクラスターが 20 個を超える場合、ナビゲーションを容易にするために、*ボリューム* タブはデフォルトでグリッド ビューになります。カードビューは無効です。</block>
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">この変更は標準モードのみ、およびONTAPバージョン 9.6 以降に適用されます。</block>
-  <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">詳細については、 <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>。</block>
-  <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">詳細については、 <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>。</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">オンプレミス環境での複数のコンソール エージェントのサポート</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">オンプレミスでDisaster Recovery を使用している場合は、vCenter インスタンスごとにコンソール エージェントを展開して、回復力を向上させることができます。</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">たとえば、2 つのサイト (サイト A とサイト B) がある場合、サイト A には、vCenter 1、 ONTAPデプロイメント 1、およびONTAPデプロイメント 2 に接続されたコンソール エージェント A を配置できます。サイト B には、vCenter 2 とONTAPデプロイメント 3 および 4 に接続されたコンソール エージェント B を配置できます。</block>
@@ -535,4 +489,21 @@
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystoneサブスクリプションのアラートモニターの表示と作成</block>
   <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">詳細については、<block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block>および<block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026年3月2日</block>
+  <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
+  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">このリリースでは、ONTAP Volumes ワークロードで次の拡張機能が導入されています：</block>
+  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*ソースの場所への復元*：ローカル スナップショットおよび複製されたスナップショットから、ソースの場所だけでなく別の場所にもファイルを復元できるようになりました。</block>
+  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*1 時間ごとのボリューム検出*：Dashboard は新しいボリュームをより迅速に検出して更新するようになりました。</block>
+  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*ダークサイトのサポート*：ダークサイト用の Backup and Recovery を<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>からダウンロードできるようになりました。現時点では、NetApp Backup and Recovery for dark sites は ONTAP Volumes ワークロードのみをサポートしています。</block>
+  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Unicode 互換性の向上*：カタログのインデックス作成で Unicode 文字の処理が改善されました。</block>
+  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">* FlexGroup 互換性の向上*：ONTAP FlexVol ボリュームを FlexGroup ボリュームに変換する場合、変換前に作成したバックアップを復元できるようになりました。</block>
+  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*マルチバケットのサポート*：異なるクラウド プロバイダにまたがるシステムごとに最大 6 つのバケットを使用して、システム内のボリュームを保護できるようになりました。</block>
+  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
+  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">このリリースでは、VMware ワークロードに次の拡張機能が導入されています：</block>
+  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*オブジェクト ストアからゲスト データを復元*：オブジェクト ストレージからゲスト ファイルとフォルダーを復元できるようになりました。</block>
+  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*VMFS/NFS のクイック リストア*：別の場所にリストアするときに、クイック リストア オプションを有効にできるようになりました。有効にすると、VM メタデータ（ファイル、LUN、名前空間）のみがオブジェクト ストアから取得され、完全な復元よりも速くボリュームが使用できるようになります。</block>
+  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*Amazon FSx for NetApp ONTAP のサポート*：VMware ワークロードで、バージョン 9.13.1 以降を実行している Amazon FSx for NetApp ONTAP ストレージ システムがサポートされるようになりました。</block>
+  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware ワークロードの保護の概要</block>
+  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026年3月9日</block>
 </blocks>
