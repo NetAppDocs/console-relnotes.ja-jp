@@ -67,6 +67,40 @@ VMwareワークロードの保護の詳細については、 https://docs.netapp
 
 
 
+=== ディザスタ リカバリ
+
+
+
+==== レプリケーションプランからデータストアを除外する
+
+Disaster でレプリケーションプランを作成するときに、特定のデータストアをレプリケーションから除外できるようになりました。VM が複数のデータストアを使用するように構成されている場合、これにより、レプリケートされるデータストアを制限できます。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.adoc["レプリケーションプランを作成する"^]を参照してください。
+
+
+
+==== vCenter パスワードからパスワード検証を削除
+
+ディザスタリカバリでは、vCenter パスワードのパスワード制限が削除され、スペースを含むパスワードが許可されるようになりました。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/evs-deploy-guide-add-vcenters.html["オンプレミスおよびAmazon EVS vCenterクラスタをNetApp Disaster Recoveryに追加"^]を参照してください。
+
+
+
+==== 新しいレプリケーションプランのサブメニュー
+
+ディザスタリカバリに、レプリケーションプランダッシュボードからvCenterの更新をトリガーする新しいメニューオプションが追加されました。レプリケーションプランダッシュボードのアクションメニューからサブメニューにアクセスできます：**プランの健全性**を選択してから、**ソースvCenterを更新 / ターゲットvCenterを更新**を選択します。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#modify-a-replication-plan["レプリケーションプランを変更する"^]を参照してください。
+
+
+
+==== ネットワーク検出の改善
+
+ディザスタリカバリには、より幅広いネットワーク構成をサポートするために、改善されたネットワーク検出が含まれるようになりました。
+
+
+
 == 2026年3月2日
 
 
