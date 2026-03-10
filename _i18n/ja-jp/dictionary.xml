@@ -125,38 +125,8 @@
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">詳細については、 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAPの推奨課金オプション</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure でサポートされるCloud Volumes ONTAPの構成</block>
-  <block id="026970f0ac157044199489d6744c2491" category="doc">コンソールエージェント 4.2.0</block>
-  <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager のサポート</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">クラウドデプロイメントマネージャー</block>
-  <block id="e7858dcbf9687c88e071775eb4ee07ea" category="paragraph">NetApp、Google Cloud でエージェントをデプロイし、管理するために、Google Cloud Deployment Manager ではなく Google Cloud Infrastructure Manager（IM）を使用するようになりました。この変更は、Googleが廃止する予定であるためです。 <block ref="9574f21b6b64ac1c3366333a9bb489f6" category="inline-link-macro-rx"></block>。</block>
-  <block id="817a59a137d2f36b17e19b14b0e90545" category="inline-link-macro">権限変更ログを表示します。</block>
-  <block id="05345eddc0e94be562e27e8d53b608ae" category="list-text">4.2.0 以降の新しいエージェントはすべて Infrastructure Manager を使用するため、デプロイメントに使用するユーザー アカウントとサービス アカウントの両方の権限を更新する必要があります。 <block ref="ca3a237b8d0ef6729093b3abe4bab2f0" category="inline-link-macro-rx"></block></block>
-  <block id="cc598dc1e413aff136dd2366a85faf46" category="list-text">エージェントをデプロイすると、デプロイ ファイルを保存するための Google Cloud バケットも作成されます。</block>
-  <block id="d9dfb1e70d9002b82990e5020a243087" category="list-title">コンソールエージェントの構成チェックの改善</block>
-  <block id="1c113e32e8394b861faad1f61a9626cb" category="inline-link-macro">コンソール エージェントに必要なエンドポイントの詳細について説明します。</block>
-  <block id="675d71adc8a1b2329a23e817b7275840" category="list-text">コンソール エージェントは、構成チェックを実行するときに、非推奨のエンドポイントをチェックするようになりました。4.0.0 以降の新しいエンドポイント リストに更新していない場合、システムが以前のエンドポイント リストにアクセスできる場合はインストールが成功します。 <block ref="4fa9d5f65f1179ca8dedab794aee5677" category="inline-link-macro-rx"></block></block>
-  <block id="5cf1eebafa9e566db5b16d2f75b10866" category="inline-link-macro">コンソール エージェントで構成チェックを実行する方法を学習します。</block>
-  <block id="532e2205eae250e20138ac0d4fb7670a" category="list-text">コンソールまたはエージェントのメンテナンス コンソールからインストールされたコンソール エージェントの構成チェックを実行し、接続を確認して問題をトラブルシューティングします。 <block ref="2d14832e5c27ace253e7c4b1295d1814" category="inline-link-macro-rx"></block></block>
-  <block id="f1a69f998a4fd4d34f139b76d2b1cf5d" category="paragraph-title">NetApp Consoleからエージェントソフトウェアを直接ダウンロード</block>
-  <block id="ffb09157eddacde0f2ddbb27b8b5a58d" category="inline-link-macro">NetApp Consoleからコンソール エージェント ソフトウェアを直接ダウンロードする方法を説明します。</block>
-  <block id="0d8ee60431ecde7e8c0ca3d789c24bae" category="paragraph">エージェントを手動でインストールする必要がある場合は、 NetAppサポート サイトに加えて、 NetApp Consoleから直接エージェント ソフトウェアにアクセスできます。 <block ref="3ce006bd909dc885369b2f86674a08a3" category="inline-link-macro-rx"></block></block>
-  <block id="f33a1c02aef9134dd317909d568855ae" category="paragraph-title">資格情報の有効期限切れに関する通知を設定する機能</block>
-  <block id="eb85d454a2ba07f1bf0f8e315ae0b696" category="paragraph">サービス アカウントとフェデレーションの資格情報の有効期限が切れた場合の通知を設定します。7日間または30日間から選択してください。コンソールに通知が表示され、適切なロールを持つユーザーに電子メールが送信されます。組織管理者はサービス アカウント通知を受け取ります。組織管理者、フェデレーション管理者、およびフェデレーション閲覧者はフェデレーション通知を受け取ります。</block>
-  <block id="c76ecba1e00b52577de6653acbf29014" category="paragraph-title">フェデレーションを有効にすると、ローカルログインは利用できなくなります</block>
-  <block id="e713ec00d2b4c1f46099d8669c70bc4a" category="paragraph">コンソール組織に対してフェデレーションを有効にすると、ユーザーはローカル ログインを使用できなくなり、フェデレーション ログインに送信されます。</block>
-  <block id="37922d4b00cf704156c5276d88caa05c" category="paragraph-title">ストレージ管理ページの使いやすさの向上</block>
-  <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">ONTAPオンプレミス システム (および FSx for ONTAP) に関する詳細情報を、ストレージ管理ページから簡単に表示および管理できるようになりました。</block>
-  <block id="c513928c0b95afec773bd29d135d4632" category="list-text">*Discoverable systems* ページでは、利用可能なシステムのタブ表示から概要情報が分離されているため、検出可能なシステムに関する包括的な情報を簡単に表示できます。</block>
-  <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025年12月10日</block>
-  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">NetApp ConsoleからONTAPシステムを表示する際の使いやすさの向上 (標準モードのみ)</block>
-  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">NetApp Consoleの *システム* ページでは、ボリュームとクラスタを管理する際の明確さと使いやすさが向上しました。これらの更新により、新しいONTAPバージョンの System Manager とのエクスペリエンスがより密接になり、ナビゲーションが簡素化されます。</block>
-  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">ONTAPバージョン 9.5 以降に含まれるクラスタ容量 (コンソール標準モードのみ)</block>
-  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">*システム &gt; 概要* ページには、 ONTAP 9.5 以降を実行しているクラスタのクラスタ サイズとONTAPバージョンが表示されます。</block>
-  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">制限モードのNetApp ConsoleまたはONTAPバージョン 9.5 以下の場合、ボリュームのプロビジョニング情報は変更されません。</block>
-  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">オンプレミスのONTAPクラスタが 20 個を超える場合、システム ページのボリューム タブはデフォルトでグリッド ビューになります。</block>
-  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">NetApp Consoleで管理されているオンプレミスのONTAPクラスターが 20 個を超える場合、ナビゲーションを容易にするために、*ボリューム* タブはデフォルトでグリッド ビューになります。カードビューは無効です。</block>
-  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">この変更は標準モードのみ、およびONTAPバージョン 9.6 以降に適用されます。</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">オンプレミス環境での複数のコンソール エージェントのサポート</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">オンプレミスでDisaster Recovery を使用している場合は、vCenter インスタンスごとにコンソール エージェントを展開して、回復力を向上させることができます。</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">たとえば、2 つのサイト (サイト A とサイト B) がある場合、サイト A には、vCenter 1、 ONTAPデプロイメント 1、およびONTAPデプロイメント 2 に接続されたコンソール エージェント A を配置できます。サイト B には、vCenter 2 とONTAPデプロイメント 3 および 4 に接続されたコンソール エージェント B を配置できます。</block>
@@ -361,7 +331,6 @@
   <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files サポート</block>
   <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilienceは、Azure NetApp Filesシステムをサポートするようになり、Azure NetApp Filesでランサムウェアの脅威を効率的に検出して対応できるようになりました。ワークロードを検出すると、Ransomware ResilienceはAzure NetApp Filesを表示し、保護ダッシュボードに表示します。Azure NetApp FilesのRansomware Resilienceサポートには、スナップショットのみを使用した検出および保護戦略が含まれます。Azure NetApp Filesのサポートは現在プレビュー段階です。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
-  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">ユーザー行動アラートからユーザーを除外する</block>
   <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">NetApp Ransomware Resilienceにより、ユーザー行動アラートから特定のユーザーを除外できるようになりました。信頼できるユーザーを除外すると、誤検知や不要なアラートを防ぐことができます。</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">アラートからユーザーを除外する</block>
@@ -543,4 +512,20 @@
   <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">コンソール管理</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">パートナー ユーザーへの Keystone ロールの割り当てについて詳しく説明します。</block>
   <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。<block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
+  <block id="d78202f5dede249577567c1012878352" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">ユーザー行動アラートからユーザーを一括除外する</block>
+  <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">Ransomware Resilience では、既存の UI および CSV ベースのオプションに加えて、ユーザー行動アクティビティアラートから除外するユーザーの JSON リストのアップロードがサポートされるようになりました。</block>
+  <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">詳細については、<block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="5d8e3a83bb9b2062983b23dd93a1a59a" category="section-title">ユーザー行動アクティビティの強化</block>
+  <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilienceは、Eメールアラートを追加し、サポートされているSIEMイベントデータ（AWS Security Hub、Microsoft Sentinel、およびSplunk Cloud）にユーザー行動イベントを含めることで、ユーザー行動に関する洞察を改善しました。これらの機能強化により、セキュリティとコンプライアンスの監視に関するより正確な洞察が提供されます。</block>
+  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">NetApp Ransomware Resilienceを SIEMに接続</block>
+  <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">詳細については、<block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="3204a863a3a1a57abe7546af70eb77cf" category="doc">Cloud Volumes ONTAP のコンソールエージェントのプロキシ設定を管理する機能</block>
+  <block id="a51be83082fba5b4dcf135a536ea8b1d" category="paragraph">NetApp Console エージェントで Cloud Volumes ONTAP のプロキシ設定を管理できるようになりました。接続が失われた場合やプロキシが正しく設定されていない場合でも管理できます。以前は、Console エージェントが Cloud Volumes ONTAP に 20 分間接続できない場合、手動のプロキシ設定がデフォルト設定で上書きされていました。これにより、AutoSupport メッセージに関する問題を含む通信障害が発生していました。既存のシステムのプロキシ設定を保持するには、次の API 呼び出しを実行します：</block>
+  <block id="2ed7e2686c6c63422cc2a66168ff6a41" category="paragraph"><block ref="f4868aca388daf10284f58112e13f2bd" prefix="" category="inline-code"></block></block>
+  <block id="2bfe294417f6af6fb18d7ac186551586" category="paragraph">リクエスト本文に次のパラメータを含めます：</block>
+  <block id="7e6627b4e37aede8d2d720694c07915e" category="paragraph">デフォルトモードは標準です。つまり、Console エージェントは、Cloud Volumes ONTAP に 20 分間接続できない場合、プロキシ設定をデフォルトで上書きします。</block>
+  <block id="7bfa46b18158f588f3fb87cc98bc501b" category="inline-link">変更可能なNetApp Consoleパラメータを設定する</block>
+  <block id="0383a3079d971b2242c6d61352ea3ab4" category="paragraph"><block ref="0383a3079d971b2242c6d61352ea3ab4" category="inline-link-rx"></block></block>
+  <block id="34df2c4da19b4e31f0349125e9cabfc7" category="section-title">2026年3月10日</block>
 </blocks>
