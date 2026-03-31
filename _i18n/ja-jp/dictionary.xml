@@ -543,4 +543,12 @@
   <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">データ分類に、ダークサイトへの展開を含む手動によるオンプレミスインストール用の Red Hat Enterprise Linux v9.7 が追加されました。</block>
   <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">以下のオペレーティングシステムでは、Podmanコンテナエンジンを使用する必要があり、Data Classificationバージョン1.30以上が必要です（Red Hat Enterprise Linuxバージョン8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6、および9.7）。</block>
   <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">詳細については、<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Oracle Databaseワークロードを検出</block>
+  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*クラスタホストのサポート*：Oracle Automatic Storage Management（ASM）を使用し、VMFSファイルシステム上にVMDKを使用してデプロイされたOracle Real Application Clusters（RAC）データベースを検出および保護できるようになりました。詳細については、<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Oracleデータベースを設定する</block>
+  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMANカタログのサポート*：バックアップとリカバリを設定して、保護メタデータをRMANリカバリカタログに保存できるようになりました。これにより、ターゲット制御ファイルが失われた場合に備えて冗長性と長期保持が実現します。詳細については、<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="1336b537734375879229275580e44691" category="inline-link">Oracle Databaseワークロード保護の概要</block>
+  <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026年3月31日</block>
 </blocks>
