@@ -551,4 +551,15 @@
   <block id="1336b537734375879229275580e44691" category="inline-link">Oracle Databaseワークロード保護の概要</block>
   <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>を参照してください。</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026年3月31日</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">履歴データ消費量チャートにおける最大許容量を超える</block>
+  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystoneサブスクリプションの消費動向を確認する</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">*消費動向*タブの履歴データ消費量グラフで、バースト制限を超える使用量が強調表示されるようになりました。詳細については、<block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用量の予測</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">予測データを表示する</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">*消費傾向*タブの*履歴データ*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の容量使用量を予測できます。詳細については、<block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">サブスクリプションのエクスポートにおけるトラッキング ID</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">* Subscriptions *ページからダウンロードされたサブスクリプションレポートには、ExcelおよびCSV形式の両方のパフォーマンスサービスレベルデータに* Tracking ID *が含まれるようになりました。</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">サブスクリプションページの列の表示設定の更新</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">*Subscriptions*ページでは、*Keystone version*列はデフォルトで非表示になり、リンクされたサブスクリプションが利用可能な場合にのみ*Linked subscriptions*列が表示されます。</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026年3月30日</block>
 </blocks>
