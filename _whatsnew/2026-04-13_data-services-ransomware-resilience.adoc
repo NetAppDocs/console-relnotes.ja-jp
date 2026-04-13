@@ -8,7 +8,7 @@
 
 Ransomware Resilienceは、クリーンリストアをサポートするようになりました。これは、ランサムウェア攻撃から迅速かつ容易に復旧するための新しい復旧オプションです。クリーンリストアは、ダウンタイムを最小限に抑えながらワークロードを迅速に稼働させるための最適なリストアポイントを特定する、ガイド付きワークフローを提供します。クリーンリストアのワークフローは、データに関するファイルレベルの情報も提供するため、マルウェアのないワークロードを復元でき、再感染を防ぎ、データ損失を最小限に抑えることができます。
 
-サポートされている構成と、システムをクリーンな復元用に構成する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["隔離された復旧環境を作成する"^]を参照してください。クリーンな復元で復旧する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover["クリーンリストアでワークロードをリカバリする"^]を参照してください。
+サポートされている構成と、システムをクリーンな復元用に構成する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["隔離された復旧環境を作成する"^]を参照してください。クリーンな復元で復旧する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["クリーンリストアでワークロードをリカバリする"^]を参照してください。
 
 
 

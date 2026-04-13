@@ -558,7 +558,6 @@
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilienceは、クリーンリストアをサポートするようになりました。これは、ランサムウェア攻撃から迅速かつ容易に復旧するための新しい復旧オプションです。クリーンリストアは、ダウンタイムを最小限に抑えながらワークロードを迅速に稼働させるための最適なリストアポイントを特定する、ガイド付きワークフローを提供します。クリーンリストアのワークフローは、データに関するファイルレベルの情報も提供するため、マルウェアのないワークロードを復元でき、再感染を防ぎ、データ損失を最小限に抑えることができます。</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">隔離された復旧環境を作成する</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">クリーンリストアでワークロードをリカバリする</block>
-  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">サポートされている構成と、システムをクリーンな復元用に構成する方法については、<block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>を参照してください。クリーンな復元で復旧する方法については、<block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk EnterpriseのSIEMサポート</block>
   <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience は、Splunk Enterprise のセキュリティ情報イベント管理（SIEM）サポートを提供し、ログデータとイベントデータを一元管理して、脅威分析と検出を効率化できます。</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">ランサムウェア対策をSIEMに接続</block>
@@ -567,4 +566,5 @@
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">データ侵害イベントに関するインサイトは、インシデント発生後13か月間保持されるようになり、レポートのニーズに応じてより長期間の記録保持が可能になりました。</block>
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">ユーザーアクティビティ検出について学ぶ</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">詳細については、<block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">サポートされている構成と、システムをクリーンな復元用に構成する方法については、<block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>を参照してください。クリーンな復元で復旧する方法については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
