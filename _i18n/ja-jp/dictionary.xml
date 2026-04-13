@@ -114,65 +114,15 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">オンプレミスのONTAPクラスタ</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:</block>
-  <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善、バグ修正、および次の機能が含まれています。</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">このリリースには以下が含まれます。</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">この Data Classification リリースには、バグ修正と次の更新が含まれています。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーションプランを作成する</block>
-  <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">ランサムウェア耐性のアラートを管理する</block>
-  <block id="869c8807275d576171cb34b892652da6" category="paragraph">詳細については、 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
-  <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAPの推奨課金オプション</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure でサポートされるCloud Volumes ONTAPの構成</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager のサポート</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">クラウドデプロイメントマネージャー</block>
-  <block id="6da53899225555a506524070f96e33df" category="doc">オンプレミス環境での複数のコンソール エージェントのサポート</block>
-  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">オンプレミスでDisaster Recovery を使用している場合は、vCenter インスタンスごとにコンソール エージェントを展開して、回復力を向上させることができます。</block>
-  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">たとえば、2 つのサイト (サイト A とサイト B) がある場合、サイト A には、vCenter 1、 ONTAPデプロイメント 1、およびONTAPデプロイメント 2 に接続されたコンソール エージェント A を配置できます。サイト B には、vCenter 2 とONTAPデプロイメント 3 および 4 に接続されたコンソール エージェント B を配置できます。</block>
-  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">コンソールエージェントを作成する</block>
-  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">災害復旧のコンソールエージェントの詳細については、以下を参照してください。 <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>。</block>
-  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">データストアベースの保護を使用したレプリケーション プランのフェイルオーバー後に VM を追加する</block>
-  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">フェイルオーバーがトリガーされると、データストアベースの保護を使用するすべてのレプリケーション プランには、データストアに追加された VM が含まれます (検出された場合)。フェイルオーバーが完了する前に、追加された VM のマッピングの詳細を提供する必要があります。</block>
-  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">フェイルオーバーアプリケーション</block>
-  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">詳細については、 <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>。</block>
-  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">新しいメール通知</block>
-  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">災害復旧では、次のイベントに関する電子メール通知が提供されるようになりました。</block>
-  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">容量使用制限に近づいています</block>
-  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">レポート生成が完了しました</block>
-  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">仕事の失敗</block>
-  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">ライセンスの有効期限または違反</block>
-  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swaggerの改善</block>
-  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
-  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">これで、Disaster Recovery 内から Swagger ドキュメントにアクセスできるようになりました。災害復旧で、**設定** を選択し、次に **API ドキュメント** を選択して Swagger にリンクするか、ブラウザのシークレット/プライベート モードで次の URL にアクセスします。 <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>。</block>
-  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">改善されたユーザーインターフェース</block>
-  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">災害復旧では、警告とエラー解決が改善されました。このリリースでは、キャンセルされたジョブがユーザー インターフェイスに表示されないエラーが修正されました。キャンセルされたジョブが表示されるようになりました。同じ宛先ネットワークが複数の異なるソース ネットワークにマップされている場合にも、新しい警告が表示されます。</block>
-  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">レプリケーション プランに VM フォルダ構造の保持がデフォルトとして追加されました</block>
-  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">レプリケーションを作成すると、新しいデフォルトでは VM フォルダー構造が保持されます。リカバリ対象に元のフォルダ階層がない場合、Disaster Recovery によってそれが作成されます。このオプションを選択解除すると、元のフォルダー階層を無視できます。</block>
-  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">詳細については、 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
-  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026年1月12日</block>
-  <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">Cloud Volumes ONTAPの使用量と超過分を計算するための優先課金オプションを選択できるようになりました。2025 年 6 月 25 日に Bring Your Own Licenses (BYOL)ライセンス モデルが限定的に利用可能になって以来、 NetApp はNetApp Consoleの *ライセンスとサブスクリプション* セクションに推奨される課金方法を追加しました。請求と超過料金については、年間マーケットプレイス サブスクリプションを使用するか、既存の BYOL モデルを優先オプションとして使用できます。これにより、組織の財務戦略と使用パターンに最適な課金方法を柔軟に選択できるようになります。</block>
-  <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">請求設定と超過料金</block>
-  <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
-  <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">スナップショットをONTAPに複製する</block>
-  <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">ランサムウェア耐性でワークロードを保護する</block>
-  <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">詳細については、 <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>。</block>
-  <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">ランサムウェア耐性からワークロードを除外する</block>
-  <block id="36d62eb8fbffb07f574185bd90036cd1" category="paragraph">ランサムウェア耐性では、システム内の特定のワークロードを保護およびランサムウェア耐性ダッシュボードから除外することがサポートされるようになりました。検出後にワークロードを除外し、ランサムウェア保護を追加する場合は再度含めることができます。除外されたワークロードについては課金されません。</block>
-  <block id="427dab7765b34a516acce2d3545db33d" category="inline-link-macro">ワークロードを除外する</block>
-  <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">詳細については、 <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>。</block>
-  <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">アラートをレビュー中としてマークする</block>
-  <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">Ransomware Resilience では、アラートを「レビュー中」としてマークできるようになりました。「レビュー中」ラベルを使用すると、アクティブなランサムウェアの脅威をトリアージおよび管理する際に、チーム全体の明確性が向上します。</block>
-  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">コンソールエージェント 4.3.0</block>
-  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
-  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">コンソールエージェントのネットワーク接続を検証する機能</block>
-  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Consoleが制限モードの場合のフェデレーションのサポート</block>
-  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">制限モードになっているNetApp Console組織に対してフェデレーションを有効にできるようになりました。これにより、ユーザーは制限モードのセキュリティ上の利点を維持しながら、企業の資格情報を使用してコンソールにログインできるようになります。</block>
-  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">読み取り専用モード</block>
-  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">NetApp Console組織を読み取り専用モードに設定できます。読み取り専用モードでは、ユーザーはリソースと設定を表示できますが、変更することはできません。組織管理者またはスーパー管理者は、組織に対して読み取り専用モードを有効にすることができます。読み取り専用モードが有効になっている場合、管理者ロールを持つユーザーは、必要に応じて変更を加えるために手動で権限を昇格する必要があります。</block>
-  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">コンソール組織で読み取り専用モードを有効にする方法を学習します。</block>
-  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
-  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">組織が読み取り専用モードの場合に役割を昇格させる方法を学習します。</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">バージョン1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">カスタム分類の改善</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">データ分類では、データのカスタム カテゴリの作成がサポートされるようになりました。ファイルをアップロードして、データ分類がデータにカテゴリ マーカーを適用するために使用する AI モデルを微調整できます。すべてのカスタム分類のインターフェースが改善されました。</block>
@@ -187,11 +137,6 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調査報告書の所要時間の見積もり</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">調査レポートをダウンロードすると、データ分類ではダウンロードが完了するまでの予想時間が表示されるようになりました。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
-  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Consoleでのフェデレーション グループに対するロールベースのアクセス</block>
-  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Consoleは、フェデレーション グループ (Active Directory グループなど) へのロールの割り当てをサポートしており、管理者は組織の ID プロバイダー (IdP) のグループ メンバーシップに基づいてユーザーのオンボーディングとオフボーディングを自動化できます。この機能により、管理オーバーヘッドが削減され、グループ メンバーシップの変更に応じてコンソール アクセスが即座に更新されるため、安全で一貫したアクセスが確保されます。</block>
-  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">組織にフェデレーション グループへのアクセスを提供する方法を学習します。</block>
-  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
-  <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAPボリュームワークロードの機能強化</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">このリリースのONTAPボリューム ワークロードでは、次の拡張機能が導入されています。</block>
@@ -218,9 +163,6 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">Hyper-V VMのバックアップとスナップショットを別の場所に復元できるようになりました。この機能を使用して、異なるHyper-Vホスト上のVMバージョンを管理できます。</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery では、System Center Virtual Machine Manager（SCVMM）によってプロビジョニングされ、CIFS 共有でホストされている Hyper-V 仮想マシンがサポートされるようになりました。</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">KVM ワークロード プレビューでは、Apache CloudStack によって管理される KVM ホストと仮想マシンが保護されるようになりました。</block>
-  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">接続された Console エージェントのネットワーク接続をNetApp Console から直接検証できるようになりました。この機能は、Console エージェントの接続性を検証し、問題のトラブルシューティングに役立ちます。これは、Console エージェントのメンテナンスコンソールのコマンドラインインターフェース（CLI）からネットワーク診断を実行できる既存の機能に加えて提供されます。</block>
-  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">NetApp Consoleから構成を実行する方法を学習します。</block>
-  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
   <block id="37c785778d2185acbba38fa4b6624392" category="paragraph"><block ref="b49343ccc7da9738bd595bd89e3d39db" category="inline-link-macro-rx"></block>。</block>
   <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">毎日蓄積されるバーストデータのインタラクティブフィルタリング</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">毎日の累積バーストデータ使用量を表示する</block>
@@ -327,7 +269,6 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Azure VNet 暗号化のネットワーク</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026年2月17日</block>
-  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">ランサムウェア耐性は、スナップショットのレプリケーションをセカンダリONTAPサイトに追加できるようになりました。レプリケーションポリシーを使用する保護グループを使用すると、ワークロードごとに同じ宛先または異なる宛先にレプリケートできます。レプリケーションを含むランサムウェア保護戦略を作成することも、定義済みの戦略を使用することもできます。</block>
   <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files サポート</block>
   <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilienceは、Azure NetApp Filesシステムをサポートするようになり、Azure NetApp Filesでランサムウェアの脅威を効率的に検出して対応できるようになりました。ワークロードを検出すると、Ransomware ResilienceはAzure NetApp Filesを表示し、保護ダッシュボードに表示します。Azure NetApp FilesのRansomware Resilienceサポートには、スナップショットのみを使用した検出および保護戦略が含まれます。Azure NetApp Filesのサポートは現在プレビュー段階です。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
@@ -505,12 +446,9 @@
   <block id="dd340069cb16665edf781618805f1165" category="doc">Console エージェント 4.5.0</block>
   <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。</block>
-  <block id="b8ea9a14287592fd39444f5f11f22b28" category="paragraph-title">必要なポートへの構成チェックのサポート</block>
   <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">Console エージェントで構成チェックを実行する方法の詳細について説明します。</block>
-  <block id="8fab8f63a86cd4593eb84501e6b42574" category="paragraph">構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。Console または Agent メンテナンス コンソールから構成チェックを実行できます。<block ref="b6bcdf4dfaf7604bd81efc4009e39859" category="inline-link-macro-rx"></block></block>
   <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">コンソール管理</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">パートナー ユーザーへの Keystone ロールの割り当てについて詳しく説明します。</block>
-  <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。<block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">ユーザー行動アラートからユーザーを一括除外する</block>
   <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">Ransomware Resilience では、既存の UI および CSV ベースのオプションに加えて、ユーザー行動アクティビティアラートから除外するユーザーの JSON リストのアップロードがサポートされるようになりました。</block>
@@ -548,8 +486,6 @@
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*クラスタホストのサポート*：Oracle Automatic Storage Management（ASM）を使用し、VMFSファイルシステム上にVMDKを使用してデプロイされたOracle Real Application Clusters（RAC）データベースを検出および保護できるようになりました。詳細については、<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>を参照してください。</block>
   <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Oracleデータベースを設定する</block>
   <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMANカタログのサポート*：バックアップとリカバリを設定して、保護メタデータをRMANリカバリカタログに保存できるようになりました。これにより、ターゲット制御ファイルが失われた場合に備えて冗長性と長期保持が実現します。詳細については、<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="1336b537734375879229275580e44691" category="inline-link">Oracle Databaseワークロード保護の概要</block>
-  <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>を参照してください。</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026年3月31日</block>
   <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">履歴データ消費量チャートにおける最大許容量を超える</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystoneサブスクリプションの消費動向を確認する</block>
@@ -565,4 +501,54 @@
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps向けSOARプレイブック</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilienceは、<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>のセキュリティオーケストレーション、自動化、およびレスポンス（SOAR）プレイブックを提供しています。このプレイブックにより、脅威対応管理が容易になり、タスクやテストが自動化されるほか、スナップショットの作成やボリュームのオフライン化など、ランサムウェア対策に不可欠な作業がサポートされます。</block>
+  <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">必須ポートの構成チェックのサポート</block>
+  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。Console または Agent メンテナンス コンソールから構成チェックを実行できます。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
+  <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。<block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
+  <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console エージェント 4.6.0</block>
+  <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
+  <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">必要なディスク容量の構成チェックのサポート</block>
+  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">Console エージェントでの設定チェックの実行の詳細については、こちらを参照してください</block>
+  <block id="01ec5c0199a20329cd9739a87994ba1d" category="paragraph">構成チェックを使用することで、コンソールエージェントに必要なディスク容量が確保されていることを検証できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。<block ref="2f1b890fa743352ff9f5cd648c952940" category="inline-link-macro-rx"></block></block>
+  <block id="6f8cdd1e2991c2d2f9a4580b6f79bf52" category="paragraph-title">ISOを使用してvCenterにデプロイされたコンソールエージェントをアップグレードする</block>
+  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">vCenterに導入されたコンソールエージェントをアップグレードする方法について説明します</block>
+  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">OVAを使用してvCenterにコンソールエージェントをデプロイした場合、ISOをVMにマウントし、VMメンテナンスコンソールからアップグレードを実行することで、新しいバージョンにアップグレードできるようになりました。<block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
+  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：</block>
+  <block id="a83b3bb31eda1beff171bab61e67aa23" category="paragraph">*NetApp MetroCluster アクティブ / アクティブ構成のサポート*：NetApp Backup and Recovery for Volumes ワークロードで、アクティブ / アクティブ構成の MetroCluster がサポートされるようになりました。</block>
+  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
+  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="19455401d550e37f86235df1de2da367" category="paragraph">今回のリリースでは、Kubernetes ワークロードに次の保護ポリシーの機能強化が導入されます：</block>
+  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました</block>
+  <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*ディスク間サポート*：ディスク間バックアップアーキテクチャを使用して Kubernetes 保護ポリシーを設定できるようになりました。</block>
+  <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform ストレージ バケットのサポート*：Kubernetes の保護ポリシーを設定して、Google Cloud Platform ストレージ バケットにバックアップできるようになりました。</block>
+  <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">NetApp Backup and Recoveryでの保護ポリシーの作成と管理</block>
+  <block id="a51dec4d18c2ec4a0870f9ac159087be" category="paragraph">保護ポリシーの詳細については、<block ref="f4766eb2cdd623ee9325b7be7c1e14e2" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
+  <block id="6f9c0bad860671276c7314dda8468d6b" category="list-text">*ジョブ処理の改善*：NetApp Backup and Recoveryで、複数の同時実行ジョブをより効率的に処理できるようになりました。</block>
+  <block id="f02d5e72af9add59ab18089e0f4cc895" category="list-text">*SAN サポート（プレビュー）*：NetApp Backup and Recovery で、SAN ストレージに保存されている Hyper-V VM の保護がサポートされるようになりました。</block>
+  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Hyper-Vワークロードの保護の概要</block>
+  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVMワークロードの機能強化</block>
+  <block id="9e61640a2e25b290407c7bce4b5f72fb" category="paragraph">今回のリリースでは、KVMワークロードに以下の機能強化が導入されました。</block>
+  <block id="02055854e5f8d7c0a2161503c5645d5a" category="inline-link">NetApp Backup and RecoveryによるKVM仮想マシンのリストア</block>
+  <block id="2695e041e7821912ad62ed125ae887a9" category="list-text">*代替場所への復元（プレビュー）*: KVM VMを代替の場所に復元できるようになりました。詳細については、<block ref="c82574f572233aef5ee5178c16dc1758" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="318e7f91a44ca688085735c8092e7c69" category="inline-link">保護グループの作成と管理</block>
+  <block id="b4ad3ee842f554f84ff60d2d0f7228a6" category="list-text">*タグベースの保護*：VMwareワークロード向けのNetApp Backup and Recoveryは、NFSおよびVMFSボリュームに保存されているVMのタグベースの保護をサポートするようになり、個々のVMやデータストアではなくvCenterタグから保護グループを構築できるようになりました。vCenterでVMとデータストアにタグを付けると、NetApp Backup and Recoveryは手動でのグループ管理なしに、それらを自動的に検出して今後のバックアップに含めます。詳細については、<block ref="863c691e599eacbfae8d86e5506c4592" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="d782b6346ca61c6cf09a6d3470f1e8a1" category="inline-link">VMwareワークロードを復元する</block>
+  <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*代替ストレージシステムへの復元*：元の（プライマリ）ストレージシステムが完全に利用できない場合でも、仮想マシンを代替ストレージシステムに復元できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">ファイルとフォルダを復元する</block>
+  <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Linux VMへのファイルの復元*：Linux VMにVMファイルとフォルダを復元できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*ファイルとフォルダの復元時のプロキシVMサポート* - ソースvCenterでホストされている他のVMにファイルとフォルダを復元できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*再帰的なファイルおよびフォルダ検索* - VMDK 全体から特定のファイルまたはフォルダを検索できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">バージョン1.53</block>
+  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。</block>
+  <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine（GCVE）のサポートが一般提供開始（GA）しました。</block>
+  <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">NetApp Disaster Recovery の GCVE サポートが一般提供（GA）を開始しました。一般提供開始に伴い、GCVE 向け Disaster Recovery は以下の機能をサポートするようになりました：</block>
+  <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*プラットフォーム管理スナップショット：* ONTAPまたはGoogle Cloud Platform（GCP）を通じて、バックアップと保持ポリシーをシームレスに管理します。</block>
+  <block id="045d30a52ce459f46c504234d025f4c3" category="list-text">*レプリケーションプランごとに複数のデータストア：* 複数のデータストアを単一のレプリケーション戦略に統合することで、災害復旧プランを簡素化できます。</block>
+  <block id="c4eadd4786334639a92ab9b1508f337f" category="list-text">*利用できないソースサイトに対する強制フェイルオーバー：* ソースが利用できない場合は、災害復旧サイトに切り替えます。</block>
+  <block id="a7772ec1948f1cd5c6087ddb93603474" category="list-text">*SnapMirrorの再同期を延期し、必要に応じてレプリケーションをリストアする：* 「skip protect」オプションを使用してSnapMirrorの再同期を延期することで、ピーク時の運用期間中に本番ワークロードへの影響を回避し、その後「re-protect」オプションを使用して必要に応じてレプリケーションをリストアします</block>
+  <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recoveryでサポートされている構成</block>
+  <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVEのサポートに関する詳細については、<block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>をご覧ください。</block>
+  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026年4月13日</block>
 </blocks>
