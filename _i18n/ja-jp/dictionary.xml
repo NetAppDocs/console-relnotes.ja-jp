@@ -502,7 +502,7 @@
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilienceは、<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>のセキュリティオーケストレーション、自動化、およびレスポンス（SOAR）プレイブックを提供しています。このプレイブックにより、脅威対応管理が容易になり、タスクやテストが自動化されるほか、スナップショットの作成やボリュームのオフライン化など、ランサムウェア対策に不可欠な作業がサポートされます。</block>
   <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">必須ポートの構成チェックのサポート</block>
-  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。Console または Agent メンテナンス コンソールから構成チェックを実行できます。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
+  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
   <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。<block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console エージェント 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
@@ -551,4 +551,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recoveryでサポートされている構成</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVEのサポートに関する詳細については、<block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>をご覧ください。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026年4月13日</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">&lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]で未解決のディレクティブ</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 内の未解決のディレクティブ - include::../_include/cloud-tiering-eol.adoc[]</block>
 </blocks>

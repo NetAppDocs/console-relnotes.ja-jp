@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+<stdin> - include::../_include/cloud-tiering-eol.adoc[]で未解決のディレクティブ
