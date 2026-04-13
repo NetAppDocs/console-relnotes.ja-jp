@@ -3,7 +3,7 @@ indexpage:
   title: NetApp Consoleのリリースノート
   summary: NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース
     ノートの完全セットをご覧ください。
-  keywords: release notes, enhancements, what's new, netapp console, console
+  keywords: release notes, enhancements, bluexp, what's new, netapp console, console
   lead: これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース
     ノートの完全なセットへのリンク。
   tiles:
