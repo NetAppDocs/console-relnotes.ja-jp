@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure でサポートされるCloud Volumes ONTAPの構成</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Google Cloud Infrastructure Manager のサポート</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">クラウドデプロイメントマネージャー</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">バージョン1.50</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">カスタム分類の改善</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">データ分類では、データのカスタム カテゴリの作成がサポートされるようになりました。ファイルをアップロードして、データ分類がデータにカテゴリ マーカーを適用するために使用する AI モデルを微調整できます。すべてのカスタム分類のインターフェースが改善されました。</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">カスタム分類を作成する</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">詳細については、 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">カスタムの古いデータ定義</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">データ分類では、組織のニーズに合わせて古いデータの定義をカスタマイズできるようになりました。以前は、古いデータは 3 年前に最後に変更されたデータとして定義されていました。現在では、最後にアクセスされた日時、または最後に変更された日時に基づいて古いデータを識別できます。期間は 6 か月前から 10 年前までの範囲です。</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">古いデータ定義をカスタマイズする</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">詳細については、 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">パフォーマンスの向上</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">データ分類、データ マッピング レポート、および調査ページのフィルターのすべてのページの読み込み時間が短縮されました。</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">調査報告書の所要時間の見積もり</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">調査レポートをダウンロードすると、データ分類ではダウンロードが完了するまでの予想時間が表示されるようになりました。</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAPボリュームワークロードの機能強化</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">このリリースのONTAPボリューム ワークロードでは、次の拡張機能が導入されています。</block>
@@ -567,4 +553,13 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">ユーザーアクティビティ検出について学ぶ</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">詳細については、<block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">サポートされている構成と、システムをクリーンな復元用に構成する方法については、<block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>を参照してください。クリーンな復元で復旧する方法については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Google Cloud C3 VMによるCloud Volumes ONTAPサポートの改善</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP では、Google Cloud C3 シリーズ VM のサポートが強化され、次の追加機能が利用できるようになりました。</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Cloud Volumes ONTAP 環境では、C3 ファミリー内の異なるバリアント間でインスタンスタイプを切り替えることができます。</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">インスタンスタイプを変更する際に、ターゲット VM として c3-standard-44 または c3-standard-88 およびそれらの LSSD バリアントを選択した場合、Google ネットワーク サービス出力ネットワーク層 Tier-1 が自動的に適用されます。他の C3 バリアントに切り替えると、出力ネットワーク層は Standard に設定されます。</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">出力ネットワークの階層をティア1に変更すると、追加費用が発生します。それに応じて導入とアップグレードを計画してください。</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">C3のローカルSSD（LSSD）バリアントを選択した場合、Flash Cacheがデフォルトで有効になります。ターゲットバリアントがFlash Cacheをサポートしている場合でも、Cloud Volumes ONTAPデプロイメントでC3 LSSDバリアント間を切り替えることはできません。</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できるようになりました。</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">NetApp Console を使用してボリュームを追加する際、または<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API を使用して、IOPS とスループットの設定を変更できます。</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
 </blocks>
