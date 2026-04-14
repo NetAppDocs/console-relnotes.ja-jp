@@ -524,8 +524,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*代替ストレージシステムへの復元*：元の（プライマリ）ストレージシステムが完全に利用できない場合でも、仮想マシンを代替ストレージシステムに復元できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">ファイルとフォルダを復元する</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Linux VMへのファイルの復元*：Linux VMにVMファイルとフォルダを復元できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*ファイルとフォルダの復元時のプロキシVMサポート* - ソースvCenterでホストされている他のVMにファイルとフォルダを復元できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*再帰的なファイルおよびフォルダ検索* - VMDK 全体から特定のファイルまたはフォルダを検索できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">バージョン1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine（GCVE）のサポートが一般提供開始（GA）しました。</block>
@@ -562,4 +560,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できるようになりました。</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">NetApp Console を使用してボリュームを追加する際、または<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API を使用して、IOPS とスループットの設定を変更できます。</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
+  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*ファイルとフォルダの復元時のプロキシVMのサポート* - 仮想ディスクを元のVMに接続したくない場合は、プロキシVMを使用して仮想ディスクからファイルとフォルダを復元できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*再帰的なファイルおよびフォルダ検索* - 仮想ディスク全体から特定のファイルまたはフォルダを検索できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
