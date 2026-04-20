@@ -511,9 +511,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recoveryでサポートされている構成</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVEのサポートに関する詳細については、<block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>をご覧ください。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026年4月13日</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">&lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]で未解決のディレクティブ</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 内の未解決のディレクティブ - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">クリーン復元</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilienceは、クリーンリストアをサポートするようになりました。これは、ランサムウェア攻撃から迅速かつ容易に復旧するための新しい復旧オプションです。クリーンリストアは、ダウンタイムを最小限に抑えながらワークロードを迅速に稼働させるための最適なリストアポイントを特定する、ガイド付きワークフローを提供します。クリーンリストアのワークフローは、データに関するファイルレベルの情報も提供するため、マルウェアのないワークロードを復元でき、再感染を防ぎ、データ損失を最小限に抑えることができます。</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">隔離された復旧環境を作成する</block>
@@ -541,4 +539,13 @@
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SANサポート*：VMwareワークロードは、NetApp ASA r2 SAN専用環境でホストされているVMFSデータストア上のVMの保護をサポートするようになりました。</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026年4月20日</block>
+  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">NetApp Cloud Tieringの提供終了</block>
+  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">NetApp Cloud Tieringは、2026年4月26日をもって購入またはライセンス更新ができなくなります。</block>
+  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">既存のお客様は、サブスクリプションまたはライセンス契約が満了するまで、NetApp Cloud Tieringを引き続き使用し、サポートを受けることができます。サブスクリプションの有効期限が切れると、お客様はNetApp Cloud Tieringの機能またはサポートにアクセスできなくなります。</block>
+  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">ONTAP クラスタに FabricPool ライセンスをインストールする</block>
+  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetAppでは、お客様がNetAppの担当者と協力して、既存の階層化ライセンスをONTAPのFabricPoolライセンスに移行することを推奨しています。このライセンスは、ONTAPでのデータ階層化機能を提供します。FabricPoolを使用してONTAPでデータ階層化を設定する方法の詳細については、<block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering 提供終了のお知らせ</block>
+  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
+  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 提供終了 FAQ</block>
+  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
 </blocks>
