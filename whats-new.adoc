@@ -148,11 +148,13 @@ VMwareワークロードの保護の詳細については、 https://docs.netapp
 
 今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。
 
-Cloud Tiering :leveloffset: +1
+
+
+=== クラウド階層化
 
 
 
-=== NetApp Cloud Tieringの提供終了
+==== NetApp Cloud Tieringの提供終了
 
 NetApp Cloud Tieringは、2026年4月26日をもって購入またはライセンス更新ができなくなります。
 
