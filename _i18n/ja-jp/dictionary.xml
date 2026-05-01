@@ -479,7 +479,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">今回のリリースでは、Kubernetes ワークロードに次の保護ポリシーの機能強化が導入されます：</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*ディスク間サポート*：ディスク間バックアップアーキテクチャを使用して Kubernetes 保護ポリシーを設定できるようになりました。</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform ストレージ バケットのサポート*：Kubernetes の保護ポリシーを設定して、Google Cloud Platform ストレージ バケットにバックアップできるようになりました。</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">NetApp Backup and Recoveryでの保護ポリシーの作成と管理</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積バーストの予測切り替え</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、<block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026年4月27日</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました。</block>
 </blocks>
