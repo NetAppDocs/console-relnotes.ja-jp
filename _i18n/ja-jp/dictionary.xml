@@ -495,4 +495,26 @@
   <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">デフォルトでは、Digital Advisorには、コンソール組織だけでなく、会社に関連付けられているすべてのNetAppアカウントが表示されます。Digital Advisorで表示される内容を特定のアカウントに制限するには、コンソール組織で使用するビジネスアカウントを確認してください。<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
   <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">Kubernetesベースのワークロードのサポートは現在プレビュー段階です。Kubernetesベースのワークロードの保護を開始するには、<block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026年5月11日</block>
+  <block id="2177f4b8385663763a55092409fcf96d" category="list-text">*SANストレージ上のVMを保護する*：SANオブジェクトストレージ上のVMを保護できるようになりました。</block>
+  <block id="b4f11c5e52133c7c24d1d06bed289da5" category="list-text">*代替場所への復元機能の強化*：SANストレージ上のVMについて、プライマリおよびセカンダリの場所から代替場所に復元できるようになりました。</block>
+  <block id="c79dba5399648f390585db72c4aefa97" category="list-text">*ゲストVMへのファイルとフォルダの復元*：プライマリストレージのスナップショットから、ゲストWindows VMにファイルとフォルダを復元できるようになりました。この機能はCIFS仮想マシンでのみサポートされています。</block>
+  <block id="b1eace1ceffef99bf891142b0bcdbbe8" category="paragraph">今回のリリースでは、KVMワークロードに以下の機能強化が導入されました。</block>
+  <block id="1c663519b8e9745bde2b09d483acf65f" category="paragraph">*代替場所への復元*：KVM VMを代替の場所に復元できるようになりました（この機能は現在一般提供されています）。</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="25b535a4c68470b09e1b9748b7ec9c31" category="list-text">*Oracle AI Database 26ai のサポート*：NetApp Backup and Recovery が Oracle AI Database 26ai をサポートするようになりました。</block>
+  <block id="366ff97a6ee8b3b75ea30b7561cfe3ca" category="list-text">*バックアップ検証のサポート*：Oracleデータベースのバックアップの整合性を自動的に検証するようにバックアップ ポリシーを設定できるようになりました。</block>
+  <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*保護グループにおけるデータストアの拡張サポート*：仮想ディスクが複数のデータストアにまたがる仮想マシンを保護する際に、保護グループの動作を選択できるようになりました。</block>
+  <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*クローン サポート*：プライマリ ストレージとセカンダリ ストレージから仮想マシン スナップショットのクローンを作成できるようになりました。</block>
+  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">クリーンリストアの機能強化</block>
+  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">クリーンリストア機能が、代替クラスターへの復旧と、7日を超える期間の分析をサポートするようになりました。</block>
+  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>。</block>
+  <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM サポート</block>
+  <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilienceは、Google SecOpsとのセキュリティ情報およびイベント管理（SIEM）をサポートするようになりました。これにより、効率的な脅威分析と検出のために、データを自動的にGoogle SecOpsに送信できるようになります。</block>
+  <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">設定情報については、<block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="6ed9912d7c1784fccae7864acc430aeb" category="section-title">Azure NetApp Files サポートが一般提供開始となりました</block>
+  <block id="71c5d2f3f39fa5ddeeec1b7e5cd06c5e" category="paragraph">Ransomware ResilienceがAzure NetApp Filesシステムをサポートするようになり、Azure NetApp Filesでランサムウェアの脅威を効率的に検出して対応できるようになりました。ワークロードを検出すると、Ransomware ResilienceがAzure NetApp Filesを表示し、保護ダッシュボードに表示します。Azure NetApp FilesのRansomware Resilienceサポートには、スナップショットのみを使用した検出および保護戦略が含まれています。Azure NetApp Filesのサポートが一般提供開始（GA）となりました。</block>
+  <block id="23261131430f46ec6fb27110ac7f00fc" category="section-title">ユーザーのブロックに対するSOARサポート</block>
+  <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">NetApp Ransomware Resilienceは、Google SecOpsおよびSplunk SOARプレイブックを使用した個々のユーザーのブロックをサポートするようになりました。この機能追加により、NetApp Ransomware Resilienceがデータ侵害や大量のデータ削除などの疑わしいユーザーアクティビティを検出した場合に、ユーザーを自動的にブロックできるようになります。</block>
+  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOARプレイブックを統合する</block>
+  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>。</block>
 </blocks>
