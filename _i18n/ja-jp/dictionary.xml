@@ -521,4 +521,30 @@
   <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">データレプリケーションの管理</block>
   <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">レプリケーション:leveloffset: +1</block>
+  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求</block>
+  <block id="55abafc1dd088c3ce83eae8e4a747314" category="paragraph">NetAppは、AWSでのCloud Volumes ONTAPサブスクリプションに対して強化された請求オプションを提供し、Cloud Volumes ONTAP容量とBlueXPバックアップおよびリカバリなどのNetAppデータサービスの支払い方法をより細かく制御できるようにします。以前は、すべてのCloud Volumes ONTAPおよびデータサービスの使用料は、AWSマーケットプレイスのNetApp Intelligent Services（NIS）リストを通じて一括請求されていました。</block>
+  <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">AWS エンタープライズ割引プログラム（EDP）の変更により、NetApp は AWS マーケットプレイスにスタンドアロンの Cloud Volumes ONTAP サブスクリプションを導入しました。これにより、Cloud Volumes ONTAP 容量の請求をデータサービスから分離できます。この分離により、EDP クレジットとコストの管理において、より柔軟性が高まります。NetApp は、Cloud Volumes ONTAP の使用に関するコスト管理を改善するために、スタンドアロンのサブスクリプションの使用をお勧めします。また、EDP 要件が発効する 2026 年 7 月 31 日以降も、請求データサービスには NIS サブスクリプションを引き続き使用してください。</block>
+  <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWSのスタンドアロンCloud Volumes ONTAPサブスクリプションは、有効な容量ベースのEssentialsまたはFreemiumライセンスパッケージのみをサポートしています。Professionalパッケージはサポートされていません。ニーズに最適な課金方法を選択できます：</block>
+  <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*スタンドアロン Cloud Volumes ONTAP サブスクリプション（推奨）*：AWS Marketplace のスタンドアロンサブスクリプションを通じて Cloud Volumes ONTAP の使用料金を支払い、NIS サブスクリプションを通じてデータサービスの請求を継続します。これは、NetApp Console で AWS アカウントにスタンドアロンサブスクリプションと NIS サブスクリプションの両方が関連付けられているほとんどのお客様に推奨されるオプションです。</block>
+  <block id="89df3be47eb3a96e140986018ec88f25" category="list-text">*NIS共通購読*：既存のNISリストを通じて、Cloud Volumes ONTAPとデータサービスの両方の料金をまとめてお支払いください。この組み合わせたアプローチは、NetApp ConsoleでAWSアカウントにNISサブスクリプションのみが関連付けられている既存のお客様に対して有効です。ただし、NetAppでは、コスト管理を改善するために、Cloud Volumes ONTAP使用量の請求設定を行い、スタンドアロンのサブスクリプションに切り替えることをお勧めします。</block>
+  <block id="f0bbf3eb80d447bdeec06a404e0deecc" category="paragraph">ご契約のプランに応じて、以下のシナリオが発生します：</block>
+  <block id="136ebd87e9330d7c5a86db1bea619a09" category="paragraph-title">単体購読のみ（新規顧客向け）</block>
+  <block id="4878475e6c6d651007ba24b57dd8f52c" category="paragraph">AWS アカウントに関連付けられているスタンドアロン AWS サブスクリプションのみが NetApp Console にあり、NIS サブスクリプションがない場合、デプロイ時に選択できるライセンスパッケージは Essentials のみです。データサービスの *Backup and Recovery* オプションはご利用いただけません。</block>
+  <block id="b841a0c2e7683cb86c696f570ce9b7c5" category="paragraph-title">スタンドアロン契約と NIS 契約の両方（既存のお客様）</block>
+  <block id="e5f964639d2d368944a708c9d9159fb8" category="paragraph">AWS アカウントに NIS とスタンドアロンサブスクリプションの両方が関連付けられていて、NetApp Console の *請求設定* タブで請求設定を行っていない場合、Cloud Volumes ONTAP の使用料金は、デフォルトでは引き続き NIS を通じて請求されます。これは、スタンドアロンリストでは Professional パッケージがサポートされていないため、Professional パッケージを実行している Cloud Volumes ONTAP インスタンスのデフォルトでもあります。請求設定を行い、各サービスの請求方法を選択できます：</block>
+  <block id="6dd79ef85372ac622a4d4c5dc46a3c46" category="list-text">スタンドアロンのサブスクリプションを Cloud Volumes ONTAP （Essentials パッケージ付き）の優先請求アカウントとして設定します。Professional パッケージのみをお持ちの場合は、請求設定を行うことで Essentials パッケージに変換し、 Cloud Volumes ONTAP の使用量に対して課金できます。このアプローチは、 Cloud Volumes ONTAP EDP クレジットをより効果的に管理するのに役立つため、推奨されます。</block>
+  <block id="a77b7d4efa6f963267f588c46c34df1b" category="list-text">請求データサービスには NIS サブスクリプションを使用するか、Professional パッケージを通じて Cloud Volumes ONTAP の使用量を請求します。導入時に、*Backup and Recovery* データサービスを有効にし、NIS サブスクリプションを通じてデータサービスの料金を請求する Professional ライセンスパッケージを選択します。</block>
+  <block id="8c746863961baaa82aba27b4fd37e769" category="paragraph-title">NISサブスクリプションのみ（既存のお客様）</block>
+  <block id="f838fe2f68473e970c4c89e5cbfc3369" category="paragraph">これは、AWSアカウントに関連付けられたNISサブスクリプションをお持ちの既存のお客様に適用されます。現在と同様に、Cloud Volumes ONTAPとデータサービスの両方を一緒に請求し続けることができます。ただし、NetAppでは、Cloud Volumes ONTAP使用量のコスト管理を向上させるために、スタンドアロンサブスクリプション方式への切り替えを推奨しています：</block>
+  <block id="2a4095338c2cb1e2257dd4e02f2451ce" category="list-text">AWSポータルで新しいスタンドアロンリスティングを購読してください。</block>
+  <block id="ee8232a8731e2273fe25bf49ea87389a" category="list-text">スタンドアロンのサブスクリプションをAWSアカウントにリンクします。</block>
+  <block id="46568565f79aa968105d34a67e84131a" category="list-text">請求設定を、Essentials パッケージでの Cloud Volumes ONTAP 使用のスタンドアロンサブスクリプションに設定してください。</block>
+  <block id="ef9583ff5df47277e937b49f54639572" category="list-text">（該当する場合） Professional パッケージを Essentials パッケージに変更し、請求設定を行ってください。</block>
+  <block id="8460f8e45452fdd819096e78fca80090" category="list-text">NIS サブスクリプションを通じてデータサービスの課金を継続します。</block>
+  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">複数のサブスクリプションタイプを使用したり、リスティング間を移行したりしても、重複した計測は発生しません。</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="list-title">関連リンク</block>
+  <block id="050c120c7155ccd2f0ee729008e2ff37" category="inline-link">AWSでCloud Volumes ONTAPのライセンスを設定する</block>
+  <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
+  <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">容量ライセンスの課金方法を変更する</block>
+  <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
 </blocks>
