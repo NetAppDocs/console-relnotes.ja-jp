@@ -1,0 +1,11 @@
+= FSx for ONTAP との既存の関係に対するレプリケーション管理
+:allow-uri-read: 
+
+
+
+
+=== FSx for ONTAP との既存の関係に対するレプリケーション管理
+
+ソースまたはターゲットとしてのFSx for ONTAPファイルシステムのレプリケーション関係管理が、NetApp Workload Factoryで利用できるようになりました。
+
+link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["データレプリケーションの管理"]
