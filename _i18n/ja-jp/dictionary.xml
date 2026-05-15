@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">ビデオによるウォークスルー</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">データ分類を使用してデータソースをスキャン</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph"><block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>を確認します。詳細については、<block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">コンプライアンス管理者IAMロール</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">Data Classificationで、Data Classificationの権限を管理するCompliance adminロールがサポートされるようになりました。Compliance adminロールには、Consoleエージェントやワークスペースなどのリソースへのアクセス権がありません。Compliance adminロールを持つユーザーは、少なくとも他の1つのロールに関連付けられている必要があります。</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Data Classificationをインストールする際には、Consoleプラットフォーム管理者ロールまたはCompliance管理者ロールが必要です。</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">既存ユーザーの場合は、通常どおりアクセスが継続されます。例えば、フォルダ管理者またはプロジェクト管理者の役割を持つプラットフォームロールは、既存のアクセス権を持っています。</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification ロール</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">詳細については、<block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
