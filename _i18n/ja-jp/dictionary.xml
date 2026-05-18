@@ -512,4 +512,11 @@
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">健全性レビュー</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026年7月以降、ウェルネスレビュー機能はDigital Advisorで利用できなくなります。ご質問がある場合は、mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]までメールをお送りください。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026年5月18日</block>
+  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Azure での Cloud Volumes ONTAP の簡易導入</block>
+  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">Quick createを使用して、シングルノード構成と高可用性（HA）構成の両方でAzureにCloud Volumes ONTAPを導入できるようになりました。この合理化されたプロセスにより、拡張方式と比較して手順数が削減され、単一ページでデフォルト値が自動的に設定され、ナビゲーションが最小限に抑えられるため、導入がより迅速かつ容易になります。</block>
+  <block id="22f179b38b6aab375d21adc5216a57da" category="admonition">Quick createを使用してAzureに新しいCloud Volumes ONTAPシステムを導入する場合、NetApp ConsoleはデフォルトでAzure認証情報を選択します。初期Azure認証情報を使用して、すべてのCloud Volumes ONTAPシステムを導入できます。別のサブスクリプションや認証情報を使用する場合は、拡張方式の導入に切り替える必要があります。この制限は今後のリリースで解消される予定です。</block>
+  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">クイック作成を使用してAzureにCloud Volumes ONTAPを導入</block>
+  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
+  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Azure の拡張方式を使用した Cloud Volumes ONTAP の導入</block>
+  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
 </blocks>
