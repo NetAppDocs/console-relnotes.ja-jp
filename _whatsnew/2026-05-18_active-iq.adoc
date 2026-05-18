@@ -1,0 +1,9 @@
+= 健全性レビュー
+:allow-uri-read: 
+
+
+
+
+=== 健全性レビュー
+
+2026年7月以降、ウェルネスレビュー機能はDigital Advisorで利用できなくなります。ご質問がある場合は、mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]までメールをお送りください。
