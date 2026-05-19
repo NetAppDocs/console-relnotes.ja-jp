@@ -508,7 +508,6 @@
   <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Data Classificationをインストールする際には、Consoleプラットフォーム管理者ロールまたはCompliance管理者ロールが必要です。</block>
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">既存ユーザーの場合は、通常どおりアクセスが継続されます。例えば、フォルダ管理者またはプロジェクト管理者の役割を持つプラットフォームロールは、既存のアクセス権を持っています。</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification ロール</block>
-  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">詳細については、<block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">健全性レビュー</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026年7月以降、ウェルネスレビュー機能はDigital Advisorで利用できなくなります。ご質問がある場合は、mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]までメールをお送りください。</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026年5月18日</block>
@@ -527,4 +526,5 @@
   <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">クリーンリストア機能で、分析の停止もサポートされるようになりました。分析を停止した場合は、クリーンリストアを最初からやり直す必要があります。</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilienceでレポートをダウンロード</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">レポートの詳細については、<block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>を参照してください。リカバリの詳細については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">詳細については、<block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>

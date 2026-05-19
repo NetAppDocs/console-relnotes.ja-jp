@@ -20,7 +20,7 @@ Data Classificationをインストールする際には、Consoleプラットフ
 
 既存ユーザーの場合は、通常どおりアクセスが継続されます。例えば、フォルダ管理者またはプロジェクト管理者の役割を持つプラットフォームロールは、既存のアクセス権を持っています。
 
-詳細については、link:https://docs.netapp.com/us-en/console-setup-admin_classification-role/reference-iam-data-classification.html["Data Classification ロール"^]を参照してください。
+詳細については、link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-data-classification.html["Data Classification ロール"^]を参照してください。
 
 
 
