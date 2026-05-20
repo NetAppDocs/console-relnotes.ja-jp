@@ -143,13 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">アラートからユーザーを除外する</block>
-  <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Azure でサポートされる新しいリージョン</block>
-  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">次のリージョンの Azure の単一および複数の可用性ゾーンで Cloud Volumes ONTAP 9.12.1 GA 以降をデプロイできるようになりました。これには、単一ノードと高可用性（HA）の両方の展開のサポートが含まれます。</block>
-  <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">日本西部（japanwest）</block>
-  <block id="ca5a8f45e6c8349c7fe815e66ba5c4dd" category="list-text">インドネシア中部（indonesiacentral）</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">すべての地域のリストについては、<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026年2月19日</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般提供（GA）でサポートされる KVM ワークロード</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">KubernetesワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されました。このKubernetesワークロードのリリースでは、次の拡張機能も導入されています：</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*レポートのサポート*：NetApp Backup and Recoveryで保護されているKubernetesクラスタとアプリケーションの保護アクティビティレポートを生成できるようになりました。</block>
@@ -422,7 +415,6 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*VM保護のネイティブサポート*：VMベースのアプリケーションを作成できるようになり、他のアプリケーションを保護するのと同じ方法で仮想マシンを保護できるようになりました。</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*リソース変換*：リソース変換とリソース変換テンプレートを使用して、復元プロセス中にリソース属性を追加、削除、および変更できるようになりました。</block>
-  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Backup and RecoveryからTrident Protectをアップグレード*：Backup and Recoveryから直接、KubernetesクラスターのTrident Protectをアップグレードできるようになりました。</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*保護されたリソースの表示*：アプリケーションの各復旧ポイントに含まれるリソースを表示し、詳細な JSON レポートをダウンロードできるようになりました。これにより、復旧ポイントを完全に把握でき、監査への対応が簡素化されます。</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026年5月5日</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Kubernetesベースのワークロードサポート（プレビュー）</block>
@@ -527,4 +519,8 @@
   <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">NetApp Ransomware Resilienceは、既存のUIおよびCSVベースのオプションに加え、ユーザー行動アラートから除外するユーザーのJSONリストをアップロードする機能をサポートするようになりました。</block>
   <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">ユーザー行動検出機能の強化</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">ユーザー行動検出機能の強化</block>
+  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：このリリースには Trident Protect 26.05 が含まれます。</block>
+  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*バックアップとリカバリからTrident Protectをアップグレード*：KubernetesクラスタでTrident Protect 26.05以降が実行されている場合、バックアップとリカバリから直接Trident Protectをアップグレードできるようになりました。</block>
+  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: このリリースには Trident Protect 26.05.1 が含まれます。</block>
+  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*VMベースのアプリケーションのインプレース復元*：VMベースのアプリケーションを元の名前空間と元のクラスタに復元できるようになりました。</block>
 </blocks>
