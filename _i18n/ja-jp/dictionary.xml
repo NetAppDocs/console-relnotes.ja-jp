@@ -459,7 +459,6 @@
   <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">レプリケーション:leveloffset: +1</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求</block>
-  <block id="55abafc1dd088c3ce83eae8e4a747314" category="paragraph">NetAppは、AWSでのCloud Volumes ONTAPサブスクリプションに対して強化された請求オプションを提供し、Cloud Volumes ONTAP容量とBlueXPバックアップおよびリカバリなどのNetAppデータサービスの支払い方法をより細かく制御できるようにします。以前は、すべてのCloud Volumes ONTAPおよびデータサービスの使用料は、AWSマーケットプレイスのNetApp Intelligent Services（NIS）リストを通じて一括請求されていました。</block>
   <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">AWS エンタープライズ割引プログラム（EDP）の変更により、NetApp は AWS マーケットプレイスにスタンドアロンの Cloud Volumes ONTAP サブスクリプションを導入しました。これにより、Cloud Volumes ONTAP 容量の請求をデータサービスから分離できます。この分離により、EDP クレジットとコストの管理において、より柔軟性が高まります。NetApp は、Cloud Volumes ONTAP の使用に関するコスト管理を改善するために、スタンドアロンのサブスクリプションの使用をお勧めします。また、EDP 要件が発効する 2026 年 7 月 31 日以降も、請求データサービスには NIS サブスクリプションを引き続き使用してください。</block>
   <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWSのスタンドアロンCloud Volumes ONTAPサブスクリプションは、有効な容量ベースのEssentialsまたはFreemiumライセンスパッケージのみをサポートしています。Professionalパッケージはサポートされていません。ニーズに最適な課金方法を選択できます：</block>
   <block id="620ae1035cf673b2bf4915b820a55641" category="list-text">*スタンドアロン Cloud Volumes ONTAP サブスクリプション（推奨）*：AWS Marketplace のスタンドアロンサブスクリプションを通じて Cloud Volumes ONTAP の使用料金を支払い、NIS サブスクリプションを通じてデータサービスの請求を継続します。これは、NetApp Console で AWS アカウントにスタンドアロンサブスクリプションと NIS サブスクリプションの両方が関連付けられているほとんどのお客様に推奨されるオプションです。</block>
@@ -523,4 +522,5 @@
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*バックアップとリカバリからTrident Protectをアップグレード*：KubernetesクラスタでTrident Protect 26.05以降が実行されている場合、バックアップとリカバリから直接Trident Protectをアップグレードできるようになりました。</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: このリリースには Trident Protect 26.05.1 が含まれます。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*VMベースのアプリケーションのインプレース復元*：VMベースのアプリケーションを元の名前空間と元のクラスタに復元できるようになりました。</block>
+  <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetAppは、AWSでのCloud Volumes ONTAPサブスクリプション向けに強化された課金オプションを提供し、Cloud Volumes ONTAPの容量やNetApp Backup and RecoveryなどのNetAppデータサービスの支払い方法をより詳細に制御できるようにします。以前は、すべてのCloud Volumes ONTAPおよびデータサービスの使用量は、AWS MarketplaceのNetApp Intelligent Services（NIS）リストを通じて一括で請求されていました。</block>
 </blocks>
