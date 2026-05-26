@@ -143,12 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">アラートからユーザーを除外する</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般提供（GA）でサポートされる KVM ワークロード</block>
-  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">KubernetesワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されました。このKubernetesワークロードのリリースでは、次の拡張機能も導入されています：</block>
-  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*レポートのサポート*：NetApp Backup and Recoveryで保護されているKubernetesクラスタとアプリケーションの保護アクティビティレポートを生成できるようになりました。</block>
-  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026年2月23日</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">KVMワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されるようになりました。</block>
-  <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">一般提供（GA）でサポートされる Kubernetes ワークロード</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">シナリオ</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">アクション</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">エージェント用の新しいAPI</block>
@@ -523,4 +517,7 @@
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: このリリースには Trident Protect 26.05.1 が含まれます。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*VMベースのアプリケーションのインプレース復元*：VMベースのアプリケーションを元の名前空間と元のクラスタに復元できるようになりました。</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetAppは、AWSでのCloud Volumes ONTAPサブスクリプション向けに強化された課金オプションを提供し、Cloud Volumes ONTAPの容量やNetApp Backup and RecoveryなどのNetAppデータサービスの支払い方法をより詳細に制御できるようにします。以前は、すべてのCloud Volumes ONTAPおよびデータサービスの使用量は、AWS MarketplaceのNetApp Intelligent Services（NIS）リストを通じて一括で請求されていました。</block>
+  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilienceで保護グループを作成する</block>
+  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。詳細については、<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026年5月26日</block>
 </blocks>
