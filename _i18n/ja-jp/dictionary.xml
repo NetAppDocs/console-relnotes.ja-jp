@@ -520,4 +520,8 @@
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilienceで保護グループを作成する</block>
   <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。詳細については、<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026年5月26日</block>
+  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">購読タイムラインにおける同日の複数の更新の表示を改善しました</block>
+  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Keystoneサブスクリプションのタイムラインを表示</block>
+  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、<block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026年5月25日</block>
 </blocks>
