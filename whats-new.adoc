@@ -994,29 +994,3 @@ Console リリースにリストされているすべての権限：
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 リリースノート"^]
 * https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager に必要な権限"^]
 
-
-
-
-== 2026年2月23日
-
-
-
-=== バックアップとリカバリ
-
-
-
-==== 一般提供（GA）でサポートされる KVM ワークロード
-
-KVMワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されるようになりました。
-
-KVMワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["KVM ワークロードの保護の概要"] 。
-
-
-
-==== 一般提供（GA）でサポートされる Kubernetes ワークロード
-
-KubernetesワークロードサポートがNetApp Backup and Recoveryで一般提供（GA）されました。このKubernetesワークロードのリリースでは、次の拡張機能も導入されています：
-
-*レポートのサポート*：NetApp Backup and Recoveryで保護されているKubernetesクラスタとアプリケーションの保護アクティビティレポートを生成できるようになりました。
-
-Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
