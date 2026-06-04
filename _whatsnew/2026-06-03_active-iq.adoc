@@ -1,0 +1,14 @@
+= Digital Advisorウィジェット名の更新
+:allow-uri-read: 
+
+
+
+
+=== Digital Advisorウィジェット名の更新
+
+次のDigital Advisor機能の名前が変更されました：
+
+* Tech Refresh機能は、System Refreshという名称に変更されました。link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["システム更新を評価する"]方法をご確認ください。
+* 容量追加機能は、ストレージ拡張という名称に変更されました。link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisorウィジェット"]について学ぶ。
+* 更新機能は、現在「サポート更新」という名称になっています。link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisorウィジェット"]について学ぶ。
+
