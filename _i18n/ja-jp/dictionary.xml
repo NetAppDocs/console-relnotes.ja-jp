@@ -117,12 +117,10 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
-  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーションプランを作成する</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMwareワークロードの機能強化</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">KVM ワークロードの保護の概要</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">KVMワークロードの保護の詳細については、以下を参照してください。<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> 。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">関連リンク</block>
-  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">コピーと移動の制限の引き上げ</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes ワークロードの機能強化</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes ワークロードの保護の概要</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>を参照してください。</block>
@@ -134,70 +132,12 @@
   <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google CloudでサポートされているCloud Volumes ONTAPの構成</block>
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
-  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">アラートからユーザーを除外する</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetAppサポート サイト</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下のサービスは廃止されました：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
-  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">このリリースでは、ONTAP Volumes ワークロードで次の拡張機能が導入されています：</block>
-  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*ソースの場所への復元*：ローカル スナップショットおよび複製されたスナップショットから、ソースの場所だけでなく別の場所にもファイルを復元できるようになりました。</block>
-  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*1 時間ごとのボリューム検出*：Dashboard は新しいボリュームをより迅速に検出して更新するようになりました。</block>
-  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*ダークサイトのサポート*：ダークサイト用の Backup and Recovery を<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>からダウンロードできるようになりました。現時点では、NetApp Backup and Recovery for dark sites は ONTAP Volumes ワークロードのみをサポートしています。</block>
-  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Unicode 互換性の向上*：カタログのインデックス作成で Unicode 文字の処理が改善されました。</block>
-  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">* FlexGroup 互換性の向上*：ONTAP FlexVol ボリュームを FlexGroup ボリュームに変換する場合、変換前に作成したバックアップを復元できるようになりました。</block>
-  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*マルチバケットのサポート*：異なるクラウド プロバイダにまたがるシステムごとに最大 6 つのバケットを使用して、システム内のボリュームを保護できるようになりました。</block>
-  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
-  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">このリリースでは、VMware ワークロードに次の拡張機能が導入されています：</block>
-  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*オブジェクト ストアからゲスト データを復元*：オブジェクト ストレージからゲスト ファイルとフォルダーを復元できるようになりました。</block>
-  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*VMFS/NFS のクイック リストア*：別の場所にリストアするときに、クイック リストア オプションを有効にできるようになりました。有効にすると、VM メタデータ（ファイル、LUN、名前空間）のみがオブジェクト ストアから取得され、完全な復元よりも速くボリュームが使用できるようになります。</block>
-  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*Amazon FSx for NetApp ONTAP のサポート*：VMware ワークロードで、バージョン 9.13.1 以降を実行している Amazon FSx for NetApp ONTAP ストレージ システムがサポートされるようになりました。</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware ワークロードの保護の概要</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026年3月9日</block>
-  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">レプリケーションプランからデータストアを除外する</block>
-  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">Disaster でレプリケーションプランを作成するときに、特定のデータストアをレプリケーションから除外できるようになりました。VM が複数のデータストアを使用するように構成されている場合、これにより、レプリケートされるデータストアを制限できます。</block>
-  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">vCenter パスワードからパスワード検証を削除</block>
-  <block id="8cca1120916820e14384f393325831ff" category="paragraph">ディザスタリカバリでは、vCenter パスワードのパスワード制限が削除され、スペースを含むパスワードが許可されるようになりました。</block>
-  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">オンプレミスおよびAmazon EVS vCenterクラスタをNetApp Disaster Recoveryに追加</block>
-  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">詳細については、<block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">新しいレプリケーションプランのサブメニュー</block>
-  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">ディザスタリカバリに、レプリケーションプランダッシュボードからvCenterの更新をトリガーする新しいメニューオプションが追加されました。レプリケーションプランダッシュボードのアクションメニューからサブメニューにアクセスできます：**プランの健全性**を選択してから、**ソースvCenterを更新 / ターゲットvCenterを更新**を選択します。</block>
-  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">レプリケーションプランを変更する</block>
-  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">詳細については、<block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">ネットワーク検出の改善</block>
-  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">ディザスタリカバリには、より幅広いネットワーク構成をサポートするために、改善されたネットワーク検出が含まれるようになりました。</block>
-  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">リソースの検証</block>
-  <block id="19458db6dfda018080434d803401d712" category="paragraph">信頼性を確保するために、Data Classificationでは、スキャン、レポート生成、およびアクション全体で使用可能なメモリとディスクリソースを検証するようになりました。メモリ使用量が95%を超えるか、ディスク容量が6 GBを下回ると、Data Classificationは自動的に操作を一時停止します。リソースが十分になると、操作が再開されます。</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Data Classification の健全性を監視する</block>
-  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">システムリソースを監視するには、<block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">CIFS 宛先のコピーおよび移動機能がサポートされるようになりました。両方のアクションのファイルあたりのサイズ制限は、以前の 50 MB から 1 GB に増加しました。両方のアクションの操作制限は 1 TB または 500 万ファイルに増加しました。</block>
-  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Active Directory統合構成権限</block>
-  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">Data Classification における Active Directory（AD）統合設定の変更は、管理者に制限されるようになりました。閲覧者は AD 設定を変更できなくなりました。</block>
-  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">データサービスロール</block>
-  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">分類閲覧者の役割の詳細については、<block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">透過プロキシのサポート</block>
-  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">データ分類では透過プロキシ構成がサポートされるようになり、プロキシまたは制限されたネットワーク環境でのスムーズな展開が可能になります。</block>
-  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">インターネットに接続されていないLinuxホストにNetApp Data Classificationをインストールする</block>
-  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">制限された環境での展開の詳細については、<block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="dd340069cb16665edf781618805f1165" category="doc">Console エージェント 4.5.0</block>
-  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。</block>
-  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">Console エージェントで構成チェックを実行する方法の詳細について説明します。</block>
-  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">パートナー ユーザーへの Keystone ロールの割り当てについて詳しく説明します。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">ユーザー行動アラートからユーザーを一括除外する</block>
-  <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">詳細については、<block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilienceは、Eメールアラートを追加し、サポートされているSIEMイベントデータ（AWS Security Hub、Microsoft Sentinel、およびSplunk Cloud）にユーザー行動イベントを含めることで、ユーザー行動に関する洞察を改善しました。これらの機能強化により、セキュリティとコンプライアンスの監視に関するより正確な洞察が提供されます。</block>
-  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">NetApp Ransomware Resilienceを SIEMに接続</block>
-  <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">詳細については、<block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="3204a863a3a1a57abe7546af70eb77cf" category="doc">Cloud Volumes ONTAP のコンソールエージェントのプロキシ設定を管理する機能</block>
-  <block id="a51be83082fba5b4dcf135a536ea8b1d" category="paragraph">NetApp Console エージェントで Cloud Volumes ONTAP のプロキシ設定を管理できるようになりました。接続が失われた場合やプロキシが正しく設定されていない場合でも管理できます。以前は、Console エージェントが Cloud Volumes ONTAP に 20 分間接続できない場合、手動のプロキシ設定がデフォルト設定で上書きされていました。これにより、AutoSupport メッセージに関する問題を含む通信障害が発生していました。既存のシステムのプロキシ設定を保持するには、次の API 呼び出しを実行します：</block>
-  <block id="2ed7e2686c6c63422cc2a66168ff6a41" category="paragraph"><block ref="f4868aca388daf10284f58112e13f2bd" prefix="" category="inline-code"></block></block>
-  <block id="2bfe294417f6af6fb18d7ac186551586" category="paragraph">リクエスト本文に次のパラメータを含めます：</block>
-  <block id="7e6627b4e37aede8d2d720694c07915e" category="paragraph">デフォルトモードは標準です。つまり、Console エージェントは、Cloud Volumes ONTAP に 20 分間接続できない場合、プロキシ設定をデフォルトで上書きします。</block>
-  <block id="7bfa46b18158f588f3fb87cc98bc501b" category="inline-link">変更可能なNetApp Consoleパラメータを設定する</block>
-  <block id="0383a3079d971b2242c6d61352ea3ab4" category="paragraph"><block ref="0383a3079d971b2242c6d61352ea3ab4" category="inline-link-rx"></block></block>
-  <block id="34df2c4da19b4e31f0349125e9cabfc7" category="section-title">2026年3月10日</block>
   <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Microsoft SentinelおよびSplunk用のSOARプレイブック</block>
   <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
   <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
@@ -205,15 +145,9 @@
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">詳細については、<block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026年3月12日</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilienceは、<block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block>および<block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>向けのセキュリティオーケストレーション、自動化、対応（SOAR）プレイブックを提供するようになりました。このプレイブックにより、脅威対応の管理が容易になり、タスクのテストや、スナップショットの作成やボリュームのオフライン化などの重要なランサムウェア対応作業が自動化されます。</block>
-  <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">データのコピー、移動、削除</block>
-  <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">詳細については、<block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*スケジュール階層ごとのVM整合性サポート*：VMwareワークロードの保護ポリシーを設定する際に、特定のスケジュール階層に対してVM整合性バックアップとアプリケーション整合性バックアップを有効にできるようになりました。年間、月間、週間の各階層に対応しています。</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026年3月16日</block>
-  <block id="05ae2f7ed42f24ad34227986da264aae" category="paragraph-title">RHEL 9.7のサポート</block>
-  <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">データ分類に、ダークサイトへの展開を含む手動によるオンプレミスインストール用の Red Hat Enterprise Linux v9.7 が追加されました。</block>
-  <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">以下のオペレーティングシステムでは、Podmanコンテナエンジンを使用する必要があり、Data Classificationバージョン1.30以上が必要です（Red Hat Enterprise Linuxバージョン8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6、および9.7）。</block>
-  <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">詳細については、<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
   <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Oracle Databaseワークロードを検出</block>
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*クラスタホストのサポート*：Oracle Automatic Storage Management（ASM）を使用し、VMFSファイルシステム上にVMDKを使用してデプロイされたOracle Real Application Clusters（RAC）データベースを検出および保護できるようになりました。詳細については、<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>を参照してください。</block>
@@ -234,9 +168,6 @@
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps向けSOARプレイブック</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilienceは、<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>のセキュリティオーケストレーション、自動化、およびレスポンス（SOAR）プレイブックを提供しています。このプレイブックにより、脅威対応管理が容易になり、タスクやテストが自動化されるほか、スナップショットの作成やボリュームのオフライン化など、ランサムウェア対策に不可欠な作業がサポートされます。</block>
-  <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">必須ポートの構成チェックのサポート</block>
-  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
-  <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。<block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console エージェント 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">必要なディスク容量の構成チェックのサポート</block>
@@ -428,8 +359,6 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilienceでレポートをダウンロード</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">レポートの詳細については、<block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>を参照してください。リカバリの詳細については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">詳細については、<block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">NetApp Ransomware Resilienceは、既存のUIおよびCSVベースのオプションに加え、ユーザー行動アラートから除外するユーザーのJSONリストをアップロードする機能をサポートするようになりました。</block>
-  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">ユーザー行動検出機能の強化</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">ユーザー行動検出機能の強化</block>
   <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：このリリースには Trident Protect 26.05 が含まれます。</block>
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*バックアップとリカバリからTrident Protectをアップグレード*：KubernetesクラスタでTrident Protect 26.05以降が実行されている場合、バックアップとリカバリから直接Trident Protectをアップグレードできるようになりました。</block>
@@ -459,4 +388,7 @@
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">サポートに登録する</block>
   <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">更新機能は*サポート更新*という名称に変更されました。<block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>方法をご確認ください。</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026年6月3日</block>
+  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*S3互換クラウドストレージのサポート*：NetApp Backup and Recovery for Volumesワークロードが、S3互換のクラウドストレージへのバックアップをサポートするようになりました。</block>
+  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*ゲストVMへのファイルとフォルダのリストアの改善*：プライマリストレージまたはセカンダリストレージのSnapshotから、ゲストWindows VMにファイルとフォルダをリストアできるようになりました。この機能は、CIFSおよびSAN VMでサポートされるようになりました。</block>
+  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026年6月8日</block>
 </blocks>

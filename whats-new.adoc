@@ -30,6 +30,35 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+== 2026年6月8日
+
+
+
+=== バックアップとリカバリ
+
+
+
+==== ONTAP ボリュームワークロードの機能強化
+
+今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：
+
+*S3互換クラウドストレージのサポート*：NetApp Backup and Recovery for Volumesワークロードが、S3互換のクラウドストレージへのバックアップをサポートするようになりました。
+
+ONTAP ボリュームワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP ボリュームワークロードの保護の概要"]を参照してください。
+
+
+
+==== Hyper-V ワークロードの機能強化
+
+今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。
+
+* *ゲストVMへのファイルとフォルダのリストアの改善*：プライマリストレージまたはセカンダリストレージのSnapshotから、ゲストWindows VMにファイルとフォルダをリストアできるようになりました。この機能は、CIFSおよびSAN VMでサポートされるようになりました。
+
+
+Hyper-Vワークロードの保護に関する詳細は、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-Vワークロードの保護の概要"]を参照してください。
+
+
+
 == 2026年6月3日
 
 
@@ -738,187 +767,3 @@ VMwareワークロードの保護の詳細については、 https://docs.netapp
 Ransomware Resilienceは、link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^]およびlink:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]向けのセキュリティオーケストレーション、自動化、対応（SOAR）プレイブックを提供するようになりました。このプレイブックにより、脅威対応の管理が容易になり、タスクのテストや、スナップショットの作成やボリュームのオフライン化などの重要なランサムウェア対応作業が自動化されます。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOARプレイブックを統合する"^]を参照してください。
-
-
-
-== 2026年3月10日
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP のコンソールエージェントのプロキシ設定を管理する機能
-
-NetApp Console エージェントで Cloud Volumes ONTAP のプロキシ設定を管理できるようになりました。接続が失われた場合やプロキシが正しく設定されていない場合でも管理できます。以前は、Console エージェントが Cloud Volumes ONTAP に 20 分間接続できない場合、手動のプロキシ設定がデフォルト設定で上書きされていました。これにより、AutoSupport メッセージに関する問題を含む通信障害が発生していました。既存のシステムのプロキシ設定を保持するには、次の API 呼び出しを実行します：
-
-`PUT /occm/config`
-
-リクエスト本文に次のパラメータを含めます：
-
-[source, json]
-----
-{
-  "proxyMode": "No_Overwrites"
-}
-----
-デフォルトモードは標準です。つまり、Console エージェントは、Cloud Volumes ONTAP に 20 分間接続できない場合、プロキシ設定をデフォルトで上書きします。
-
-https://docs.netapp.com/us-en/console-automation/cvo/put-occm-config.html["変更可能なNetApp Consoleパラメータを設定する"^]
-
-
-
-== 2026年3月9日
-
-
-
-=== コンソールのセットアップと管理
-
-
-
-==== Console エージェント 4.5.0
-
-4.5.0 リリースでは、標準モードと制限モードの両方がサポートされています。
-
-コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。
-
-.必須ポートの構成チェックのサポート
-構成チェックを使用して、Console エージェントに必要なポートが開いていることを確認できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Console エージェントで構成チェックを実行する方法の詳細について説明します。"]
-
-
-
-==== NetApp Console管理
-
-パートナーユーザーにKeystoneロールを割り当てて、そのユーザーがパートナー組織内のKeystoneリソースを管理できるようにすることができます。link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["パートナー ユーザーへの Keystone ロールの割り当てについて詳しく説明します。"]
-
-
-
-=== バックアップとリカバリ
-
-
-
-==== ONTAP ボリュームワークロードの機能強化
-
-このリリースでは、ONTAP Volumes ワークロードで次の拡張機能が導入されています：
-
-* *ソースの場所への復元*：ローカル スナップショットおよび複製されたスナップショットから、ソースの場所だけでなく別の場所にもファイルを復元できるようになりました。
-* *1 時間ごとのボリューム検出*：Dashboard は新しいボリュームをより迅速に検出して更新するようになりました。
-* *ダークサイトのサポート*：ダークサイト用の Backup and Recovery を https://mysupport.netapp.com/site/products/all/details/netapp-console/downloads-tab/download/61906/4.4.0/downloads["NetAppサポート サイト"]からダウンロードできるようになりました。現時点では、NetApp Backup and Recovery for dark sites は ONTAP Volumes ワークロードのみをサポートしています。
-* *Unicode 互換性の向上*：カタログのインデックス作成で Unicode 文字の処理が改善されました。
-* * FlexGroup 互換性の向上*：ONTAP FlexVol ボリュームを FlexGroup ボリュームに変換する場合、変換前に作成したバックアップを復元できるようになりました。
-* *マルチバケットのサポート*：異なるクラウド プロバイダにまたがるシステムごとに最大 6 つのバケットを使用して、システム内のボリュームを保護できるようになりました。
-
-
-ONTAP ボリュームワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP ボリュームワークロードの保護の概要"]を参照してください。
-
-
-
-==== VMwareワークロードの機能強化
-
-このリリースでは、VMware ワークロードに次の拡張機能が導入されています：
-
-* *オブジェクト ストアからゲスト データを復元*：オブジェクト ストレージからゲスト ファイルとフォルダーを復元できるようになりました。
-* *VMFS/NFS のクイック リストア*：別の場所にリストアするときに、クイック リストア オプションを有効にできるようになりました。有効にすると、VM メタデータ（ファイル、LUN、名前空間）のみがオブジェクト ストアから取得され、完全な復元よりも速くボリュームが使用できるようになります。
-* *Amazon FSx for NetApp ONTAP のサポート*：VMware ワークロードで、バージョン 9.13.1 以降を実行している Amazon FSx for NetApp ONTAP ストレージ システムがサポートされるようになりました。
-
-
-VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-=== データ分類
-
-
-
-==== リソースの検証
-
-信頼性を確保するために、Data Classificationでは、スキャン、レポート生成、およびアクション全体で使用可能なメモリとディスクリソースを検証するようになりました。メモリ使用量が95%を超えるか、ディスク容量が6 GBを下回ると、Data Classificationは自動的に操作を一時停止します。リソースが十分になると、操作が再開されます。
-
-システムリソースを監視するには、link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Data Classification の健全性を監視する"^]を参照してください。
-
-
-
-==== コピーと移動の制限の引き上げ
-
-CIFS 宛先のコピーおよび移動機能がサポートされるようになりました。両方のアクションのファイルあたりのサイズ制限は、以前の 50 MB から 1 GB に増加しました。両方のアクションの操作制限は 1 TB または 500 万ファイルに増加しました。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["データのコピー、移動、削除"^]を参照してください。
-
-
-
-==== Active Directory統合構成権限
-
-Data Classification における Active Directory（AD）統合設定の変更は、管理者に制限されるようになりました。閲覧者は AD 設定を変更できなくなりました。
-
-分類閲覧者の役割の詳細については、link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["データサービスロール"^]を参照してください。
-
-
-
-==== RHEL 9.7のサポート
-
-データ分類に、ダークサイトへの展開を含む手動によるオンプレミスインストール用の Red Hat Enterprise Linux v9.7 が追加されました。
-
-以下のオペレーティングシステムでは、Podmanコンテナエンジンを使用する必要があり、Data Classificationバージョン1.30以上が必要です（Red Hat Enterprise Linuxバージョン8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6、および9.7）。
-
-
-
-==== 透過プロキシのサポート
-
-データ分類では透過プロキシ構成がサポートされるようになり、プロキシまたは制限されたネットワーク環境でのスムーズな展開が可能になります。
-
-制限された環境での展開の詳細については、link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-compliance-dark-site.html["インターネットに接続されていないLinuxホストにNetApp Data Classificationをインストールする"^]を参照してください。
-
-
-
-=== ディザスタ リカバリ
-
-
-
-==== レプリケーションプランからデータストアを除外する
-
-Disaster でレプリケーションプランを作成するときに、特定のデータストアをレプリケーションから除外できるようになりました。VM が複数のデータストアを使用するように構成されている場合、これにより、レプリケートされるデータストアを制限できます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["レプリケーションプランを作成する"^]を参照してください。
-
-
-
-==== vCenter パスワードからパスワード検証を削除
-
-ディザスタリカバリでは、vCenter パスワードのパスワード制限が削除され、スペースを含むパスワードが許可されるようになりました。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/evs-deploy-guide-add-vcenters.html["オンプレミスおよびAmazon EVS vCenterクラスタをNetApp Disaster Recoveryに追加"^]を参照してください。
-
-
-
-==== 新しいレプリケーションプランのサブメニュー
-
-ディザスタリカバリに、レプリケーションプランダッシュボードからvCenterの更新をトリガーする新しいメニューオプションが追加されました。レプリケーションプランダッシュボードのアクションメニューからサブメニューにアクセスできます：**プランの健全性**を選択してから、**ソースvCenterを更新 / ターゲットvCenterを更新**を選択します。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#modify-a-replication-plan["レプリケーションプランを変更する"^]を参照してください。
-
-
-
-==== ネットワーク検出の改善
-
-ディザスタリカバリには、より幅広いネットワーク構成をサポートするために、改善されたネットワーク検出が含まれるようになりました。
-
-
-
-=== ランサムウェア耐性
-
-
-
-==== ユーザー行動アラートからユーザーを一括除外する
-
-NetApp Ransomware Resilienceは、既存のUIおよびCSVベースのオプションに加え、ユーザー行動アラートから除外するユーザーのJSONリストをアップロードする機能をサポートするようになりました。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["アラートからユーザーを除外する"^]を参照してください。
-
-
-
-==== ユーザー行動検出機能の強化
-
-Ransomware Resilienceは、Eメールアラートを追加し、サポートされているSIEMイベントデータ（AWS Security Hub、Microsoft Sentinel、およびSplunk Cloud）にユーザー行動イベントを含めることで、ユーザー行動に関する洞察を改善しました。これらの機能強化により、セキュリティとコンプライアンスの監視に関するより正確な洞察が提供されます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["NetApp Ransomware Resilienceを SIEMに接続"^]を参照してください。
