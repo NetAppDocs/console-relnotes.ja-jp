@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*S3互換クラウドストレージのサポート*：NetApp Backup and Recovery for Volumesワークロードが、S3互換のクラウドストレージへのバックアップをサポートするようになりました。</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*ゲストVMへのファイルとフォルダのリストアの改善*：プライマリストレージまたはセカンダリストレージのSnapshotから、ゲストWindows VMにファイルとフォルダをリストアできるようになりました。この機能は、CIFSおよびSAN VMでサポートされるようになりました。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026年6月8日</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
 </blocks>
