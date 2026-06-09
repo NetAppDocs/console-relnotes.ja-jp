@@ -399,11 +399,11 @@
   <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">詳細については、<block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOARプレイブックの機能強化</block>
   <block id="993b3419e78327c12451169533b8d701" category="paragraph">Ransomware Resilience SOARプレイブックでは、ユーザーをブロックしたりボリュームをオフラインにしたりした後の修復手順が提供されるようになりました。ランサムウェアの脅威ではないと判断された場合、ボリュームをオンラインに戻したり、ユーザーのブロックを解除したりできるようになりました。</block>
-  <block id="f73d059120d4b302e53d6f7bec91ff6d" category="doc">AWSのCloud Volumes ONTAPで新しいEC2インスタンスがサポートされます</block>
   <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1以降では、AWSにおける新規および既存のシングルノードおよび高可用性（HA）ペアデプロイメントの両方で、M6idおよびM6idn EC2インスタンスファミリーがサポートされます。これらの第6世代インスタンスは、第5世代の汎用システムと比較して、より高速な処理能力、より強力なネットワーク機能、そしてよりハイパフォーマンスを提供します。</block>
   <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*M6idインスタンス*：高速、低レイテンシのローカルNVMeストレージを備えた、コンピューティングとメモリのバランスを提供します。すべてのM6idインスタンスサイズがFlash Cacheをサポートします。これらのインスタンスは、データロギングやメディア処理などのワークロードに最適です。</block>
   <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*M6idnインスタンス*：M6idインスタンスと同じローカルNVMeストレージ機能を提供します。すべてのM6idnインスタンスサイズがFlash Cacheをサポートします。</block>
   <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">より小さいサイズの m6id.xlarge、m6id.2xlarge、m6idn.xlarge、および m6idn.2xlarge インスタンスタイプは、ハイパフォーマンスまたはメモリを大量に消費するワークロードには推奨されません。これらのワークロードには、コア数が多くメモリ容量の大きいインスタンスタイプを使用してください。</block>
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWSでサポートされているCloud Volumes ONTAP構成</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">詳細については、<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">AWS の Cloud Volumes ONTAP 向け新しい EC2 インスタンスのサポート</block>
 </blocks>
