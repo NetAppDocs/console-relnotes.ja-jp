@@ -406,4 +406,32 @@
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWSでサポートされているCloud Volumes ONTAP構成</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">詳細については、<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>を参照してください。</block>
   <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">AWS の Cloud Volumes ONTAP 向け新しい EC2 インスタンスのサポート</block>
+  <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetesのアップデート</block>
+  <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">ディザスタリカバリでは、Kubernetesベースのワークロードに対して以下の変更が導入されました：</block>
+  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Kubernetes ワークロードのフェイルオーバー サポートをテストする</block>
+  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">ディザスタリカバリで、Kubernetesワークロードのフェイルオーバープロセスのテストがサポートされるようになりました。フェイルオーバーをテストすることで、ディザスタリカバリ計画を検証できます。テストが完了したら、テストフェイルオーバーをクリーンアップすることで、システムが自動的にテストリソースをクリーンアップし、オーバーヘッドを削減して環境の整合性を確保できます。</block>
+  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">フェイルオーバープロセスをテストする</block>
+  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">詳細については、<block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="9be7f1264301a801add3868ed7829904" category="section-title">スケジュールされたテストフェイルオーバー</block>
+  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">テストフェイルオーバーをスケジュールすることで、災害復旧テストを自動化できるようになりました。定期的なテストフェイルオーバーのスケジュールを設定することで、手動による介入なしに復旧計画を継続的に検証でき、復旧目標に対する信頼性を維持し、コンプライアンス要件を満たすのに役立ちます。</block>
+  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">レプリケーション計画を管理する</block>
+  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">詳細については、<block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Kubernetes ワークロードのスケジュール検出</block>
+  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">スケジュールされた検出機能を使用すると、Disaster Recoveryが新しいKubernetesワークロードをスキャンする頻度を制御できます。検出間隔を運用サイクルに合わせて設定することで、不要なシステム負荷を削減しつつ、新しいワークロードをタイムリーに検出して保護することができます。</block>
+  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">検出スケジュールをカスタマイズする</block>
+  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">詳細については、<block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware のアップデート</block>
+  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">空のデータストアの保護</block>
+  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">マッピング情報</block>
+  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">ディザスタリカバリでは、仮想マシン（VM）を含まないデータストアの保護を設定できるようになりました。その後データストアに追加されたVMは、ディザスタリカバリによって自動的に検出されます。その時点で、<block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>を指定する必要があります。</block>
+  <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">リモートサイトへのフェイルオーバー</block>
+  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">空のデータストアを保護プランに追加した場合、フェイルオーバーを実行する前に、そのデータストアを保護プランから削除するか、強制フェイルオーバーを実行する必要があります。詳細については、<block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">以前に除外されたデータストアを保護プランに復元する</block>
+  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">これまで保護対象から除外されていたデータストアを、再度保護対象に含めることができるようになりました。この機能強化により、災害復旧構成の管理と更新を長期的に行う際の柔軟性が向上します。</block>
+  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">サイト、リソースグループ、およびレプリケーションプランを管理する</block>
+  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">詳細については、<block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">VMFS ベースのデータストアの高速フェイルオーバー</block>
+  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">ディザスタリカバリにより、VMFSベースのデータストアのフェイルオーバーパフォーマンスが向上しました。ホストバスアダプタ（HBA）の再スキャンとデータストアのマウント操作が並行して実行されるようになり、フェイルオーバー全体の時間が短縮され、リカバリイベント中のダウンタイムが最小限に抑えられます。</block>
+  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">ディザスタリカバリによるフェイルオーバー</block>
+  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">フェイルオーバーの詳細については、<block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
