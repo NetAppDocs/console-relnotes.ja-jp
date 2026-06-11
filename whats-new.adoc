@@ -30,6 +30,22 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+== 2026年6月11日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Cloud Volumes ONTAP での新しい Azure リージョンのサポート
+
+これで、マレーシア西部（malaysiawest）リージョンの Azure の単一および複数の可用性ゾーンに Cloud Volumes ONTAP 9.12.1 GA 以降をデプロイできます。これには、シングルノード構成と高可用性（HA）構成の両方のサポートが含まれます。
+
+すべての地域のリストについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure のグローバル地域マップ"^]を参照してください。
+
+
+
 == 2026年6月8日
 
 
@@ -862,19 +878,3 @@ NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
 *スケジュール階層ごとのVM整合性サポート*：VMwareワークロードの保護ポリシーを設定する際に、特定のスケジュール階層に対してVM整合性バックアップとアプリケーション整合性バックアップを有効にできるようになりました。年間、月間、週間の各階層に対応しています。
 
 VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-== 2026年3月12日
-
-
-
-=== ランサムウェア耐性
-
-
-
-==== Microsoft SentinelおよびSplunk用のSOARプレイブック
-
-Ransomware Resilienceは、link:https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/NetApp%20Ransomware%20Resilience/Playbooks["Microsoft Sentinel"^]およびlink:https://github.com/splunk-soar-connectors/netappransomwareresilience["Splunk"^]向けのセキュリティオーケストレーション、自動化、対応（SOAR）プレイブックを提供するようになりました。このプレイブックにより、脅威対応の管理が容易になり、タスクのテストや、スナップショットの作成やボリュームのオフライン化などの重要なランサムウェア対応作業が自動化されます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOARプレイブックを統合する"^]を参照してください。
