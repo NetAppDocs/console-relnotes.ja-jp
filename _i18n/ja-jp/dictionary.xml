@@ -437,4 +437,8 @@
   <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*VM の永続ボリューム要求の復元*：VM ベースのアプリケーションを復元する際に、仮想マシン全体を復元することなく、個々の永続ボリューム要求を復元できるようになりました。これにより、特定のディスクやボリュームが破損またはデータ損失の影響を受けている場合の復旧が迅速化されます。</block>
   <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*ジョブモニターの改善*：ジョブモニターにより、Kubernetes 保護ジョブの可視性が向上しました。ジョブとサブジョブに関する詳細なステータス情報を表示したり、それぞれが使用するターゲットストレージを確認したりできます。</block>
   <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">2026年6月15日</block>
+  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">Hyper-Vワークロード用の保護グループを作成および管理する</block>
+  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*保護グループがホストのタイムゾーンのスケジュールを使用するようになりました*：保護グループがHyper-Vホストのタイムゾーンを使用するようになりました。ホストタイムゾーンスケジューリングが導入される前に作成された保護グループは、以前に設定された時刻（通常はUTC）を引き続き使用します。これらの保護グループを更新してHyper-Vホストのタイムゾーンを使用するようにするには、スケジュールを再作成する必要があります。詳細については、<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">VMwareワークロードの保護グループを作成および管理する</block>
+  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*保護グループがホストのタイムゾーンスケジューリングを使用するようになりました*：保護グループは、ホスティング VMware vCenter Server のタイムゾーンを使用するようになりました。ホストタイムゾーンスケジューリングが導入される前に作成された保護グループは、以前に設定されたタイムゾーン（通常は UTC）で引き続き実行されます。vCenter のタイムゾーンを使用するには、スケジュールを再作成する必要があります。詳細については、<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
