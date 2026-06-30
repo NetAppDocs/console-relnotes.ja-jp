@@ -455,4 +455,8 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">過去30日間にAutoSupportを送信していないシステム</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">上記に挙げた影響を受けるシステムで AutoSupport を再トリガーし、ヘルスチェックビューの最新データを復元してください。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026年6月29日</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">ユーザーアクティビティアラートへの自動応答</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティアラートが生成された際に、スナップショットの作成とユーザーのブロックを自動化する機能をサポートするようになりました。自動応答機能を使用すれば、警告が発生した時点でユーザーをブロックし、復旧用のスナップショットを作成できるため、手動介入なしでより迅速な対応が可能になります。</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">ユーザーアクティビティアラートへの対応を自動化する</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">詳細については、<block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
