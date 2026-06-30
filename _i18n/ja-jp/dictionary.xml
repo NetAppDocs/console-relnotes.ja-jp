@@ -138,29 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>を参照してください。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">SOARプレイブックを統合する</block>
-  <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">詳細については、<block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
-  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
-  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Oracle Databaseワークロードを検出</block>
-  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*クラスタホストのサポート*：Oracle Automatic Storage Management（ASM）を使用し、VMFSファイルシステム上にVMDKを使用してデプロイされたOracle Real Application Clusters（RAC）データベースを検出および保護できるようになりました。詳細については、<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Oracleデータベースを設定する</block>
-  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMANカタログのサポート*：バックアップとリカバリを設定して、保護メタデータをRMANリカバリカタログに保存できるようになりました。これにより、ターゲット制御ファイルが失われた場合に備えて冗長性と長期保持が実現します。詳細については、<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026年3月31日</block>
-  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">履歴データ消費量チャートにおける最大許容量を超える</block>
-  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystoneサブスクリプションの消費動向を確認する</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">*消費動向*タブの履歴データ消費量グラフで、バースト制限を超える使用量が強調表示されるようになりました。詳細については、<block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">容量使用量の予測</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">予測データを表示する</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">*消費傾向*タブの*履歴データ*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の容量使用量を予測できます。詳細については、<block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">サブスクリプションのエクスポートにおけるトラッキング ID</block>
-  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">* Subscriptions *ページからダウンロードされたサブスクリプションレポートには、ExcelおよびCSV形式の両方のパフォーマンスサービスレベルデータに* Tracking ID *が含まれるようになりました。</block>
-  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">サブスクリプションページの列の表示設定の更新</block>
-  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">*Subscriptions*ページでは、*Keystone version*列はデフォルトで非表示になり、リンクされたサブスクリプションが利用可能な場合にのみ*Linked subscriptions*列が表示されます。</block>
-  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026年3月30日</block>
-  <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps向けSOARプレイブック</block>
-  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilienceは、<block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>のセキュリティオーケストレーション、自動化、およびレスポンス（SOAR）プレイブックを提供しています。このプレイブックにより、脅威対応管理が容易になり、タスクやテストが自動化されるほか、スナップショットの作成やボリュームのオフライン化など、ランサムウェア対策に不可欠な作業がサポートされます。</block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console エージェント 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">必要なディスク容量の構成チェックのサポート</block>
@@ -460,4 +439,20 @@
   <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (2026年5月11日)</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification の新機能ページ</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell"><block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>に移動します。</block>
+  <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">ヘルスチェック GraphQL への移行とデータ精度の向上</block>
+  <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">ヘルスチェックモジュールは、データ精度の向上と、最新基準に準拠したバージョン推奨機能の追加により強化されました。今回のリリースの一環として、パブリック API から GraphQL に移行し、パフォーマンスの向上、柔軟なクエリ機能、および長期的なサポートを提供します。</block>
+  <block id="d6493900927657728256c0c09c4e62d3" category="section-title">推奨ソフトウェア</block>
+  <block id="62d94d8f05c78645a78c9aa2a5a0656e" category="paragraph">ヘルスチェックモジュールにおける推奨ソフトウェア機能強化により、より正確で一貫性のあるデータが提供されるようになりました。</block>
+  <block id="519ef0af74847ba658e0e372af62c2d9" category="list-text">ファームウェアの最新状態表示におけるシェルフ数とドライブ数は、システムごとの正確な値を表示するようになり、HA ペアの数は含まれなくなりました。</block>
+  <block id="f3ecf83f5405b8c9ae015216ab98b6ef" category="list-text">最小バージョンと最新バージョンの推奨事項は、現行の基準に沿って、有効なクラスタバージョンに基づいてクラスタレベルで計算されるようになりました。以前は、これらの推奨事項はノードレベルで計算されていました。</block>
+  <block id="b6bdc044bc2fc474a21f0bb38c36e848" category="section-title">AutoSupport データ依存性</block>
+  <block id="21703a68dc34fb690cd63eab5b8673d3" category="paragraph">バックエンドの改善により、AutoSupport の採用状況と推奨ソフトウェアのビューは、最新の AutoSupport データに基づいています。これにより、現在のビューに以下のような影響が生じる可能性があります：</block>
+  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">シナリオ</block>
+  <block id="3a3c1f7cef221775b106f2d32f9f8542" category="cell">影響を受けるシステム</block>
+  <block id="8df497acd9705cbe06a50764942ed68a" category="cell">データが表示されません</block>
+  <block id="c3dac7d16903ae7e8c7256657c5c94f0" category="cell">2025年10月以降、AutoSupport を送信していないシステム</block>
+  <block id="30b12656a9029663eea37f6a804f28a4" category="cell">古い値</block>
+  <block id="e20432694f9004583c0756c875ad9910" category="cell">過去30日間にAutoSupportを送信していないシステム</block>
+  <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">上記に挙げた影響を受けるシステムで AutoSupport を再トリガーし、ヘルスチェックビューの最新データを復元してください。</block>
+  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026年6月29日</block>
 </blocks>
