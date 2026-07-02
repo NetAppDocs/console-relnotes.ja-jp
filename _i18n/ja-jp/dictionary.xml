@@ -459,4 +459,18 @@
   <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティアラートが生成された際に、スナップショットの作成とユーザーのブロックを自動化する機能をサポートするようになりました。自動応答機能を使用すれば、警告が発生した時点でユーザーをブロックし、復旧用のスナップショットを作成できるため、手動介入なしでより迅速な対応が可能になります。</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">ユーザーアクティビティアラートへの対応を自動化する</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">詳細については、<block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">MetroCluster サブスクリプションの ADP ライセンス配布状況を確認する</block>
+  <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">Keystone MetroClusterサブスクリプションの消費量と健全性を表示</block>
+  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、<block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">ボリュームのランサムウェア対策状況を確認する</block>
+  <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAPにおける自律型ランサムウェアプロテクション（ARP）</block>
+  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">「アセット」の「クラスター内のボリューム」タブに「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、<block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">フィードバックタブを使用してフィードバックを共有する</block>
+  <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">Keystoneダッシュボードのどの画面からでも、画面右下隅に固定された新しい「フィードバック」タブを使用してフィードバックを送信できるようになりました。タブをクリックすると、ご意見を共有し、コメントを直接 NetApp に送信できるパネルが開きます。</block>
+  <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">容量使用量とサブスクリプション期限切れに関するアラート機能を改善する</block>
+  <block id="00d1cd9fd062313d8bbfe761883837c6" category="paragraph">システム生成の監視機能により、容量使用状況とサブスクリプションの有効期限切れに関する、より詳細なアラートが提供されるようになりました。</block>
+  <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">サブスクリプションの有効期限切れについては、アラートが5つのしきい値（有効期限の180日前、90日前、60日前、30日前、7日前）でトリガーされるようになり、期限が近づくにつれて重大度が情報レベルからクリティカルレベルへと段階的に上昇します。</block>
+  <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">容量使用量に関するバーストアラートのしきい値は、固定の20%ではなく、お客様のサブスクリプションのコミット済みバースト率に基づいて設定されるようになりました。例えば、コミット済みバーストが40%の場合、コミット済み容量利用率が140%に達した時点でクリティカルアラートが発動します。</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystoneサブスクリプションのアラートモニターの表示と作成</block>
+  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">詳細については、<block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block> を参照してください。</block>
 </blocks>
