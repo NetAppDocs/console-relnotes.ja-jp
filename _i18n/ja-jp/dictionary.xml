@@ -478,4 +478,7 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">アラートからファイルパスを除外する</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">詳細については、<block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console エージェント 4.8.0</block>
+  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
+  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">今回のリリースには、セキュリティの改善とバグ修正が含まれています。</block>
 </blocks>
