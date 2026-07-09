@@ -8,7 +8,7 @@
 
 以下のライフサイクルプランニング機能の名称が変更されました：
 
-* Tech refresh機能の名称が*System Refresh*に変更されました。link:../use/tech-refresh.html["システム更新を評価する"]方法をご確認ください。
-* 容量追加機能は、現在 *Storage Expansion* という名称に変更されています。link:../use/capacity-add.html["ストレージを拡張する"]方法をご確認ください。
-* 更新機能は*サポート更新*という名称に変更されました。link:../support/task-support-registration.html["サポートに登録する"]方法をご確認ください。
+* 技術更新機能は、現在*System Refresh*という名称に変更されています。詳細については https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["システム更新を評価する"]をご覧ください。
+* 容量追加機能は、現在*ストレージ拡張*という名称に変更されました。詳細については https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["ストレージを拡張する"]をご覧ください。
+* 更新機能は「サポート更新」という名称に変更されました。詳細については https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["サポートに登録する"]をご覧ください。
 
