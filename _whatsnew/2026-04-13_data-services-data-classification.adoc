@@ -4,6 +4,7 @@
 
 
 
+[[general-improvements]]
 === 全般的な改善
 
 今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。

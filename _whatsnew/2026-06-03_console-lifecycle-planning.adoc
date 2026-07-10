@@ -4,6 +4,7 @@
 
 
 
+[[lifecycle-planning-feature-name-updates]]
 === ライフサイクル計画機能名の更新
 
 以下のライフサイクルプランニング機能の名称が変更されました：

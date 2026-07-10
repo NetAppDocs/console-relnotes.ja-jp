@@ -4,6 +4,7 @@
 
 
 
+[[ontap-volumes-workloads-enhancements]]
 === ONTAP ボリュームワークロードの機能強化
 
 今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：
@@ -14,6 +15,7 @@ ONTAP ボリュームワークロードの保護の詳細については、 http
 
 
 
+[[hyper-v-workloads-enhancements]]
 === Hyper-V ワークロードの機能強化
 
 今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。
@@ -26,6 +28,7 @@ Hyper-Vワークロードの保護に関する詳細は、 https://docs.netapp.c
 
 
 
+[[vmware-workloads-enhancements]]
 === VMwareワークロードの機能強化
 
 今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。

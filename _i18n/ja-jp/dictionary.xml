@@ -219,7 +219,6 @@
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">プロビジョニング済み容量ラベルの名前を変更しました</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積バーストの予測切り替え</block>
-  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、<block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026年4月27日</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
@@ -338,7 +337,6 @@
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026年5月26日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">購読タイムラインにおける同日の複数の更新の表示を改善しました</block>
   <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Keystoneサブスクリプションのタイムラインを表示</block>
-  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、<block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026年5月25日</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">詳細については、<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>を参照してください。</block>
@@ -458,10 +456,8 @@
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">詳細については、<block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">MetroCluster サブスクリプションの ADP ライセンス配布状況を確認する</block>
   <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">Keystone MetroClusterサブスクリプションの消費量と健全性を表示</block>
-  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、<block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">ボリュームのランサムウェア対策状況を確認する</block>
   <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAPにおける自律型ランサムウェアプロテクション（ARP）</block>
-  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">「アセット」の「クラスター内のボリューム」タブに「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、<block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">フィードバックタブを使用してフィードバックを共有する</block>
   <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">Keystoneダッシュボードのどの画面からでも、画面右下隅に固定された新しい「フィードバック」タブを使用してフィードバックを送信できるようになりました。タブをクリックすると、ご意見を共有し、コメントを直接 NetApp に送信できるパネルが開きます。</block>
   <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">容量使用量とサブスクリプション期限切れに関するアラート機能を改善する</block>
@@ -469,7 +465,6 @@
   <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">サブスクリプションの有効期限切れについては、アラートが5つのしきい値（有効期限の180日前、90日前、60日前、30日前、7日前）でトリガーされるようになり、期限が近づくにつれて重大度が情報レベルからクリティカルレベルへと段階的に上昇します。</block>
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">容量使用量に関するバーストアラートのしきい値は、固定の20%ではなく、お客様のサブスクリプションのコミット済みバースト率に基づいて設定されるようになりました。例えば、コミット済みバーストが40%の場合、コミット済み容量利用率が140%に達した時点でクリティカルアラートが発動します。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Keystoneサブスクリプションのアラートモニターの表示と作成</block>
-  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">詳細については、<block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">ユーザー行動アラートからファイルパスを除外する</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience は、ユーザー行動監視アラートから特定のファイルパスを除外する機能をサポートしています。リスクがないと分かっているファイルパス、またはアラートを発生させる可能性のあるボリューム内のファイルに対して作業を行っている場合は、それらのファイルパスを除外することができます。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">アラートからファイルパスを除外する</block>
@@ -481,4 +476,9 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技術更新機能は、現在*System Refresh*という名称に変更されています。詳細については<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>をご覧ください。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量追加機能は、現在*ストレージ拡張*という名称に変更されました。詳細については<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>をご覧ください。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">更新機能は「サポート更新」という名称に変更されました。詳細については<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>をご覧ください。</block>
+  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「アセット」の「クラスター内のボリューム」タブに、「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">詳細については、<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>

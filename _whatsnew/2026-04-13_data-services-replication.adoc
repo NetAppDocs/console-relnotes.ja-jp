@@ -4,6 +4,7 @@
 
 
 
+[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
 === FSx for ONTAP との既存の関係に対するレプリケーション管理
 
 ソースまたはターゲットとしてのFSx for ONTAPファイルシステムのレプリケーション関係管理が、NetApp Workload Factoryで利用できるようになりました。
