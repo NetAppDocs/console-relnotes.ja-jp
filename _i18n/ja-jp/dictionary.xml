@@ -128,99 +128,31 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Databaseワークロードの保護の概要</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>を参照してください。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Console エージェントのこのリリースには、セキュリティの改善とバグ修正が含まれています。</block>
-  <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">次世代の Google Cloud VM に対する Cloud Volumes ONTAP のサポート</block>
-  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google CloudでサポートされているCloud Volumes ONTAPの構成</block>
-  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下のサービスは廃止されました：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware ワークロードの保護の概要</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">予測データを表示する</block>
-  <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console エージェント 4.6.0</block>
-  <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
-  <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">必要なディスク容量の構成チェックのサポート</block>
-  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">Console エージェントでの設定チェックの実行の詳細については、こちらを参照してください</block>
-  <block id="01ec5c0199a20329cd9739a87994ba1d" category="paragraph">構成チェックを使用することで、コンソールエージェントに必要なディスク容量が確保されていることを検証できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。<block ref="2f1b890fa743352ff9f5cd648c952940" category="inline-link-macro-rx"></block></block>
-  <block id="6f8cdd1e2991c2d2f9a4580b6f79bf52" category="paragraph-title">ISOを使用してvCenterにデプロイされたコンソールエージェントをアップグレードする</block>
-  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">vCenterに導入されたコンソールエージェントをアップグレードする方法について説明します</block>
-  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">OVAを使用してvCenterにコンソールエージェントをデプロイした場合、ISOをVMにマウントし、VMメンテナンスコンソールからアップグレードを実行することで、新しいバージョンにアップグレードできるようになりました。<block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：</block>
-  <block id="a83b3bb31eda1beff171bab61e67aa23" category="paragraph">*NetApp MetroCluster アクティブ / アクティブ構成のサポート*：NetApp Backup and Recovery for Volumes ワークロードで、アクティブ / アクティブ構成の MetroCluster がサポートされるようになりました。</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="19455401d550e37f86235df1de2da367" category="paragraph">今回のリリースでは、Kubernetes ワークロードに次の保護ポリシーの機能強化が導入されます：</block>
-  <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*ディスク間サポート*：ディスク間バックアップアーキテクチャを使用して Kubernetes 保護ポリシーを設定できるようになりました。</block>
-  <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform ストレージ バケットのサポート*：Kubernetes の保護ポリシーを設定して、Google Cloud Platform ストレージ バケットにバックアップできるようになりました。</block>
-  <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">NetApp Backup and Recoveryでの保護ポリシーの作成と管理</block>
-  <block id="a51dec4d18c2ec4a0870f9ac159087be" category="paragraph">保護ポリシーの詳細については、<block ref="f4766eb2cdd623ee9325b7be7c1e14e2" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
-  <block id="6f9c0bad860671276c7314dda8468d6b" category="list-text">*ジョブ処理の改善*：NetApp Backup and Recoveryで、複数の同時実行ジョブをより効率的に処理できるようになりました。</block>
-  <block id="f02d5e72af9add59ab18089e0f4cc895" category="list-text">*SAN サポート（プレビュー）*：NetApp Backup and Recovery で、SAN ストレージに保存されている Hyper-V VM の保護がサポートされるようになりました。</block>
   <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Hyper-Vワークロードの保護の概要</block>
   <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>を参照してください。</block>
   <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVMワークロードの機能強化</block>
-  <block id="9e61640a2e25b290407c7bce4b5f72fb" category="paragraph">今回のリリースでは、KVMワークロードに以下の機能強化が導入されました。</block>
-  <block id="02055854e5f8d7c0a2161503c5645d5a" category="inline-link">NetApp Backup and RecoveryによるKVM仮想マシンのリストア</block>
-  <block id="2695e041e7821912ad62ed125ae887a9" category="list-text">*代替場所への復元（プレビュー）*: KVM VMを代替の場所に復元できるようになりました。詳細については、<block ref="c82574f572233aef5ee5178c16dc1758" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="318e7f91a44ca688085735c8092e7c69" category="inline-link">保護グループの作成と管理</block>
-  <block id="b4ad3ee842f554f84ff60d2d0f7228a6" category="list-text">*タグベースの保護*：VMwareワークロード向けのNetApp Backup and Recoveryは、NFSおよびVMFSボリュームに保存されているVMのタグベースの保護をサポートするようになり、個々のVMやデータストアではなくvCenterタグから保護グループを構築できるようになりました。vCenterでVMとデータストアにタグを付けると、NetApp Backup and Recoveryは手動でのグループ管理なしに、それらを自動的に検出して今後のバックアップに含めます。詳細については、<block ref="863c691e599eacbfae8d86e5506c4592" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="d782b6346ca61c6cf09a6d3470f1e8a1" category="inline-link">VMwareワークロードを復元する</block>
-  <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*代替ストレージシステムへの復元*：元の（プライマリ）ストレージシステムが完全に利用できない場合でも、仮想マシンを代替ストレージシステムに復元できるようになりました。詳細については、<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">ファイルとフォルダを復元する</block>
-  <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Linux VMへのファイルの復元*：Linux VMにVMファイルとフォルダを復元できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。</block>
-  <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine（GCVE）のサポートが一般提供開始（GA）しました。</block>
-  <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">NetApp Disaster Recovery の GCVE サポートが一般提供（GA）を開始しました。一般提供開始に伴い、GCVE 向け Disaster Recovery は以下の機能をサポートするようになりました：</block>
-  <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*プラットフォーム管理スナップショット：* ONTAPまたはGoogle Cloud Platform（GCP）を通じて、バックアップと保持ポリシーをシームレスに管理します。</block>
-  <block id="045d30a52ce459f46c504234d025f4c3" category="list-text">*レプリケーションプランごとに複数のデータストア：* 複数のデータストアを単一のレプリケーション戦略に統合することで、災害復旧プランを簡素化できます。</block>
-  <block id="c4eadd4786334639a92ab9b1508f337f" category="list-text">*利用できないソースサイトに対する強制フェイルオーバー：* ソースが利用できない場合は、災害復旧サイトに切り替えます。</block>
-  <block id="a7772ec1948f1cd5c6087ddb93603474" category="list-text">*SnapMirrorの再同期を延期し、必要に応じてレプリケーションをリストアする：* 「skip protect」オプションを使用してSnapMirrorの再同期を延期することで、ピーク時の運用期間中に本番ワークロードへの影響を回避し、その後「re-protect」オプションを使用して必要に応じてレプリケーションをリストアします</block>
-  <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recoveryでサポートされている構成</block>
-  <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">GCVEのサポートに関する詳細については、<block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>をご覧ください。</block>
-  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026年4月13日</block>
-  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">クリーン復元</block>
-  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilienceは、クリーンリストアをサポートするようになりました。これは、ランサムウェア攻撃から迅速かつ容易に復旧するための新しい復旧オプションです。クリーンリストアは、ダウンタイムを最小限に抑えながらワークロードを迅速に稼働させるための最適なリストアポイントを特定する、ガイド付きワークフローを提供します。クリーンリストアのワークフローは、データに関するファイルレベルの情報も提供するため、マルウェアのないワークロードを復元でき、再感染を防ぎ、データ損失を最小限に抑えることができます。</block>
-  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">隔離された復旧環境を作成する</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">クリーンリストアでワークロードをリカバリする</block>
-  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk EnterpriseのSIEMサポート</block>
-  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience は、Splunk Enterprise のセキュリティ情報イベント管理（SIEM）サポートを提供し、ログデータとイベントデータを一元管理して、脅威分析と検出を効率化できます。</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">ランサムウェア対策をSIEMに接続</block>
-  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">詳細については、<block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">データ侵害イベントに関するインサイトは、インシデント発生後13か月間保持されるようになり、レポートのニーズに応じてより長期間の記録保持が可能になりました。</block>
-  <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">サポートされている構成と、システムをクリーンな復元用に構成する方法については、<block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>を参照してください。クリーンな復元で復旧する方法については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Google Cloud C3 VMによるCloud Volumes ONTAPサポートの改善</block>
-  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP では、Google Cloud C3 シリーズ VM のサポートが強化され、次の追加機能が利用できるようになりました。</block>
-  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Cloud Volumes ONTAP 環境では、C3 ファミリー内の異なるバリアント間でインスタンスタイプを切り替えることができます。</block>
-  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">インスタンスタイプを変更する際に、ターゲット VM として c3-standard-44 または c3-standard-88 およびそれらの LSSD バリアントを選択した場合、Google ネットワーク サービス出力ネットワーク層 Tier-1 が自動的に適用されます。他の C3 バリアントに切り替えると、出力ネットワーク層は Standard に設定されます。</block>
-  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">出力ネットワークの階層をティア1に変更すると、追加費用が発生します。それに応じて導入とアップグレードを計画してください。</block>
-  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">C3のローカルSSD（LSSD）バリアントを選択した場合、Flash Cacheがデフォルトで有効になります。ターゲットバリアントがFlash Cacheをサポートしている場合でも、Cloud Volumes ONTAPデプロイメントでC3 LSSDバリアント間を切り替えることはできません。</block>
-  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できるようになりました。</block>
-  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">NetApp Console を使用してボリュームを追加する際、または<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API を使用して、IOPS とスループットの設定を変更できます。</block>
-  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
-  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*ファイルとフォルダの復元時のプロキシVMのサポート* - 仮想ディスクを元のVMに接続したくない場合は、プロキシVMを使用して仮想ディスクからファイルとフォルダを復元できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*再帰的なファイルおよびフォルダ検索* - 仮想ディスク全体から特定のファイルまたはフォルダを検索できるようになりました。詳細については、<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SANサポート*：VMwareワークロードは、NetApp ASA r2 SAN専用環境でホストされているVMFSデータストア上のVMの保護をサポートするようになりました。</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026年4月20日</block>
-  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">NetApp Cloud Tieringの提供終了</block>
-  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">NetApp Cloud Tieringは、2026年4月26日をもって購入またはライセンス更新ができなくなります。</block>
-  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">既存のお客様は、サブスクリプションまたはライセンス契約が満了するまで、NetApp Cloud Tieringを引き続き使用し、サポートを受けることができます。サブスクリプションの有効期限が切れると、お客様はNetApp Cloud Tieringの機能またはサポートにアクセスできなくなります。</block>
-  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">ONTAP クラスタに FabricPool ライセンスをインストールする</block>
-  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetAppでは、お客様がNetAppの担当者と協力して、既存の階層化ライセンスをONTAPのFabricPoolライセンスに移行することを推奨しています。このライセンスは、ONTAPでのデータ階層化機能を提供します。FabricPoolを使用してONTAPでデータ階層化を設定する方法の詳細については、<block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering 提供終了のお知らせ</block>
-  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
-  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 提供終了 FAQ</block>
-  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">プロビジョニング済み容量ラベルの名前を変更しました</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積バーストの予測切り替え</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026年4月27日</block>
-  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">OVAを使用したData Classificationの導入</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classificationは、VMware Open Virtual Appliance（OVA）を使用した導入をサポートするようになり、オンプレミスのVMware vSphere環境向けに簡素化された導入戦略を提供します。</block>
@@ -266,11 +198,6 @@
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">NetApp Ransomware Resilienceは、Google SecOpsおよびSplunk SOARプレイブックを使用した個々のユーザーのブロックをサポートするようになりました。この機能追加により、NetApp Ransomware Resilienceがデータ侵害や大量のデータ削除などの疑わしいユーザーアクティビティを検出した場合に、ユーザーを自動的にブロックできるようになります。</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOARプレイブックを統合する</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>。</block>
-  <block id="6edeb5e7f8d6c86621cc7603e861b9ba" category="doc">FSx for ONTAP との既存の関係に対するレプリケーション管理</block>
-  <block id="12ad030c730fdc0c585b94ec9fbfc39b" category="paragraph">ソースまたはターゲットとしてのFSx for ONTAPファイルシステムのレプリケーション関係管理が、NetApp Workload Factoryで利用できるようになりました。</block>
-  <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">データレプリケーションの管理</block>
-  <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
-  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">レプリケーション:leveloffset: +1</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求</block>
   <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">AWS エンタープライズ割引プログラム（EDP）の変更により、NetApp は AWS マーケットプレイスにスタンドアロンの Cloud Volumes ONTAP サブスクリプションを導入しました。これにより、Cloud Volumes ONTAP 容量の請求をデータサービスから分離できます。この分離により、EDP クレジットとコストの管理において、より柔軟性が高まります。NetApp は、Cloud Volumes ONTAP の使用に関するコスト管理を改善するために、スタンドアロンのサブスクリプションの使用をお勧めします。また、EDP 要件が発効する 2026 年 7 月 31 日以降も、請求データサービスには NIS サブスクリプションを引き続き使用してください。</block>
   <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWSのスタンドアロンCloud Volumes ONTAPサブスクリプションは、有効な容量ベースのEssentialsまたはFreemiumライセンスパッケージのみをサポートしています。Professionalパッケージはサポートされていません。ニーズに最適な課金方法を選択できます：</block>
@@ -327,7 +254,6 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilienceでレポートをダウンロード</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">レポートの詳細については、<block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>を参照してください。リカバリの詳細については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">詳細については、<block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">ユーザー行動検出機能の強化</block>
   <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：このリリースには Trident Protect 26.05 が含まれます。</block>
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*バックアップとリカバリからTrident Protectをアップグレード*：KubernetesクラスタでTrident Protect 26.05以降が実行されている場合、バックアップとリカバリから直接Trident Protectをアップグレードできるようになりました。</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: このリリースには Trident Protect 26.05.1 が含まれます。</block>
@@ -356,8 +282,6 @@
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*ゲストVMへのファイルとフォルダのリストアの改善*：プライマリストレージまたはセカンダリストレージのSnapshotから、ゲストWindows VMにファイルとフォルダをリストアできるようになりました。この機能は、CIFSおよびSAN VMでサポートされるようになりました。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026年6月8日</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
-  <block id="4b77ea6c402cb5104fd06a61c7376030" category="inline-link-macro">ユーザー行動検出について学ぶ</block>
-  <block id="85780f52607b54dbe81ff2c46d981a17" category="paragraph">詳細については、<block ref="371ae1c35fd8f1482622c079d0f009f9" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="ad047b692e58386490130db85fe198fd" category="doc">保護戦略の柔軟性の向上</block>
   <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Ransomware Resilienceは、ランサムウェア検出戦略の選択において、より柔軟な選択肢を提供します。従来、ランサムウェア対策戦略にはすべて暗号化検出機能が含まれていなければなりませんでした。これで、ユーザー行動の検出のみでランサムウェア対策戦略を有効にできるようになりました。</block>
   <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">保護戦略には、暗号化検出_と_不審なユーザー行動検出の両方を含めることができます。ファイル拡張子のブロックは、あらゆる保護戦略に追加できます。</block>
@@ -481,4 +405,21 @@
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>を参照してください。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「アセット」の「クラスター内のボリューム」タブに、「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>を参照してください。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">詳細については、<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="a3385cf694f169469155cf608126cc13" category="section-title">サイトメニューから Trident Protect を管理する</block>
+  <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">ディザスターリカバリーは、ディザスターリカバリー UI の「サイト」メニューから直接 Trident Protect を管理できるようになりました。Trident Protect をアップグレードしたり、ディザスターリカバリーから削除したりすることで、Kubernetes リソースの管理を効率化できます。</block>
+  <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">サイトを管理する</block>
+  <block id="cee9739236651212176e7c87838bb2d3" category="paragraph">詳細については、<block ref="b4c4c365d924dbf2ff79378d36f70a71" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="cc6fa95b1e18a1fb7c53cf32734ead26" category="paragraph">ディザスターリカバリーでは、VMwareベースのワークロードに対して以下の変更が導入されました：</block>
+  <block id="7f2d139bc27153ad07daea80fab0a433" category="section-title">空のデータストアをフェイルオーバーする</block>
+  <block id="bfea9e3d533bac76e79429a83d38837c" category="paragraph">空のデータストアを含むレプリケーションプランでも、プランから除外したり、フェイルオーバーを強制したりすることなく、正常にフェイルオーバーできるようになりました。フェイルオーバー中、Disaster Recovery はディザスターリカバリサイトに空のデータストアを自動的にマウントし、VM を追加してフェイルバック操作用に保護できるようにします。</block>
+  <block id="d3835be5f3c2a797d5fc948f95289e0c" category="paragraph">詳細については、<block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0fddd8fb8cd772934e1e5021d105b7fb" category="section-title">vCenterネットワーク自動マッピング</block>
+  <block id="07efa6bd1ca4b90d1c4eb002786f661b" category="paragraph">ネットワークマッピング関係をvCenterレベル（つまり、レプリケーション計画ダイアログの外側）で設定できるようになりました。一度設定すれば、Disaster Recovery はレプリケーションプランの追加または編集時にこれらのネットワークマッピングを自動的に適用し、レプリケーションプランの管理を効率化します。</block>
+  <block id="1eee5c19633b811fc646be143dcd283f" category="paragraph">災害復旧機能は、プランごとの上書き設定を引き続きサポートします。レプリケーションプラン内で定義された既存のネットワークマッピングは、ネットワークごとに編集できます。これらのマッピングは、vCenterレベルの定義よりも優先されます。</block>
+  <block id="d315df6836105d6791cc83a6539ee7e9" category="section-title">ディザスタリカバリビューアロールの強化</block>
+  <block id="6fb21aa5ad614d3da3c4d910339be1a1" category="inline-link-macro">NetApp Disaster Recoveryにおけるユーザのロールと権限について説明します</block>
+  <block id="266377e44a916fdf2cc18bfbb23cf6bf" category="paragraph">Disaster Recovery ビューアーロールから、「システムアップグレード」タブを表示する機能が削除されました。この変更により、このロールは読み取り専用ユーザーにとってより適切なエクスペリエンスに合致するようになります。<block ref="8100c1fe7b8d110e1492908ee1d65a0c" category="inline-link-macro-rx"></block>。</block>
+  <block id="3ddd9403dd985627a83f357af005a768" category="section-title">システムパフォーマンスの向上</block>
+  <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">Disaster Recovery では、システムリソースの消費量を削減し、運用全体のパフォーマンスを向上させるための変更が導入されました。</block>
+  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
 </blocks>

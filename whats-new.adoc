@@ -30,6 +30,64 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[13-july-2026]]
+== 2026年7月13日
+
+
+
+[[disaster-recovery]]
+=== ディザスタ リカバリ
+
+
+
+==== Kubernetesのアップデート
+
+ディザスタリカバリでは、Kubernetesベースのワークロードに対して以下の変更が導入されました：
+
+
+
+===== サイトメニューから Trident Protect を管理する
+
+ディザスターリカバリーは、ディザスターリカバリー UI の「サイト」メニューから直接 Trident Protect を管理できるようになりました。Trident Protect をアップグレードしたり、ディザスターリカバリーから削除したりすることで、Kubernetes リソースの管理を効率化できます。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/manage.html["サイトを管理する"^]を参照してください。
+
+
+
+==== VMware のアップデート
+
+ディザスターリカバリーでは、VMwareベースのワークロードに対して以下の変更が導入されました：
+
+
+
+===== 空のデータストアをフェイルオーバーする
+
+空のデータストアを含むレプリケーションプランでも、プランから除外したり、フェイルオーバーを強制したりすることなく、正常にフェイルオーバーできるようになりました。フェイルオーバー中、Disaster Recovery はディザスターリカバリサイトに空のデータストアを自動的にマウントし、VM を追加してフェイルバック操作用に保護できるようにします。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["リモートサイトへのフェイルオーバー"^]を参照してください。
+
+
+
+===== vCenterネットワーク自動マッピング
+
+ネットワークマッピング関係をvCenterレベル（つまり、レプリケーション計画ダイアログの外側）で設定できるようになりました。一度設定すれば、Disaster Recovery はレプリケーションプランの追加または編集時にこれらのネットワークマッピングを自動的に適用し、レプリケーションプランの管理を効率化します。
+
+災害復旧機能は、プランごとの上書き設定を引き続きサポートします。レプリケーションプラン内で定義された既存のネットワークマッピングは、ネットワークごとに編集できます。これらのマッピングは、vCenterレベルの定義よりも優先されます。
+
+
+
+==== ディザスタリカバリビューアロールの強化
+
+Disaster Recovery ビューアーロールから、「システムアップグレード」タブを表示する機能が削除されました。この変更により、このロールは読み取り専用ユーザーにとってより適切なエクスペリエンスに合致するようになります。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-disaster-rec-roles.html["NetApp Disaster Recoveryにおけるユーザのロールと権限について説明します"^]。
+
+
+
+==== システムパフォーマンスの向上
+
+Disaster Recovery では、システムリソースの消費量を削減し、運用全体のパフォーマンスを向上させるための変更が導入されました。
+
+
+
 [[07-july-2026]]
 == 2026年7月7日
 
@@ -819,213 +877,3 @@ NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
 *ASA r2 SANサポート*：VMwareワークロードは、NetApp ASA r2 SAN専用環境でホストされているVMFSデータストア上のVMの保護をサポートするようになりました。
 
 VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-[[13-april-2026]]
-== 2026年4月13日
-
-
-
-[[console-setup-and-administration]]
-=== コンソールのセットアップと管理
-
-
-
-==== Console エージェント 4.6.0
-
-4.6.0 リリースでは、標準モードと制限モードの両方がサポートされています。
-
-コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。
-
-.必要なディスク容量の構成チェックのサポート
-構成チェックを使用することで、コンソールエージェントに必要なディスク容量が確保されていることを検証できます。コンソールまたはエージェントメンテナンスコンソールから構成チェックを実行できます。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Console エージェントでの設定チェックの実行の詳細については、こちらを参照してください"^]
-
-.ISOを使用してvCenterにデプロイされたコンソールエージェントをアップグレードする
-OVAを使用してvCenterにコンソールエージェントをデプロイした場合、ISOをVMにマウントし、VMメンテナンスコンソールからアップグレードを実行することで、新しいバージョンにアップグレードできるようになりました。link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["vCenterに導入されたコンソールエージェントをアップグレードする方法について説明します"^]
-
-
-
-[[backup-and-recovery]]
-=== バックアップとリカバリ
-
-
-
-==== ONTAP ボリュームワークロードの機能強化
-
-今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました：
-
-*NetApp MetroCluster アクティブ / アクティブ構成のサポート*：NetApp Backup and Recovery for Volumes ワークロードで、アクティブ / アクティブ構成の MetroCluster がサポートされるようになりました。
-
-ONTAP ボリュームワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP ボリュームワークロードの保護の概要"]を参照してください。
-
-
-
-==== Kubernetes ワークロードの機能強化
-
-今回のリリースでは、Kubernetes ワークロードに次の保護ポリシーの機能強化が導入されます：
-
-* *保護ポリシーの編集*：Kubernetesワークロードの保護ポリシーを変更する必要がある場合は、編集できるようになりました。
-* *ディスク間サポート*：ディスク間バックアップアーキテクチャを使用して Kubernetes 保護ポリシーを設定できるようになりました。
-* *Google Cloud Platform ストレージ バケットのサポート*：Kubernetes の保護ポリシーを設定して、Google Cloud Platform ストレージ バケットにバックアップできるようになりました。
-
-
-保護ポリシーの詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["NetApp Backup and Recoveryでの保護ポリシーの作成と管理"]を参照してください。
-
-Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
-
-
-
-==== Hyper-V ワークロードの機能強化
-
-今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。
-
-* *ジョブ処理の改善*：NetApp Backup and Recoveryで、複数の同時実行ジョブをより効率的に処理できるようになりました。
-* *SAN サポート（プレビュー）*：NetApp Backup and Recovery で、SAN ストレージに保存されている Hyper-V VM の保護がサポートされるようになりました。
-
-
-Hyper-Vワークロードの保護に関する詳細は、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-Vワークロードの保護の概要"]を参照してください。
-
-
-
-==== KVMワークロードの機能強化
-
-今回のリリースでは、KVMワークロードに以下の機能強化が導入されました。
-
-* *ジョブ処理の改善*：NetApp Backup and Recoveryで、複数の同時実行ジョブをより効率的に処理できるようになりました。
-* *代替場所への復元（プレビュー）*: KVM VMを代替の場所に復元できるようになりました。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["NetApp Backup and RecoveryによるKVM仮想マシンのリストア"]を参照してください。
-
-
-KVMワークロードの保護の詳細については、以下を参照してください。 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["KVM ワークロードの保護の概要"] 。
-
-
-
-==== VMwareワークロードの機能強化
-
-今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：
-
-* *タグベースの保護*：VMwareワークロード向けのNetApp Backup and Recoveryは、NFSおよびVMFSボリュームに保存されているVMのタグベースの保護をサポートするようになり、個々のVMやデータストアではなくvCenterタグから保護グループを構築できるようになりました。vCenterでVMとデータストアにタグを付けると、NetApp Backup and Recoveryは手動でのグループ管理なしに、それらを自動的に検出して今後のバックアップに含めます。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["保護グループの作成と管理"]を参照してください。
-* *代替ストレージシステムへの復元*：元の（プライマリ）ストレージシステムが完全に利用できない場合でも、仮想マシンを代替ストレージシステムに復元できるようになりました。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["VMwareワークロードを復元する"]を参照してください。
-* *Linux VMへのファイルの復元*：Linux VMにVMファイルとフォルダを復元できるようになりました。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["ファイルとフォルダを復元する"]を参照してください。
-* *ファイルとフォルダの復元時のプロキシVMのサポート* - 仮想ディスクを元のVMに接続したくない場合は、プロキシVMを使用して仮想ディスクからファイルとフォルダを復元できるようになりました。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["ファイルとフォルダを復元する"]を参照してください。
-* *再帰的なファイルおよびフォルダ検索* - 仮想ディスク全体から特定のファイルまたはフォルダを検索できるようになりました。詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["ファイルとフォルダを復元する"]を参照してください。
-* *ジョブ処理の改善*：NetApp Backup and Recoveryで、複数の同時実行ジョブをより効率的に処理できるようになりました。
-
-
-VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-[[data-classification]]
-=== データ分類
-
-
-
-==== 全般的な改善
-
-今回の Data Classification のリリースには、バグ修正、セキュリティ強化、およびパフォーマンス向上が含まれています。
-
-
-
-[[cloud-tiering]]
-=== クラウド階層化
-
-
-
-==== NetApp Cloud Tieringの提供終了
-
-NetApp Cloud Tieringは、2026年4月26日をもって購入またはライセンス更新ができなくなります。
-
-既存のお客様は、サブスクリプションまたはライセンス契約が満了するまで、NetApp Cloud Tieringを引き続き使用し、サポートを受けることができます。サブスクリプションの有効期限が切れると、お客様はNetApp Cloud Tieringの機能またはサポートにアクセスできなくなります。
-
-NetAppでは、お客様がNetAppの担当者と協力して、既存の階層化ライセンスをONTAPのFabricPoolライセンスに移行することを推奨しています。このライセンスは、ONTAPでのデータ階層化機能を提供します。FabricPoolを使用してONTAPでデータ階層化を設定する方法の詳細については、link:https://docs.netapp.com/us-en/ontap/fabricpool/install-license-aws-azure-ibm-task.html["ONTAP クラスタに FabricPool ライセンスをインストールする"]を参照してください。
-
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-Notice2.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_9L2PauNXYE0fOs0RIz8KK2q5Jb6sg8Yv-97NNJ53ceAab9UAqpKOrAvByxsOWqhIQHNCHgFfM0q3TI["NetApp Cloud Tiering 提供終了のお知らせ"]
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-FAQ-v3.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_rplJe_ZtlY4PQAQRQlewsDa0W4JR55muT0KCThR46zI7-uOhIYfVsxODDKFrnYYvy5uZzvhEKHOwBI["NetApp Cloud Tiering 提供終了 FAQ"]
-
-
-
-
-[[disaster-recovery]]
-=== ディザスタ リカバリ
-
-
-
-==== Google Cloud VMware Engine（GCVE）のサポートが一般提供開始（GA）しました。
-
-NetApp Disaster Recovery の GCVE サポートが一般提供（GA）を開始しました。一般提供開始に伴い、GCVE 向け Disaster Recovery は以下の機能をサポートするようになりました：
-
-* *プラットフォーム管理スナップショット：* ONTAPまたはGoogle Cloud Platform（GCP）を通じて、バックアップと保持ポリシーをシームレスに管理します。
-* *レプリケーションプランごとに複数のデータストア：* 複数のデータストアを単一のレプリケーション戦略に統合することで、災害復旧プランを簡素化できます。
-* *利用できないソースサイトに対する強制フェイルオーバー：* ソースが利用できない場合は、災害復旧サイトに切り替えます。
-* *SnapMirrorの再同期を延期し、必要に応じてレプリケーションをリストアする：* 「skip protect」オプションを使用してSnapMirrorの再同期を延期することで、ピーク時の運用期間中に本番ワークロードへの影響を回避し、その後「re-protect」オプションを使用して必要に応じてレプリケーションをリストアします
-
-
-GCVEのサポートに関する詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Disaster Recoveryでサポートされている構成"^]をご覧ください。
-
-
-
-[[ransomware-resilience]]
-=== ランサムウェア耐性
-
-
-
-==== クリーン復元
-
-Ransomware Resilienceは、クリーンリストアをサポートするようになりました。これは、ランサムウェア攻撃から迅速かつ容易に復旧するための新しい復旧オプションです。クリーンリストアは、ダウンタイムを最小限に抑えながらワークロードを迅速に稼働させるための最適なリストアポイントを特定する、ガイド付きワークフローを提供します。クリーンリストアのワークフローは、データに関するファイルレベルの情報も提供するため、マルウェアのないワークロードを復元でき、再感染を防ぎ、データ損失を最小限に抑えることができます。
-
-サポートされている構成と、システムをクリーンな復元用に構成する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["隔離された復旧環境を作成する"^]を参照してください。クリーンな復元で復旧する方法については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["クリーンリストアでワークロードをリカバリする"^]を参照してください。
-
-
-
-==== Splunk EnterpriseのSIEMサポート
-
-Ransomware Resilience は、Splunk Enterprise のセキュリティ情報イベント管理（SIEM）サポートを提供し、ログデータとイベントデータを一元管理して、脅威分析と検出を効率化できます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["ランサムウェア対策をSIEMに接続"^]を参照してください。
-
-
-
-==== ユーザー行動検出機能の強化
-
-データ侵害イベントに関するインサイトは、インシデント発生後13か月間保持されるようになり、レポートのニーズに応じてより長期間の記録保持が可能になりました。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["ユーザー行動検出について学ぶ"^]を参照してください。
-
-レプリケーション:leveloffset: +1
-
-
-
-[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
-=== FSx for ONTAP との既存の関係に対するレプリケーション管理
-
-ソースまたはターゲットとしてのFSx for ONTAPファイルシステムのレプリケーション関係管理が、NetApp Workload Factoryで利用できるようになりました。
-
-link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["データレプリケーションの管理"]
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Google Cloud C3 VMによるCloud Volumes ONTAPサポートの改善
-
-Cloud Volumes ONTAP では、Google Cloud C3 シリーズ VM のサポートが強化され、次の追加機能が利用できるようになりました。
-
-* Cloud Volumes ONTAP 環境では、C3 ファミリー内の異なるバリアント間でインスタンスタイプを切り替えることができます。
-* インスタンスタイプを変更する際に、ターゲット VM として c3-standard-44 または c3-standard-88 およびそれらの LSSD バリアントを選択した場合、Google ネットワーク サービス出力ネットワーク層 Tier-1 が自動的に適用されます。他の C3 バリアントに切り替えると、出力ネットワーク層は Standard に設定されます。
-+
-
-NOTE: 出力ネットワークの階層をティア1に変更すると、追加費用が発生します。それに応じて導入とアップグレードを計画してください。
-
-* C3のローカルSSD（LSSD）バリアントを選択した場合、Flash Cacheがデフォルトで有効になります。ターゲットバリアントがFlash Cacheをサポートしている場合でも、Cloud Volumes ONTAPデプロイメントでC3 LSSDバリアント間を切り替えることはできません。
-* C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できるようになりました。
-* NetApp Console を使用してボリュームを追加する際、または `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API を使用して、IOPS とスループットの設定を変更できます。
-
-
-.関連リンク
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google CloudでサポートされているCloud Volumes ONTAPの構成"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["次世代の Google Cloud VM に対する Cloud Volumes ONTAP のサポート"^]
-
