@@ -422,4 +422,50 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">システムパフォーマンスの向上</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">Disaster Recovery では、システムリソースの消費量を削減し、運用全体のパフォーマンスを向上させるための変更が導入されました。</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
+  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel の ARM テンプレート</block>
+  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience は、Microsoft Sentinel を SIEM として接続するための Azure Resource Manager (ARM) テンプレートを提供するようになりました。これにより、デプロイを容易にするための二次的な方法が提供されます。</block>
+  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">脅威の検出と分析のためにSIEMに接続する</block>
+  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">詳細については、<block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="b6e501a3f9a9964fecae7c393bb7cf74" category="doc">Cloud Volumes ONTAP 9.19.1 RC</block>
+  <block id="f11434f81dce28dd60c981c553fa8539" category="paragraph">NetApp Console を使用して、Google Cloud に Cloud Volumes ONTAP 9.19.1 のリリース候補版 （RC） をデプロイおよび管理できるようになりました。このバージョンは、Amazon Web Service (AWS) および Microsoft Azure (Azure) へのデプロイおよびアップグレードには対応していません。</block>
+  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">このリリースの Cloud Volumes ONTAP の詳細については、こちらをご覧ください。</block>
+  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block>。</block>
+  <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HAにおける次世代Google Cloud VMのサポート</block>
+  <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1では、NetAppはCloud Volumes ONTAPの高可用性（HA）デプロイメントをN2 VMから次世代Google Cloud C3シリーズVMに移行し、より高速でスケーラブルなエクスペリエンスを提供します。</block>
+  <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">このサポートは、単一のアベイラビリティゾーン（AZ）HA構成にのみ適用されます。</block>
+  <block id="daeb9d2c445d835a4dfabab85d7f7ac8" category="paragraph">Google Cloud で Cloud Volumes ONTAP 9.19.1 以降をデプロイする際に、C3 シリーズ VM を活用できるようになりました。これらのマシンは、パフォーマンスが向上し、容量の上限も高くなっています。集中的なワークロードにおける動的なパフォーマンスを実現するために、Google Virtual NIC（gVNIC）と Hyperdisk Balanced ディスクを使用しています。</block>
+  <block id="039aeba61a2d04ffa12dc9230a552474" category="paragraph">Cloud Volumes ONTAP システムが 9.19.1 以降で動作している場合、単一の AZ への簡単なデプロイに使用する事前構成済みパッケージは自動的に C3 VM を使用し、ワークロードのニーズに基づいて IOPS とスループットのパラメータをカスタマイズできます。同様に、アグリゲートを作成する際に Zonal Hyperdisk Balanced ディスクを追加することで、Google Cloud でのパフォーマンスとスケーラビリティを向上させることができます。また、デフォルトの Flash Cache サポートを利用するために、C3 シリーズマシンの LSSD バリアントを選択することもできます。</block>
+  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">以下の点に注意してください：</block>
+  <block id="a8b9ee4ec08e660e7c78a765fe6e8e76" category="list-text">Cloud Volumes ONTAP のデプロイメントでは、C3 VM を N2 シリーズの VM に変更したり、その逆の変更を行ったりすることはできません。ただし、C3 ファミリー内の異なるバリアント間でインスタンスタイプを切り替えることは可能です。</block>
+  <block id="4508abef5bde6dc4e321f4c629f6b5df" category="admonition">C3ファミリー内でインスタンスタイプを変更するには、接続されているデータディスクの数によっては時間がかかる場合があります。パフォーマンスへの影響を避けるため、事前に設定を計画してください。</block>
+  <block id="5d6ac50e964794f1d9f58de17f041571" category="list-text">インスタンスタイプを変更する際に、ターゲット VM として c3-standard-44 または c3-standard-88 およびそれらのローカル SSD （LSSD）バリアントを選択した場合、Google ネットワーク サービスの出力ネットワーク層 _Tier-1_ が自動的に適用されます。他の C3 バリアントに戻すと、出力ネットワーク層は _Standard_ に設定されます。</block>
+  <block id="cc900a1bed6dc9c21fe26836d5594034" category="admonition">送信ネットワークの階層を_Tier-1_に変更すると、追加費用が発生します。導入計画を立て、それに応じてアップグレードを行ってください。</block>
+  <block id="745f1e222c1a230bd097ce9d3bc14619" category="list-text">C3のLSSDバリアントを選択した場合、Flash Cacheがデフォルトで有効になります。ターゲットバリアントがFlash Cacheをサポートしている場合でも、Cloud Volumes ONTAPデプロイメントでC3 LSSBバリアント間を切り替えることはできません。</block>
+  <block id="562863c77a375e6f0ad98475be21d62d" category="list-text">C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できます。</block>
+  <block id="0934d6e64727e82c89dcc51725cc8a7d" category="list-text">Cloud Volumes ONTAP システムを N2 VM タイプから C3 VM タイプにレプリケートする場合、ディスクタイプはデフォルトで Hyperdisk Balanced に設定されます。</block>
+  <block id="7f779554154f7bbce7ebe34e61b8a90f" category="list-text">NetApp Console またはAPI<block ref="566e7ce0d4fe7a4872db87a6368a9417" prefix=" " category="inline-code"></block>を使用してアグリゲートを追加する際に、IOPS とスループットの設定を変更できます。</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google CloudでサポートされているCloud Volumes ONTAPの構成</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google ドキュメント：C3 マシンシリーズ</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Google Cloud への Cloud Volumes ONTAP のデプロイの簡略化</block>
+  <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">*クイック作成*ウィザードを使用して、シングルノード構成と高可用性（HA）構成の両方で Google Cloud に Cloud Volumes ONTAP をデプロイできるようになりました。この合理化されたプロセスにより、手順が削減され、デフォルト値が単一ページで自動的に設定され、ナビゲーションが最小限に抑えられるため、より迅速かつ容易なデプロイが可能になります。</block>
+  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">Quick create を使用して Google Cloud に Cloud Volumes ONTAP を導入する</block>
+  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
+  <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Google Cloud の拡張オプションを使用して Cloud Volumes ONTAP を導入する</block>
+  <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
+  <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP のアクセスロールの概要</block>
+  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetAppは、Cloud Volumes ONTAPにアイデンティティおよびアクセス管理（IAM）ロールを導入し、セキュリティの向上とコンプライアンス遵守の容易化のためのロールベースアクセス制御（RBAC）を実現します。ユーザーは、Cloud Volumes ONTAPの操作に既存の認証情報を使用して、引き続きNetApp Consoleにログインできます。ただし、認証はIDフェデレーションを介して行われるようになり、Console管理者がこれらの機能をより細かく制御できるようになりました。すべてのユーザーは、Cloud Volumes ONTAPで操作を実行するために、以下のいずれかのロールを持っている必要があります。ロールがない場合、ユーザーはCloud Volumes ONTAPインスタンスを表示またはアクセスすることができません。</block>
+  <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP ビューアー*：Cloud Volumes ONTAP の画面とタブへの読み取り専用アクセスを許可します。このロールでは、一部の画面と操作ボタンが無効になっています。</block>
+  <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*：ボリュームの追加、ストレージの管理、レプリケーションの設定など、日常的な管理タスクを可能にします。</block>
+  <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*：すべての Cloud Volumes ONTAP 操作へのフルアクセスを提供します。</block>
+  <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console管理者は、*管理 &gt; ID* からCloud Volumes ONTAPユーザーにロールを割り当てます。ロールの権限はユーザーの組織に基づいており、その組織内のすべてのCloud Volumes ONTAPシステムに適用されます。</block>
+  <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAPは、各ユーザーの権限のローカルキャッシュを使用してRBACを適用します。このキャッシュは1時間ごとに自動的に更新されます。ユーザーに新しいロールが割り当てられた場合、または既存のロールが変更された場合、その変更が有効になるまでに最大1時間かかることがあります。その後、そのロールによって許可されているすべてのワークフローが有効になります。</block>
+  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">Console エージェントが初めてデプロイされるとき、または既存の Console エージェントが Console 4.9.0 以降にアップグレードされると、1 回限りのシード処理によって、組織内の既存ユーザー全員に Cloud Volumes ONTAP のロールが自動的に割り当てられます。この処理には最大 30 分かかる場合があります。処理が完了すると、Console は既存のユーザーに適切なロールを割り当てます。</block>
+  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Cloud Volumes ONTAPのロールは、Amazon Web Service (AWS)、Microsoft Azure (Azure)、およびGoogle Cloud環境に適用されます。</block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console アクセスロール</block>
+  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Cloud Volumes ONTAP の NetApp Console におけるアクセスロール</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
 </blocks>
