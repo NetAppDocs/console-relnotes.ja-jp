@@ -30,6 +30,33 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[15-july-2026]]
+== 2026年7月15日
+
+
+
+[[console-setup-and-administration]]
+=== コンソールのセットアップと管理
+
+
+
+==== Console エージェント 4.9.0
+
+4.9.0 リリースでは、標準モードと制限モードの両方がサポートされています。
+
+Console エージェントのこのリリースには、セキュリティの改善とバグ修正が含まれています。
+
+
+
+==== NetApp Console管理
+
+.Cloud Volumes ONTAP のロールベースアクセスのサポート
+コンソールは Cloud Volumes ONTAP のロールベースアクセスをサポートしています。
+
+link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.html["Cloud Volumes ONTAP のロールベースアクセスの詳細については、こちらをご覧ください"^]。
+
+
+
 [[14-july-2026]]
 == 2026年7月14日
 
