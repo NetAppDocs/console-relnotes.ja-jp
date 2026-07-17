@@ -477,5 +477,8 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console のワークロードからの GenAI ワークロードの削除</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI ワークロードが NetApp Console のワークロードから削除されました。</block>
-  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*強化されたマルチバケットサポート*：ONTAP 9.19.1以降では、異なるクラウドプロバイダーにまたがるシステムごとに最大100個のバケットを使用して、システム内のボリュームを保護できるようになりました。</block>
+  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">すべてのワークロードに対するマルチバケットサポートの強化</block>
+  <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">今回のバックアップおよびリカバリのリリースでは、異なるクラウドプロバイダーにまたがるシステムごとに最大100個のバケットを使用して、システム内のワークロードを保護できるようになりました。</block>
+  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery について</block>
+  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery の詳細については、<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
