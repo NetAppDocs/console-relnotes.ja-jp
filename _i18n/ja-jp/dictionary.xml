@@ -147,8 +147,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">クリーンリストアでワークロードをリカバリする</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">ランサムウェア対策をSIEMに接続</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。</block>
-  <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SANサポート*：VMwareワークロードは、NetApp ASA r2 SAN専用環境でホストされているVMFSデータストア上のVMの保護をサポートするようになりました。</block>
-  <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026年4月20日</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">プロビジョニング済み容量ラベルの名前を変更しました</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積バーストの予測切り替え</block>
@@ -481,4 +479,28 @@
   <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">今回のバックアップおよびリカバリのリリースでは、異なるクラウドプロバイダーにまたがるシステムごとに最大100個のバケットを使用して、システム内のワークロードを保護できるようになりました。</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery について</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery の詳細については、<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS MarketplaceからのCloud Volumes ONTAPの簡素化されたオンボーディングの導入</block>
+  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetAppは、AWS MarketplaceからのCloud Volumes ONTAPに対して簡素化されたオンボーディングフローを導入し、手動の手順とオンボーディング時の摩擦を軽減します。</block>
+  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">以前は、AWS Marketplace から Cloud Volumes ONTAP をデプロイするには、複数の画面を操作し、ロール、ポリシー、認証情報を手動で設定する必要がありました。これにより、オンボーディングが遅くなり、エラーが発生しやすくなっていました。</block>
+  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">新しいオンボーディングフローにより、マーケットプレイスのサブスクリプションから完全に運用可能な Cloud Volumes ONTAP 環境への移行が、以下の機能によって簡素化されます：</block>
+  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">AWS Marketplace の専用 Cloud Volumes ONTAP リストへのサブスクリプション：AWS Marketplace で Cloud Volumes ONTAP のスタンドアロンリストにサブスクライブし、サブスクリプションを購入して、AWS アカウントを設定します（まだお持ちでない場合）。</block>
+  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">ガイド付きパス（NetApp コンソール）：NetApp コンソールでアカウントをセットアップすると、コンソールが自動的にデプロイメントの手順を開始し、右側にガイド付きパスを表示します。コンソールから離れる必要がある場合は、後でガイド付きの手順を再開できます。</block>
+  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">サブスクリプションの関連付け：サブスクリプションをコンソールに自動的に関連付けることができるため、手動でリンクする手順を省略できます。</block>
+  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">AWS認証情報構成を使用したコンソールエージェントのデプロイ：必要なAWSロールを自動的に作成できます。このプロセスでは、必要なロールとポリシーを含むAWS CloudFormationスタックをAWSアカウントにデプロイして確認し、それらをNetApp Consoleに関連付けることで、手動でのIAM設定が不要になります。その後、エージェントの設定、ネットワーク設定、セキュリティグループ設定を進めて、エージェントのデプロイを開始します。</block>
+  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">AWS に新しい Cloud Volumes ONTAP システムをデプロイする：<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>ウィザードに直接移動して、より迅速かつシンプルに Cloud Volumes ONTAP をデプロイできます。</block>
+  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">クイック作成でCloud Volumes ONTAPを導入する</block>
+  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
+  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
+  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure における Cloud Volumes ONTAP の適切に設計された構成分析</block>
+  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console は、Microsoft Azure で稼働する Cloud Volumes ONTAP システムのウェルアーキテクテッド構成分析をサポートするようになりました。Console はデプロイメントを毎日分析し、ウェルアーキテクテッドのステータス、インサイト、および推奨事項を提供することで、NetApp のベストプラクティスとウェルアーキテクテッドフレームワークに沿ったシステムの維持をサポートします。</block>
+  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">適切に設計されたダッシュボードには、分析対象システムの総数が表示され、構成と深刻度レベル別にリソースが分類されます。システム管理者であれば、Console ダッシュボードから組織内のあらゆる構成上の問題に対する推奨事項を直接確認し、すべての推奨事項を CSV レポートとしてダウンロードできます。構成は以下のように分類されます：</block>
+  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*信頼性*：障害が発生した場合でも、ワークロードが正しく一貫して動作することを保証します。</block>
+  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*セキュリティ*：リスク評価とリスク軽減を通じて、データ、システム、資産を保護します。</block>
+  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*運用上の卓越性*：ビジネス価値を最大化するためにアーキテクチャを最適化します。</block>
+  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*コスト最適化*：コストを削減・最適化することで、ビジネス価値を高めます。</block>
+  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Cloud Volumes ONTAP の構成分析</block>
+  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
+  <block id="5bff0e2ec30fb9a44ab23683ebe9af90" category="inline-link">適切に設計されたシステム構成を実装する</block>
+  <block id="fae0b0bdb2210aacd56925bf63411bc1" category="list-text"><block ref="fae0b0bdb2210aacd56925bf63411bc1" category="inline-link-rx"></block></block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">2026年7月20日</block>
 </blocks>
