@@ -520,4 +520,10 @@
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review機能は廃止され、2026年7月をもってDigital Advisorでは利用できなくなりました。</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
+  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">ウェブフックを介してSIEMを設定する</block>
+  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilienceは、Ransomware Resilience UIでWebhookを介してセキュリティ情報およびイベント管理（SIEM）システムを設定する機能をサポートするようになりました。Webhookを使用すれば、お好みのSIEMシステムを連携させてランサムウェアの監視を効率化できます。</block>
+  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEMシステムを構成する</block>
+  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">ユーザーアクティビティイベントに対する自動応答のメールアラート</block>
+  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティイベントによって自動応答がトリガーされた際にメール通知を送信するようになりました。これにより、Ransomware Resilienceおよびランサムウェアの活動状況に関する明確性と可視性が向上します。</block>
 </blocks>
