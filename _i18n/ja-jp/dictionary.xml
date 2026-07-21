@@ -526,4 +526,8 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="bb52269a2ff950398b1909638550daa9" category="section-title">ユーザーアクティビティイベントに対する自動応答のメールアラート</block>
   <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティイベントによって自動応答がトリガーされた際にメール通知を送信するようになりました。これにより、Ransomware Resilienceおよびランサムウェアの活動状況に関する明確性と可視性が向上します。</block>
+  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">購読期限と自動更新状況を確認する</block>
+  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">サブスクリプション テーブル（*ストレージ &gt; Keystone &gt; サブスクリプション*）の「*サブスクリプション有効期限までの日数*」列に、有効期限の横にアイコンが表示されるようになりました。自動更新がオフの場合、アイコンの色は有効期限の近さを示します：緑（120日超）、オレンジ（91～120日）、赤（90日未満）、灰色（期限切れ）。自動更新が有効になっているサブスクリプションの場合、自動更新アイコンが表示され、現在の契約期間終了時にサブスクリプションが自動的に更新されることを示します。このステータスは読み取り専用であり、お客様の契約条件を反映しています。サブスクリプションを開くと、これらのアイコンがサブスクリプション詳細ヘッダーの「*現在の消費量*」、「*消費量の傾向*」、「*サブスクリプションのタイムライン*」、「*資産*」タブに表示され、ナビゲーション中に有効期限と更新状況を確認できます。</block>
+  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Keystoneサブスクリプションの詳細を表示</block>
+  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">詳細については、<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
