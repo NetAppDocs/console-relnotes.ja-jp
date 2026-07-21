@@ -1,0 +1,12 @@
+= Wellness Reviewの廃止に関するお知らせ
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Wellness Reviewの廃止に関するお知らせ
+
+Wellness Review機能は廃止され、2026年7月をもってDigital Advisorでは利用できなくなりました。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
