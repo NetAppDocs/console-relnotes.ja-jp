@@ -30,6 +30,29 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[23-july-2026]]
+== 2026年7月23日
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Azure におけるチリ中央地域のサポート
+
+Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています。
+
+* シングルノード
+* ローカル冗長ストレージ（LRS）を使用した単一可用性ゾーンにおける高可用性（HA）
+* ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）
+
+
+サポートされているすべてのリージョンのリストについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure のグローバル地域マップ"^]を参照してください。
+
+
+
 [[20-july-2026]]
 == 2026年7月20日
 
