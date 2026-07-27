@@ -1133,27 +1133,3 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
-
-
-
-[[27-april-2026]]
-== 2026年4月27日
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
-
-
-
-==== プロビジョニング済み容量ラベルの名前を変更しました
-
-*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。
-
-
-
-==== 累積バーストの予測切り替え
-
-*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["予測データを表示する"]を参照してください。
