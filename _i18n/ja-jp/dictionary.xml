@@ -464,7 +464,6 @@
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console のワークロードからの GenAI ワークロードの削除</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI ワークロードが NetApp Console のワークロードから削除されました。</block>
   <block id="66591c0e71be05bd24e1869944b92db6" category="doc">すべてのワークロードに対するマルチバケットサポートの強化</block>
-  <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">今回のバックアップおよびリカバリのリリースでは、異なるクラウドプロバイダーにまたがるシステムごとに最大100個のバケットを使用して、システム内のワークロードを保護できるようになりました。</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery について</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery の詳細については、<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>を参照してください。</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS MarketplaceからのCloud Volumes ONTAPの簡素化されたオンボーディングの導入</block>
@@ -585,4 +584,5 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">後で却下した設定を含めたい場合は、ウェルアーキテクテッドダッシュボードで再度有効化できます。これにより、設定が分析に復元され、推奨事項や修正策を取得できるようになります。</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
+  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery は、異なるクラウドプロバイダーにまたがる最大 100 個のバケットを使用して、システム内のワークロードを保護する機能をサポートするようになりました。システムあたり 6 つを超えるバケットをサポートするには、ONTAP 9.19.1 以降が必要です。</block>
 </blocks>
