@@ -1144,28 +1144,3 @@ Ransomware ResilienceがAzure NetApp Filesシステムをサポートするよ�
 NetApp Ransomware Resilienceは、Google SecOpsおよびSplunk SOARプレイブックを使用した個々のユーザーのブロックをサポートするようになりました。この機能追加により、NetApp Ransomware Resilienceがデータ侵害や大量のデータ削除などの疑わしいユーザーアクティビティを検出した場合に、ユーザーを自動的にブロックできるようになります。
 
 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["SOARプレイブックを統合する"^]。
-
-
-
-[[05-may-2026]]
-== 2026年5月5日
-
-
-
-[[backup-and-recovery]]
-=== バックアップとリカバリ
-
-
-
-==== Kubernetes ワークロードの機能強化
-
-今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。
-
-* *Trident Protect 26.05*：このリリースには Trident Protect 26.05 が含まれます。
-* *バックアップとリカバリからTrident Protectをアップグレード*：KubernetesクラスタでTrident Protect 26.05以降が実行されている場合、バックアップとリカバリから直接Trident Protectをアップグレードできるようになりました。
-* *VM保護のネイティブサポート*：VMベースのアプリケーションを作成できるようになり、他のアプリケーションを保護するのと同じ方法で仮想マシンを保護できるようになりました。
-* *リソース変換*：リソース変換とリソース変換テンプレートを使用して、復元プロセス中にリソース属性を追加、削除、および変更できるようになりました。
-* *保護されたリソースの表示*：アプリケーションの各復旧ポイントに含まれるリソースを表示し、詳細な JSON レポートをダウンロードできるようになりました。これにより、復旧ポイントを完全に把握でき、監査への対応が簡素化されます。
-
-
-Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
