@@ -598,4 +598,14 @@
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP と Microsoft OneLake の統合 - 技術概要</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
   <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp VolumesのSANサポート（プレビュー）</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">Ransomware Resilienceは、Google Cloud NetApp VolumesのSANワークロードをサポートするようになり、SANワークロードに対する暗号化ベースのランサムウェア攻撃を検出できるようになりました。Google Cloud NetApp VolumesにおけるSANのサポートは、現在プレビュー版です。</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">サポートされているシステム</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">ランサムウェア耐性におけるSANストレージ</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">詳細については、<block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block>および<block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">ユーザーブロック向けの合理化されたインターフェース</block>
+  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">ユーザーアクティビティ検出</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilienceは、ユーザーのブロックとブロックされたユーザーの管理を簡素化したユーザーエクスペリエンスを提供します。今回のアップデートにより、ブロックしたユーザーを簡単に確認・変更できるようになりました。ユーザーをブロックするには、<block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>を設定する必要があります。</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">ブロックされたユーザーを管理</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">詳細については、<block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
