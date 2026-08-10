@@ -522,4 +522,24 @@
   <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
   <block id="a504c964d28135033096219100cd2752" category="paragraph">Cloud Volumes ONTAP 9.19.1 リリース候補版 （RC） は、9.19.1 一般提供版 （GA） へのアップグレード用として、Google Cloud でのみ利用可能です。</block>
   <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>.</block>
+  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">ダッシュボードの改善</block>
+  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Disaster Recovery ダッシュボードが刷新され、Disaster Recovery 環境全体を包括的かつ一目で把握できる、より優れたユーザーエクスペリエンスが提供されるようになりました。新しいダッシュボードには以下の機能が含まれています：</block>
+  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統合されたワークロード可視化* — VMwareとKubernetesのワークロードと基盤となるインフラストラクチャの状態を、単一の画面から監視できます。</block>
+  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*問題の事前発見* — ダッシュボードが環境上の問題を自動的に強調表示することで、診断の迅速化と解決までの時間の短縮が可能になります。</block>
+  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*容量利用率* — 容量に関する指標がダッシュボード内に直接表示されるようになり、リソース消費の状況をより簡単に把握できるようになりました。</block>
+  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">ダッシュボードで NetApp Disaster Recovery プランの正常性を確認する</block>
+  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">詳細については、<block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">レポートの改善</block>
+  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">レポート機能が拡張され、環境全体における Disaster Recovery アクティビティに関するより詳細なインサイトを提供できるようになりました。</block>
+  <block id="7f09e48950606d1acab05c889751f513" category="list-text">VMwareワークロード、Kubernetesワークロード、またはその両方を対象としたレポートを生成することで、レポートを対象者に合わせて柔軟にカスタマイズできます。</block>
+  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">各レポートは、指定された期間の完全なアクティビティサマリーを提供し、Disaster Recovery環境におけるイベントを完全に可視化します。</block>
+  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">NetApp Disaster Recoveryレポートを作成する</block>
+  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">詳細については、<block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">ユーザージョブのログ記録</block>
+  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery において、ユーザーレベルのジョブログ機能により、ジョブの責任性および監査可能性が向上しました。実行されるすべてのジョブには、そのジョブを開始したユーザーが記録されるようになり、コンプライアンス遵守やトラブルシューティングのための明確な監査証跡が提供されます。Disaster Recovery によって自動的にトリガーされるジョブは「system」として識別されるため、ユーザーが開始したアクティビティとサービスが開始したアクティビティを容易に区別できます。</block>
+  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">NetApp Disaster Recoveryジョブの監視</block>
+  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">詳細については、<block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">パフォーマンスとリソースの最適化</block>
+  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">システム全体のリソース消費量を削減し、Disaster Recovery 操作全体のパフォーマンスを向上させるため、内部的なさまざまな改善が行われました。</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
 </blocks>
