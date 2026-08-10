@@ -542,4 +542,19 @@
   <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">パフォーマンスとリソースの最適化</block>
   <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">システム全体のリソース消費量を削減し、Disaster Recovery 操作全体のパフォーマンスを向上させるため、内部的なさまざまな改善が行われました。</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
+  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">一般的なNetApp Backup and Recovery の機能強化</block>
+  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*NetApp Console ローカル展開のサポート*：このリリースの NetApp Backup and Recovery は、プレビュー ステータスの NetApp Console ローカル展開をサポートしています。</block>
+  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90日間のジョブ保持*：Backup and Recovery では、ジョブモニター内のジョブ情報が90日間保持されるようになりました。</block>
+  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
+  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM の代替場所への復元サポート*：SAN ベースの VM バックアップを代替場所に復元できるようになりました。</block>
+  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*複数バックアップの削除に対応*：複数のバックアップを一度に削除できるようになりました。</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Databaseワークロードの機能強化</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*プラガブルデータベース（PDB）の復元とクローン*：NetApp Console のバックアップとリカバリサービスで、プラガブルデータベースの復元とクローン作成がサポートされるようになりました。</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Databaseワークロードの保護の概要</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*エアギャップされたリソースのプレビューサポート*：NetApp Console のローカルデプロイメントで NetApp Backup and Recovery を実行している場合、エアギャップされた Kubernetes リソースを検出、保護、および復元できます。この機能は今回のリリースではプレビュー版です。</block>
+  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました。</block>
+  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*バックアップよりもリストアジョブを優先*：VMやファイルをリストアする際に、バックアップジョブよりもリストアジョブを優先できるようになりました。</block>
+  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Backup and Recovery をアクティブ化せずに ONTAP システムとボリュームを検出*：Backup and Recovery をアクティブ化しなくても、システムとボリュームを検出できるようになりました。</block>
 </blocks>
