@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM の代替場所への復元サポート*：SAN ベースの VM バックアップを代替場所に復元できるようになりました。</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*複数バックアップの削除に対応*：複数のバックアップを一度に削除できるようになりました。</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Databaseワークロードの機能強化</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*プラガブルデータベース（PDB）の復元とクローン*：NetApp Console のバックアップとリカバリサービスで、プラガブルデータベースの復元とクローン作成がサポートされるようになりました。</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Oracle Databaseワークロードの保護の概要</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*エアギャップされたリソースのプレビューサポート*：NetApp Console のローカルデプロイメントで NetApp Backup and Recovery を実行している場合、エアギャップされた Kubernetes リソースを検出、保護、および復元できます。この機能は今回のリリースではプレビュー版です。</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました。</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*バックアップよりもリストアジョブを優先*：VMやファイルをリストアする際に、バックアップジョブよりもリストアジョブを優先できるようになりました。</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Backup and Recovery をアクティブ化せずに ONTAP システムとボリュームを検出*：Backup and Recovery をアクティブ化しなくても、システムとボリュームを検出できるようになりました。</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">スキャン管理を強化するアクティブスキャンタブ</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">データ分類機能の設定メニューに「アクティブなスキャン」タブが追加され、スキャンの管理がより使いやすくなりました。「アクティブなスキャン」タブには、スキャン対象としてアクティブ化したすべてのボリュームの概要が表示され、使い慣れたフィルターを使用してリソースを並べ替えることができます。このタブは、スキャンの優先順位付け、スキャンの一時停止、エラーの確認を行うための中心的な場所としても機能します。</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">スキャンの管理</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">詳細については、<block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
