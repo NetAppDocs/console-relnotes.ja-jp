@@ -133,8 +133,6 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Hyper-Vワークロードの保護の概要</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>を参照してください。</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">クリーンリストアでワークロードをリカバリする</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
@@ -565,4 +563,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">データコレクターを削除する</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilienceは、データコレクターの削除をサポートするようになりました。ワークロードでユーザーアクティビティ検出を有効にすると、データコレクターが自動的に作成されます。データコレクターが古くなった場合は、手動で削除できます。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">詳細については、<block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">Hyper-V 保護ワークフローと NetApp Backup and Recovery</block>
+  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
