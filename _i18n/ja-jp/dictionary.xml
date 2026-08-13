@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">データ分類機能の設定メニューに「アクティブなスキャン」タブが追加され、スキャンの管理がより使いやすくなりました。「アクティブなスキャン」タブには、スキャン対象としてアクティブ化したすべてのボリュームの概要が表示され、使い慣れたフィルターを使用してリソースを並べ替えることができます。このタブは、スキャンの優先順位付け、スキャンの一時停止、エラーの確認を行うための中心的な場所としても機能します。</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">スキャンの管理</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">詳細については、<block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console エージェント 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">クラウドメディエーターの応答性と信頼性が向上しました</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">サービスはクラスタのステータスの更新をより効率的に処理するようになり、断続的なタイムアウトやダウンタイムを削減し、SMaS関係における自動的な計画外フェイルオーバーの仲介機能を強化します。</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0の管理機能には、セキュリティとバグ修正が含まれています。</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026年8月13日</block>
 </blocks>
