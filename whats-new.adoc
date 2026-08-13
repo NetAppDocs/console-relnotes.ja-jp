@@ -73,6 +73,24 @@ Ransomware Resilienceは、データコレクターの削除をサポートす�
 
 
 
+[[12-august-2026]]
+== 2026年8月12日
+
+
+
+[[digital-advisor]]
+=== デジタルアドバイザー
+
+
+
+==== Config Drift の非推奨に関するお知らせ
+
+Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
+
+
+
 [[10-august-2026]]
 == 2026年8月10日
 

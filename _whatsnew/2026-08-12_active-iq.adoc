@@ -1,0 +1,12 @@
+= Config Drift の非推奨に関するお知らせ
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Config Drift の非推奨に関するお知らせ
+
+Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
