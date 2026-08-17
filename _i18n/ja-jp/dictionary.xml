@@ -123,7 +123,6 @@
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes ワークロードの保護の概要</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>を参照してください。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Console エージェントのこのリリースには、セキュリティの改善とバグ修正が含まれています。</block>
-  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">ランサムウェア耐性について学ぶ</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下のサービスは廃止されました：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware ワークロードの保護の概要</block>
@@ -133,31 +132,13 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
-  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">クリーンリストアでワークロードをリカバリする</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
-  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">クリーンリストアの機能強化</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">SOARプレイブックを統合する</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>。</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求</block>
-  <block id="ba0619dd0f47665766133e60320fb439" category="doc">健全性レビュー</block>
-  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">2026年7月以降、ウェルネスレビュー機能はDigital Advisorで利用できなくなります。ご質問がある場合は、mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]までメールをお送りください。</block>
-  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026年5月18日</block>
-  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Azure での Cloud Volumes ONTAP の簡易導入</block>
-  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">Quick createを使用して、シングルノード構成と高可用性（HA）構成の両方でAzureにCloud Volumes ONTAPを導入できるようになりました。この合理化されたプロセスにより、拡張方式と比較して手順数が削減され、単一ページでデフォルト値が自動的に設定され、ナビゲーションが最小限に抑えられるため、導入がより迅速かつ容易になります。</block>
-  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">クイック作成を使用してAzureにCloud Volumes ONTAPを導入</block>
-  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
-  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Azure の拡張方式を使用した Cloud Volumes ONTAP の導入</block>
-  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes サポート（プレビュー）</block>
-  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">Ransomware ResilienceがGoogle Cloud NetApp Volumesシステムをサポートするようになり、Google Cloud NetApp Volumesでランサムウェアの脅威を効率的に検出して対応できるようになりました。検出を実行すると、Ransomware ResilienceはGoogle Cloud NetApp Volumesシステムのワークロードを自動的に表示します。システムが検出されると、Ransomware Resilienceダッシュボードに表示されます。Ransomware ResilienceでのGoogle Cloud NetApp Volumesのサポートは現在プレビュー版です。</block>
-  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">ランサムウェアレジリエンスの制限事項</block>
-  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">詳細については、<block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>を参照してください。Google Cloud NetApp Volumesのサポート範囲については、<block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">クリーン復元機能がレポートをサポートするようになりました。レポートを使用すると、クリーンな復元状況を確認・評価し、その情報をCSVファイルとしてオフラインで保存できます。</block>
-  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">クリーンリストア機能で、分析の停止もサポートされるようになりました。分析を停止した場合は、クリーンリストアを最初からやり直す必要があります。</block>
-  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Ransomware Resilienceでレポートをダウンロード</block>
-  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">レポートの詳細については、<block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>を参照してください。リカバリの詳細については、<block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilienceで保護グループを作成する</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026年5月26日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">購読タイムラインにおける同日の複数の更新の表示を改善しました</block>
@@ -568,4 +549,23 @@
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift の非推奨に関するお知らせ</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
+  <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">今回のリリースでは、Hyper-Vワークロードに以下の機能強化が導入されました。</block>
+  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*オブジェクトストレージのバックアップを別の場所に復元する*：Hyper-V の仮想マシン、ファイル、フォルダーをオブジェクトストレージから別のストレージ場所に復元できるようになりました。</block>
+  <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Hyper-VワークロードをNetApp Backup and Recoveryで保護する方法について説明します</block>
+  <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*：このリリースには Trident Protect 26.08 が含まれます。</block>
+  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*バックアップの再試行*：Kubernetes 保護ポリシーの詳細設定で、バックアップの再試行を有効にし、再試行回数と再試行間隔を設定できるようになりました。</block>
+  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*部分的なバックアップの成功*：Kubernetes の保護ポリシーの詳細設定で、個々のリソースが失敗した場合でもバックアップを継続するように構成できるようになり、バックアップジョブが部分的に成功した状態として完了できるようになります。これにより、バックアップ操作中に一部のリソースが失敗した場合でも、バックアップされたリソースを復元することができます。</block>
+  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態およびVM一貫性のバックアップ*：Backup and Recovery for NetApp Consoleサービスで、「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態またはVM一貫性のバックアップやスナップショットを作成する保護ポリシーを設定できるようになりました。また、保護処理中にVMのフリーズを実行する方法をカスタマイズすることもできます。</block>
+  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*ConsoleエージェントのIPアドレス変更時のKubernetesクラスターの再接続*：Backup and Recovery for NetApp Consoleサービスでは、エージェントのIPアドレスが変更された場合に、クラスターをそのConsoleエージェントに再接続できるようになりました。</block>
+  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*クラスターを新しいコンソールエージェントに移行する*：NetApp Backup and Recovery コンソールサービスでは、元のエージェントが故障または削除された場合に、クラスターを新しいコンソールエージェントに移行できるようになり、アプリケーションの保護が中断なく継続されます。</block>
+  <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">NetApp Backup and Recoveryを使用したKubernetesワークロードの保護について説明します</block>
+  <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Databaseワークロードの強化</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*プラガブルデータベース（PDB）の復元*：個々のプラガブルデータベース（PDB）および PDB テーブルスペースを、ポイントインタイムリカバリを含めて復元できるようになりました。</block>
+  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*プラガブルデータベース（PDB）クローン*：既存のターゲットコンテナデータベース（CDB）に単一のPDBをクローンできるようになりました。また、コンテナデータベース全体をクローンする際に、PDBを除外することも可能です。</block>
+  <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ</block>
+  <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
 </blocks>
