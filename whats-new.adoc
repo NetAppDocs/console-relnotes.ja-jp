@@ -144,6 +144,19 @@ Config Drift機能は、2026年9月にDigital Advisorで廃止される予定で
 
 
 
+[[well-architected-dashboard]]
+=== 優れた設計のダッシュボード
+
+
+
+==== Google Cloud NetApp Volumes のサポートが、適切に設計されたダッシュボードで利用できます。
+
+NetApp コンソールダッシュボードが Google Cloud NetApp Volumes をサポートするようになりました。ストレージ管理者は、ストレージプールと構成の状態を確認したり、効率性、コスト、パフォーマンス、信頼性、セキュリティを向上させるための推奨事項を受け取ったり、運用を最適化してベストプラクティスに従うための措置を講じたりすることができます。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes の構成分析"]の詳細をご覧ください。
+
+
+
 [[backup-and-recovery]]
 === バックアップとリカバリ
 
