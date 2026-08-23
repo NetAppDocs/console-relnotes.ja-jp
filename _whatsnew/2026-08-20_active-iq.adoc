@@ -1,0 +1,15 @@
+= バリューインサイトのご紹介
+:allow-uri-read: 
+
+
+
+
+[[introducing-value-insights]]
+=== バリューインサイトのご紹介
+
+Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。
+
+
+NOTE: Value InsightsはONTAPシステムでのみ使用できます。
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"]の詳細をご覧ください。

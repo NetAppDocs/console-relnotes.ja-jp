@@ -30,6 +30,27 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[20-august-2026]]
+== 2026年8月20日
+
+
+
+[[digital-advisor]]
+=== デジタルアドバイザー
+
+
+
+==== バリューインサイトのご紹介
+
+Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。
+
+
+NOTE: Value InsightsはONTAPシステムでのみ使用できます。
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"]の詳細をご覧ください。
+
+
+
 [[17-august-2026]]
 == 2026年8月17日
 
@@ -1219,21 +1240,3 @@ Cloud Volumes ONTAP 9.16.1以降では、AWSにおける新規および既存の
 Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Ransomware Resilienceで保護グループを作成する"^]を参照してください。
-
-
-
-[[25-may-2026]]
-== 2026年5月25日
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
-
-
-
-==== 購読タイムラインにおける同日の複数の更新の表示を改善しました
-
-購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Keystoneサブスクリプションのタイムラインを表示"]を参照してください。

@@ -141,9 +141,6 @@
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes サポート（プレビュー）</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Ransomware Resilienceで保護グループを作成する</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026年5月26日</block>
-  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">購読タイムラインにおける同日の複数の更新の表示を改善しました</block>
-  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Keystoneサブスクリプションのタイムラインを表示</block>
-  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026年5月25日</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">詳細については、<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisorウィジェット名の更新</block>
@@ -280,7 +277,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技術更新機能は、現在*System Refresh*という名称に変更されています。詳細については<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>をご覧ください。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量追加機能は、現在*ストレージ拡張*という名称に変更されました。詳細については<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>をご覧ください。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">更新機能は「サポート更新」という名称に変更されました。詳細については<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>をご覧ください。</block>
-  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>を参照してください。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>を参照してください。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">「アセット」の「クラスター内のボリューム」タブに、「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>を参照してください。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">詳細については、<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>を参照してください。</block>
@@ -575,4 +571,10 @@
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Microsoft Azure の Cloud Volumes ONTAP に対して利用できます。この機能を使用すると、Azure の Cloud Volumes ONTAP システムにおける設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">適切に設計されたダッシュボードで構成名が更新されました</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、新しいストレージ構成名が追加されました。</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">バリューインサイトのご紹介</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value InsightsはONTAPシステムでのみ使用できます。</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph"><block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>の詳細をご覧ください。</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
 </blocks>
