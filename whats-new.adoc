@@ -1222,21 +1222,3 @@ Cloud Volumes ONTAP 9.16.1以降では、AWSにおける新規および既存の
 * 容量追加機能は、ストレージ拡張という名称に変更されました。link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisorウィジェット"]について学ぶ。
 * 更新機能は、現在「サポート更新」という名称になっています。link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisorウィジェット"]について学ぶ。
 
-
-
-
-[[26-may-2026]]
-== 2026年5月26日
-
-
-
-[[ransomware-resilience]]
-=== ランサムウェア耐性
-
-
-
-==== Google Cloud NetApp Volumes サポート（プレビュー）
-
-Ransomware Resilience は、Google Cloud NetApp Volumes システムのワークロードに対して保護グループを作成する機能をサポートするようになりました。これにより、複数のワークロードを1つのポリシーの下に整理して管理を効率化できます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Ransomware Resilienceで保護グループを作成する"^]を参照してください。
