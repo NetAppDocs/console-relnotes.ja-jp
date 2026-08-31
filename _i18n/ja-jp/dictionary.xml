@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">コンソールエージェントを介したSIEMイベント配信</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience は、NetApp Console を通じてイベントを配信する既存のオプションに加えて、Console エージェントを通じて SIEM イベントを配信する機能をサポートするようになりました。</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">コンソールエージェントを介してSIEMイベントを配信する場合、SIEMイベントの配信をネットワーク境界内に留めることができます。これにより、厳格なIPアドレス許可リストを持つオンプレミス環境へのデプロイが簡素化され、既存のセキュリティ制御との整合性も高まります。このオプションを使用するには、コンソールエージェントがファイアウォールやプロキシ制御を経由して、必要なポートでSIEMエンドポイントの名前解決および接続を行えることを確認してください。</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">改善されたSnapMirrorスナップショット管理</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">最新のスナップショットを使用してフェイルオーバーをトリガーできるようになりました。これは、新しいスナップショットを取得しない場合に推奨される方法です。</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">特定のスナップショットベースラインを選択する場合、SnapMirror転送スナップショットはデフォルトでは非表示になっています。これは、フェイルオーバーの途中で削除される可能性があり、「共通のスナップショットが見つかりません」というエラーが発生し、フェイルオーバー後にワークロードを再保護できなくなるためです。これらのスナップショットは引き続き使用できますが、リスクを承認するための追加の確認プロンプトに回答する必要があります。</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">リモートサイトへのフェイルオーバー</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">詳細については、<block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">その他の改善点</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">テストフェイルオーバーワークフローの回復力を高めるため、軽微な改善が行われました。</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">スクリプトを追加する際の検証エラーが修正されました。</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">2026年8月31日</block>
 </blocks>
