@@ -1107,21 +1107,3 @@ Keystoneダッシュボードのどの画面からでも、画面右下隅に固
 
 
 Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
-
-
-
-[[11-june-2026]]
-== 2026年6月11日
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Cloud Volumes ONTAP での新しい Azure リージョンのサポート
-
-これで、マレーシア西部（malaysiawest）リージョンの Azure の単一および複数の可用性ゾーンに Cloud Volumes ONTAP 9.12.1 GA 以降をデプロイできます。これには、シングルノード構成と高可用性（HA）構成の両方のサポートが含まれます。
-
-すべての地域のリストについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure のグローバル地域マップ"^]を参照してください。
