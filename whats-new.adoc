@@ -30,6 +30,24 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[14-september-2026]]
+== 2026年9月14日
+
+
+
+[[digital-advisor]]
+=== デジタルアドバイザー
+
+
+
+==== 仮想マシンの非推奨に関するお知らせ
+
+仮想マシン機能は、2026年10月に Digital Advisor で非推奨となります。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
+
+
+
 [[02-september-2026]]
 == 2026年9月2日
 

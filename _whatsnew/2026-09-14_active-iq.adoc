@@ -1,0 +1,12 @@
+= 仮想マシンの非推奨に関するお知らせ
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== 仮想マシンの非推奨に関するお知らせ
+
+仮想マシン機能は、2026年10月に Digital Advisor で非推奨となります。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
