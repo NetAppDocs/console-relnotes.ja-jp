@@ -154,7 +154,6 @@
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">上記に挙げた影響を受けるシステムで AutoSupport を再トリガーし、ヘルスチェックビューの最新データを復元してください。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026年6月29日</block>
   <block id="fb9721f24a420ba827ac36665b13797e" category="doc">ユーザーアクティビティアラートへの自動応答</block>
-  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティアラートが生成された際に、スナップショットの作成とユーザーのブロックを自動化する機能をサポートするようになりました。自動応答機能を使用すれば、警告が発生した時点でユーザーをブロックし、復旧用のスナップショットを作成できるため、手動介入なしでより迅速な対応が可能になります。</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">ユーザーアクティビティアラートへの対応を自動化する</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">詳細については、<block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">MetroCluster サブスクリプションの ADP ライセンス配布状況を確認する</block>
@@ -546,4 +545,12 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">Disaster Recovery に、リソース変換テンプレートと AppVaults を一元管理するための設定ページが追加されました。このページでは、ディザスタリカバリ計画のこれらの重要なコンポーネントを設定および管理するための単一のインターフェイスを提供します。設定ページのオプションの詳細については、<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> および <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">NetApp Disaster Recoveryでは、よりスムーズでエラーのないユーザーエクスペリエンスを実現するために、レプリケーションプラン作成ページに強化された検証機能を導入しました。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">NetApp Disaster Recovery では、断続的なリクエストタイムアウトへの対応能力が向上し、UI の全体的なパフォーマンスと信頼性が強化されました。</block>
+  <block id="bf243787cd494f22987c64c448019324" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティイベントに対する自動応答をサポートするようになりました。ユーザーアクティビティアラートが生成された際に、ユーザーを自動的にブロックし、スナップショットを作成できます。これらの措置により、手動による介入なしに迅速な対応が可能になります。</block>
+  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">クリーンな復元に対するサポートの強化</block>
+  <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">不審なユーザー行動やユーザーベースの暗号化攻撃後の復旧のために、クリーンな復元機能が利用可能になりました。この機能強化により、暗号化（エントロピー）に基づく攻撃に対する既存のサポートがさらに強化されます。この強化された機能により、クリーンリストアのガイド付きアプローチを活用し、最適なリストアポイントを特定することで、データ損失を最小限に抑え、復旧を迅速化できます。</block>
+  <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">クリーンな復元のための隔離されたリカバリ環境を作成する</block>
+  <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">詳細については、<block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes の SAN サポート</block>
+  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">NetApp Ransomware ResilienceでGoogle Cloud NetApp VolumesのSANワークロードがサポートされるようになり、SANワークロードに対する暗号化ベースのランサムウェア攻撃を検出できるようになりました。Google Cloud NetApp VolumesにおけるSANのサポートが一般提供（GA）されました。</block>
+  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">詳細については、<block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block>および<block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
