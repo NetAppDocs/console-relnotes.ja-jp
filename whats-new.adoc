@@ -30,6 +30,22 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[16-september-2026]]
+== 2026年9月16日
+
+
+
+[[data-classification]]
+=== データ分類
+
+
+
+==== 全般的な改善
+
+今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。
+
+
+
 [[14-september-2026]]
 == 2026年9月14日
 
