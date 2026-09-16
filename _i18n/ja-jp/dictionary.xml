@@ -513,4 +513,12 @@
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026年9月16日</block>
+  <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">今回のリリースでは、KVM、Hyper-V、およびVMwareワークロードに以下の機能強化が導入されました：</block>
+  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*VM ホスト検出時の認証情報の選択*：KVM、Hyper-V、または VMware ホストを登録する際に、Backup and Recovery に既に追加済みの認証情報を使用できるようになりました。</block>
+  <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*VM のスパンディスク保護*: CIFS 構成の場合、Backup and Recovery は、保護グループ内の各 VM に接続されているすべてのディスクを保護できるようになりました。これには、複数の ONTAP ボリュームまたは ONTAP ストレージシステムに分散したファイル（スパンディスク）と、単一の場所に限定されたファイルが含まれます。</block>
+  <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAPボリュームワークロードの強化</block>
+  <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに、以下のプレビュー版機能強化が導入されました。</block>
+  <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*日次バックアップデータ転送レポート*：NetApp Backup and Recovery for Volumes の「レポート」タブに日次バックアップデータ転送レポートが追加されました。これにより、環境全体における日々のバックアップおよびレプリケーションのデータ転送状況を把握できます。アカウント全体または選択したストレージシステムについてレポートを生成し、日付範囲と保護タイプでフィルタリングして、結果をCSV形式でダウンロードできます。</block>
+  <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">NetApp Backup and Recoveryを使用したONTAPボリューム保護について説明します</block>
+  <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
