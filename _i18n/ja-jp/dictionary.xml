@@ -521,4 +521,29 @@
   <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*日次バックアップデータ転送レポート*：NetApp Backup and Recovery for Volumes の「レポート」タブに日次バックアップデータ転送レポートが追加されました。これにより、環境全体における日々のバックアップおよびレプリケーションのデータ転送状況を把握できます。アカウント全体または選択したストレージシステムについてレポートを生成し、日付範囲と保護タイプでフィルタリングして、結果をCSV形式でダウンロードできます。</block>
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">NetApp Backup and Recoveryを使用したONTAPボリューム保護について説明します</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="432e57b4ac6417575095631e36c4ad84" category="doc">StorageGRID 12.1のサポート</block>
+  <block id="b6d09872582b8745a9b3f149504d2383" category="paragraph">StorageGRID 12.1システムをNetApp Consoleから管理できるようになりました。</block>
+  <block id="fe21ed67c3641d5e2e10ba99109b6611" category="inline-link">NetApp Consoleの詳細ビューを使用してStorageGRIDを管理する方法について説明します</block>
+  <block id="4df6d59ec4dc722c05f0d3acec14b56c" category="paragraph"><block ref="e0100fd3222c3d2603aecd8b497b4e0b" category="inline-link-rx"></block>。</block>
+  <block id="bc084b415a20851b8e676913db93fcd2" category="doc">NetApp Disaster RecoveryにおけるKubernetesサポートの一般提供（GA）が開始されました</block>
+  <block id="9324db17e670e1369640c556f71a1423" category="paragraph">NetApp Disaster RecoveryにおけるKubernetesベースのワークロードのサポートが一般公開（GA）されました。Kubernetesベースのワークロードのサポートにより、OpenShift Virtualization環境を含む、Kubernetesクラスタ上で実行されているアプリケーションを保護できます。Disaster Recoveryは、Trident Protectで現在サポートされているすべてのバージョンのKubernetesをサポートしており、コンテナ化されたアプリケーションのシームレスな統合と堅牢な災害復旧機能を実現します。</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recoveryに関するKubernetesの要件</block>
+  <block id="09aa82bf41a96669e2e7ab72fce53b68" category="paragraph">Kubernetesベースのワークロードの保護を開始するには、<block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="8bbea59fb56a0e0b18eb0dbc87a3e911" category="section-title">リソース変換</block>
+  <block id="23ec139ada546bb40b0037293927926e" category="paragraph">Disaster Recovery がリソース変換をサポートするようになり、フェイルオーバー中にワークロードのあらゆる側面を変更できるようになりました。この機能により、災害復旧時にワークロードをさまざまな環境や構成に柔軟に対応させることができます。</block>
+  <block id="1cb71dc0319186e8a5ef959445ae26e6" category="inline-link-macro">リソース変換を管理する</block>
+  <block id="5dc97329134aa1a46a95297e199ee57a" category="paragraph">リソース変換は、レプリケーションプランを作成する際に適用されます。新しい設定ページでは、リソース変換の作成、編集、削除を行うことができます。詳細については、<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">スクリプトの実行</block>
+  <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">アプリケーションの停止と再開を調整するために、カスタムスクリプトをフェイルオーバーワークフローに組み込むことができるようになりました。この機能は、スナップショットがレプリケートされて適切にリストアされる前に、アプリケーションが適切に準備されていることを確認し、フェイルオーバー後に処理をシームレスに再開できるようにします。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーション計画を作成する</block>
+  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">カスタムスクリプトを挿入する方法については、<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">新しいワークロードページ</block>
+  <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">Disaster Recovery では、UI に「ワークロード」ページが追加され、検出されたすべてのワークロードとその保護状況を包括的に表示できるようになりました。「ワークロード」ページでは、ワークロードをより効果的に監視および管理できます。</block>
+  <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">Disaster Recovery における健全性と保護ステータスを確認する</block>
+  <block id="62cca7f4abc63d606056cd2842c6540f" category="paragraph">詳細については、<block ref="97bec68dd22e6068edf69b3149251ef2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="cb212c0e367b7e5f6090b19e7f1473eb" category="section-title">設定ページ</block>
+  <block id="7d4c91b69e54df2f702e8579ef0febe4" category="inline-link-macro">AppVaultsを管理する</block>
+  <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">Disaster Recovery に、リソース変換テンプレートと AppVaults を一元管理するための設定ページが追加されました。このページでは、ディザスタリカバリ計画のこれらの重要なコンポーネントを設定および管理するための単一のインターフェイスを提供します。設定ページのオプションの詳細については、<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> および <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="8904eb8da011894f529ca214813ca630" category="paragraph">NetApp Disaster Recoveryでは、よりスムーズでエラーのないユーザーエクスペリエンスを実現するために、レプリケーションプラン作成ページに強化された検証機能を導入しました。</block>
+  <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">NetApp Disaster Recovery では、断続的なリクエストタイムアウトへの対応能力が向上し、UI の全体的なパフォーマンスと信頼性が強化されました。</block>
 </blocks>
