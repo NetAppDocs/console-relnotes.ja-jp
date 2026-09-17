@@ -217,8 +217,6 @@
   <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
   <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Google Cloud への Cloud Volumes ONTAP のデプロイの簡略化</block>
   <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">*クイック作成*ウィザードを使用して、シングルノード構成と高可用性（HA）構成の両方で Google Cloud に Cloud Volumes ONTAP をデプロイできるようになりました。この合理化されたプロセスにより、手順が削減され、デフォルト値が単一ページで自動的に設定され、ナビゲーションが最小限に抑えられるため、より迅速かつ容易なデプロイが可能になります。</block>
-  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">Quick create を使用して Google Cloud に Cloud Volumes ONTAP を導入する</block>
-  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Google Cloud の拡張オプションを使用して Cloud Volumes ONTAP を導入する</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP のアクセスロールの概要</block>
@@ -256,8 +254,6 @@
   <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">サブスクリプションの関連付け：サブスクリプションをコンソールに自動的に関連付けることができるため、手動でリンクする手順を省略できます。</block>
   <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">AWS認証情報構成を使用したコンソールエージェントのデプロイ：必要なAWSロールを自動的に作成できます。このプロセスでは、必要なロールとポリシーを含むAWS CloudFormationスタックをAWSアカウントにデプロイして確認し、それらをNetApp Consoleに関連付けることで、手動でのIAM設定が不要になります。その後、エージェントの設定、ネットワーク設定、セキュリティグループ設定を進めて、エージェントのデプロイを開始します。</block>
   <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">AWS に新しい Cloud Volumes ONTAP システムをデプロイする：<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>ウィザードに直接移動して、より迅速かつシンプルに Cloud Volumes ONTAP をデプロイできます。</block>
-  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">クイック作成でCloud Volumes ONTAPを導入する</block>
-  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
   <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
   <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Azure における Cloud Volumes ONTAP の適切に設計された構成分析</block>
   <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">NetApp Console は、Microsoft Azure で稼働する Cloud Volumes ONTAP システムのウェルアーキテクテッド構成分析をサポートするようになりました。Console はデプロイメントを毎日分析し、ウェルアーキテクテッドのステータス、インサイト、および推奨事項を提供することで、NetApp のベストプラクティスとウェルアーキテクテッドフレームワークに沿ったシステムの維持をサポートします。</block>
@@ -553,4 +549,8 @@
   <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes の SAN サポート</block>
   <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">NetApp Ransomware ResilienceでGoogle Cloud NetApp VolumesのSANワークロードがサポートされるようになり、SANワークロードに対する暗号化ベースのランサムウェア攻撃を検出できるようになりました。Google Cloud NetApp VolumesにおけるSANのサポートが一般提供（GA）されました。</block>
   <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">詳細については、<block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block>および<block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Google Cloud の Quick create を使用して Cloud Volumes ONTAP を導入する</block>
+  <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
+  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">AWS でクイック作成を使用して Cloud Volumes ONTAP を導入する</block>
+  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
 </blocks>
