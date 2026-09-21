@@ -588,4 +588,7 @@
   <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Cloud Volumes ONTAP のノードベース ライセンスを管理する</block>
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026年9月21日</block>
+  <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：このリリースには Trident Protect 26.09 が含まれます。</block>
+  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*クラスタおよび名前空間単位のロールベースのアクセス制御*：Kubernetesクラスタの検出中に、新しいクラスタに関連付けるプロジェクトまたはフォルダを選択することで、リソースへのアクセスを制御できます。アクセス制御のために、特定の名前空間を登録することもできます。これにより、クラスタレベルまたはネームスペースレベルで、よりきめ細かなアクセス制御が可能になります。</block>
+  <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*ファイルとフォルダの復元*：Kubernetes VM ベースのアプリケーションバックアップから、特定のファイルとフォルダを復元またはダウンロードできるようになりました。</block>
 </blocks>
