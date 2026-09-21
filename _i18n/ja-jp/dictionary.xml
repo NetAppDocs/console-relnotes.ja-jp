@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Microsoft Sentinel の ARM テンプレート</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience は、Microsoft Sentinel を SIEM として接続するための Azure Resource Manager (ARM) テンプレートを提供するようになりました。これにより、デプロイを容易にするための二次的な方法が提供されます。</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">脅威の検出と分析のためにSIEMに接続する</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">詳細については、<block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">このリリースの Cloud Volumes ONTAP の詳細については、こちらをご覧ください。</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HAにおける次世代Google Cloud VMのサポート</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1では、NetAppはCloud Volumes ONTAPの高可用性（HA）デプロイメントをN2 VMから次世代Google Cloud C3シリーズVMに移行し、より高速でスケーラブルなエクスペリエンスを提供します。</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：このリリースには Trident Protect 26.09 が含まれます。</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*クラスタおよび名前空間単位のロールベースのアクセス制御*：Kubernetesクラスタの検出中に、新しいクラスタに関連付けるプロジェクトまたはフォルダを選択することで、リソースへのアクセスを制御できます。アクセス制御のために、特定の名前空間を登録することもできます。これにより、クラスタレベルまたはネームスペースレベルで、よりきめ細かなアクセス制御が可能になります。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*ファイルとフォルダの復元*：Kubernetes VM ベースのアプリケーションバックアップから、特定のファイルとフォルダを復元またはダウンロードできるようになりました。</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Ransomware ResilienceにおけるMicrosoft Sentinel SIEMの設定</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">詳細については、<block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">SIEMシステムをWebhookで構成する</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">詳細については、<block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
