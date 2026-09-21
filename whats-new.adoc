@@ -209,7 +209,7 @@ NetApp Disaster Recovery では、断続的なリクエストタイムアウト�
 
 ==== 仮想マシンの非推奨に関するお知らせ
 
-仮想マシン機能は、2026年10月に Digital Advisor で非推奨となります。
+仮想マシン機能は、Digital Advisor において2026年10月に廃止される予定です。
 
 ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
 

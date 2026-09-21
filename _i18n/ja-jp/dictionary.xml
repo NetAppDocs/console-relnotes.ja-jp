@@ -502,7 +502,6 @@
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026年9月2日</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">仮想マシンの非推奨に関するお知らせ</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">仮想マシン機能は、2026年10月に Digital Advisor で非推奨となります。</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAPは、パブリックプレビューとして<block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>との統合をサポートするようになりました。Cloud Volumes ONTAP を<block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block>と統合するには、<block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>を使用して、既存の Cloud Volumes ONTAP NAS データを Power BI、Azure AI Search、OpenAI、Microsoft Copilot などの Microsoft の分析および AI サービスで利用できるようにします。この統合には、データの移動や重複は一切必要ありません。この統合では、<block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block>アクセスを使用して、Cloud Volumes ONTAP を既存の Microsoft Fabric レイクハウスに接続します。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
@@ -546,9 +545,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">不審なユーザー行動やユーザーベースの暗号化攻撃後の復旧のために、クリーンな復元機能が利用可能になりました。この機能強化により、暗号化（エントロピー）に基づく攻撃に対する既存のサポートがさらに強化されます。この強化された機能により、クリーンリストアのガイド付きアプローチを活用し、最適なリストアポイントを特定することで、データ損失を最小限に抑え、復旧を迅速化できます。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">クリーンな復元のための隔離されたリカバリ環境を作成する</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">詳細については、<block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes の SAN サポート</block>
-  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">NetApp Ransomware ResilienceでGoogle Cloud NetApp VolumesのSANワークロードがサポートされるようになり、SANワークロードに対する暗号化ベースのランサムウェア攻撃を検出できるようになりました。Google Cloud NetApp VolumesにおけるSANのサポートが一般提供（GA）されました。</block>
-  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">詳細については、<block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block>および<block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Google Cloud の Quick create を使用して Cloud Volumes ONTAP を導入する</block>
   <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">AWS でクイック作成を使用して Cloud Volumes ONTAP を導入する</block>
@@ -578,4 +574,5 @@
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell"><block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>に移動します。</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026年9月17日</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2（2026年8月31日）</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">仮想マシン機能は、Digital Advisor において2026年10月に廃止される予定です。</block>
 </blocks>
