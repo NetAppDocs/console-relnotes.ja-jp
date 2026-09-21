@@ -575,4 +575,17 @@
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026年9月17日</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2（2026年8月31日）</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">仮想マシン機能は、Digital Advisor において2026年10月に廃止される予定です。</block>
+  <block id="b97fde06b7b518f77d6af8b950fd42b8" category="doc">プライベートモード展開における容量ベースライセンスのサポート</block>
+  <block id="e7407e69cea5642ae9e0cd7198fe3213" category="paragraph">AWS、Azure、およびGoogle Cloudで、容量ベースのライセンスを使用したプライベートモードのCloud Volumes ONTAPシステムをデプロイできるようになりました。</block>
+  <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp は、プライベートモードにおける容量ベースのライセンスについて、Essentials パッケージのみをサポートします。容量ベースの BYOL（Bring-Your-Own License）Essentials パッケージを NetApp から購入し、デプロイ時にシステムに割り当ててください。最初の500 GiBの消費容量は、ライセンス料金の対象外です。ワークロードの要件が増大するにつれて、追加のパッケージを購入することができます。</block>
+  <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp は、すべてのプライベートモード Cloud Volumes ONTAP デプロイメントに対して容量ベースのライセンスを推奨しています。ノードベースのライセンスを使用している既存のプライベートモードのデプロイメントがある場合は、NetApp から Essentials パッケージを購入することで、容量ベースのライセンスに変換できます。この新しいデプロイメント機能は、変換オプションと組み合わせることで、NetApp がノードベースのライセンスから容量ベースのライセンスへと段階的に移行していく計画を支援します。</block>
+  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Cloud Volumes ONTAPライセンス</block>
+  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
+  <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">Cloud Volumes ONTAP BYOL について</block>
+  <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">ノードベースライセンスの提供終了</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Cloud Volumes ONTAP のノードベース ライセンスを管理する</block>
+  <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026年9月21日</block>
 </blocks>
