@@ -506,7 +506,6 @@
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026年9月16日</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">今回のリリースでは、KVM、Hyper-V、およびVMwareワークロードに以下の機能強化が導入されました：</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*VM ホスト検出時の認証情報の選択*：KVM、Hyper-V、または VMware ホストを登録する際に、Backup and Recovery に既に追加済みの認証情報を使用できるようになりました。</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*VM のスパンディスク保護*: CIFS 構成の場合、Backup and Recovery は、保護グループ内の各 VM に接続されているすべてのディスクを保護できるようになりました。これには、複数の ONTAP ボリュームまたは ONTAP ストレージシステムに分散したファイル（スパンディスク）と、単一の場所に限定されたファイルが含まれます。</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAPボリュームワークロードの強化</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに、以下のプレビュー版機能強化が導入されました。</block>
@@ -593,4 +592,7 @@
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">詳細については、<block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">SIEMシステムをWebhookで構成する</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">詳細については、<block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">一般的なNetApp Backup and Recoveryの機能強化</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*VM ホスト検出時の認証情報の選択*：KVM、Hyper-V、または VMware ホストを検出する際に、Backup and Recovery に既に追加済みの認証情報を使用できるようになりました。</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-Vワークロードの機能強化</block>
 </blocks>
