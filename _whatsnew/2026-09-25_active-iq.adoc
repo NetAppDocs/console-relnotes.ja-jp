@@ -1,0 +1,21 @@
+= Value Insightsダッシュボードのコンテンツ更新
+:allow-uri-read: 
+
+
+
+
+[[content-update-for-the-value-insights-dashboard]]
+=== Value Insightsダッシュボードのコンテンツ更新
+
+Value Insights ダッシュボードのドキュメントの更新が公開されました。
+
+link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["Digital Advisor の Value Insights Dashboard の使い方"^]の詳細をご覧ください。
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Config Drift の非推奨に関するお知らせ
+
+Config Drift 機能は非推奨となり、2026年9月をもって Digital Advisor では利用できなくなりました。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。

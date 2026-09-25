@@ -595,4 +595,10 @@
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*VM ホスト検出時の認証情報の選択*：KVM、Hyper-V、または VMware ホストを検出する際に、Backup and Recovery に既に追加済みの認証情報を使用できるようになりました。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-Vワークロードの機能強化</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*バックアップよりも復元ジョブを優先*：ボリューム、ファイル、またはフォルダーを復元する際に、バックアップジョブよりも復元ジョブを優先できるようになりました。</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insightsダッシュボードのコンテンツ更新</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Value Insights ダッシュボードのドキュメントの更新が公開されました。</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">Digital Advisor の Value Insights Dashboard の使い方</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph"><block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>の詳細をご覧ください。</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 機能は非推奨となり、2026年9月をもって Digital Advisor では利用できなくなりました。</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
 </blocks>

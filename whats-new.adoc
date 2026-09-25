@@ -30,6 +30,32 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[25-september-2026]]
+== 2026年9月25日
+
+
+
+[[digital-advisor]]
+=== デジタルアドバイザー
+
+
+
+==== Value Insightsダッシュボードのコンテンツ更新
+
+Value Insights ダッシュボードのドキュメントの更新が公開されました。
+
+link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["Digital Advisor の Value Insights Dashboard の使い方"^]の詳細をご覧ください。
+
+
+
+==== Config Drift の非推奨に関するお知らせ
+
+Config Drift 機能は非推奨となり、2026年9月をもって Digital Advisor では利用できなくなりました。
+
+ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
+
+
+
 [[21-september-2026]]
 == 2026年9月21日
 
