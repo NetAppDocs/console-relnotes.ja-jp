@@ -348,7 +348,7 @@ Cloud Volumes ONTAP は、Azure Government Secret および Top Secret リージ
 
 詳細については、Azure のドキュメントを参照してください。
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["米国政府ミッション向けクラウド^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["米国政府ミッション向けクラウド"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのAustria East（austriaeast）�
 * ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）
 
 
-サポートされているすべてのリージョンのリストについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure のグローバル地域マップ"^]を参照してください。
+サポートされているすべてのリージョンのリストについては、 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure のグローバル地域マップ"^]を参照してください。
 
 
 
@@ -927,7 +927,7 @@ Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）
 * ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）
 
 
-サポートされているすべてのリージョンのリストについては、 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure のグローバル地域マップ"^]を参照してください。
+サポートされているすべてのリージョンのリストについては、 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure のグローバル地域マップ"^]を参照してください。
 
 
 

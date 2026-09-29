@@ -262,7 +262,6 @@
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
   <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">ローカル冗長ストレージ（LRS）を使用した単一可用性ゾーンにおける高可用性（HA）</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">サポートされているすべてのリージョンのリストについては、<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>を参照してください。</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">ワークロードとシステムタイプに基づいて保護グループを標準化する</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">ランサムウェア対策機能では、保護グループにはワークロードの種類とシステムの種類がそれぞれ1つずつしか含まれないように強制されるようになりました。新しい保護グループを作成する際には、ワークロードの種類（ファイルシステムまたはブロック）と、ワークロードを実行するシステムの両方を指定する必要があります。この機能強化により、保護グループに対して選択されたランサムウェア対策戦略が、グループ内のすべてのワークロードに確実に適用できるようになります。</block>
@@ -460,8 +459,6 @@
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Cloud Volumes ONTAP の Azure Secret および Top Secret リージョンでのサポート（プライベートプレビュー）</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP は、Azure Government Secret および Top Secret リージョンへのデプロイをプライベートプレビューとしてサポートするようになりました。この機能により、Cloud Volumes ONTAP が Microsoft の機密 Azure 環境に拡張され、政府機関および防衛関連のお客様が国家安全保障のワークロードをサポートするためのデータ管理、保護、およびディザスタリカバリに ONTAP を活用できるようになります。参加をご希望の場合は、NetApp のアカウント担当チームにお問い合わせください。</block>
   <block id="9a4d5529d16b869118217275b6da762d" category="paragraph">詳細については、Azure のドキュメントを参照してください。</block>
-  <block id="d6cb1d3533b658f7c8098c480b799207" category="inline-link">米国政府ミッション向けクラウド^</block>
-  <block id="77063c44fc617a6f3c637b1e2c35bd37" category="list-text"><block ref="77063c44fc617a6f3c637b1e2c35bd37" category="inline-link-rx"></block></block>
   <block id="985c02ef44894c5b9eb81c7ef41befb6" category="inline-link">Azure Government Secret</block>
   <block id="97003784d2f5493688983ca3efa74e68" category="list-text"><block ref="97003784d2f5493688983ca3efa74e68" category="inline-link-rx"></block></block>
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
@@ -581,4 +578,7 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">プライベートモード4.10.0は、Red Hat Enterprise Linux (RHEL) 9.6をサポートしています。</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">プライベートモードのホスト要件について</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">プライベートモードがRed Hat Enterprise Linux（RHEL）9.6にインストールおよび実行できるようになり、お客様はセキュリティとパフォーマンスが向上した最新のサポート対象オペレーティングシステムを利用できるようになります。<block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">サポートされているすべてのリージョンのリストについては、<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">米国政府ミッション向けクラウド</block>
+  <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
 </blocks>
