@@ -581,4 +581,14 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">サポートされているすべてのリージョンのリストについては、<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>を参照してください。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">米国政府ミッション向けクラウド</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Workload FactoryでFlex Unifiedのリソースを検出する</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory は、ONTAP API プロキシエンドポイントを通じて、Google Cloud NetApp Volumes Flex Unified のデフォルトモードおよび ONTAP モードのストレージプールとボリュームを検出できるようになりました。これらのリソースはインベントリに表示され、適切に設計された評価と推奨事項に含まれています。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Google Cloud NetApp Volumes の構成分析について</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">NetApp Console Canvas から Flex Unified システムを入力する</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">検出された Google Cloud NetApp Volumes Flex Unified システムに対して、NetApp Console Canvas から「*システムに入る*」を選択できるようになりました。これにより、選択したシステムのリソースページが開き、デフォルトモードのシステムで使用できるのと同じワークフローを使用して、関連付けられているストレージプールとボリュームを表示できます。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified リソースのウェルアーキテクテッド評価</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">優れたアーキテクチャのダッシュボードは、Google Cloud NetApp Volumes Flex の統合ストレージプールとボリュームについて、SSD 容量のヘッドルーム、ボリューム容量のヘッドルーム、およびスナップショットポリシーの適用範囲を評価するようになりました。結果は Google Cloud NetApp Volumes の優れたアーキテクチャエクスペリエンスに表示され、Default モードまたは ONTAP モードのリソースを識別します。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>
