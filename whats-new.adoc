@@ -30,38 +30,8 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
-[[28-september-2026]]
-== 2026年9月28日
-
-
-
-[[backup-and-recovery]]
-=== バックアップとリカバリ
-
-
-
-==== 一般的なNetApp Backup and Recoveryの機能強化
-
-今回のリリースでは、KVM、Hyper-V、およびVMwareワークロードに以下の機能強化が導入されました：
-
-*コンソールロールベースアクセス制御（RBAC）サポート*：Hyper-V、KVM、VMware ワークロードは、RBAC 向け NetApp Console フレームワークをサポートするようになり、個々の Hyper-V、KVM、または VMware ホストへのアクセスを管理できます。
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["RBACの使用方法について詳しくは、NetApp Backup and Recoveryを参照してください"]。
-
-
-
-==== VMwareワークロードの機能強化
-
-今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。
-
-*Google Cloud NetApp Volumes Flex Unified のサポート*：NetApp Backup and Recovery for VMware ワークロードが、Google Cloud NetApp Volumes の Flex Unified サービスレベルをサポートするようになりました。Flex Unified は ONTAP モードでのみサポートされています。
-
-VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMwareワークロードをNetApp Backup and Recoveryで保護する"]を参照してください。
-
-
-
-[[27-september-2026]]
-== 2026年9月27日
+[[30-september-2026]]
+== 2026年9月30日
 
 
 
@@ -97,6 +67,36 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 ==== 適切に設計された問題が、NetApp Console のシステムページに表示されます
 
 適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。
+
+
+
+[[28-september-2026]]
+== 2026年9月28日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== 一般的なNetApp Backup and Recoveryの機能強化
+
+今回のリリースでは、KVM、Hyper-V、およびVMwareワークロードに以下の機能強化が導入されました：
+
+*コンソールロールベースアクセス制御（RBAC）サポート*：Hyper-V、KVM、VMware ワークロードは、RBAC 向け NetApp Console フレームワークをサポートするようになり、個々の Hyper-V、KVM、または VMware ホストへのアクセスを管理できます。
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["RBACの使用方法について詳しくは、NetApp Backup and Recoveryを参照してください"]。
+
+
+
+==== VMwareワークロードの機能強化
+
+今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました。
+
+*Google Cloud NetApp Volumes Flex Unified のサポート*：NetApp Backup and Recovery for VMware ワークロードが、Google Cloud NetApp Volumes の Flex Unified サービスレベルをサポートするようになりました。Flex Unified は ONTAP モードでのみサポートされています。
+
+VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMwareワークロードをNetApp Backup and Recoveryで保護する"]を参照してください。
 
 
 

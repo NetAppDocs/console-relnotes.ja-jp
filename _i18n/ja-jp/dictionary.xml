@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified リソースのウェルアーキテクテッド評価</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">優れたアーキテクチャのダッシュボードは、Google Cloud NetApp Volumes Flex の統合ストレージプールとボリュームについて、SSD 容量のヘッドルーム、ボリューム容量のヘッドルーム、およびスナップショットポリシーの適用範囲を評価するようになりました。結果は Google Cloud NetApp Volumes の優れたアーキテクチャエクスペリエンスに表示され、Default モードまたは ONTAP モードのリソースを識別します。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
 </blocks>
