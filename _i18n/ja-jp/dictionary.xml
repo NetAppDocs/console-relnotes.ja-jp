@@ -591,4 +591,8 @@
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">優れたアーキテクチャのダッシュボードは、Google Cloud NetApp Volumes Flex の統合ストレージプールとボリュームについて、SSD 容量のヘッドルーム、ボリューム容量のヘッドルーム、およびスナップショットポリシーの適用範囲を評価するようになりました。結果は Google Cloud NetApp Volumes の優れたアーキテクチャエクスペリエンスに表示され、Default モードまたは ONTAP モードのリソースを識別します。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下のプレビュー版の機能強化が導入されます。</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*ボリューム復元ジョブのキャンセル*：ジョブ監視ページから進行中の ONTAP ボリューム復元ジョブをキャンセルできるようになりました。これにより、長時間実行されるジョブや実行速度の遅いジョブの管理が容易になります。</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*ボリュームインデックスステータスレポートの改善*：ONTAP ボリュームダッシュボードは、インデックス作成の対象とならないボリュームおよびスナップショットコピーに<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>ステータスを導入することで、インデックス作成ステータスをより正確に報告するようになりました。<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>ステータスは、インデックス作成待ちのボリューム専用となり、ボリュームの詳細にはスナップショットごとのインデックス作成ステータスが表示され、ボリュームまたはスナップショットコピーがインデックス作成されない理由を説明するホバーテキストが表示されるようになりました。</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFXサポート*：2ノードおよび4ノードのNetApp AFXクラスターでホストされているボリュームを保護できるようになりました。</block>
 </blocks>
