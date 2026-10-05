@@ -1296,29 +1296,3 @@ Disaster Recovery ビューアーロールから、「システムアップグ�
 ==== システムパフォーマンスの向上
 
 Disaster Recovery では、システムリソースの消費量を削減し、運用全体のパフォーマンスを向上させるための変更が導入されました。
-
-
-
-[[07-july-2026]]
-== 2026年7月7日
-
-
-
-[[ransomware-resilience]]
-=== ランサムウェア耐性
-
-
-
-==== ユーザー行動アラートからファイルパスを除外する
-
-Ransomware Resilience は、ユーザー行動監視アラートから特定のファイルパスを除外する機能をサポートしています。リスクがないと分かっているファイルパス、またはアラートを発生させる可能性のあるボリューム内のファイルに対して作業を行っている場合は、それらのファイルパスを除外することができます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["アラートからファイルパスを除外する"^]を参照してください。
-
-
-
-==== Microsoft Sentinel の ARM テンプレート
-
-Ransomware Resilience は、Microsoft Sentinel を SIEM として接続するための Azure Resource Manager (ARM) テンプレートを提供するようになりました。これにより、デプロイを容易にするための二次的な方法が提供されます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Ransomware ResilienceにおけるMicrosoft Sentinel SIEMの設定"^]を参照してください。
