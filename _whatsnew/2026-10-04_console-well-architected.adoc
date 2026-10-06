@@ -1,0 +1,12 @@
+= カスタムルールの編集と管理
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== カスタムルールの編集と管理
+
+ルールカタログでカスタムルールを編集できるようになりました。ルール名や設定を更新したり、チャットで変更内容を確認したり、編集内容を検証したり、不要になったルールを削除したりできます。
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["カスタムルールの管理方法"]
