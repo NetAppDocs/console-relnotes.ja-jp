@@ -593,4 +593,5 @@
   <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID のサポート*：Azure 認証にストレージアカウントのアクセスキーを使用しない場合は、Azure オブジェクトストレージバケット構成に Microsoft Entra ID 認証を使用できるようになりました。このオプションは、ONTAP 9.16.1以降を実行しているAzureシステム内のCloud Volumes ONTAPでサポートされています。</block>
+  <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMwareワークロードの機能強化</block>
 </blocks>
