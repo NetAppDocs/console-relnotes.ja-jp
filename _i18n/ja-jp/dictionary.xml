@@ -594,4 +594,9 @@
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID のサポート*：Azure 認証にストレージアカウントのアクセスキーを使用しない場合は、Azure オブジェクトストレージバケット構成に Microsoft Entra ID 認証を使用できるようになりました。このオプションは、ONTAP 9.16.1以降を実行しているAzureシステム内のCloud Volumes ONTAPでサポートされています。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMwareワークロードの機能強化</block>
+  <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Workload Factory 向け Oracle Cloud Infrastructure NetApp ストレージサービスの初期リリース</block>
+  <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">Workload Factory 向け OCI NetApp Storage Service（OCI NSS）の初期リリースでは、オンボーディング、システム検出、クレデンシャル管理、リンクの作成と関連付けが提供されます。OCI NSS へのアクセスをリクエストするには、Oracle にサポート チケットを発行してください。</block>
+  <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">NetApp Console ユーザー向けの Workload Factory ドキュメント</block>
+  <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">Workload Factory の詳細なドキュメントは NetApp Console で確認できます。これには、オンボーディング、システム検出、認証情報管理、リンクの作成と関連付けに関するガイドが含まれています。</block>
+  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">&lt;stdin&gt; の未解決のディレクティブ - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
 </blocks>
