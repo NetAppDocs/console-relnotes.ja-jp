@@ -86,21 +86,24 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 
 適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。
 
-<stdin> の未解決のディレクティブ - include::_include/data-services-workloads.adoc[] :leveloffset: +1
+
+
+[[workload-factory]]
+=== Workload Factory
 
 
 
-[[initial-release-of-oracle-cloud-infrastructure-netapp-storage-service-for-workload-factory]]
-=== Workload Factory 向け Oracle Cloud Infrastructure NetApp ストレージサービスの初期リリース
+==== Workload Factory 向け Oracle Cloud Infrastructure NetApp ストレージサービスの初期リリース
 
 Workload Factory 向け OCI NetApp Storage Service（OCI NSS）の初期リリースでは、オンボーディング、システム検出、クレデンシャル管理、リンクの作成と関連付けが提供されます。OCI NSS へのアクセスをリクエストするには、Oracle にサポート チケットを発行してください。
 
 
 
-[[workload-factory-documentation-for-netapp-console-users]]
-=== NetApp Console ユーザー向けの Workload Factory ドキュメント
+==== NetApp Console ユーザー向けの Workload Factory ドキュメント
 
 Workload Factory の詳細なドキュメントは NetApp Console で確認できます。これには、オンボーディング、システム検出、認証情報管理、リンクの作成と関連付けに関するガイドが含まれています。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/index.html["NetApp Console 用 Workload Factory ドキュメント"]
 
 
 

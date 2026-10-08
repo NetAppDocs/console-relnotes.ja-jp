@@ -598,5 +598,7 @@
   <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">Workload Factory 向け OCI NetApp Storage Service（OCI NSS）の初期リリースでは、オンボーディング、システム検出、クレデンシャル管理、リンクの作成と関連付けが提供されます。OCI NSS へのアクセスをリクエストするには、Oracle にサポート チケットを発行してください。</block>
   <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">NetApp Console ユーザー向けの Workload Factory ドキュメント</block>
   <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">Workload Factory の詳細なドキュメントは NetApp Console で確認できます。これには、オンボーディング、システム検出、認証情報管理、リンクの作成と関連付けに関するガイドが含まれています。</block>
-  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">&lt;stdin&gt; の未解決のディレクティブ - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
+  <block id="22e5a7336ebe77138f0282cedcb069ab" category="doc">Workload Factory</block>
+  <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">NetApp Console 用 Workload Factory ドキュメント</block>
+  <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
 </blocks>
