@@ -132,62 +132,9 @@
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求</block>
-  <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetesのアップデート</block>
-  <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">ディザスタリカバリでは、Kubernetesベースのワークロードに対して以下の変更が導入されました：</block>
-  <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware のアップデート</block>
-  <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">リモートサイトへのフェイルオーバー</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">ユーザーアクティビティアラートへの対応を自動化する</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">詳細については、<block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="a3385cf694f169469155cf608126cc13" category="section-title">サイトメニューから Trident Protect を管理する</block>
-  <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">ディザスターリカバリーは、ディザスターリカバリー UI の「サイト」メニューから直接 Trident Protect を管理できるようになりました。Trident Protect をアップグレードしたり、ディザスターリカバリーから削除したりすることで、Kubernetes リソースの管理を効率化できます。</block>
-  <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">サイトを管理する</block>
-  <block id="cee9739236651212176e7c87838bb2d3" category="paragraph">詳細については、<block ref="b4c4c365d924dbf2ff79378d36f70a71" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="cc6fa95b1e18a1fb7c53cf32734ead26" category="paragraph">ディザスターリカバリーでは、VMwareベースのワークロードに対して以下の変更が導入されました：</block>
-  <block id="7f2d139bc27153ad07daea80fab0a433" category="section-title">空のデータストアをフェイルオーバーする</block>
-  <block id="bfea9e3d533bac76e79429a83d38837c" category="paragraph">空のデータストアを含むレプリケーションプランでも、プランから除外したり、フェイルオーバーを強制したりすることなく、正常にフェイルオーバーできるようになりました。フェイルオーバー中、Disaster Recovery はディザスターリカバリサイトに空のデータストアを自動的にマウントし、VM を追加してフェイルバック操作用に保護できるようにします。</block>
-  <block id="d3835be5f3c2a797d5fc948f95289e0c" category="paragraph">詳細については、<block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="0fddd8fb8cd772934e1e5021d105b7fb" category="section-title">vCenterネットワーク自動マッピング</block>
-  <block id="07efa6bd1ca4b90d1c4eb002786f661b" category="paragraph">ネットワークマッピング関係をvCenterレベル（つまり、レプリケーション計画ダイアログの外側）で設定できるようになりました。一度設定すれば、Disaster Recovery はレプリケーションプランの追加または編集時にこれらのネットワークマッピングを自動的に適用し、レプリケーションプランの管理を効率化します。</block>
-  <block id="1eee5c19633b811fc646be143dcd283f" category="paragraph">災害復旧機能は、プランごとの上書き設定を引き続きサポートします。レプリケーションプラン内で定義された既存のネットワークマッピングは、ネットワークごとに編集できます。これらのマッピングは、vCenterレベルの定義よりも優先されます。</block>
-  <block id="d315df6836105d6791cc83a6539ee7e9" category="section-title">ディザスタリカバリビューアロールの強化</block>
-  <block id="6fb21aa5ad614d3da3c4d910339be1a1" category="inline-link-macro">NetApp Disaster Recoveryにおけるユーザのロールと権限について説明します</block>
-  <block id="266377e44a916fdf2cc18bfbb23cf6bf" category="paragraph">Disaster Recovery ビューアーロールから、「システムアップグレード」タブを表示する機能が削除されました。この変更により、このロールは読み取り専用ユーザーにとってより適切なエクスペリエンスに合致するようになります。<block ref="8100c1fe7b8d110e1492908ee1d65a0c" category="inline-link-macro-rx"></block>。</block>
-  <block id="3ddd9403dd985627a83f357af005a768" category="section-title">システムパフォーマンスの向上</block>
-  <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">Disaster Recovery では、システムリソースの消費量を削減し、運用全体のパフォーマンスを向上させるための変更が導入されました。</block>
-  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
-  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">このリリースの Cloud Volumes ONTAP の詳細については、こちらをご覧ください。</block>
-  <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Cloud Volumes ONTAP HAにおける次世代Google Cloud VMのサポート</block>
-  <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">9.19.1では、NetAppはCloud Volumes ONTAPの高可用性（HA）デプロイメントをN2 VMから次世代Google Cloud C3シリーズVMに移行し、より高速でスケーラブルなエクスペリエンスを提供します。</block>
-  <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">このサポートは、単一のアベイラビリティゾーン（AZ）HA構成にのみ適用されます。</block>
-  <block id="daeb9d2c445d835a4dfabab85d7f7ac8" category="paragraph">Google Cloud で Cloud Volumes ONTAP 9.19.1 以降をデプロイする際に、C3 シリーズ VM を活用できるようになりました。これらのマシンは、パフォーマンスが向上し、容量の上限も高くなっています。集中的なワークロードにおける動的なパフォーマンスを実現するために、Google Virtual NIC（gVNIC）と Hyperdisk Balanced ディスクを使用しています。</block>
-  <block id="039aeba61a2d04ffa12dc9230a552474" category="paragraph">Cloud Volumes ONTAP システムが 9.19.1 以降で動作している場合、単一の AZ への簡単なデプロイに使用する事前構成済みパッケージは自動的に C3 VM を使用し、ワークロードのニーズに基づいて IOPS とスループットのパラメータをカスタマイズできます。同様に、アグリゲートを作成する際に Zonal Hyperdisk Balanced ディスクを追加することで、Google Cloud でのパフォーマンスとスケーラビリティを向上させることができます。また、デフォルトの Flash Cache サポートを利用するために、C3 シリーズマシンの LSSD バリアントを選択することもできます。</block>
-  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">以下の点に注意してください：</block>
-  <block id="a8b9ee4ec08e660e7c78a765fe6e8e76" category="list-text">Cloud Volumes ONTAP のデプロイメントでは、C3 VM を N2 シリーズの VM に変更したり、その逆の変更を行ったりすることはできません。ただし、C3 ファミリー内の異なるバリアント間でインスタンスタイプを切り替えることは可能です。</block>
-  <block id="4508abef5bde6dc4e321f4c629f6b5df" category="admonition">C3ファミリー内でインスタンスタイプを変更するには、接続されているデータディスクの数によっては時間がかかる場合があります。パフォーマンスへの影響を避けるため、事前に設定を計画してください。</block>
-  <block id="5d6ac50e964794f1d9f58de17f041571" category="list-text">インスタンスタイプを変更する際に、ターゲット VM として c3-standard-44 または c3-standard-88 およびそれらのローカル SSD （LSSD）バリアントを選択した場合、Google ネットワーク サービスの出力ネットワーク層 _Tier-1_ が自動的に適用されます。他の C3 バリアントに戻すと、出力ネットワーク層は _Standard_ に設定されます。</block>
-  <block id="cc900a1bed6dc9c21fe26836d5594034" category="admonition">送信ネットワークの階層を_Tier-1_に変更すると、追加費用が発生します。導入計画を立て、それに応じてアップグレードを行ってください。</block>
-  <block id="745f1e222c1a230bd097ce9d3bc14619" category="list-text">C3のLSSDバリアントを選択した場合、Flash Cacheがデフォルトで有効になります。ターゲットバリアントがFlash Cacheをサポートしている場合でも、Cloud Volumes ONTAPデプロイメントでC3 LSSBバリアント間を切り替えることはできません。</block>
-  <block id="562863c77a375e6f0ad98475be21d62d" category="list-text">C3 VMでは、新規および既存のアグリゲートの両方にボリュームを追加できます。</block>
-  <block id="0934d6e64727e82c89dcc51725cc8a7d" category="list-text">Cloud Volumes ONTAP システムを N2 VM タイプから C3 VM タイプにレプリケートする場合、ディスクタイプはデフォルトで Hyperdisk Balanced に設定されます。</block>
-  <block id="7f779554154f7bbce7ebe34e61b8a90f" category="list-text">NetApp Console またはAPI<block ref="566e7ce0d4fe7a4872db87a6368a9417" prefix=" " category="inline-code"></block>を使用してアグリゲートを追加する際に、IOPS とスループットの設定を変更できます。</block>
-  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google CloudでサポートされているCloud Volumes ONTAPの構成</block>
-  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
-  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google ドキュメント：C3 マシンシリーズ</block>
-  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
-  <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Google Cloud への Cloud Volumes ONTAP のデプロイの簡略化</block>
-  <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">*クイック作成*ウィザードを使用して、シングルノード構成と高可用性（HA）構成の両方で Google Cloud に Cloud Volumes ONTAP をデプロイできるようになりました。この合理化されたプロセスにより、手順が削減され、デフォルト値が単一ページで自動的に設定され、ナビゲーションが最小限に抑えられるため、より迅速かつ容易なデプロイが可能になります。</block>
-  <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Google Cloud の拡張オプションを使用して Cloud Volumes ONTAP を導入する</block>
-  <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
-  <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP のアクセスロールの概要</block>
-  <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP ビューアー*：Cloud Volumes ONTAP の画面とタブへの読み取り専用アクセスを許可します。このロールでは、一部の画面と操作ボタンが無効になっています。</block>
-  <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*：ボリュームの追加、ストレージの管理、レプリケーションの設定など、日常的な管理タスクを可能にします。</block>
-  <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*：すべての Cloud Volumes ONTAP 操作へのフルアクセスを提供します。</block>
-  <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console管理者は、*管理 &gt; ID* からCloud Volumes ONTAPユーザーにロールを割り当てます。ロールの権限はユーザーの組織に基づいており、その組織内のすべてのCloud Volumes ONTAPシステムに適用されます。</block>
-  <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAPは、各ユーザーの権限のローカルキャッシュを使用してRBACを適用します。このキャッシュは1時間ごとに自動的に更新されます。ユーザーに新しいロールが割り当てられた場合、または既存のロールが変更された場合、その変更が有効になるまでに最大1時間かかることがあります。その後、そのロールによって許可されているすべてのワークフローが有効になります。</block>
-  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Cloud Volumes ONTAP の NetApp Console におけるアクセスロール</block>
-  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
-  <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
   <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console エージェント 4.9.0</block>
   <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">4.9.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">Cloud Volumes ONTAP のロールベースアクセスのサポート</block>
@@ -197,9 +144,6 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">NetApp Console のワークロードからの GenAI ワークロードの削除</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI ワークロードが NetApp Console のワークロードから削除されました。</block>
-  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">すべてのワークロードに対するマルチバケットサポートの強化</block>
-  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">NetApp Backup and Recovery について</block>
-  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">NetApp Backup and Recovery の詳細については、<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>を参照してください。</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">AWS MarketplaceからのCloud Volumes ONTAPの簡素化されたオンボーディングの導入</block>
   <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetAppは、AWS MarketplaceからのCloud Volumes ONTAPに対して簡素化されたオンボーディングフローを導入し、手動の手順とオンボーディング時の摩擦を軽減します。</block>
   <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">以前は、AWS Marketplace から Cloud Volumes ONTAP をデプロイするには、複数の画面を操作し、ロール、ポリシー、認証情報を手動で設定する必要がありました。これにより、オンボーディングが遅くなり、エラーが発生しやすくなっていました。</block>
@@ -305,7 +249,6 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">後で却下した設定を含めたい場合は、ウェルアーキテクテッドダッシュボードで再度有効化できます。これにより、設定が分析に復元され、推奨事項や修正策を取得できるようになります。</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
-  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery は、異なるクラウドプロバイダーにまたがる最大 100 個のバケットを使用して、システム内のワークロードを保護する機能をサポートするようになりました。システムあたり 6 つを超えるバケットをサポートするには、ONTAP 9.19.1 以降が必要です。</block>
   <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Cloud Volumes ONTAP と Microsoft OneLake の統合</block>
   <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
   <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
@@ -327,9 +270,6 @@
   <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilienceは、ユーザーのブロックとブロックされたユーザーの管理を簡素化したユーザーエクスペリエンスを提供します。今回のアップデートにより、ブロックしたユーザーを簡単に確認・変更できるようになりました。ユーザーをブロックするには、<block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>を設定する必要があります。</block>
   <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">ブロックされたユーザーを管理</block>
   <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">詳細については、<block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
-  <block id="a504c964d28135033096219100cd2752" category="paragraph">Cloud Volumes ONTAP 9.19.1 リリース候補版 （RC） は、9.19.1 一般提供版 （GA） へのアップグレード用として、Google Cloud でのみ利用可能です。</block>
-  <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>.</block>
   <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">ダッシュボードの改善</block>
   <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Disaster Recovery ダッシュボードが刷新され、Disaster Recovery 環境全体を包括的かつ一目で把握できる、より優れたユーザーエクスペリエンスが提供されるようになりました。新しいダッシュボードには以下の機能が含まれています：</block>
   <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統合されたワークロード可視化* — VMwareとKubernetesのワークロードと基盤となるインフラストラクチャの状態を、単一の画面から監視できます。</block>
@@ -490,8 +430,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">不審なユーザー行動やユーザーベースの暗号化攻撃後の復旧のために、クリーンな復元機能が利用可能になりました。この機能強化により、暗号化（エントロピー）に基づく攻撃に対する既存のサポートがさらに強化されます。この強化された機能により、クリーンリストアのガイド付きアプローチを活用し、最適なリストアポイントを特定することで、データ損失を最小限に抑え、復旧を迅速化できます。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">クリーンな復元のための隔離されたリカバリ環境を作成する</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">詳細については、<block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Google Cloud の Quick create を使用して Cloud Volumes ONTAP を導入する</block>
-  <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">AWS でクイック作成を使用して Cloud Volumes ONTAP を導入する</block>
   <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
   <block id="b6b21e530c678e5cd4c26f8b75ff76e8" category="doc">Console エージェント 4.11.0</block>
@@ -577,12 +515,6 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*ボリューム復元ジョブのキャンセル*：ジョブ監視ページから進行中の ONTAP ボリューム復元ジョブをキャンセルできるようになりました。これにより、長時間実行されるジョブや実行速度の遅いジョブの管理が容易になります。</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*ボリュームインデックスステータスレポートの改善*：ONTAP ボリュームダッシュボードは、インデックス作成の対象とならないボリュームおよびスナップショットコピーに<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>ステータスを導入することで、インデックス作成ステータスをより正確に報告するようになりました。<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>ステータスは、インデックス作成待ちのボリューム専用となり、ボリュームの詳細にはスナップショットごとのインデックス作成ステータスが表示され、ボリュームまたはスナップショットコピーがインデックス作成されない理由を説明するホバーテキストが表示されるようになりました。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFXサポート*：2ノードおよび4ノードのNetApp AFXクラスターでホストされているボリュームを保護できるようになりました。</block>
-  <block id="4ffb16f35f5e9aee9dee7b4d07e72ec5" category="paragraph">NetAppは、Cloud Volumes ONTAP向けのIDおよびアクセス管理（IAM）ロールを導入し、セキュリティの向上とコンプライアンスの簡素化を実現するロールベースアクセス制御（RBAC）を可能にします。ユーザーは、Cloud Volumes ONTAPの操作に既存のクレデンシャルを使用して、引き続きNetApp Consoleにログインできます。ただし、認証はIDフェデレーションを介してルーティングされるようになり、Console管理者はこれらの機能をよりきめ細かく制御できるようになりました。Cloud Volumes ONTAPのロールを有効にする前に、Consoleエージェントでバージョン4.9.0以降が実行されている必要があります。</block>
-  <block id="fc587a597771f80d7a6ba4e7b2d90d37" category="paragraph">すべてのユーザーは、Cloud Volumes ONTAPで操作を実行するために、以下のいずれかのロールを持っている必要があります。ロールがない場合、ユーザーはCloud Volumes ONTAPインスタンスを表示またはアクセスすることができません。</block>
-  <block id="cb5ee3ecd31c69fc46d3da114a16ed83" category="admonition">Consoleエージェントを初めてデプロイしたとき、または既存のConsoleエージェントをConsole 4.9.0以降にアップグレードしたときは、1回のシード処理によって、組織内の既存のすべてのユーザーにCloud Volumes ONTAPのロールが自動的に割り当てられます。この処理が完了するまでに最大30分かかる場合があります。完了すると、Consoleは既存のユーザーに適切なロールを割り当てます。エージェントが実行されていない限り、シード処理は実行されません。</block>
-  <block id="58589b55d1f4e063bc5f101e0aaacde5" category="paragraph">Cloud Volumes ONTAPのロールは、Amazon Web Service（AWS）、Microsoft Azure（Azure）、およびGoogle Cloud環境に適用されます。これらのロールは、プライベートおよび制限付きの導入モードには適用されません。</block>
-  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">Cloud Volumes ONTAP のロールベースアクセスを NetApp Console で設定する</block>
-  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
   <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
   <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Workload Factoryを使用してAzureのCloud Volumes ONTAP構成を改善する</block>
   <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
@@ -601,4 +533,19 @@
   <block id="22e5a7336ebe77138f0282cedcb069ab" category="doc">Workload Factory</block>
   <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">NetApp Console 用 Workload Factory ドキュメント</block>
   <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
+  <block id="1c335a9c5603264a97d8d84cb6c6faf0" category="doc">Kubernetesリソースグループのオプションの起動順序</block>
+  <block id="84af32d37767e36e149339ec37e513b1" category="paragraph">NetApp Disaster Recoveryで、Kubernetesレプリケーションプラン内のリソースグループの起動順序をオプションで設定できるようになりました。具体的には、リソースの優先順位とオプションの遅延時間を指定できます。このオプションを使用すると、必要に応じてリソースを同時に起動し、他のリソースに依存するリソースの起動を遅延させることで、アプリケーションが正常な状態でオンラインに戻るのをサポートできます。</block>
+  <block id="f2497ae428eba83b3f39732433d3cb44" category="inline-link-macro">レプリケーションプランを作成する</block>
+  <block id="9e29609c3bbaf3dd61657f73add99007" category="paragraph">詳細については、<block ref="b368f0a73ce8108f9547ecd0643b331f" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="05316212411905c51cdd49deaf78a58e" category="section-title">SnapLockボリュームサポート</block>
+  <block id="a547512ac8a0a093f138ab19fb5f9c67" category="paragraph">Disaster RecoveryでSnapLockボリュームがサポートされるようになり、改ざん防止スナップショットのフェイルオーバーが可能になりました。SnapLockボリュームを使用してフェイルバックを実行する際、フェイルバックを正常に完了させるには、*今すぐスナップショットを取得*オプションを使用する必要があります。</block>
+  <block id="3ad6e9988864aeae2ef386345946dc6d" category="inline-link-macro">フェイルオーバー</block>
+  <block id="a571d3783c8d552371d5e8b486416b18" category="inline-link-macro">failback（フェイルバック）</block>
+  <block id="374fdd2efa0670899dec57115b7ed99b" category="paragraph">詳細については、<block ref="8fc81de61ce6b6f345351934ad55bc91" category="inline-link-macro-rx"></block>および<block ref="54d34f2cfe03dcbe402071f8f9beccd0" category="inline-link-macro-rx"></block>の手順を参照してください。</block>
+  <block id="eec8280b12e61e71ed9a9f31e25a4cb6" category="section-title">更新とコンプライアンス実行の簡素化</block>
+  <block id="196ba426ef1a0d15830e58f8ea71c405" category="inline-link-macro">ジョブの監視</block>
+  <block id="844a671e46adc508ee852b03a616e916" category="paragraph">vCenter、レプリケーション計画、およびコンプライアンスの更新の実行は、より迅速な実行を促進するために単一のジョブに簡素化されました。この変更を確認するには、<block ref="c4c673075f72fe052d440b509fb5db2d" category="inline-link-macro-rx"></block> の方法をご確認ください。</block>
+  <block id="838e15ad2606430b761fae47ebb38dee" category="section-title">Kubernetesのコンプライアンスチェック</block>
+  <block id="07de08b6dc69bbb77fbf2faa073882f2" category="paragraph">Disaster Recoveryに、Kubernetesワークロードの欠落している作業環境を特定するためのコンプライアンスチェックが追加されました。これらのコンプライアンスチェックは、レプリケーション計画の整合性を保つためにワークロードの健全性を確保するのに役立ちます。</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
 </blocks>
