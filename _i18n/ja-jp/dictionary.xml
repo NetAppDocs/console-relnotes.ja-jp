@@ -548,4 +548,14 @@
   <block id="838e15ad2606430b761fae47ebb38dee" category="section-title">Kubernetesのコンプライアンスチェック</block>
   <block id="07de08b6dc69bbb77fbf2faa073882f2" category="paragraph">Disaster Recoveryに、Kubernetesワークロードの欠落している作業環境を特定するためのコンプライアンスチェックが追加されました。これらのコンプライアンスチェックは、レプリケーション計画の整合性を保つためにワークロードの健全性を確保するのに役立ちます。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">今回のリリースでは、Hyper-V ワークロードに以下の機能強化が導入されました。</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroClusterサポート*：NetApp Backup and Recoveryにより、NetApp MetroClusterでミラーリングされたHyper-V VMを保護できるようになりました。</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*SAN VMのスパンディスク保護*：CIFSおよびSAN構成の場合、保護グループ内の各VMに接続されているすべてのディスクを保護できるようになりました。これには、複数のONTAPボリュームまたはONTAPストレージシステムに分散しているファイル（スパンディスク）や、単一の場所に限定されたファイルが含まれます。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自動アーカイブログ管理*：データベースのリストアおよびクローン処理中、NetApp Backup and Recoveryは必要なアーカイブログを自動的に検出してマウントし、処理が完了するとアンマウントします。プライマリ、セカンダリ、およびオブジェクトストレージのログソースがサポートされています。</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Serverワークロードの強化</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">今回のリリースでは、Microsoft SQL Serverワークロードに以下の機能強化が導入されました：</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*ライセンス変更*：ディスク間またはディスク間のファンアウトアーキテクチャを使用したバックアップには、料金が適用されなくなりました。料金は、3-2-1またはディスクツーオブジェクトストレージアーキテクチャを使用したバックアップを含む、オブジェクトストレージへのバックアップにのみ適用されます。</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recoveryを使用したMicrosoft SQL Serverワークロードの保護について</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Serverワークロードの保護の詳細については、<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
