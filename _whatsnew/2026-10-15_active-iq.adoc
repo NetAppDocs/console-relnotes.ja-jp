@@ -1,0 +1,12 @@
+= Value InsightsでのEシリーズおよびStorageGRIDのサポート
+:allow-uri-read: 
+
+
+
+
+[[e-series-and-storagegrid-support-in-value-insights]]
+=== Value InsightsでのEシリーズおよびStorageGRIDのサポート
+
+Value Insightsの健全性、リスク、セキュリティリスク、およびライフサイクルの合計に、ONTAP、Eシリーズ、StorageGRIDシステムが含まれるようになりました。ダッシュボードをプラットフォームでフィルタリングして、プラットフォーム固有の詳細を表示できます。達成済みおよび予測される削減額は、引き続きONTAPシステムでのみ利用可能です。
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Digital Advisorで価値のインサイトを確認する"]。

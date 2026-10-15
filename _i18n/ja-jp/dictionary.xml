@@ -585,4 +585,9 @@
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*ジョブモニターのカスタム日付範囲フィルタリング*：ジョブモニターのカレンダーからカスタムの開始日と終了日を選択することで、過去90日間のジョブを検索できるようになりました。</block>
+  <block id="d6705c5666d00557618ae9bce3d12c37" category="doc">Value InsightsでのEシリーズおよびStorageGRIDのサポート</block>
+  <block id="f7074f3c85b7a79fbc50870db7f09881" category="paragraph">Value Insightsの健全性、リスク、セキュリティリスク、およびライフサイクルの合計に、ONTAP、Eシリーズ、StorageGRIDシステムが含まれるようになりました。ダッシュボードをプラットフォームでフィルタリングして、プラットフォーム固有の詳細を表示できます。達成済みおよび予測される削減額は、引き続きONTAPシステムでのみ利用可能です。</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisorで価値のインサイトを確認する</block>
+  <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
+  <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
 </blocks>
