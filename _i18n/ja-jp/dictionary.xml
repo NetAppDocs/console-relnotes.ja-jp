@@ -584,4 +584,5 @@
   <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">Cloud Volumes ONTAP HAペアのAzureメンテナンス中の中断を防止する</block>
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*ジョブモニターのカスタム日付範囲フィルタリング*：ジョブモニターのカレンダーからカスタムの開始日と終了日を選択することで、過去90日間のジョブを検索できるようになりました。</block>
 </blocks>
