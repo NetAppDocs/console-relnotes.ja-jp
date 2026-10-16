@@ -177,7 +177,6 @@
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure におけるチリ中央地域のサポート</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
-  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">ローカル冗長ストレージ（LRS）を使用した単一可用性ゾーンにおける高可用性（HA）</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">ワークロードとシステムタイプに基づいて保護グループを標準化する</block>
@@ -561,7 +560,6 @@
   <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
   <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">Cloud Volumes ONTAP のホストでの Azure 暗号化</block>
   <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">Cloud Volumes ONTAP 9.19.1 GA以降、前提条件を満たす新しいAzureシングルノードおよび高可用性（HA）デプロイメントにおいて、ホストでのAzure暗号化がデフォルトで有効になります。この機能は、データがホストに書き込まれたりホストから読み取られたりする際に、エフェメラルディスクや関連するホストレベルのキャッシュを含む、VMをホストする物理サーバ上のデータを暗号化します。</block>
-  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">AzureにCloud Volumes ONTAPを展開する前に、以下の前提条件が満たされていることを確認してください：</block>
   <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Microsoft ドキュメント：ホストでの暗号化を有効にする</block>
   <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text"><block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block> 機能は、お客様のAzureサブスクリプションに登録されています。<block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>を参照してください。</block>
   <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Microsoft ドキュメント：サポートされている VM サイズの検索</block>
@@ -590,4 +588,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisorで価値のインサイトを確認する</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">ローカル冗長ストレージ（LRS）を使用した単一アベイラビリティゾーンにおけるHA</block>
+  <block id="145afd276d37daec187001af80160d51" category="paragraph">AzureにCloud Volumes ONTAPを展開する前に、環境が以下の前提条件を満たしていることを確認してください：</block>
 </blocks>
