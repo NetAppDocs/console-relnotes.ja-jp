@@ -30,6 +30,26 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[19-october-2026]]
+== 2026年10月19日
+
+
+
+[[backup-and-recovery]]
+=== バックアップとリカバリ
+
+
+
+==== Oracle Databaseワークロードの強化
+
+今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：
+
+*Oracle Data Guardのサポート*：NetApp Backup and Recoveryは、Oracle Data Guardを使用して高可用性を実現するプライマリおよびスタンバイデータベースを保護するために、保護グループを使用することをサポートするようになりました。
+
+Oracle Databaseワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ"]を参照してください。
+
+
+
 [[15-october-2026]]
 == 2026年10月15日
 
@@ -1007,91 +1027,3 @@ Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）
 
 
 サポートされているすべてのリージョンのリストについては、 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure のグローバル地域マップ"^]を参照してください。
-
-
-
-[[20-july-2026]]
-== 2026年7月20日
-
-
-
-[[ransomware-resilience]]
-=== ランサムウェア耐性
-
-
-
-==== ウェブフックを介してSIEMを設定する
-
-Ransomware Resilienceは、Ransomware Resilience UIでWebhookを介してセキュリティ情報およびイベント管理（SIEM）システムを設定する機能をサポートするようになりました。Webhookを使用すれば、お好みのSIEMシステムを連携させてランサムウェアの監視を効率化できます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["SIEMシステムをWebhookで構成する"^]を参照してください。
-
-
-
-==== ユーザーアクティビティイベントに対する自動応答のメールアラート
-
-Ransomware Resilienceは、ユーザーアクティビティイベントによって自動応答がトリガーされた際にメール通知を送信するようになりました。これにより、Ransomware Resilienceおよびランサムウェアの活動状況に関する明確性と可視性が向上します。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["ユーザーアクティビティアラートへの対応を自動化する"^]を参照してください。
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== AWS MarketplaceからのCloud Volumes ONTAPの簡素化されたオンボーディングの導入
-
-NetAppは、AWS MarketplaceからのCloud Volumes ONTAPに対して簡素化されたオンボーディングフローを導入し、手動の手順とオンボーディング時の摩擦を軽減します。
-
-以前は、AWS Marketplace から Cloud Volumes ONTAP をデプロイするには、複数の画面を操作し、ロール、ポリシー、認証情報を手動で設定する必要がありました。これにより、オンボーディングが遅くなり、エラーが発生しやすくなっていました。
-
-新しいオンボーディングフローにより、マーケットプレイスのサブスクリプションから完全に運用可能な Cloud Volumes ONTAP 環境への移行が、以下の機能によって簡素化されます：
-
-. AWS Marketplace の専用 Cloud Volumes ONTAP リストへのサブスクリプション：AWS Marketplace で Cloud Volumes ONTAP のスタンドアロンリストにサブスクライブし、サブスクリプションを購入して、AWS アカウントを設定します（まだお持ちでない場合）。
-. ガイド付きパス（NetApp コンソール）：NetApp コンソールでアカウントをセットアップすると、コンソールが自動的にデプロイメントの手順を開始し、右側にガイド付きパスを表示します。コンソールから離れる必要がある場合は、後でガイド付きの手順を再開できます。
-. サブスクリプションの関連付け：サブスクリプションをコンソールに自動的に関連付けることができるため、手動でリンクする手順を省略できます。
-. AWS認証情報構成を使用したコンソールエージェントのデプロイ：必要なAWSロールを自動的に作成できます。このプロセスでは、必要なロールとポリシーを含むAWS CloudFormationスタックをAWSアカウントにデプロイして確認し、それらをNetApp Consoleに関連付けることで、手動でのIAM設定が不要になります。その後、エージェントの設定、ネットワーク設定、セキュリティグループ設定を進めて、エージェントのデプロイを開始します。
-. AWS に新しい Cloud Volumes ONTAP システムをデプロイする： `Quick create`ウィザードに直接移動して、より迅速かつシンプルに Cloud Volumes ONTAP をデプロイできます。
-
-
-.関連リンク
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-onboard-cvo-aws-marketplace.html["AWS MarketplaceからCloud Volumes ONTAPをオンボードする"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-aws.html["AWS でクイック作成を使用して Cloud Volumes ONTAP を導入する"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["AWS における Cloud Volumes ONTAP とデータサービスの柔軟な請求"^]
-
-
-
-
-==== Azure における Cloud Volumes ONTAP の適切に設計された構成分析
-
-NetApp Console は、Microsoft Azure で稼働する Cloud Volumes ONTAP システムのウェルアーキテクテッド構成分析をサポートするようになりました。Console はデプロイメントを毎日分析し、ウェルアーキテクテッドのステータス、インサイト、および推奨事項を提供することで、NetApp のベストプラクティスとウェルアーキテクテッドフレームワークに沿ったシステムの維持をサポートします。
-
-適切に設計されたダッシュボードには、分析対象システムの総数が表示され、構成と深刻度レベル別にリソースが分類されます。システム管理者であれば、Console ダッシュボードから組織内のあらゆる構成上の問題に対する推奨事項を直接確認し、すべての推奨事項を CSV レポートとしてダウンロードできます。構成は以下のように分類されます：
-
-* *信頼性*：障害が発生した場合でも、ワークロードが正しく一貫して動作することを保証します。
-* *セキュリティ*：リスク評価とリスク軽減を通じて、データ、システム、資産を保護します。
-* *運用上の卓越性*：ビジネス価値を最大化するためにアーキテクチャを最適化します。
-* *コスト最適化*：コストを削減・最適化することで、ビジネス価値を高めます。
-
-
-.関連リンク
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-configuration-analysis-cvo.html["Cloud Volumes ONTAP の構成分析"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Workload Factoryを使用してAzureのCloud Volumes ONTAP構成を改善する"^]
-
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
-
-
-
-==== 購読期限と自動更新状況を確認する
-
-サブスクリプション テーブル（*ストレージ > Keystone > サブスクリプション*）の「*サブスクリプション有効期限までの日数*」列に、有効期限の横にアイコンが表示されるようになりました。自動更新がオフの場合、アイコンの色は有効期限の近さを示します：緑（120日超）、オレンジ（91～120日）、赤（90日未満）、灰色（期限切れ）。自動更新が有効になっているサブスクリプションの場合、自動更新アイコンが表示され、現在の契約期間終了時にサブスクリプションが自動的に更新されることを示します。このステータスは読み取り専用であり、お客様の契約条件を反映しています。サブスクリプションを開くと、これらのアイコンがサブスクリプション詳細ヘッダーの「*現在の消費量*」、「*消費量の傾向*」、「*サブスクリプションのタイムライン*」、「*資産*」タブに表示され、ナビゲーション中に有効期限と更新状況を確認できます。
-
-詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示"]を参照してください。
