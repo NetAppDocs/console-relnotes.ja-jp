@@ -135,11 +135,8 @@
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEMシステムを構成する</block>
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Azure におけるチリ中央地域のサポート</block>
-  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
-  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">ワークロードとシステムタイプに基づいて保護グループを標準化する</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">ランサムウェア対策機能では、保護グループにはワークロードの種類とシステムの種類がそれぞれ1つずつしか含まれないように強制されるようになりました。新しい保護グループを作成する際には、ワークロードの種類（ファイルシステムまたはブロック）と、ワークロードを実行するシステムの両方を指定する必要があります。この機能強化により、保護グループに対して選択されたランサムウェア対策戦略が、グループ内のすべてのワークロードに確実に適用できるようになります。</block>
   <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">システムタイプとワークロードタイプが混在する既存の保護グループがある場合は、引き続き使用できますが、保護グループにワークロードを追加することはできません。</block>
@@ -470,4 +467,13 @@
   <block id="145afd276d37daec187001af80160d51" category="paragraph">AzureにCloud Volumes ONTAPを展開する前に、環境が以下の前提条件を満たしていることを確認してください：</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guardのサポート*：NetApp Backup and Recoveryは、Oracle Data Guardを使用して高可用性を実現するプライマリおよびスタンバイデータベースを保護するために、保護グループを使用することをサポートするようになりました。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
+  <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">強化された隔離リカバリ環境構成</block>
+  <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウドまたはオンプレミス環境用の隔離されたリカバリ環境をセットアップするプロセスが明確化され、簡素化されます。</block>
+  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">ユーザーアクティビティ監視を可能にするためのワークフローの強化</block>
+  <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。</block>
+  <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">ワークロードを保護する</block>
+  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">詳細については、<block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flexサービスレベルの一般提供開始</block>
+  <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware ResilienceにおけるGoogle Cloud NetApp VolumesのFlexサービスレベルのサポートが一般提供（GA）となりました。</block>
+  <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026年10月20日</block>
 </blocks>

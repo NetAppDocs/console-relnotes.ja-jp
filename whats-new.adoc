@@ -30,6 +30,38 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[20-october-2026]]
+== 2026年10月20日
+
+
+
+[[ransomware-resilience]]
+=== ランサムウェア耐性
+
+
+
+==== 強化された隔離リカバリ環境構成
+
+Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウドまたはオンプレミス環境用の隔離されたリカバリ環境をセットアップするプロセスが明確化され、簡素化されます。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["クリーンな復元のための隔離されたリカバリ環境を作成する"^]を参照してください。
+
+
+
+==== ユーザーアクティビティ監視を可能にするためのワークフローの強化
+
+Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。
+
+詳細については、link:link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["ワークロードを保護する"^]を参照してください。
+
+
+
+==== Google Cloud NetApp Volumes Flexサービスレベルの一般提供開始
+
+Ransomware ResilienceにおけるGoogle Cloud NetApp VolumesのFlexサービスレベルのサポートが一般提供（GA）となりました。
+
+
+
 [[19-october-2026]]
 == 2026年10月19日
 
@@ -1004,26 +1036,3 @@ Ransomware Resilienceにより、攻撃の種類に基づいた準備訓練を�
 Ransomware ResilienceのUIに、SIEMシステムを一時停止または削除するオプションが追加されました。この機能強化により、トラブルシューティングやメンテナンスのためにシステムを一時的に無効化したり、システムを完全に削除したりすることが容易になります。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["SIEMシステムを無効にする"^]を参照してください。
-
-
-
-[[23-july-2026]]
-== 2026年7月23日
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure におけるチリ中央地域のサポート
-
-Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのChile Central（chilecentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています。
-
-* シングルノード
-* ローカル冗長ストレージ（LRS）を使用した単一アベイラビリティゾーンにおけるHA
-* ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）
-
-
-サポートされているすべてのリージョンのリストについては、 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure のグローバル地域マップ"^]を参照してください。
