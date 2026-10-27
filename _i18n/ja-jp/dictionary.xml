@@ -455,7 +455,6 @@
   <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">ユーザーアクティビティ監視を可能にするためのワークフローの強化</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">ワークロードを保護する</block>
-  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">詳細については、<block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flexサービスレベルの一般提供開始</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware ResilienceにおけるGoogle Cloud NetApp VolumesのFlexサービスレベルのサポートが一般提供（GA）となりました。</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026年10月20日</block>
@@ -479,4 +478,7 @@
   <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">カスタムスクリプトを挿入する方法については、<block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp Disaster Recoveryでは、リソースの優先順位とオプションの遅延時間を指定することで、Kubernetesレプリケーションプラン内のリソースグループのオプションの起動順序を設定できるようになりました。このオプションを使用すると、必要に応じてリソースを同時に起動したり、他のリソースに依存するリソースの起動を遅延させたりすることができ、アプリケーションが正常な状態でオンラインに復帰するのをサポートします。</block>
   <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">詳細については、<block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="a2796a8db571ead965c0a0f1d62135a3" category="paragraph">詳細については、<block ref="092a9715a1fcee9c7af4662f48f0f290" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="25b96777bfadb381f78f25912d595183" category="doc">NetApp Consoleの法的通知</block>
+  <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console のリリースノートインデックス</block>
 </blocks>

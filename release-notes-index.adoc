@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: NetApp Consoleの管理とストレージ機能、およびNetAppデータ サービスのリリース ノートの完全セットを表示します。 
 ---
-= リリースノートのインデックス
+= NetApp Console のリリースノートインデックス
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
