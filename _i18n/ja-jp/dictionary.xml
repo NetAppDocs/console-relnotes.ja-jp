@@ -285,7 +285,6 @@
   <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">スクリプトの実行</block>
   <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">アプリケーションの停止と再開を調整するために、カスタムスクリプトをフェイルオーバーワークフローに組み込むことができるようになりました。この機能は、スナップショットがレプリケートされて適切にリストアされる前に、アプリケーションが適切に準備されていることを確認し、フェイルオーバー後に処理をシームレスに再開できるようにします。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">レプリケーション計画を作成する</block>
-  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">カスタムスクリプトを挿入する方法については、<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">新しいワークロードページ</block>
   <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">Disaster Recovery では、UI に「ワークロード」ページが追加され、検出されたすべてのワークロードとその保護状況を包括的に表示できるようになりました。「ワークロード」ページでは、ワークロードをより効果的に監視および管理できます。</block>
   <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">Disaster Recovery における健全性と保護ステータスを確認する</block>
@@ -382,9 +381,7 @@
   <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">NetApp Console 用 Workload Factory ドキュメント</block>
   <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
   <block id="1c335a9c5603264a97d8d84cb6c6faf0" category="doc">Kubernetesリソースグループのオプションの起動順序</block>
-  <block id="84af32d37767e36e149339ec37e513b1" category="paragraph">NetApp Disaster Recoveryで、Kubernetesレプリケーションプラン内のリソースグループの起動順序をオプションで設定できるようになりました。具体的には、リソースの優先順位とオプションの遅延時間を指定できます。このオプションを使用すると、必要に応じてリソースを同時に起動し、他のリソースに依存するリソースの起動を遅延させることで、アプリケーションが正常な状態でオンラインに戻るのをサポートできます。</block>
   <block id="f2497ae428eba83b3f39732433d3cb44" category="inline-link-macro">レプリケーションプランを作成する</block>
-  <block id="9e29609c3bbaf3dd61657f73add99007" category="paragraph">詳細については、<block ref="b368f0a73ce8108f9547ecd0643b331f" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="05316212411905c51cdd49deaf78a58e" category="section-title">SnapLockボリュームサポート</block>
   <block id="a547512ac8a0a093f138ab19fb5f9c67" category="paragraph">Disaster RecoveryでSnapLockボリュームがサポートされるようになり、改ざん防止スナップショットのフェイルオーバーが可能になりました。SnapLockボリュームを使用してフェイルバックを実行する際、フェイルバックを正常に完了させるには、*今すぐスナップショットを取得*オプションを使用する必要があります。</block>
   <block id="3ad6e9988864aeae2ef386345946dc6d" category="inline-link-macro">フェイルオーバー</block>
@@ -479,4 +476,7 @@
   <block id="6d572acb72c5f88a011bfcc18bed3f7c" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="24d237f3bd3266db09db22a59e1e6ebf" category="inline-link-rx"></block>を参照してください。</block>
   <block id="f43f719a34848bc68a0e2e9868d020db" category="paragraph">今回のリリースでは、NetApp Backup and RecoveryでOracle Databaseワークロード向けに以下の機能強化が導入されています：</block>
   <block id="98c9ad4f11120c6a90c4a25b439d1228" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="ce12149fe5cc827258d1b858aab8e2cc" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">カスタムスクリプトを挿入する方法については、<block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp Disaster Recoveryでは、リソースの優先順位とオプションの遅延時間を指定することで、Kubernetesレプリケーションプラン内のリソースグループのオプションの起動順序を設定できるようになりました。このオプションを使用すると、必要に応じてリソースを同時に起動したり、他のリソースに依存するリソースの起動を遅延させたりすることができ、アプリケーションが正常な状態でオンラインに復帰するのをサポートします。</block>
+  <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">詳細については、<block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
