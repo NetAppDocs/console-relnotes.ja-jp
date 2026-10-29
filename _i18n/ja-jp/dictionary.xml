@@ -397,11 +397,7 @@
   <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*SAN VMのスパンディスク保護*：CIFSおよびSAN構成の場合、保護グループ内の各VMに接続されているすべてのディスクを保護できるようになりました。これには、複数のONTAPボリュームまたはONTAPストレージシステムに分散しているファイル（スパンディスク）や、単一の場所に限定されたファイルが含まれます。</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
   <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自動アーカイブログ管理*：データベースのリストアおよびクローン処理中、NetApp Backup and Recoveryは必要なアーカイブログを自動的に検出してマウントし、処理が完了するとアンマウントします。プライマリ、セカンダリ、およびオブジェクトストレージのログソースがサポートされています。</block>
-  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Serverワークロードの強化</block>
-  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">今回のリリースでは、Microsoft SQL Serverワークロードに以下の機能強化が導入されました：</block>
   <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*ライセンス変更*：ディスク間またはディスク間のファンアウトアーキテクチャを使用したバックアップには、料金が適用されなくなりました。料金は、3-2-1またはディスクツーオブジェクトストレージアーキテクチャを使用したバックアップを含む、オブジェクトストレージへのバックアップにのみ適用されます。</block>
-  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">NetApp Backup and Recoveryを使用したMicrosoft SQL Serverワークロードの保護について</block>
-  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Microsoft SQL Serverワークロードの保護の詳細については、<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>を参照してください。</block>
   <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">Keystoneサブスクリプションのヘルスインサイトを生成する</block>
   <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">このKeystone STaaSリリースには、NetApp ConsoleのKeystoneダッシュボードにおける以下の更新が含まれています。</block>
   <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">Keystoneサブスクリプションのヘルスレポートを生成およびスケジュール設定する</block>
@@ -490,4 +486,7 @@
   <block id="77330beb10dbe494866c425493911f54" category="paragraph">詳細については、<block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">不審なユーザー行動やユーザーベースの暗号化攻撃に対するクリーンな復元サポート</block>
   <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">ユーザーアクティビティ監視を有効にするためのワークフローの改善</block>
+  <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">今回のリリースでは、NetApp Backup and Recoveryで、すべてのワークロードに対して以下のライセンス機能強化が導入されます：</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">NetApp Backup and Recoveryのライセンスを設定する</block>
+  <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">ライセンスの詳細については、<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>
