@@ -486,4 +486,8 @@
   <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console エージェント 4.12.0</block>
   <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">4.12.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">今回のリリースには、セキュリティの改善とバグ修正が含まれています。</block>
+  <block id="2be8ebee916d12326ebe44540fa72ba0" category="doc">ユーザーアクティビティエージェントを作成するための新しい手動ワークフロー</block>
+  <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティエージェントを手動で作成するワークフローを提供するようになり、VM上でユーザーアクティビティエージェントを作成する方法をより詳細に制御できるようになりました。この新しいワークフローでは、VMのSSHキーを提供することなく、ユーザーアクティビティエージェントを直接インストールし、プロキシ設定を構成できます。</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">ユーザーアクティビティエージェントを作成する</block>
+  <block id="77330beb10dbe494866c425493911f54" category="paragraph">詳細については、<block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>

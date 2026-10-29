@@ -79,6 +79,20 @@ Oracle Databaseワークロードの保護の詳細については、 https://do
 
 
 
+[[ransomware-resilience]]
+=== ランサムウェア耐性
+
+
+
+[[new-manual-workflow-for-creating-a-user-activity-agent]]
+=== ユーザーアクティビティエージェントを作成するための新しい手動ワークフロー
+
+Ransomware Resilienceは、ユーザーアクティビティエージェントを手動で作成するワークフローを提供するようになり、VM上でユーザーアクティビティエージェントを作成する方法をより詳細に制御できるようになりました。この新しいワークフローでは、VMのSSHキーを提供することなく、ユーザーアクティビティエージェントを直接インストールし、プロキシ設定を構成できます。
+
+詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#create-a-user-activity-agent["ユーザーアクティビティエージェントを作成する"^]を参照してください。
+
+
+
 [[20-october-2026]]
 == 2026年10月20日
 
