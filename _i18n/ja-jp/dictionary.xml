@@ -294,7 +294,6 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">Disaster Recovery に、リソース変換テンプレートと AppVaults を一元管理するための設定ページが追加されました。このページでは、ディザスタリカバリ計画のこれらの重要なコンポーネントを設定および管理するための単一のインターフェイスを提供します。設定ページのオプションの詳細については、<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block> および <block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">NetApp Disaster Recoveryでは、よりスムーズでエラーのないユーザーエクスペリエンスを実現するために、レプリケーションプラン作成ページに強化された検証機能を導入しました。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">NetApp Disaster Recovery では、断続的なリクエストタイムアウトへの対応能力が向上し、UI の全体的なパフォーマンスと信頼性が強化されました。</block>
-  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">クリーンな復元に対するサポートの強化</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">不審なユーザー行動やユーザーベースの暗号化攻撃後の復旧のために、クリーンな復元機能が利用可能になりました。この機能強化により、暗号化（エントロピー）に基づく攻撃に対する既存のサポートがさらに強化されます。この強化された機能により、クリーンリストアのガイド付きアプローチを活用し、最適なリストアポイントを特定することで、データ損失を最小限に抑え、復旧を迅速化できます。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">クリーンな復元のための隔離されたリカバリ環境を作成する</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">詳細については、<block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>を参照してください。</block>
@@ -452,7 +451,6 @@
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
   <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">強化された隔離リカバリ環境構成</block>
   <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウドまたはオンプレミス環境用の隔離されたリカバリ環境をセットアップするプロセスが明確化され、簡素化されます。</block>
-  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">ユーザーアクティビティ監視を可能にするためのワークフローの強化</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">ワークロードを保護する</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flexサービスレベルの一般提供開始</block>
@@ -490,4 +488,6 @@
   <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティエージェントを手動で作成するワークフローを提供するようになり、VM上でユーザーアクティビティエージェントを作成する方法をより詳細に制御できるようになりました。この新しいワークフローでは、VMのSSHキーを提供することなく、ユーザーアクティビティエージェントを直接インストールし、プロキシ設定を構成できます。</block>
   <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">ユーザーアクティビティエージェントを作成する</block>
   <block id="77330beb10dbe494866c425493911f54" category="paragraph">詳細については、<block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="3ad4695931eb8cc46e884ebecdae3a28" category="doc">不審なユーザー行動やユーザーベースの暗号化攻撃に対するクリーンな復元サポート</block>
+  <block id="7e994762285a2c4bb93358fe2d00e1e4" category="section-title">ユーザーアクティビティ監視を有効にするためのワークフローの改善</block>
 </blocks>
