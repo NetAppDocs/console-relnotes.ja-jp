@@ -489,4 +489,55 @@
   <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">今回のリリースでは、NetApp Backup and Recoveryで、すべてのワークロードに対して以下のライセンス機能強化が導入されます：</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">NetApp Backup and Recoveryのライセンスを設定する</block>
   <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">ライセンスの詳細については、<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="702209553c340514b23674486ae4fd31" category="doc">AI Data Engine 1.3</block>
+  <block id="dd420b0ebbfd644a3592c8e34b2ff629" category="inline-link">AIDEシングルノード展開</block>
+  <block id="bef20353ec71f208058a441ac3075e32" category="paragraph">AI Data Engineは、NetApp Consoleを通じて管理されるメタデータインテリジェンスサービスです。接続されたシステムをスキャンしてメタデータカタログを構築し、ストレージを最適化して大規模にデータをガバナンスするための可視性とツールを提供します。AI Data Engineは、<block ref="142c34bc944087f6618b21ea2656150e" category="inline-link-rx"></block>として導入することも、環境で大規模なKubernetesベースの高可用性が求められる場合はAIDEマルチノード環境として導入することもできます。</block>
+  <block id="b47d2c6bc36912f9c4906cd956ab8801" category="paragraph">AI Data Engine 1.3は、初の一般提供（GA）リリースです。</block>
+  <block id="b6fbdf8ef74b308af14cc26bb5cf3d57" category="dlist-title">データを展開して接続する</block>
+  <block id="6efb2debacc503f80d4da744eff0cf0e" category="inline-link">環境に必要な規模でデプロイします</block>
+  <block id="240f9f6dce8959d1579bafbec08d0a07" category="list-text"><block ref="240f9f6dce8959d1579bafbec08d0a07" category="inline-link-rx"></block></block>
+  <block id="54d59647b1d587275188225d397c3a90" category="inline-link">AIDEのプロキシについて学ぶ</block>
+  <block id="dc5d043b5e605fee0d9932e6221d1341" category="list-text">単一のVMですばやく開始するにはAIDEシングルノード環境を、高可用性と大規模な拡張性を実現するには独自のKubernetesクラスタ上にAIDEマルチノード環境を選択してください。インターネットへのアクセスにプロキシが必要な環境の場合は、<block ref="1fba41490412204ba3e209df7e3a5b18" category="inline-link-rx"></block>プロキシを使用して導入してください。</block>
+  <block id="5d4ef326714efe60337e85390babd329" category="inline-link">データを対象範囲に含める</block>
+  <block id="cbb5a5204dc3d123ef3e9d16f2e82c40" category="list-text"><block ref="cbb5a5204dc3d123ef3e9d16f2e82c40" category="inline-link-rx"></block></block>
+  <block id="d230737bea58a8428adf7af15944f95e" category="list-text">ファイル共有、データベースサーバー、StorageGRIDシステムを接続し、スキャンするデータリソースを選択します。</block>
+  <block id="dc3afd3f5177091595345a8d4549347f" category="inline-link">スキャンを正常に保つ</block>
+  <block id="7b788817aa65d1a00c5998f98ef08cfb" category="list-text"><block ref="7b788817aa65d1a00c5998f98ef08cfb" category="inline-link-rx"></block></block>
+  <block id="2ee195a4ed58f4d222297b70a61432fb" category="list-text">デプロイメントの状態を監視して、スキャンを妨げる可能性のある問題を特定し、それらを解決するために必要な詳細情報を収集してください。</block>
+  <block id="503e5b39e3523e3f785dc860a90339b7" category="dlist-title">ストレージを最適化し、データを調査する</block>
+  <block id="5985e93b91139d269803898603d579a6" category="inline-link">ストレージ容量を回復する</block>
+  <block id="78d40fa188b264432d9acc14b6e6b1a6" category="list-text"><block ref="78d40fa188b264432d9acc14b6e6b1a6" category="inline-link-rx"></block></block>
+  <block id="28ee8cd4b89e717d7369cec556fc8ecb" category="list-text">設定したしきい値に基づいて、接続されているシステム全体で、利用頻度の低いデータ、古いデータ、重複データを特定し、これらのデータが最も多く蓄積されているシステムとデータ所有者を確認します。</block>
+  <block id="768437ba03b276a3ec10fbbe8b81a73b" category="inline-link">組織にとってのコールドデータと古くなったデータを定義する</block>
+  <block id="cf33f4d67208331a1884a855217b6910" category="list-text"><block ref="cf33f4d67208331a1884a855217b6910" category="inline-link-rx"></block></block>
+  <block id="c7f53c208d84a3ef5f51bc7df079759c" category="list-text">保持ポリシーに合わせて、どのデータがコールドまたは古いデータに分類されるかを決定するしきい値を設定してください。</block>
+  <block id="b1a6eb35f4a110688914b03b871eaf51" category="inline-link">データに関する問い合わせ先を特定する</block>
+  <block id="05ea9642a4f5b9ce56f13fe067b453b2" category="list-text"><block ref="05ea9642a4f5b9ce56f13fe067b453b2" category="inline-link-rx"></block></block>
+  <block id="7a1cad1c9f215254d948360e464d76ff" category="list-text">ダッシュボードから、どのデータ所有者が最も多くのコールドデータ、古いデータ、または重複データを保有しているかを特定します。次に、調査ビューで所有者またはグループでフィルタリングして結果を確認し、連絡すべき相手を特定します。</block>
+  <block id="48f8775f839e036416f7dc0d633d5f90" category="inline-link">コストとリスクを削減する</block>
+  <block id="862a75ec1e9a5a65a297360dc22b2bc2" category="list-text"><block ref="862a75ec1e9a5a65a297360dc22b2bc2" category="inline-link-rx"></block></block>
+  <block id="847b10ef72a08afa0a7a2bccfc9f722a" category="list-text">アクセス時間、更新日時、作成日時、ファイルサイズ、重複状態、その他の基準で接続されているすべてのシステムをフィルタリングし、組織のデータ管理目標に合致するファイルを見つけ出します。結果に基づいて直接操作するか、基準をポリシーとして保存します。</block>
+  <block id="aa06fbb4900808cad7e234eac413020c" category="inline-link">重複データを削除する</block>
+  <block id="b61b383822e3f75988a3bc5303d64e36" category="list-text"><block ref="b61b383822e3f75988a3bc5303d64e36" category="inline-link-rx"></block></block>
+  <block id="b88b83fb304e42378e6634bd65125bc0" category="list-text">接続されたシステム全体で重複コピーが存在するファイルを検索します。重複属性またはファイルハッシュでフィルタリングして重複グループを確認し、重複コピーを削除します。</block>
+  <block id="6a0ea53ac4eb792afc1b4f47bebce855" category="inline-link">アクセスリスクを特定する</block>
+  <block id="9ee8d4cfc51103c18fc1a2ae913d5f55" category="list-text"><block ref="9ee8d4cfc51103c18fc1a2ae913d5f55" category="inline-link-rx"></block></block>
+  <block id="c29b4022a785fd3edc8eacb408d318ae" category="list-text">オープンなアクセス許可を持つディレクトリを特定し、アクセス許可の見直しを優先できるようにします。</block>
+  <block id="4a85d1ee07bb8b9d1edfdad83663f695" category="inline-link">構造化データを調査する</block>
+  <block id="13bf9647191c08a44d253d11925f720f" category="list-text"><block ref="13bf9647191c08a44d253d11925f720f" category="inline-link-rx"></block></block>
+  <block id="ed29587aa611eb50b7cd9e6c7532cd6b" category="list-text">接続されているデータベースサーバー全体で、サイズが大きすぎる、または使用されていないデータベーステーブルを検出します。</block>
+  <block id="a96561a39a488fd7ab3a0429b8037b51" category="dlist-title">データに基づいて行動し、長期的に監視する</block>
+  <block id="a82c68dd721dede489a3f3b8e95372d3" category="inline-link">保管コストを削減する</block>
+  <block id="3364b0befdd009cf3911e421130619e8" category="list-text"><block ref="3364b0befdd009cf3911e421130619e8" category="inline-link-rx"></block></block>
+  <block id="e21cfecd675bc598f5df1e37e056a8ec" category="list-text">ファイルをNFSまたはSMBの宛先にコピーおよびアーカイブしたり、追跡のためにアイテムにタグを付けたり、保持要件に従ってファイルを完全に削除したりすることで、組織のデータのライフサイクルポリシーを徹底します。</block>
+  <block id="d0cec28746f2b1c070ddbca66abadb26" category="inline-link">データの状態を継続的に監視する</block>
+  <block id="bb9cf8ec15fcf3324f1ac0beae0e6103" category="list-text"><block ref="bb9cf8ec15fcf3324f1ac0beae0e6103" category="inline-link-rx"></block></block>
+  <block id="324524f3e5ca24846ad76aa3a39d085c" category="list-text">フィルタ条件を名前付きポリシーとして保存することで、コールドファイルやサイズ超過ファイルなど、時間の経過とともに繰り返し発生するデータ状況を追跡し、影響を受けるファイル数が変化したときに通知を受け取ることができます。</block>
+  <block id="9da1323a6fdf6f9dd2a01251fd374b38" category="dlist-title">管理されたAIアクセス</block>
+  <block id="7ddef8d1014170776e5690b23704bda9" category="inline-link">AIクライアントにメタデータへの管理されたアクセスを付与する</block>
+  <block id="ce4014ce8d04d1a09fa16018842bd557" category="list-text"><block ref="ce4014ce8d04d1a09fa16018842bd557" category="inline-link-rx"></block></block>
+  <block id="e92a557f1e1e53dd1526a17543191ac9" category="list-text">モデルコンテキストプロトコル（MCP）を介して、Claude Code、Claude Desktop、Cursor、またはOpenCodeをAI Data Engineに接続します。AIクライアントが検索できるコレクションを有効にし、Microsoft Entra IDスコープを使用して、各コレクションを検索できるユーザーを制御します。AIクライアントはメタデータを検索したり、ファイルにタグを付けたりすることができます。</block>
+  <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">管理者と閲覧者の役割を割り当てる</block>
+  <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
+  <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">誰がデータを調査してアクションを実行できるかを制御するには、組織内のユーザーに AI Data Engine の管理者または閲覧者の役割を割り当てます。</block>
 </blocks>

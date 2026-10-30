@@ -35,6 +35,48 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 
 
 
+[[ai-data-engine]]
+=== AI Data Engine
+
+
+
+==== AI Data Engine 1.3
+
+AI Data Engineは、NetApp Consoleを通じて管理されるメタデータインテリジェンスサービスです。接続されたシステムをスキャンしてメタデータカタログを構築し、ストレージを最適化して大規模にデータをガバナンスするための可視性とツールを提供します。AI Data Engineは、 https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["AIDEシングルノード展開"^]として導入することも、環境で大規模なKubernetesベースの高可用性が求められる場合はAIDEマルチノード環境として導入することもできます。
+
+AI Data Engine 1.3は、初の一般提供（GA）リリースです。
+
+.データを展開して接続する
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["環境に必要な規模でデプロイします"^]:: 単一のVMですばやく開始するにはAIDEシングルノード環境を、高可用性と大規模な拡張性を実現するには独自のKubernetesクラスタ上にAIDEマルチノード環境を選択してください。インターネットへのアクセスにプロキシが必要な環境の場合は、 https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["AIDEのプロキシについて学ぶ"^]プロキシを使用して導入してください。
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["データを対象範囲に含める"^]:: ファイル共有、データベースサーバー、StorageGRIDシステムを接続し、スキャンするデータリソースを選択します。
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["スキャンを正常に保つ"^]:: デプロイメントの状態を監視して、スキャンを妨げる可能性のある問題を特定し、それらを解決するために必要な詳細情報を収集してください。
+
+
+.ストレージを最適化し、データを調査する
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["ストレージ容量を回復する"^]:: 設定したしきい値に基づいて、接続されているシステム全体で、利用頻度の低いデータ、古いデータ、重複データを特定し、これらのデータが最も多く蓄積されているシステムとデータ所有者を確認します。
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["組織にとってのコールドデータと古くなったデータを定義する"^]:: 保持ポリシーに合わせて、どのデータがコールドまたは古いデータに分類されるかを決定するしきい値を設定してください。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["データに関する問い合わせ先を特定する"^]:: ダッシュボードから、どのデータ所有者が最も多くのコールドデータ、古いデータ、または重複データを保有しているかを特定します。次に、調査ビューで所有者またはグループでフィルタリングして結果を確認し、連絡すべき相手を特定します。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["コストとリスクを削減する"^]:: アクセス時間、更新日時、作成日時、ファイルサイズ、重複状態、その他の基準で接続されているすべてのシステムをフィルタリングし、組織のデータ管理目標に合致するファイルを見つけ出します。結果に基づいて直接操作するか、基準をポリシーとして保存します。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["重複データを削除する"^]:: 接続されたシステム全体で重複コピーが存在するファイルを検索します。重複属性またはファイルハッシュでフィルタリングして重複グループを確認し、重複コピーを削除します。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["アクセスリスクを特定する"^]:: オープンなアクセス許可を持つディレクトリを特定し、アクセス許可の見直しを優先できるようにします。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["構造化データを調査する"^]:: 接続されているデータベースサーバー全体で、サイズが大きすぎる、または使用されていないデータベーステーブルを検出します。
+
+
+.データに基づいて行動し、長期的に監視する
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["保管コストを削減する"^]:: ファイルをNFSまたはSMBの宛先にコピーおよびアーカイブしたり、追跡のためにアイテムにタグを付けたり、保持要件に従ってファイルを完全に削除したりすることで、組織のデータのライフサイクルポリシーを徹底します。
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["データの状態を継続的に監視する"^]:: フィルタ条件を名前付きポリシーとして保存することで、コールドファイルやサイズ超過ファイルなど、時間の経過とともに繰り返し発生するデータ状況を追跡し、影響を受けるファイル数が変化したときに通知を受け取ることができます。
+
+
+.管理されたAIアクセス
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["AIクライアントにメタデータへの管理されたアクセスを付与する"^]:: モデルコンテキストプロトコル（MCP）を介して、Claude Code、Claude Desktop、Cursor、またはOpenCodeをAI Data Engineに接続します。AIクライアントが検索できるコレクションを有効にし、Microsoft Entra IDスコープを使用して、各コレクションを検索できるユーザーを制御します。AIクライアントはメタデータを検索したり、ファイルにタグを付けたりすることができます。
+
+
+.管理
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["管理者と閲覧者の役割を割り当てる"^]:: 誰がデータを調査してアクションを実行できるかを制御するには、組織内のユーザーに AI Data Engine の管理者または閲覧者の役割を割り当てます。
+
+
+
+
 [[backup-and-recovery]]
 === バックアップとリカバリ
 
