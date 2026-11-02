@@ -137,32 +137,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
-  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Microsoft Azure の Cloud Volumes ONTAP の設定を修正、破棄、および再アクティブ化する</block>
-  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードで、Cloud Volumes ONTAP システムの構成に関する推奨事項を修正できるようになりました。</block>
-  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">また、適切なアーキテクチャ分析から1つまたは複数の構成を除外することもできます。これにより、ご自身の環境に適用されない特定の構成を無視することができます。</block>
-  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">後で却下した設定を含めたい場合は、ウェルアーキテクテッドダッシュボードで再度有効化できます。これにより、設定が分析に復元され、推奨事項や修正策を取得できるようになります。</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
-  <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Cloud Volumes ONTAP と Microsoft OneLake の統合</block>
-  <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
-  <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
-  <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3マルチプロトコル</block>
-  <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">関連記事と関連資料：</block>
-  <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp ブログ：Microsoft OneLake と NetApp Cloud Volumes ONTAP を使用して AI とアナリティクスを最適化する</block>
-  <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
-  <block id="ecbaa51ea44293a13a4eb6ca8d26d642" category="inline-link">Cloud Volumes ONTAP システムを Microsoft OneLake と統合して AI と分析に活用する</block>
-  <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
-  <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Cloud Volumes ONTAP と Microsoft OneLake の統合 - 技術概要</block>
-  <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Google Cloud NetApp VolumesのSANサポート（プレビュー）</block>
-  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">Ransomware Resilienceは、Google Cloud NetApp VolumesのSANワークロードをサポートするようになり、SANワークロードに対する暗号化ベースのランサムウェア攻撃を検出できるようになりました。Google Cloud NetApp VolumesにおけるSANのサポートは、現在プレビュー版です。</block>
-  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">サポートされているシステム</block>
-  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">ランサムウェア耐性におけるSANストレージ</block>
-  <block id="2f244f2c363848263100f25323c23895" category="paragraph">詳細については、<block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block>および<block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">ユーザーブロック向けの合理化されたインターフェース</block>
-  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">ユーザーアクティビティ検出</block>
-  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilienceは、ユーザーのブロックとブロックされたユーザーの管理を簡素化したユーザーエクスペリエンスを提供します。今回のアップデートにより、ブロックしたユーザーを簡単に確認・変更できるようになりました。ユーザーをブロックするには、<block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block>を設定する必要があります。</block>
-  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">ブロックされたユーザーを管理</block>
-  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">詳細については、<block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">ダッシュボードの改善</block>
   <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Disaster Recovery ダッシュボードが刷新され、Disaster Recovery 環境全体を包括的かつ一目で把握できる、より優れたユーザーエクスペリエンスが提供されるようになりました。新しいダッシュボードには以下の機能が含まれています：</block>
   <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統合されたワークロード可視化* — VMwareとKubernetesのワークロードと基盤となるインフラストラクチャの状態を、単一の画面から監視できます。</block>
@@ -259,7 +233,6 @@
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026年9月2日</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">仮想マシンの非推奨に関するお知らせ</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
-  <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAPは、パブリックプレビューとして<block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>との統合をサポートするようになりました。Cloud Volumes ONTAP を<block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block>と統合するには、<block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block>を使用して、既存の Cloud Volumes ONTAP NAS データを Power BI、Azure AI Search、OpenAI、Microsoft Copilot などの Microsoft の分析および AI サービスで利用できるようにします。この統合には、データの移動や重複は一切必要ありません。この統合では、<block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block>アクセスを使用して、Cloud Volumes ONTAP を既存の Microsoft Fabric レイクハウスに接続します。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026年9月16日</block>
@@ -328,7 +301,6 @@
   <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp は、プライベートモードにおける容量ベースのライセンスについて、Essentials パッケージのみをサポートします。容量ベースの BYOL（Bring-Your-Own License）Essentials パッケージを NetApp から購入し、デプロイ時にシステムに割り当ててください。最初の500 GiBの消費容量は、ライセンス料金の対象外です。ワークロードの要件が増大するにつれて、追加のパッケージを購入することができます。</block>
   <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp は、すべてのプライベートモード Cloud Volumes ONTAP デプロイメントに対して容量ベースのライセンスを推奨しています。ノードベースのライセンスを使用している既存のプライベートモードのデプロイメントがある場合は、NetApp から Essentials パッケージを購入することで、容量ベースのライセンスに変換できます。この新しいデプロイメント機能は、変換オプションと組み合わせることで、NetApp がノードベースのライセンスから容量ベースのライセンスへと段階的に移行していく計画を支援します。</block>
   <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Cloud Volumes ONTAPライセンス</block>
-  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
   <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">Cloud Volumes ONTAP BYOL について</block>
   <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">ノードベースライセンスの提供終了</block>
@@ -369,7 +341,6 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*ボリューム復元ジョブのキャンセル*：ジョブ監視ページから進行中の ONTAP ボリューム復元ジョブをキャンセルできるようになりました。これにより、長時間実行されるジョブや実行速度の遅いジョブの管理が容易になります。</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*ボリュームインデックスステータスレポートの改善*：ONTAP ボリュームダッシュボードは、インデックス作成の対象とならないボリュームおよびスナップショットコピーに<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>ステータスを導入することで、インデックス作成ステータスをより正確に報告するようになりました。<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>ステータスは、インデックス作成待ちのボリューム専用となり、ボリュームの詳細にはスナップショットごとのインデックス作成ステータスが表示され、ボリュームまたはスナップショットコピーがインデックス作成されない理由を説明するホバーテキストが表示されるようになりました。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFXサポート*：2ノードおよび4ノードのNetApp AFXクラスターでホストされているボリュームを保護できるようになりました。</block>
-  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID のサポート*：Azure 認証にストレージアカウントのアクセスキーを使用しない場合は、Azure オブジェクトストレージバケット構成に Microsoft Entra ID 認証を使用できるようになりました。このオプションは、ONTAP 9.16.1以降を実行しているAzureシステム内のCloud Volumes ONTAPでサポートされています。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMwareワークロードの機能強化</block>
   <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Workload Factory 向け Oracle Cloud Infrastructure NetApp ストレージサービスの初期リリース</block>
@@ -540,4 +511,17 @@
   <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">管理者と閲覧者の役割を割り当てる</block>
   <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
   <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">誰がデータを調査してアクションを実行できるかを制御するには、組織内のユーザーに AI Data Engine の管理者または閲覧者の役割を割り当てます。</block>
+  <block id="ba184f13e7bf496f6768b87c5d7acdb0" category="list-text"><block ref="ba184f13e7bf496f6768b87c5d7acdb0" category="inline-link-rx"></block></block>
+  <block id="5a5a491a94e6d556e85e601b24f8d121" category="doc">特定のCloud Volumes ONTAPバージョン向けのONTAPホットフィックスのアップグレードに関するガイダンス</block>
+  <block id="b4891be2934b9e98fc19416ebfae6a18" category="paragraph">ONTAPは、Cloud Volumes ONTAPバージョン9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：</block>
+  <block id="e1436b576c97d4ee53df8bdb53230756" category="list-text">9.14.1P18HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。</block>
+  <block id="5050c1a82a49a95d546f16829b500401" category="list-text">9.15.1P20HF1</block>
+  <block id="124b86ef30adb0fa328f15ad507bbe98" category="list-text">9.16.1P16HF1</block>
+  <block id="e64432abe1f57468ee9038ed44c6e0bd" category="list-text">9.17.1P11HF1</block>
+  <block id="d0563c773afdcfb2987438396082bad8" category="list-text">9.18.1P8HF1</block>
+  <block id="d2f816f92f91ab0756cbe4d7ecccbc1c" category="list-text">9.19.1P3HF1</block>
+  <block id="1b798364e278208b0d20b4b1710e6786" category="inline-link">NTAPセキュリティアドバイザリ 20261021-0021</block>
+  <block id="93a6a64e1df6cd0e2f07d8b931635a5f" category="paragraph">詳細については、<block ref="12c9bbef01f1c6198b57112eba5f4e7e" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="a2b19abf4eb1b38f190f7260dec9b0ee" category="paragraph">Cloud Volumes ONTAPシステムでは、NetApp Consoleでこれらのホットフィックスへのアップグレードを求められる場合があります。ただし、これらのホットフィックスは、Consoleエージェントのバージョンが4.12.0以降の場合にのみサポートされます。Consoleエージェントのバージョンが4.12.0より前の場合は、プロンプトを無視してください。</block>
+  <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">2026年11月2日</block>
 </blocks>
