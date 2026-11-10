@@ -250,6 +250,44 @@ image:data-services-workloads/well-architected-menu-option.png["Workload Factory
 
 
 
+==== Workload Factory for EDAの機能強化
+
+これらの機能強化には、レイテンシー分析におけるボリュームの詳細、ファイルシステムの負荷チェック、スループットの判断ポイント、およびレイテンシー分析の再実行が含まれます。
+
+
+
+===== レイテンシー分析中にボリュームの詳細を表示します
+
+レイテンシイベントを分析する際に、Workload Factoryでボリュームの詳細を表示することで、ボリュームがどのように構成されているかを確認できます。詳細レイテンシ分析ページには、*ボリュームタイプ*（RWまたはDP）と*ボリュームスタイル*（FlexVolまたはFlexGroup）が表示されます。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-trends.html["レイテンシの傾向を分析する方法を学ぶ"]
+
+
+
+===== レイテンシイベントのファイルシステムの負荷を確認する
+
+Workload Factoryでは、レイテンシイベントが発生した際にファイルシステムの負荷がパフォーマンスに影響を与えたかどうかを確認できるため、ファイルシステムを調査するかどうかを判断できます。レイテンシアラートが発生しているボリュームについては、イベント発生前の40分間のCloudWatchデータを表示し、ファイルシステムを開いてさらに調査することができます。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/learn-latency-monitoring.html#file-system-pressure["ファイルシステムの負荷チェックについて"]
+
+
+
+===== EDAのスループット決定ポイントを確認する
+
+EDA概要ダッシュボードでクライアントのスループット決定ポイントを確認することで、Workload Factoryがスループットの変更を推奨または適用したタイミングを確認できます。決定ポイントにカーソルを合わせると、現在のSKUと推奨SKU、または指定した期間内に違反した指標などの詳細が表示されます。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-use-overview-dashboard.html#analyze-capacity-and-throughput-trends-and-decision-points["スループット決定ポイントのレビュー方法"]
+
+
+
+===== レイテンシ分析を再度実行する
+
+Workload Factoryでは、ボリュームに対してレイテンシ分析を再度実行することで、調査や変更後に結果を更新できます。*分析を再度実行*を選択すると、新しい分析が開始され、結果が更新されます。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-issues.html["レイテンシの問題を分析する方法について学習します"]
+
+
+
 ==== Google Cloud NetApp Volumesの機能強化
 
 
@@ -1188,131 +1226,3 @@ NetApp Console 4.10.0の管理機能には、セキュリティとバグ修正�
 Ransomware Resilienceは、データコレクターの削除をサポートするようになりました。ワークロードでユーザーアクティビティ検出を有効にすると、データコレクターが自動的に作成されます。データコレクターが古くなった場合は、手動で削除できます。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#delete-a-data-collector["データコレクターを削除する"^]を参照してください。
-
-
-
-[[12-august-2026]]
-== 2026年8月12日
-
-
-
-[[digital-advisor]]
-=== デジタルアドバイザー
-
-
-
-==== Config Drift の非推奨に関するお知らせ
-
-Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。
-
-ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。
-
-
-
-[[10-august-2026]]
-== 2026年8月10日
-
-
-
-[[backup-and-recovery]]
-=== バックアップとリカバリ
-
-
-
-==== 一般的なNetApp Backup and Recovery の機能強化
-
-* *NetApp Console ローカル展開のサポート*：このリリースの NetApp Backup and Recovery は、プレビュー ステータスの NetApp Console ローカル展開をサポートしています。
-* *90日間のジョブ保持*：Backup and Recovery では、ジョブモニター内のジョブ情報が90日間保持されるようになりました。
-
-
-
-
-==== VMwareワークロードの機能強化
-
-今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：
-
-* *SAN VM の代替場所への復元サポート*：SAN ベースの VM バックアップを代替場所に復元できるようになりました。
-* *複数バックアップの削除に対応*：複数のバックアップを一度に削除できるようになりました。
-
-
-VMwareワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["VMware ワークロードの保護の概要"]を参照してください。
-
-
-
-==== Kubernetes ワークロードの機能強化
-
-今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。
-
-* *エアギャップされたリソースのプレビューサポート*：NetApp Console のローカルデプロイメントで NetApp Backup and Recovery を実行している場合、エアギャップされた Kubernetes リソースを検出、保護、および復元できます。この機能は今回のリリースではプレビュー版です。
-
-
-Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Kubernetes ワークロードの保護の概要"]を参照してください。
-
-
-
-==== ONTAP ボリュームワークロードの機能強化
-
-今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました。
-
-* *バックアップよりも復元ジョブを優先*：ボリューム、ファイル、またはフォルダーを復元する際に、バックアップジョブよりも復元ジョブを優先できるようになりました。
-* *Backup and Recovery をアクティブ化せずに ONTAP システムとボリュームを検出*：Backup and Recovery をアクティブ化しなくても、システムとボリュームを検出できるようになりました。
-
-
-ONTAP ボリュームワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["ONTAP ボリュームワークロードの保護の概要"]を参照してください。
-
-
-
-[[data-classification]]
-=== データ分類
-
-
-
-==== スキャン管理を強化するアクティブスキャンタブ
-
-データ分類機能の設定メニューに「アクティブなスキャン」タブが追加され、スキャンの管理がより使いやすくなりました。「アクティブなスキャン」タブには、スキャン対象としてアクティブ化したすべてのボリュームの概要が表示され、使い慣れたフィルターを使用してリソースを並べ替えることができます。このタブは、スキャンの優先順位付け、スキャンの一時停止、エラーの確認を行うための中心的な場所としても機能します。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html["スキャンの管理"^]を参照してください。
-
-
-
-[[disaster-recovery]]
-=== ディザスタ リカバリ
-
-
-
-==== ダッシュボードの改善
-
-Disaster Recovery ダッシュボードが刷新され、Disaster Recovery 環境全体を包括的かつ一目で把握できる、より優れたユーザーエクスペリエンスが提供されるようになりました。新しいダッシュボードには以下の機能が含まれています：
-
-* *統合されたワークロード可視化* — VMwareとKubernetesのワークロードと基盤となるインフラストラクチャの状態を、単一の画面から監視できます。
-* *問題の事前発見* — ダッシュボードが環境上の問題を自動的に強調表示することで、診断の迅速化と解決までの時間の短縮が可能になります。
-* *容量利用率* — 容量に関する指標がダッシュボード内に直接表示されるようになり、リソース消費の状況をより簡単に把握できるようになりました。
-
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/dashboard-view.html["ダッシュボードで NetApp Disaster Recovery プランの正常性を確認する"^]を参照してください。
-
-
-
-==== レポートの改善
-
-レポート機能が拡張され、環境全体における Disaster Recovery アクティビティに関するより詳細なインサイトを提供できるようになりました。
-
-* VMwareワークロード、Kubernetesワークロード、またはその両方を対象としたレポートを生成することで、レポートを対象者に合わせて柔軟にカスタマイズできます。
-* 各レポートは、指定された期間の完全なアクティビティサマリーを提供し、Disaster Recovery環境におけるイベントを完全に可視化します。
-
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/reports.html["NetApp Disaster Recoveryレポートを作成する"^]を参照してください。
-
-
-
-==== ユーザージョブのログ記録
-
-Disaster Recovery において、ユーザーレベルのジョブログ機能により、ジョブの責任性および監査可能性が向上しました。実行されるすべてのジョブには、そのジョブを開始したユーザーが記録されるようになり、コンプライアンス遵守やトラブルシューティングのための明確な監査証跡が提供されます。Disaster Recovery によって自動的にトリガーされるジョブは「system」として識別されるため、ユーザーが開始したアクティビティとサービスが開始したアクティビティを容易に区別できます。
-
-詳細については、link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["NetApp Disaster Recoveryジョブの監視"^]を参照してください。
-
-
-
-==== パフォーマンスとリソースの最適化
-
-システム全体のリソース消費量を削減し、Disaster Recovery 操作全体のパフォーマンスを向上させるため、内部的なさまざまな改善が行われました。

@@ -116,18 +116,11 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">これらのリリース ノートでは、NetApp Consoleとそれがサポートするデータ サービスに対する最近の機能強化について説明します。各サービスのリリース ノートの完全なセットへのリンク。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">NetApp Consoleの一部である機能とデータ サービスに対する最新の変更について説明します。完全なリリース履歴については、各サービスのリリース ノートの完全セットをご覧ください。</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMwareワークロードの機能強化</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">関連リンク</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes ワークロードの機能強化</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes ワークロードの保護の概要</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>を参照してください。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Console エージェントのこのリリースには、セキュリティの改善とバグ修正が含まれています。</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下のサービスは廃止されました：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">VMware ワークロードの保護の概要</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">VMwareワークロードの保護の詳細については、<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">ONTAP ボリュームワークロードの保護の概要</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">ONTAP ボリュームワークロードの保護の詳細については、<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
@@ -137,39 +130,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
-  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">ダッシュボードの改善</block>
-  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Disaster Recovery ダッシュボードが刷新され、Disaster Recovery 環境全体を包括的かつ一目で把握できる、より優れたユーザーエクスペリエンスが提供されるようになりました。新しいダッシュボードには以下の機能が含まれています：</block>
-  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*統合されたワークロード可視化* — VMwareとKubernetesのワークロードと基盤となるインフラストラクチャの状態を、単一の画面から監視できます。</block>
-  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*問題の事前発見* — ダッシュボードが環境上の問題を自動的に強調表示することで、診断の迅速化と解決までの時間の短縮が可能になります。</block>
-  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*容量利用率* — 容量に関する指標がダッシュボード内に直接表示されるようになり、リソース消費の状況をより簡単に把握できるようになりました。</block>
-  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">ダッシュボードで NetApp Disaster Recovery プランの正常性を確認する</block>
-  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">詳細については、<block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">レポートの改善</block>
-  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">レポート機能が拡張され、環境全体における Disaster Recovery アクティビティに関するより詳細なインサイトを提供できるようになりました。</block>
-  <block id="7f09e48950606d1acab05c889751f513" category="list-text">VMwareワークロード、Kubernetesワークロード、またはその両方を対象としたレポートを生成することで、レポートを対象者に合わせて柔軟にカスタマイズできます。</block>
-  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">各レポートは、指定された期間の完全なアクティビティサマリーを提供し、Disaster Recovery環境におけるイベントを完全に可視化します。</block>
-  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">NetApp Disaster Recoveryレポートを作成する</block>
-  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">詳細については、<block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">ユーザージョブのログ記録</block>
-  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery において、ユーザーレベルのジョブログ機能により、ジョブの責任性および監査可能性が向上しました。実行されるすべてのジョブには、そのジョブを開始したユーザーが記録されるようになり、コンプライアンス遵守やトラブルシューティングのための明確な監査証跡が提供されます。Disaster Recovery によって自動的にトリガーされるジョブは「system」として識別されるため、ユーザーが開始したアクティビティとサービスが開始したアクティビティを容易に区別できます。</block>
-  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">NetApp Disaster Recoveryジョブの監視</block>
-  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">詳細については、<block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">パフォーマンスとリソースの最適化</block>
-  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">システム全体のリソース消費量を削減し、Disaster Recovery 操作全体のパフォーマンスを向上させるため、内部的なさまざまな改善が行われました。</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">一般的なNetApp Backup and Recovery の機能強化</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*NetApp Console ローカル展開のサポート*：このリリースの NetApp Backup and Recovery は、プレビュー ステータスの NetApp Console ローカル展開をサポートしています。</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90日間のジョブ保持*：Backup and Recovery では、ジョブモニター内のジョブ情報が90日間保持されるようになりました。</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">今回のリリースでは、VMwareワークロードに以下の機能強化が導入されました：</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*SAN VM の代替場所への復元サポート*：SAN ベースの VM バックアップを代替場所に復元できるようになりました。</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*複数バックアップの削除に対応*：複数のバックアップを一度に削除できるようになりました。</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*エアギャップされたリソースのプレビューサポート*：NetApp Console のローカルデプロイメントで NetApp Backup and Recovery を実行している場合、エアギャップされた Kubernetes リソースを検出、保護、および復元できます。この機能は今回のリリースではプレビュー版です。</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">今回のリリースでは、ONTAP Volumes ワークロードに以下の機能強化が導入されました。</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Backup and Recovery をアクティブ化せずに ONTAP システムとボリュームを検出*：Backup and Recovery をアクティブ化しなくても、システムとボリュームを検出できるようになりました。</block>
-  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">スキャン管理を強化するアクティブスキャンタブ</block>
-  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">データ分類機能の設定メニューに「アクティブなスキャン」タブが追加され、スキャンの管理がより使いやすくなりました。「アクティブなスキャン」タブには、スキャン対象としてアクティブ化したすべてのボリュームの概要が表示され、使い慣れたフィルターを使用してリソースを並べ替えることができます。このタブは、スキャンの優先順位付け、スキャンの一時停止、エラーの確認を行うための中心的な場所としても機能します。</block>
-  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">スキャンの管理</block>
-  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">詳細については、<block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console エージェント 4.10.0</block>
   <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
   <block id="657b18a162285732ef5f46d679b05663" category="section-title">クラウドメディエーターの応答性と信頼性が向上しました</block>
@@ -180,8 +140,6 @@
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilienceは、データコレクターの削除をサポートするようになりました。ワークロードでユーザーアクティビティ検出を有効にすると、データコレクターが自動的に作成されます。データコレクターが古くなった場合は、手動で削除できます。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">詳細については、<block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift の非推奨に関するお知らせ</block>
-  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift機能は、2026年9月にDigital Advisorで廃止される予定です。</block>
-  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">今回のリリースでは、Hyper-Vワークロードに以下の機能強化が導入されました。</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*オブジェクトストレージのバックアップを別の場所に復元する*：Hyper-V の仮想マシン、ファイル、フォルダーをオブジェクトストレージから別のストレージ場所に復元できるようになりました。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Hyper-VワークロードをNetApp Backup and Recoveryで保護する方法について説明します</block>
@@ -313,7 +271,6 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">一般的なNetApp Backup and Recoveryの機能強化</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*VM ホスト検出時の認証情報の選択*：KVM、Hyper-V、または VMware ホストを検出する際に、Backup and Recovery に既に追加済みの認証情報を使用できるようになりました。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-Vワークロードの機能強化</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*バックアップよりも復元ジョブを優先*：ボリューム、ファイル、またはフォルダーを復元する際に、バックアップジョブよりも復元ジョブを優先できるようになりました。</block>
   <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insightsダッシュボードのコンテンツ更新</block>
   <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Value Insights ダッシュボードのドキュメントの更新が公開されました。</block>
   <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">Digital Advisor の Value Insights Dashboard の使い方</block>
@@ -622,4 +579,22 @@
   <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
   <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
   <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph"><block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block>および<block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>の詳細をご覧ください。</block>
+  <block id="da3e6d90947db5a87778a986ff1db5ba" category="section-title">Workload Factory for EDAの機能強化</block>
+  <block id="0c8274ed6d395bfacc0daf3070e64c0c" category="paragraph">これらの機能強化には、レイテンシー分析におけるボリュームの詳細、ファイルシステムの負荷チェック、スループットの判断ポイント、およびレイテンシー分析の再実行が含まれます。</block>
+  <block id="f65838a0505e6828c4b2c1ae8ce1218d" category="section-title">レイテンシー分析中にボリュームの詳細を表示します</block>
+  <block id="34649924d5b9e1477b2428d04da725a3" category="paragraph">レイテンシイベントを分析する際に、Workload Factoryでボリュームの詳細を表示することで、ボリュームがどのように構成されているかを確認できます。詳細レイテンシ分析ページには、*ボリュームタイプ*（RWまたはDP）と*ボリュームスタイル*（FlexVolまたはFlexGroup）が表示されます。</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link-macro">レイテンシの傾向を分析する方法を学ぶ</block>
+  <block id="10686b705e0e365002c272bd2719b69a" category="paragraph"><block ref="10686b705e0e365002c272bd2719b69a" category="inline-link-macro-rx"></block></block>
+  <block id="59d6e00f849e1dd27d91bb4c786299b8" category="section-title">レイテンシイベントのファイルシステムの負荷を確認する</block>
+  <block id="6f204454acf5d87a64a6daf9900777eb" category="paragraph">Workload Factoryでは、レイテンシイベントが発生した際にファイルシステムの負荷がパフォーマンスに影響を与えたかどうかを確認できるため、ファイルシステムを調査するかどうかを判断できます。レイテンシアラートが発生しているボリュームについては、イベント発生前の40分間のCloudWatchデータを表示し、ファイルシステムを開いてさらに調査することができます。</block>
+  <block id="dfa004f6c9736368068fe71bacbee74e" category="inline-link-macro">ファイルシステムの負荷チェックについて</block>
+  <block id="c6351fb1f8b9c7124503e2dd773f4a6f" category="paragraph"><block ref="c6351fb1f8b9c7124503e2dd773f4a6f" category="inline-link-macro-rx"></block></block>
+  <block id="f8240ccc3d3033d0a4d027c0acb6a2fd" category="section-title">EDAのスループット決定ポイントを確認する</block>
+  <block id="8591045ae6ed3a89acd6e3756c7561dc" category="paragraph">EDA概要ダッシュボードでクライアントのスループット決定ポイントを確認することで、Workload Factoryがスループットの変更を推奨または適用したタイミングを確認できます。決定ポイントにカーソルを合わせると、現在のSKUと推奨SKU、または指定した期間内に違反した指標などの詳細が表示されます。</block>
+  <block id="8f60994adbdba3c89dc164460dbd5fe7" category="inline-link-macro">スループット決定ポイントのレビュー方法</block>
+  <block id="08935aa85ac8d6983a754c391dc22299" category="paragraph"><block ref="08935aa85ac8d6983a754c391dc22299" category="inline-link-macro-rx"></block></block>
+  <block id="afaff13c48c5bdfb3e3a3820005ef966" category="section-title">レイテンシ分析を再度実行する</block>
+  <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">Workload Factoryでは、ボリュームに対してレイテンシ分析を再度実行することで、調査や変更後に結果を更新できます。*分析を再度実行*を選択すると、新しい分析が開始され、結果が更新されます。</block>
+  <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">レイテンシの問題を分析する方法について学習します</block>
+  <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
 </blocks>
