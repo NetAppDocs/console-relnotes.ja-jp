@@ -130,35 +130,15 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
-  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console エージェント 4.10.0</block>
-  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
-  <block id="657b18a162285732ef5f46d679b05663" category="section-title">クラウドメディエーターの応答性と信頼性が向上しました</block>
-  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">サービスはクラスタのステータスの更新をより効率的に処理するようになり、断続的なタイムアウトやダウンタイムを削減し、SMaS関係における自動的な計画外フェイルオーバーの仲介機能を強化します。</block>
-  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0の管理機能には、セキュリティとバグ修正が含まれています。</block>
-  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026年8月13日</block>
-  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">データコレクターを削除する</block>
-  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilienceは、データコレクターの削除をサポートするようになりました。ワークロードでユーザーアクティビティ検出を有効にすると、データコレクターが自動的に作成されます。データコレクターが古くなった場合は、手動で削除できます。</block>
-  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">詳細については、<block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift の非推奨に関するお知らせ</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">今回のリリースでは、Hyper-Vワークロードに以下の機能強化が導入されました。</block>
-  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*オブジェクトストレージのバックアップを別の場所に復元する*：Hyper-V の仮想マシン、ファイル、フォルダーをオブジェクトストレージから別のストレージ場所に復元できるようになりました。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Hyper-VワークロードをNetApp Backup and Recoveryで保護する方法について説明します</block>
   <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*：このリリースには Trident Protect 26.08 が含まれます。</block>
-  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*バックアップの再試行*：Kubernetes 保護ポリシーの詳細設定で、バックアップの再試行を有効にし、再試行回数と再試行間隔を設定できるようになりました。</block>
-  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*部分的なバックアップの成功*：Kubernetes の保護ポリシーの詳細設定で、個々のリソースが失敗した場合でもバックアップを継続するように構成できるようになり、バックアップジョブが部分的に成功した状態として完了できるようになります。これにより、バックアップ操作中に一部のリソースが失敗した場合でも、バックアップされたリソースを復元することができます。</block>
-  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態およびVM一貫性のバックアップ*：Backup and Recovery for NetApp Consoleサービスで、「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態またはVM一貫性のバックアップやスナップショットを作成する保護ポリシーを設定できるようになりました。また、保護処理中にVMのフリーズを実行する方法をカスタマイズすることもできます。</block>
-  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*ConsoleエージェントのIPアドレス変更時のKubernetesクラスターの再接続*：Backup and Recovery for NetApp Consoleサービスでは、エージェントのIPアドレスが変更された場合に、クラスターをそのConsoleエージェントに再接続できるようになりました。</block>
-  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*クラスターを新しいコンソールエージェントに移行する*：NetApp Backup and Recovery コンソールサービスでは、元のエージェントが故障または削除された場合に、クラスターを新しいコンソールエージェントに移行できるようになり、アプリケーションの保護が中断なく継続されます。</block>
   <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">NetApp Backup and Recoveryを使用したKubernetesワークロードの保護について説明します</block>
   <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">Kubernetesワークロードの保護の詳細については、<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>を参照してください。</block>
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Databaseワークロードの強化</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：</block>
-  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*プラガブルデータベース（PDB）の復元*：個々のプラガブルデータベース（PDB）および PDB テーブルスペースを、ポイントインタイムリカバリを含めて復元できるようになりました。</block>
-  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*プラガブルデータベース（PDB）クローン*：既存のターゲットコンテナデータベース（CDB）に単一のPDBをクローンできるようになりました。また、コンテナデータベース全体をクローンする際に、PDBを除外することも可能です。</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
   <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">バリューインサイトのご紹介</block>
   <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
   <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value InsightsはONTAPシステムでのみ使用できます。</block>
@@ -374,8 +354,6 @@
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guardのサポート*：NetApp Backup and Recoveryは、Oracle Data Guardを使用して高可用性を実現するプライマリおよびスタンバイデータベースを保護するために、保護グループを使用することをサポートするようになりました。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
   <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">強化された隔離リカバリ環境構成</block>
-  <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウドまたはオンプレミス環境用の隔離されたリカバリ環境をセットアップするプロセスが明確化され、簡素化されます。</block>
-  <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">ワークロードを保護する</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flexサービスレベルの一般提供開始</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware ResilienceにおけるGoogle Cloud NetApp VolumesのFlexサービスレベルのサポートが一般提供（GA）となりました。</block>
@@ -470,7 +448,6 @@
   <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">誰がデータを調査してアクションを実行できるかを制御するには、組織内のユーザーに AI Data Engine の管理者または閲覧者の役割を割り当てます。</block>
   <block id="ba184f13e7bf496f6768b87c5d7acdb0" category="list-text"><block ref="ba184f13e7bf496f6768b87c5d7acdb0" category="inline-link-rx"></block></block>
   <block id="5a5a491a94e6d556e85e601b24f8d121" category="doc">特定のCloud Volumes ONTAPバージョン向けのONTAPホットフィックスのアップグレードに関するガイダンス</block>
-  <block id="b4891be2934b9e98fc19416ebfae6a18" category="paragraph">ONTAPは、Cloud Volumes ONTAPバージョン9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：</block>
   <block id="e1436b576c97d4ee53df8bdb53230756" category="list-text">9.14.1P18HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。</block>
   <block id="5050c1a82a49a95d546f16829b500401" category="list-text">9.15.1P20HF1</block>
   <block id="124b86ef30adb0fa328f15ad507bbe98" category="list-text">9.16.1P16HF1</block>
@@ -604,4 +581,9 @@
   <block id="e50148793a31ae443693925cfda40d91" category="paragraph">この計算ツールは、すべてのインスタンスタイプを比較し、最もコストの低いオプションを自動的に選択します。新しい比較セクションでは、EVSホストの構成を並べて表示することで、ニーズに最適な設定をより簡単に選択できます。</block>
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVSの推定節約額を計算する</block>
   <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
+  <block id="6300af874aa7556a00ff5e3e6de2f50c" category="paragraph">Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウド環境またはオンプレミス環境に隔離型復旧環境をセットアップするプロセスが明確になり、簡素化されます。</block>
+  <block id="0f2b18916feaea7b0363a50fa6462893" category="paragraph">Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。今回のアップデートにより、Ransomware Resilienceは、ストレージVMにデータコレクターが存在し、「実行中」の状態にある場合、そのチェックをスキップするようになり、保護ワークフローが高速化されます。</block>
+  <block id="24872a3badce2466861f424f45ddc1df" category="paragraph">ONTAPは、Cloud Volumes ONTAPバージョン9.12.1、9.13.1、9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：</block>
+  <block id="78008c5260700db5baf4534819697473" category="list-text">9.12.1P20HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。</block>
+  <block id="0a353d36bdabea4b41e087d5e43942fb" category="list-text">9.13.1P21HF1</block>
 </blocks>

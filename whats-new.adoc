@@ -42,8 +42,10 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 
 ==== 特定のCloud Volumes ONTAPバージョン向けのONTAPホットフィックスのアップグレードに関するガイダンス
 
-ONTAPは、Cloud Volumes ONTAPバージョン9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：
+ONTAPは、Cloud Volumes ONTAPバージョン9.12.1、9.13.1、9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：
 
+* 9.12.1P20HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。
+* 9.13.1P21HF1
 * 9.14.1P18HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。
 * 9.15.1P20HF1
 * 9.16.1P16HF1
@@ -449,7 +451,7 @@ Ransomware Resilienceは、ユーザーアクティビティエージェント�
 
 ==== 強化された隔離リカバリ環境構成
 
-Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウドまたはオンプレミス環境用の隔離されたリカバリ環境をセットアップするプロセスが明確化され、簡素化されます。
+Ransomware Resilienceは、強化された隔離型復旧環境の構成ワークフローを提供するようになりました。新しいワークフローにより、クラウド環境またはオンプレミス環境に隔離型復旧環境をセットアップするプロセスが明確になり、簡素化されます。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["クリーンな復元のための隔離されたリカバリ環境を作成する"^]を参照してください。
 
@@ -457,7 +459,7 @@ Ransomware Resilienceは、強化された隔離型復旧環境の構成ワー�
 
 ==== ユーザーアクティビティ監視を有効にするためのワークフローの改善
 
-Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。このアップデートにより、ストレージVMにデータコレクターが存在し、「実行中」の状態であれば、そのチェックはスキップされるようになり、保護ワークフローが高速化されます。
+Ransomware Resilienceは、ユーザーアクティビティ監視を有効にするためのワークフローを改善しました。従来、Ransomware Resilienceは、ワークロード上でユーザーアクティビティ監視を含むランサムウェア対策戦略を有効にするたびに、データコレクターの接続をテストしていました。今回のアップデートにより、Ransomware Resilienceは、ストレージVMにデータコレクターが存在し、「実行中」の状態にある場合、そのチェックをスキップするようになり、保護ワークフローが高速化されます。
 
 詳細については、link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["ワークロードを保護する"^]を参照してください。
 
@@ -1151,51 +1153,3 @@ Value Insights 機能は、ONTAP システムの全体的な健全性、節約�
 NOTE: Value InsightsはONTAPシステムでのみ使用できます。
 
 link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"]の詳細をご覧ください。
-
-
-
-[[17-august-2026]]
-== 2026年8月17日
-
-
-
-[[backup-and-recovery]]
-=== バックアップとリカバリ
-
-
-
-==== Hyper-V ワークロードの機能強化
-
-今回のリリースでは、Hyper-Vワークロードに以下の機能強化が導入されました。
-
-*オブジェクトストレージのバックアップを別の場所に復元する*：Hyper-V の仮想マシン、ファイル、フォルダーをオブジェクトストレージから別のストレージ場所に復元できるようになりました。
-
-Hyper-Vワークロードの保護に関する詳細は、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Hyper-VワークロードをNetApp Backup and Recoveryで保護する方法について説明します"]を参照してください。
-
-
-
-==== Kubernetes ワークロードの機能強化
-
-今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。
-
-* *Trident Protect 26.08*：このリリースには Trident Protect 26.08 が含まれます。
-* *バックアップの再試行*：Kubernetes 保護ポリシーの詳細設定で、バックアップの再試行を有効にし、再試行回数と再試行間隔を設定できるようになりました。
-* *部分的なバックアップの成功*：Kubernetes の保護ポリシーの詳細設定で、個々のリソースが失敗した場合でもバックアップを継続するように構成できるようになり、バックアップジョブが部分的に成功した状態として完了できるようになります。これにより、バックアップ操作中に一部のリソースが失敗した場合でも、バックアップされたリソースを復元することができます。
-* *「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態およびVM一貫性のバックアップ*：Backup and Recovery for NetApp Consoleサービスで、「crash consistent state（障害など予期しないシャットダウン時と同様）」の状態またはVM一貫性のバックアップやスナップショットを作成する保護ポリシーを設定できるようになりました。また、保護処理中にVMのフリーズを実行する方法をカスタマイズすることもできます。
-* *ConsoleエージェントのIPアドレス変更時のKubernetesクラスターの再接続*：Backup and Recovery for NetApp Consoleサービスでは、エージェントのIPアドレスが変更された場合に、クラスターをそのConsoleエージェントに再接続できるようになりました。
-* *クラスターを新しいコンソールエージェントに移行する*：NetApp Backup and Recovery コンソールサービスでは、元のエージェントが故障または削除された場合に、クラスターを新しいコンソールエージェントに移行できるようになり、アプリケーションの保護が中断なく継続されます。
-
-
-Kubernetesワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["NetApp Backup and Recoveryを使用したKubernetesワークロードの保護について説明します"]を参照してください。
-
-
-
-==== Oracle Databaseワークロードの強化
-
-今回のリリースでは、Oracle Databaseワークロードに以下の機能強化が導入されました：
-
-* *プラガブルデータベース（PDB）の復元*：個々のプラガブルデータベース（PDB）および PDB テーブルスペースを、ポイントインタイムリカバリを含めて復元できるようになりました。
-* *プラガブルデータベース（PDB）クローン*：既存のターゲットコンテナデータベース（CDB）に単一のPDBをクローンできるようになりました。また、コンテナデータベース全体をクローンする際に、PDBを除外することも可能です。
-
-
-Oracle Databaseワークロードの保護の詳細については、 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ"]を参照してください。
