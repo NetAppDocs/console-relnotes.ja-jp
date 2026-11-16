@@ -172,7 +172,6 @@
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">仮想マシンの非推奨に関するお知らせ</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">全般的な改善</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">今回のData Classificationのリリースには、セキュリティの改善とパフォーマンスの向上が含まれています。</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026年9月16日</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">今回のリリースでは、KVM、Hyper-V、およびVMwareワークロードに以下の機能強化が導入されました：</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*VM のスパンディスク保護*: CIFS 構成の場合、Backup and Recovery は、保護グループ内の各 VM に接続されているすべてのディスクを保護できるようになりました。これには、複数の ONTAP ボリュームまたは ONTAP ストレージシステムに分散したファイル（スパンディスク）と、単一の場所に限定されたファイルが含まれます。</block>
@@ -586,4 +585,19 @@
   <block id="24872a3badce2466861f424f45ddc1df" category="paragraph">ONTAPは、Cloud Volumes ONTAPバージョン9.12.1、9.13.1、9.14.1、9.15.1、9.16.1、9.17.1、9.18.1、および9.19.1と互換性のある以下のホットフィックスをリリースしました：</block>
   <block id="78008c5260700db5baf4534819697473" category="list-text">9.12.1P20HF1を使用したチャンク アップロード署名要求がサポートされるようになりました。</block>
   <block id="0a353d36bdabea4b41e087d5e43942fb" category="list-text">9.13.1P21HF1</block>
+  <block id="a022cebca1f841a4a75654f3e54a623b" category="doc">ジョブの再実行時のジョブ監視機能の強化</block>
+  <block id="c5473f86ef99f2b81306aec2f780c239" category="paragraph">特定の失敗した操作、キャンセルされた操作、またはタイムアウトした操作を再実行すると、NetApp Disaster Recoveryはこれらの操作を新しいジョブとして登録し、アクションを開始したユーザーを特定するようになりました。以前は、Disaster Recoveryでは最初のジョブの下に新しいジョブがリストされていました。この機能強化により、リクエストが編集されていない限り、Disaster Recoveryにおけるジョブの監査証跡がより明確になります。これは、検出、再同期、コンプライアンス、保護、レプリケーション計画、およびバックアップ保持ジョブにのみ適用されます。再実行されたフェイルバック、フェイルオーバー、および移行操作は、新しいジョブとしてリストされません。再実行チェーンの中で最新のジョブのみが対象となり、実行中のジョブの後ろにキューに追加できる再実行は最大で1つです。</block>
+  <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">Disaster Recoveryでのジョブの監視</block>
+  <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">詳細については、<block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">管理対象のブロックされたファイル拡張子</block>
+  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">Ransomware Resilienceでは、「疑わしいファイル拡張子をブロックする」保護オプションを有効にしている場合、ワークロード上で許可またはブロックするファイル拡張子のリストをカスタマイズできるようになりました。この機能強化により、ワークロードを設定して、ストレージVM（SVM）上で特定のファイルタイプのみを許可したり、特定のファイル拡張子をブロックしたりすることが可能になります。FPolicyを使用して疑わしいファイル拡張子をブロックする既存のワークロードをRansomware Resilienceに移行する場合、デフォルトではより厳選された拡張子リストが使用されますが、リストをカスタマイズすることも可能です。この機能強化により、ファイル拡張子オプションをより細かく制御できるようになり、また、異なるSVMごとに異なるリストを作成することも可能になります。</block>
+  <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">Ransomware Resilience でブロックされたファイル拡張子を管理する</block>
+  <block id="746947620a1677afde977abf37019b8c" category="paragraph">詳細については、<block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroClusterのサポート</block>
+  <block id="881339c26c28107ef981b5584762672c" category="paragraph">Ransomware ResilienceはMetroClusterをサポートするようになり、ミラーリングされたMetroCluster構成でのランサムウェアの保護、検出、およびリカバリが可能になりました。MetroCluster構成でランサムウェア保護を有効にする場合、MetroClusterペアの両方のシステムをConsoleに追加する必要があります。ペアの一方の側を検出して保護を有効にすると、もう一方の側でも自動的に有効になります。</block>
+  <block id="135aafefd6672672bf413096190820a9" category="paragraph">MetroClusterワークロードに対するランサムウェア攻撃から復旧する場合、現在はカスタム復元のみを使用できます。</block>
+  <block id="200ccc515e5c41e28e5dae9b2b257c4a" category="inline-link-macro">MetroClusterの検出</block>
+  <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">詳細については、<block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026年11月16日</block>
+  <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
 </blocks>
