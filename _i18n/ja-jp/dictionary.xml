@@ -590,7 +590,6 @@
   <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">Disaster Recoveryでのジョブの監視</block>
   <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">詳細については、<block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">管理対象のブロックされたファイル拡張子</block>
-  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">Ransomware Resilienceでは、「疑わしいファイル拡張子をブロックする」保護オプションを有効にしている場合、ワークロード上で許可またはブロックするファイル拡張子のリストをカスタマイズできるようになりました。この機能強化により、ワークロードを設定して、ストレージVM（SVM）上で特定のファイルタイプのみを許可したり、特定のファイル拡張子をブロックしたりすることが可能になります。FPolicyを使用して疑わしいファイル拡張子をブロックする既存のワークロードをRansomware Resilienceに移行する場合、デフォルトではより厳選された拡張子リストが使用されますが、リストをカスタマイズすることも可能です。この機能強化により、ファイル拡張子オプションをより細かく制御できるようになり、また、異なるSVMごとに異なるリストを作成することも可能になります。</block>
   <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">Ransomware Resilience でブロックされたファイル拡張子を管理する</block>
   <block id="746947620a1677afde977abf37019b8c" category="paragraph">詳細については、<block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroClusterのサポート</block>
@@ -600,4 +599,11 @@
   <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">詳細については、<block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026年11月16日</block>
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
+  <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console エージェント 4.13.0</block>
+  <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 リリースでは、標準モードと制限モードの両方がサポートされています。</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。</block>
+  <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">Consoleエージェントをデプロイする際に、AWSデプロイロールを自動的に作成します</block>
+  <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">ConsoleからAWSにConsoleエージェントを展開する方法について説明します</block>
+  <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">開始する前に、AWSにConsoleエージェントをデプロイするためのIAMロールを作成する必要はなくなりました。NetApp Consoleがロールを作成できます。<block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
+  <block id="d8a7fd7644a3770509948debea790466" category="paragraph">Ransomware Resilienceでは、「疑わしいファイル拡張子をブロックする」保護オプションを有効にしている場合、ワークロード上で許可またはブロックするファイル拡張子のリストをカスタマイズできるようになりました。この機能強化により、ワークロードを設定して、ストレージVM（SVM）上で特定のファイルタイプのみを許可したり、特定のファイル拡張子をブロックしたりすることが可能になります。この機能強化により、ファイル拡張子オプションをより細かく制御できるようになり、また、異なるSVMごとに異なるリストを作成することも可能になります。</block>
 </blocks>
