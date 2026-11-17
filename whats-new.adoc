@@ -30,6 +30,42 @@ Kubernetes:: Kubernetes クラスターの検出と管理のサポートは、20
 ====
 
 
+[[17-november-2026]]
+== 2026年11月17日
+
+
+
+[[console-setup-and-administration]]
+=== コンソールのセットアップと管理
+
+
+
+==== Console エージェント 4.13.0
+
+4.13.0 リリースでは、標準モードと制限モードの両方がサポートされています。
+
+Consoleエージェントのこのリリースには、セキュリティの改善とバグ修正に加え、以下の新機能が含まれています。ISOを使用してvCenterにデプロイされたConsoleエージェントを4.13.0にアップグレードする場合は、アップグレードの完了後にVMが再起動されることを確認してください。VMは自動的に再起動する場合があります。
+
+
+
+===== Consoleエージェントをデプロイする際に、AWSデプロイロールを自動的に作成します
+
+開始する前に、AWSにConsoleエージェントをデプロイするためのIAMロールを作成する必要はなくなりました。NetApp Consoleがロールを作成できます。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["ConsoleからAWSにConsoleエージェントを展開する方法について説明します"^]
+
+
+
+==== NetApp Console管理
+
+今回のリリースには、セキュリティの改善とバグ修正に加え、以下の新機能が含まれています。
+
+
+
+===== Cloud Volumes ONTAP貢献者ロールを割り当てます
+
+Cloud Volumes ONTAP Contributorロールを割り当てることで、メンバーにCloud Volumes ONTAPシステムを管理するための幅広いアクセス権を付与しつつ、システム、ボリューム、アグリゲート、またはレプリケーション関係の削除は許可しないようにすることができるようになりました。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.html["Cloud Volumes ONTAP のロールベースアクセスの詳細については、こちらをご覧ください"^]。
+
+
+
 [[16-november-2026]]
 == 2026年11月16日
 
@@ -52,28 +88,6 @@ MetroClusterワークロードに対するランサムウェア攻撃から復�
 
 [[09-november-2026]]
 == 2026年11月9日
-
-
-
-[[console-setup-and-administration]]
-=== コンソールのセットアップと管理
-
-
-
-==== Console エージェント 4.13.0
-
-4.13.0 リリースでは、標準モードと制限モードの両方がサポートされています。
-
-コンソール エージェントのこのリリースには、セキュリティの改善とバグ修正に加えて、次の新機能が含まれています。
-
-.Consoleエージェントをデプロイする際に、AWSデプロイロールを自動的に作成します
-開始する前に、AWSにConsoleエージェントをデプロイするためのIAMロールを作成する必要はなくなりました。NetApp Consoleがロールを作成できます。link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["ConsoleからAWSにConsoleエージェントを展開する方法について説明します"^]
-
-
-
-==== NetApp Console管理
-
-今回のリリースには、セキュリティの改善とバグ修正が含まれています。
 
 
 
@@ -937,7 +951,7 @@ NetApp は、すべてのプライベートモード Cloud Volumes ONTAP デプ�
 | NetApp Backup and Recovery | 5.6.2（2026年8月31日） |  https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["NetApp Backup and Recoveryの新機能ページ"^]に移動します。 
 
 
-| NetApp データ分類 | 1.546.0（2026年8月10日） |  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classification の新機能ページ"^]に移動します。 
+| NetApp データ分類 | 1.56.0（2026年8月10日） |  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classification の新機能ページ"^]に移動します。 
 |===
 
 
