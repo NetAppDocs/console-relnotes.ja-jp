@@ -139,12 +139,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Databaseワークロードの強化</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">バリューインサイトのご紹介</block>
-  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 機能は、ONTAP システムの全体的な健全性、節約、安定性、およびセキュリティ情報を統合します。この情報を使用して、お客様のONTAP環境の継続的なデータ主体のビューを通じて、システムの健全性とパフォーマンスを向上させることができます。</block>
-  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value InsightsはONTAPシステムでのみ使用できます。</block>
-  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
-  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph"><block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>の詳細をご覧ください。</block>
-  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure におけるオーストリア東部およびベルギー中部リージョンのサポート</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのAustria East（austriaeast）およびBelgium Central（belgiumcentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています：</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
@@ -611,4 +605,32 @@
   <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Cloud Volumes ONTAP のロールベースアクセスの詳細については、こちらをご覧ください</block>
   <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">Cloud Volumes ONTAP Contributorロールを割り当てることで、メンバーにCloud Volumes ONTAPシステムを管理するための幅広いアクセス権を付与しつつ、システム、ボリューム、アグリゲート、またはレプリケーション関係の削除は許可しないようにすることができるようになりました。<block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
   <block id="3cc38715797be469f39edd81c803bf02" category="section-title">2026年11月17日</block>
+  <block id="0826142964deaae8afd3cda87c05f9f5" category="doc">新しいCloud Volumes ONTAPコントリビュータロール</block>
+  <block id="14332acd533c12a2fdcddeb8adea61b3" category="paragraph">NetAppは、オペレータロールよりも権限が多く、管理者ロールよりも権限が少ない*Cloud Volumes ONTAP contributor*ロールを追加しました。オペレータロールを持つユーザは、SnapMirrorレプリケーションタスクを含む、いくつかの日常的なワークフローを実行できます。管理者ロールはこれらのワークフローをカバーしますが、管理者ユーザによるCloud Volumes ONTAPシステムの削除も許可します。多くの組織は、運用ユーザにこれを望んでいません。現在、Consoleはマルチ管理検証（MAV）をサポートしていないため、このロールは重要です。MAVがないと、管理者ユーザは2回目の承認なしにシステムの削除などの機密性の高い操作を実行できてしまいます。contributorロールを使用すると、ユーザはシステムの作成、レプリケーションの管理、ストレージの管理など、最も重要な操作を実行できますが、システムの削除は防止されます。</block>
+  <block id="0fba01d9b0e41b7d0de97f3cfdb7dcec" category="paragraph">貢献者ロールには、すべてのオペレーター権限に加えて、以下の追加機能が含まれます：</block>
+  <block id="535581d758075804b4cc52814e262a35" category="list-text">Cloud Volumes ONTAPシステムの作成</block>
+  <block id="31252110f902a9c33dd1668a2ddf9d60" category="list-text">インスタンスタイプの変更やONTAPバージョンのアップグレードなど、システム設定を更新します</block>
+  <block id="1c755f1ffdbed31cec4887edbc313b67" category="list-text">レプリケーションの管理（中断、再同期、逆再同期、レプリケーションスケジュールと転送レートの編集を含む）</block>
+  <block id="caa47e3dc29de6679c6dde1ec5cda5ca" category="list-text">ストレージの管理（アグリゲートの追加や容量の拡張など）</block>
+  <block id="105df9d41da1a27f8246ba8df705efc9" category="paragraph">投稿者権限を持つユーザーは、以下のタスクを実行できません：</block>
+  <block id="75bfd853ccf811b5f9e995e9b420f0ee" category="list-text">システム、ボリューム、アグリゲート、またはレプリケーション関係の削除</block>
+  <block id="26539d0b254897846cdbf2f9df3a2da2" category="list-text">システムのオン/オフを切り替える</block>
+  <block id="cc940bf2667209e4d71ddc12d8f2e5ed" category="list-text">パスワードを設定</block>
+  <block id="c8764bac128bda390f467bc548de68a5" category="list-text">ONTAP System Manager へのアクセス</block>
+  <block id="2ece167d1d26caae4635d1e5a4d74785" category="paragraph">他の Cloud Volumes ONTAP ロールをユーザに割り当てるのと同じ方法で、*管理 &gt; ID* からコントリビュータロールを割り当てます。</block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Cloud Volumes ONTAP の NetApp Console におけるアクセスロール</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">Cloud Volumes ONTAP のロールベースアクセスを NetApp Console で設定する</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console アクセスロール</block>
+  <block id="7d8c2cdcdb7f43c46c64f18123f8002b" category="list-text"><block ref="7d8c2cdcdb7f43c46c64f18123f8002b" category="inline-link-rx"></block></block>
+  <block id="ef4dbf81033bbcf56fd22e4eb2c913da" category="section-title">SMB向けMicrosoft Entra IDハイブリッドユーザ認証（パブリックプレビュー）</block>
+  <block id="4df90909cc2d04997870c4949a39d14b" category="inline-link">Microsoft Entra ID</block>
+  <block id="dd462d22f562824f1314114fe0506920" category="paragraph">Cloud Volumes ONTAP 9.19.1以降では、SMB共有にアクセスするための<block ref="c92d60eae0a0d9ece702070bd9116954" category="inline-link-rx"></block>を使用したハイブリッドユーザ認証をサポートしています。</block>
+  <block id="56ed7687386c4ddd3c49ce19fe20121e" category="paragraph">以前は、Cloud Volumes ONTAPはドメインユーザのSMB認証のみをサポートしており、オンプレミスのActive Directory（AD）のセットアップが必要でした。ハイブリッドユーザ認証により、既存のオンプレミスADインフラストラクチャを引き続き使用しながら、Microsoft Entra IDを介してSMB認証をクラウドに拡張できます。</block>
+  <block id="66b8d64c32b9c85c4b6e1af3b9d47224" category="inline-link">Microsoft Entra Connect</block>
+  <block id="b733c58ccb9be823aebceeba2e6d6c49" category="paragraph">ハイブリッドユーザ認証では、ユーザはオンプレミスADで作成され、<block ref="98031aa8f0e636ad4eef034480e4f6c2" category="inline-link-rx"></block>を使用してMicrosoft Entra IDに同期されます。ONTAPは、オンプレミスADとMicrosoft Entra IDの両方と通信することで、SMB共有にアクセスするユーザを認証します。</block>
+  <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">この機能は一般公開プレビュー版として利用可能です。設定はONTAP CLIでのみサポートされます。NetApp Console統合機能はまだ利用できません。</block>
+  <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">SMB 向け Microsoft Entra ID 認証の設定</block>
+  <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
 </blocks>
