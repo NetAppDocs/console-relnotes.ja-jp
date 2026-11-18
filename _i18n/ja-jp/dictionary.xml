@@ -633,4 +633,11 @@
   <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">この機能は一般公開プレビュー版として利用可能です。設定はONTAP CLIでのみサポートされます。NetApp Console統合機能はまだ利用できません。</block>
   <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">SMB 向け Microsoft Entra ID 認証の設定</block>
   <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="8e185e7635097d7251137556c4d7b148" category="doc">AWS MarketplaceでのCloud Volumes ONTAPの個別のPAYGOリスト</block>
+  <block id="e22492ae15b7a204416f84c3bc5e2d1e" category="paragraph">NetAppは現在、NetApp Standalone Listing（NSL）を通じて、AWS MarketplaceでCloud Volumes ONTAPの個別の従量課金制（PAYGO）リストを提供しています。NetAppは以前、AWSエンタープライズ割引プログラム（EDP）の変更に対応するため、スタンドアロンのCloud Volumes ONTAPサブスクリプションを導入しました。PAYGOリストは現在、Cloud Volumes ONTAPの年間契約とともに同じNSLオファリングで利用できるようになり、PAYGOの利用状況の追跡、超過料金の監視、および消費コストの管理が容易になりました。</block>
+  <block id="76d4be3bca7251e78e8b9d340a9e88e6" category="paragraph">Cloud Volumes ONTAPの年間契約とPAYGOリストはどちらも、NetApp Intelligence Services（NIS）の年間契約およびPAYGOリストとは別になっており、Cloud Volumes ONTAPの容量とデータサービスに対して個別の請求が可能です。</block>
+  <block id="79ef9f61ccfcabc1d70e24a061eef1a5" category="inline-link">請求設定の詳細についてはこちらをご覧ください</block>
+  <block id="90354e46cc101991e55370e682628f58" category="inline-link">AWS Marketplaceのスタンドアロンリストを使用してCloud Volumes ONTAPを展開する</block>
+  <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
+  <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">2026年11月18日</block>
 </blocks>
