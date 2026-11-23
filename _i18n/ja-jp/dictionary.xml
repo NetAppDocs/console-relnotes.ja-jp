@@ -123,13 +123,8 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP ボリュームワークロードの機能強化</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V ワークロードの機能強化</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">今回のリリースでは、Kubernetesワークロードに以下の機能強化が導入されました。</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">優れた設計のダッシュボード</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">ご質問やフィードバックについては、mailto:ng-activeiq-feedback@netapp.com[Active IQ チームにお問い合わせください]。</block>
-  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">SIEMシステムを構成する</block>
-  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">詳細については、<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
-  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数可用性ゾーンにおける高可用性（HA）</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift の非推奨に関するお知らせ</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">今回のリリースでは、Hyper-Vワークロードに以下の機能強化が導入されました。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Hyper-VワークロードをNetApp Backup and Recoveryで保護する方法について説明します</block>
@@ -139,12 +134,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Databaseワークロードの強化</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">NetApp Backup and Recovery を使用した Oracle Database ワークロードの保護について学ぶ</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Oracle Databaseワークロードの保護の詳細については、<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>を参照してください。</block>
-  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Azure におけるオーストリア東部およびベルギー中部リージョンのサポート</block>
-  <block id="44e833213a99257d69192896111996f4" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA以降を、AzureのAustria East（austriaeast）およびBelgium Central（belgiumcentral）リージョンにデプロイできるようになりました。以下のデプロイメントタイプがサポートされています：</block>
-  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
-  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">コンソールエージェントを介したSIEMイベント配信</block>
-  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience は、NetApp Console を通じてイベントを配信する既存のオプションに加えて、Console エージェントを通じて SIEM イベントを配信する機能をサポートするようになりました。</block>
-  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">コンソールエージェントを介してSIEMイベントを配信する場合、SIEMイベントの配信をネットワーク境界内に留めることができます。これにより、厳格なIPアドレス許可リストを持つオンプレミス環境へのデプロイが簡素化され、既存のセキュリティ制御との整合性も高まります。このオプションを使用するには、コンソールエージェントがファイアウォールやプロキシ制御を経由して、必要なポートでSIEMエンドポイントの名前解決および接続を行えることを確認してください。</block>
   <block id="e10cb273323f88df11fadb5507d738a0" category="doc">改善されたSnapMirrorスナップショット管理</block>
   <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">最新のスナップショットを使用してフェイルオーバーをトリガーできるようになりました。これは、新しいスナップショットを取得しない場合に推奨される方法です。</block>
   <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">特定のスナップショットベースラインを選択する場合、SnapMirror転送スナップショットはデフォルトでは非表示になっています。これは、フェイルオーバーの途中で削除される可能性があり、「共通のスナップショットが見つかりません」というエラーが発生し、フェイルオーバー後にワークロードを再保護できなくなるためです。これらのスナップショットは引き続き使用できますが、リスクを承認するための追加の確認プロンプトに回答する必要があります。</block>
@@ -262,7 +251,6 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">プライベートモード4.10.0は、Red Hat Enterprise Linux (RHEL) 9.6をサポートしています。</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">プライベートモードのホスト要件について</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">プライベートモードがRed Hat Enterprise Linux（RHEL）9.6にインストールおよび実行できるようになり、お客様はセキュリティとパフォーマンスが向上した最新のサポート対象オペレーティングシステムを利用できるようになります。<block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
-  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">サポートされているすべてのリージョンのリストについては、<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>を参照してください。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">米国政府ミッション向けクラウド</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
@@ -341,7 +329,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Digital Advisorで価値のインサイトを確認する</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
-  <block id="f06295aec82b8045d499f988d711565d" category="list-text">ローカル冗長ストレージ（LRS）を使用した単一アベイラビリティゾーンにおけるHA</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">AzureにCloud Volumes ONTAPを展開する前に、環境が以下の前提条件を満たしていることを確認してください：</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guardのサポート*：NetApp Backup and Recoveryは、Oracle Data Guardを使用して高可用性を実現するプライマリおよびスタンバイデータベースを保護するために、保護グループを使用することをサポートするようになりました。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
@@ -645,4 +632,14 @@
   <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">Hyper-Vワークロードの検出と管理</block>
   <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">NetApp MetroCluster構成でHyper-Vホストを保護する方法の詳細については、<block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>を参照してください。</block>
   <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">Hyper-Vワークロードの保護に関する詳細は、<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="fe137bb7e7054941bc9c91c50085f74f" category="list-text">*Amazon FSx for NetApp ONTAPのディスク間バックアップアーキテクチャのサポート*：同じAWSリージョンまたは異なるAWSリージョンで、Amazon FSx for NetApp ONTAPをプライマリストレージとし、別のFSx for NetApp ONTAPファイルシステムをセカンダリストレージとして使用する、ディスク間バックアップアーキテクチャを利用したKubernetes保護ポリシーを作成できるようになりました。また、Cloud Volumes ONTAPをプライマリストレージとして、FSx for NetApp ONTAPをセカンダリストレージとして使用することもできます。</block>
+  <block id="f0fe6c245af38530401dcf0ad8dfed35" category="list-text">*qtreeリストアの問題の修正*：以前のontap-nas-economyボリュームのリストアでは、qtreeディレクトリが誤った所有者と権限でリストアされていました。この問題は今回のリリースで解決されました。</block>
+  <block id="ae4951a992a8d5e6e6132772ba1d8a9e" category="inline-link">NetApp Backup and RecoveryでのKubernetesバックアップ ポリシーの作成と管理</block>
+  <block id="28a7fe5c0d3dddc8f87571ff9c276c1d" category="paragraph">Kubernetes保護ポリシーの作成の詳細については、<block ref="bfe6c4e3e3b18b6562d50ee9cf2c4f82" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="04df59aebaa27ff65cee06cd27064bff" category="list-text">*リストア インターフェイスの改善*：ONTAPボリュームのリストア ウィザードのレイアウトが刷新され、ナビゲーションが改善されました：</block>
+  <block id="335272593837dc282e2df95a4a0177c6" category="list-text">*選択テーブルの改善*：選択テーブルに一度に表示する行と列の数が増えました。リストア画面では、洗練された間隔とパンくずリストが使用されているため、ワークフローのどの段階にいるのかが一目でわかります。</block>
+  <block id="f0e5c0e1059e3a13f23bf2b09cc506f2" category="list-text">*ステップバイステップのナビゲーション*：*次へ*ボタンと*続行*ボタンの機能が改善され、誤って次の主要なステップに進んでしまうことがなくなりました。*前へ*ボタンをクリックすると、最後に完了した画面に戻り、以前の選択内容が保持されるため、手順を最初からやり直す必要はありません。</block>
+  <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*ソースボリュームを選択する際の詳細情報*：ボリュームリストに、ボリュームタイプ、ボリュームスタイル、SnapLockタイプ、既存の保護、および保護の健常性が表示されるようになりました。「既存の保護」列は幅が広くなっているので、すべての保護インジケーター（スナップショット、レプリケーション、バックアップ）を確認できます。</block>
+  <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Azure 中国リージョンでホストされているボリュームの保護のサポート*：Azure 中国（21Vianet）の Azure Blob ストレージに ONTAP ボリュームをバックアップできるようになりました。このサポートは、Cloud Volumes ONTAP とオンプレミス ONTAP システムの両方に適用されます。商用 Azure および Azure Government リージョンに変更はありません。</block>
+  <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026年11月23日</block>
 </blocks>
