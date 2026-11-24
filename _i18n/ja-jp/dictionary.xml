@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*ソースボリュームを選択する際の詳細情報*：ボリュームリストに、ボリュームタイプ、ボリュームスタイル、SnapLockタイプ、既存の保護、および保護の健常性が表示されるようになりました。「既存の保護」列は幅が広くなっているので、すべての保護インジケーター（スナップショット、レプリケーション、バックアップ）を確認できます。</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Azure 中国リージョンでホストされているボリュームの保護のサポート*：Azure 中国（21Vianet）の Azure Blob ストレージに ONTAP ボリュームをバックアップできるようになりました。このサポートは、Cloud Volumes ONTAP とオンプレミス ONTAP システムの両方に適用されます。商用 Azure および Azure Government リージョンに変更はありません。</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026年11月23日</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">Azureにおけるデンマーク東部リージョンおよびインド南部中央リージョンのサポート</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">Azureのデンマーク東部（denmarkeast）およびインド南中部（indiasouthcentral）リージョンで、Cloud Volumes ONTAP 9.12.1 GA以降をデプロイできるようになりました。以下のデプロイタイプがサポートされています：</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">シングルノード</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">ローカル冗長ストレージ（LRS）を使用した単一アベイラビリティゾーンにおけるHA</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">ゾーン冗長ストレージ（ZRS）を使用した複数のアベイラビリティゾーンでのHA - India South Centralのみ</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure のグローバル地域マップ</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">サポートされているすべてのリージョンのリストについては、<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">2026年11月24日</block>
 </blocks>
